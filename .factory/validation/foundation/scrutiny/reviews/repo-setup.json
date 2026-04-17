@@ -1,0 +1,33 @@
+{
+  "featureId": "repo-setup",
+  "reviewedAt": "2026-04-17T23:18:19Z",
+  "commitId": "ac85c48",
+  "transcriptSkeletonReviewed": true,
+  "diffReviewed": true,
+  "status": "pass",
+  "codeReview": {
+    "summary": "The feature implementation satisfies the core requirements: .gitignore was created with the requested exclusions, artboard-map.json is valid JSON with 76 entries and required fields, and output paths align with the init.sh-created skeleton. One minor metadata mismatch was found in the divider name versus AGENTS.md.",
+    "issues": [
+      {
+        "file": "artboard-map.json",
+        "line": 197,
+        "severity": "non_blocking",
+        "description": "The divider name is \"— Igloo Web App Screens —\", while AGENTS.md lists \"— Igloo Web App Screens — (divider, skip extraction)\" for ID 347-0. This is a small source-of-truth mismatch in the AGENTS-derived mapping."
+      }
+    ]
+  },
+  "sharedStateObservations": [
+    {
+      "area": "skills",
+      "observation": "The extractor skill procedure requires verifying MCP access via Paper___get_node_info on the first artboard, but this feature used Paper___get_basic_info and still recorded followedProcedure=true. The skill likely needs a branch for setup/mapping features that do not follow per-artboard extraction flow.",
+      "evidence": ".factory/skills/extractor/SKILL.md:29-31 requires get_node_info; handoff for repo-setup records get_basic_info and followedProcedure=true (handoffs/2026-04-17T23-02-48-383Z__repo-setup__f057faba-b466-4b7b-8824-1f5cf05fcae8.json:43-45,54)."
+    },
+    {
+      "area": "conventions",
+      "observation": "The AGENTS artboard list embeds divider handling guidance directly in the display name line, which creates ambiguity about whether parenthetical text is part of the canonical name.",
+      "evidence": "AGENTS.md:113 lists \"347-0: — Igloo Web App Screens — (divider, skip extraction)\" while artboard-map.json uses \"— Igloo Web App Screens —\" at line 197."
+    }
+  ],
+  "addressesFailureFrom": null,
+  "summary": "Review completed for feature repo-setup (commit ac85c48). Core deliverables are present and aligned with requirements; status is pass with one non-blocking metadata mismatch and two shared-state observations."
+}
