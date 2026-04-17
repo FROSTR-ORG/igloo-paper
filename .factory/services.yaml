@@ -1,0 +1,7 @@
+commands:
+  test: python3 scripts/verify.py
+  verify: python3 scripts/verify.py
+
+# No services needed — this is a static documentation repository.
+# Paper MCP is the sole data source, configured globally at ~/.factory/mcp.json
+services: {}
