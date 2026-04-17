@@ -1,0 +1,137 @@
+/*
+ * Igloo Design System — Design Tokens
+ * Extracted from Paper canvas "igloo-ui" → Foundations artboard (8B-0)
+ *
+ * Usage:
+ *   color: var(--color-blue-400);
+ *   font-family: var(--font-heading);
+ *   font-size: var(--text-h1-size);
+ */
+
+:root {
+  /* ========================================
+   * Background Colors
+   * ======================================== */
+  --color-bg-primary: #030712;            /* gray-950 — main app background */
+  --color-bg-secondary: #111827;          /* gray-900 — elevated containers */
+  --color-bg-overlay: rgba(31, 41, 55, 0.5);  /* gray-800/50 — modals and overlays */
+  --color-bg-card: rgba(17, 24, 39, 0.4);     /* gray-900/40 — card surface */
+
+  /* ========================================
+   * Blue Scale — Primary
+   * ======================================== */
+  --color-blue-100: #DBEAFE;
+  --color-blue-200: #BFDBFE;
+  --color-blue-300: #93C5FD;
+  --color-blue-400: #60A5FA;
+  --color-blue-600: #2563EB;
+  --color-blue-700: #1D4ED8;
+  --color-blue-900: #1E3A8A;
+
+  /* ========================================
+   * Semantic Colors
+   * ======================================== */
+  --color-semantic-success: #22C55E;          /* green-500 */
+  --color-semantic-destructive: #EF4444;      /* red-500 */
+  --color-semantic-warning: #EAB308;          /* yellow-500 */
+  --color-semantic-caution-bg: #78350FE6;     /* amber-900 */
+  --color-semantic-success-bg: #15803D4D;     /* green-900/30 */
+  --color-semantic-success-bg-border: #15803D80;
+  --color-semantic-error-bg: #7F1D1D4D;       /* red-900/30 */
+  --color-semantic-error-bg-border: #EF44444D;
+  --color-semantic-warning-bg: #713F124D;     /* yellow-900/30 */
+  --color-semantic-warning-bg-border: #A1620780;
+
+  /* ========================================
+   * Status Colors
+   * ======================================== */
+  --color-status-default: #6B7280;
+  --color-status-default-label: #9CA3AF;
+  --color-status-default-bg: #6B728033;
+  --color-status-default-ring: #6B72804D;
+
+  --color-status-success: #22C55E;
+  --color-status-success-label: #4ADE80;
+  --color-status-success-bg: #22C55E33;
+  --color-status-success-ring: #22C55E4D;
+
+  --color-status-error: #EF4444;
+  --color-status-error-label: #F87171;
+  --color-status-error-bg: #EF444433;
+  --color-status-error-ring: #EF44444D;
+
+  --color-status-warning: #EAB308;
+  --color-status-warning-label: #FACC15;
+  --color-status-warning-bg: #EAB30833;
+  --color-status-warning-ring: #EAB3084D;
+
+  --color-status-info: #3B82F6;
+  --color-status-info-label: #60A5FA;
+  --color-status-info-bg: #3B82F633;
+  --color-status-info-ring: #3B82F64D;
+
+  /* ========================================
+   * Font Families
+   * ======================================== */
+  --font-heading: 'Share Tech Mono', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-code: 'IBM Plex Mono', monospace;
+  --font-mono-alt: 'Roboto Mono', monospace;
+  --font-system: system-ui, -apple-system, sans-serif;
+
+  /* ========================================
+   * Type Scale — Display / Headings
+   * ======================================== */
+  --text-h1-size: 36px;
+  --text-h1-line-height: 44px;
+  --text-h1-weight: 700;
+  --text-h1-tracking: -0.01em;
+
+  --text-h2-size: 24px;
+  --text-h2-line-height: 30px;
+  --text-h2-weight: 600;
+
+  --text-h3-size: 20px;
+  --text-h3-line-height: 24px;
+  --text-h3-weight: 600;
+
+  /* ========================================
+   * Type Scale — Body
+   * ======================================== */
+  --text-body-size: 14px;
+  --text-body-line-height: 18px;
+  --text-body-weight: 400;
+
+  --text-small-size: 12px;
+  --text-small-line-height: 16px;
+  --text-small-weight: 400;
+
+  /* ========================================
+   * Type Scale — Caption / Mono
+   * ======================================== */
+  --text-section-label-size: 13px;
+  --text-section-label-line-height: 16px;
+  --text-section-label-tracking: 0.08em;
+
+  --text-overline-size: 11px;
+  --text-overline-line-height: 14px;
+  --text-overline-tracking: 0.12em;
+
+  --text-code-size: 11px;
+  --text-code-line-height: 14px;
+
+  /* ========================================
+   * Border Colors (derived from palette)
+   * ======================================== */
+  --color-border-subtle: #1E3A8A33;
+  --color-border-default: #1E3A8A4D;
+
+  /* ========================================
+   * Text Colors (derived from palette)
+   * ======================================== */
+  --color-text-primary: #DBEAFE;
+  --color-text-heading: #93C5FD;
+  --color-text-secondary: #9CA3AF;
+  --color-text-muted: #9CA3AFAA;
+  --color-text-accent: #60A5FA;
+}
