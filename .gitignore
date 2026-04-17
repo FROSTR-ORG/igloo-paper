@@ -1,0 +1,16 @@
+# Extraction working files
+.factory/extraction/
+
+# Temporary files
+/tmp/
+*.tmp
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

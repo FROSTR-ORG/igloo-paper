@@ -1,0 +1,610 @@
+[
+  {
+    "id": "8B-0",
+    "paperNodeId": "8B-0",
+    "name": "Foundations",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/foundations"
+  },
+  {
+    "id": "AX-0",
+    "paperNodeId": "AX-0",
+    "name": "Core Components",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/components/core"
+  },
+  {
+    "id": "E1-0",
+    "paperNodeId": "E1-0",
+    "name": "Interactive Controls",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/components/interactive-controls"
+  },
+  {
+    "id": "1QN-0",
+    "paperNodeId": "1QN-0",
+    "name": "Form Controls",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/components/form-controls"
+  },
+  {
+    "id": "M5V-0",
+    "paperNodeId": "M5V-0",
+    "name": "Data Display — Tables, Lists & Logs",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/components/data-display-tables-lists"
+  },
+  {
+    "id": "MH8-0",
+    "paperNodeId": "MH8-0",
+    "name": "Data Display — Progress & Profile Cards",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/components/data-display-progress-cards"
+  },
+  {
+    "id": "S9W-0",
+    "paperNodeId": "S9W-0",
+    "name": "Data Display — Review & Summary Panels",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/components/data-display-review-summary"
+  },
+  {
+    "id": "JU-0",
+    "paperNodeId": "JU-0",
+    "name": "Overlays & Feedback",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/components/overlays-feedback"
+  },
+  {
+    "id": "LW-0",
+    "paperNodeId": "LW-0",
+    "name": "Navigation & Layout",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/components/navigation-layout"
+  },
+  {
+    "id": "QPC-0",
+    "paperNodeId": "QPC-0",
+    "name": "Settings Sidebar",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/components/settings-sidebar"
+  },
+  {
+    "id": "MSL-0",
+    "paperNodeId": "MSL-0",
+    "name": "Signer & States — Status & Empty",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/patterns/signer-states-status-empty"
+  },
+  {
+    "id": "N4P-0",
+    "paperNodeId": "N4P-0",
+    "name": "Signer & States — Recovery & Share Handling",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/patterns/signer-states-recovery"
+  },
+  {
+    "id": "NGT-0",
+    "paperNodeId": "NGT-0",
+    "name": "Signer & States — Tags & Rotation States",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/patterns/signer-states-tags-rotation"
+  },
+  {
+    "id": "NSX-0",
+    "paperNodeId": "NSX-0",
+    "name": "Flows & QR Codes — Transfer States",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/patterns/flows-qr-transfer"
+  },
+  {
+    "id": "O3I-0",
+    "paperNodeId": "O3I-0",
+    "name": "Flows & QR Codes — Steppers & Recovery",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/patterns/flows-qr-steppers"
+  },
+  {
+    "id": "3MC-0",
+    "paperNodeId": "3MC-0",
+    "name": "Pool & Signing Readiness",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/patterns/pool-signing-readiness"
+  },
+  {
+    "id": "R49-0",
+    "paperNodeId": "R49-0",
+    "name": "Rotate Keyset + Shared Distribution Sections",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/patterns/rotate-keyset-distribution"
+  },
+  {
+    "id": "RVC-0",
+    "paperNodeId": "RVC-0",
+    "name": "Key Lifecycle Progress Sections",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/patterns/key-lifecycle-progress"
+  },
+  {
+    "id": "1HL-0",
+    "paperNodeId": "1HL-0",
+    "name": "Icons & Logos",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/icons-logos"
+  },
+  {
+    "id": "ONB-0",
+    "paperNodeId": "ONB-0",
+    "name": "Glossary — Core & Protocol",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/glossary"
+  },
+  {
+    "id": "OSN-0",
+    "paperNodeId": "OSN-0",
+    "name": "Glossary — Operations, Setup & Infrastructure",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/glossary"
+  },
+  {
+    "id": "OXZ-0",
+    "paperNodeId": "OXZ-0",
+    "name": "Glossary — Policies & Data Model",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/glossary"
+  },
+  {
+    "id": "OE3-0",
+    "paperNodeId": "OE3-0",
+    "name": "Tooltips & Help Text — Tooltip Patterns",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/tooltips-help/tooltip-patterns"
+  },
+  {
+    "id": "OIP-0",
+    "paperNodeId": "OIP-0",
+    "name": "Tooltips & Help Text — Contextual Help",
+    "category": "design-system",
+    "flow": null,
+    "outputPath": "design-system/tooltips-help/contextual-help"
+  },
+  {
+    "id": "347-0",
+    "paperNodeId": "347-0",
+    "name": "— Igloo Web App Screens —",
+    "category": "divider",
+    "flow": null,
+    "outputPath": null
+  },
+  {
+    "id": "34C-0",
+    "paperNodeId": "34C-0",
+    "name": "Welcome — 1. Welcome",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1-welcome"
+  },
+  {
+    "id": "6MP-0",
+    "paperNodeId": "6MP-0",
+    "name": "Welcome — 1b. Returning",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1b-returning"
+  },
+  {
+    "id": "H4X-0",
+    "paperNodeId": "H4X-0",
+    "name": "Welcome — 1c. Returning (Multi)",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1c-returning-multi"
+  },
+  {
+    "id": "QCP-0",
+    "paperNodeId": "QCP-0",
+    "name": "Welcome — 1c. Returning (Multi) [alt view]",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1c-returning-multi-alt"
+  },
+  {
+    "id": "IMQ-0",
+    "paperNodeId": "IMQ-0",
+    "name": "Welcome — 1d. Returning (Many)",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1d-returning-many"
+  },
+  {
+    "id": "QI3-0",
+    "paperNodeId": "QI3-0",
+    "name": "Welcome — 1c-1. Unlock Profile (Modal)",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1c-1-unlock-modal"
+  },
+  {
+    "id": "QKO-0",
+    "paperNodeId": "QKO-0",
+    "name": "Welcome — 1c-2. Unlock Error (Modal)",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1c-2-unlock-error-modal"
+  },
+  {
+    "id": "U7Z-0",
+    "paperNodeId": "U7Z-0",
+    "name": "Welcome — 1c-3. Rotate Keyset (Modal)",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1c-3-rotate-keyset-modal"
+  },
+  {
+    "id": "UAK-0",
+    "paperNodeId": "UAK-0",
+    "name": "Welcome — 1c-4. Rotate Keyset Error (Modal)",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1c-4-rotate-keyset-error-modal"
+  },
+  {
+    "id": "3B1-0",
+    "paperNodeId": "3B1-0",
+    "name": "Import — 1. Load Backup",
+    "category": "screen",
+    "flow": "import",
+    "outputPath": "screens/import/1-load-backup"
+  },
+  {
+    "id": "6VS-0",
+    "paperNodeId": "6VS-0",
+    "name": "Import — 2. Decrypt Backup",
+    "category": "screen",
+    "flow": "import",
+    "outputPath": "screens/import/2-decrypt-backup"
+  },
+  {
+    "id": "6XP-0",
+    "paperNodeId": "6XP-0",
+    "name": "Import — 3. Review & Save Profile",
+    "category": "screen",
+    "flow": "import",
+    "outputPath": "screens/import/3-review-save"
+  },
+  {
+    "id": "6ZH-0",
+    "paperNodeId": "6ZH-0",
+    "name": "Import — Error",
+    "category": "screen",
+    "flow": "import",
+    "outputPath": "screens/import/error"
+  },
+  {
+    "id": "GW5-0",
+    "paperNodeId": "GW5-0",
+    "name": "Onboard — 1. Enter Package",
+    "category": "screen",
+    "flow": "onboard",
+    "outputPath": "screens/onboard/1-enter-package"
+  },
+  {
+    "id": "70L-0",
+    "paperNodeId": "70L-0",
+    "name": "Onboard — 2. Handshake",
+    "category": "screen",
+    "flow": "onboard",
+    "outputPath": "screens/onboard/2-handshake"
+  },
+  {
+    "id": "73U-0",
+    "paperNodeId": "73U-0",
+    "name": "Onboard — 2b. Onboarding Failed",
+    "category": "screen",
+    "flow": "onboard",
+    "outputPath": "screens/onboard/2b-failed"
+  },
+  {
+    "id": "726-0",
+    "paperNodeId": "726-0",
+    "name": "Onboard — 3. Onboarding Complete",
+    "category": "screen",
+    "flow": "onboard",
+    "outputPath": "screens/onboard/3-complete"
+  },
+  {
+    "id": "35L-0",
+    "paperNodeId": "35L-0",
+    "name": "Create — 1. Create Keyset",
+    "category": "screen",
+    "flow": "create",
+    "outputPath": "screens/create/1-create-keyset"
+  },
+  {
+    "id": "4FB-0",
+    "paperNodeId": "4FB-0",
+    "name": "Create — 1b. Validation Error",
+    "category": "screen",
+    "flow": "create",
+    "outputPath": "screens/create/1b-validation-error"
+  },
+  {
+    "id": "RNX-0",
+    "paperNodeId": "RNX-0",
+    "name": "Create — 1c. Generation Progress",
+    "category": "screen",
+    "flow": "create",
+    "outputPath": "screens/create/1c-generation-progress"
+  },
+  {
+    "id": "60R-0",
+    "paperNodeId": "60R-0",
+    "name": "Shared — 2. Create Profile",
+    "category": "screen",
+    "flow": "shared",
+    "outputPath": "screens/shared/2-create-profile"
+  },
+  {
+    "id": "8GU-0",
+    "paperNodeId": "8GU-0",
+    "name": "Shared — 3. Distribute Shares",
+    "category": "screen",
+    "flow": "shared",
+    "outputPath": "screens/shared/3-distribute-shares"
+  },
+  {
+    "id": "LN7-0",
+    "paperNodeId": "LN7-0",
+    "name": "Shared — 3b. Distribution Completion",
+    "category": "screen",
+    "flow": "shared",
+    "outputPath": "screens/shared/3b-distribution-completion"
+  },
+  {
+    "id": "3QW-0",
+    "paperNodeId": "3QW-0",
+    "name": "Dashboard — 1. Signer Dashboard",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/1-signer-dashboard"
+  },
+  {
+    "id": "SH5-0",
+    "paperNodeId": "SH5-0",
+    "name": "Dashboard — 1b. Connecting",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/1b-connecting"
+  },
+  {
+    "id": "DCI-0",
+    "paperNodeId": "DCI-0",
+    "name": "Dashboard — 1b. Policies",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/1b-policies"
+  },
+  {
+    "id": "HAT-0",
+    "paperNodeId": "HAT-0",
+    "name": "Dashboard — 1c. Profile Switcher",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/1c-profile-switcher"
+  },
+  {
+    "id": "KQO-0",
+    "paperNodeId": "KQO-0",
+    "name": "Dashboard — 1d. With Rotate Share",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/1d-with-rotate-share"
+  },
+  {
+    "id": "4OP-0",
+    "paperNodeId": "4OP-0",
+    "name": "Dashboard — 2. Stopped",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/2-stopped"
+  },
+  {
+    "id": "SPG-0",
+    "paperNodeId": "SPG-0",
+    "name": "Dashboard — 2b. All Relays Offline",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/2b-all-relays-offline"
+  },
+  {
+    "id": "SXR-0",
+    "paperNodeId": "SXR-0",
+    "name": "Dashboard — 2c. Quorum Not Met",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/2c-quorum-not-met"
+  },
+  {
+    "id": "T62-0",
+    "paperNodeId": "T62-0",
+    "name": "Dashboard — 2d. Signing Blocked",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/2d-signing-blocked"
+  },
+  {
+    "id": "518-0",
+    "paperNodeId": "518-0",
+    "name": "Dashboard — 3. Settings",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/3-settings"
+  },
+  {
+    "id": "75B-0",
+    "paperNodeId": "75B-0",
+    "name": "Dashboard — 4. Export Profile",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/4-export-profile"
+  },
+  {
+    "id": "7FQ-0",
+    "paperNodeId": "7FQ-0",
+    "name": "Dashboard — 4b. Export Complete",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/4b-export-complete"
+  },
+  {
+    "id": "5K0-0",
+    "paperNodeId": "5K0-0",
+    "name": "Dashboard — 5. Signer Policy Prompt",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/5-signer-policy-prompt"
+  },
+  {
+    "id": "4UN-0",
+    "paperNodeId": "4UN-0",
+    "name": "Dashboard — 6. Signing Failed",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/6-signing-failed"
+  },
+  {
+    "id": "EIF-0",
+    "paperNodeId": "EIF-0",
+    "name": "Dashboard — 7. Pending Approvals",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/7-pending-approvals"
+  },
+  {
+    "id": "HKV-0",
+    "paperNodeId": "HKV-0",
+    "name": "Dashboard — 8. Switch Profile",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/8-switch-profile"
+  },
+  {
+    "id": "83Q-0",
+    "paperNodeId": "83Q-0",
+    "name": "Rotate Keyset — 1. Rotate Keyset",
+    "category": "screen",
+    "flow": "rotate-keyset",
+    "outputPath": "screens/rotate-keyset/1-rotate-keyset"
+  },
+  {
+    "id": "LF2-0",
+    "paperNodeId": "LF2-0",
+    "name": "Rotate Keyset — 1d. Review & Generate",
+    "category": "screen",
+    "flow": "rotate-keyset",
+    "outputPath": "screens/rotate-keyset/1d-review-generate"
+  },
+  {
+    "id": "LHT-0",
+    "paperNodeId": "LHT-0",
+    "name": "Rotate Keyset — 1e. Generation Progress",
+    "category": "screen",
+    "flow": "rotate-keyset",
+    "outputPath": "screens/rotate-keyset/1e-generation-progress"
+  },
+  {
+    "id": "LPE-0",
+    "paperNodeId": "LPE-0",
+    "name": "Rotate Keyset — Error: Wrong Password",
+    "category": "screen",
+    "flow": "rotate-keyset",
+    "outputPath": "screens/rotate-keyset/error-wrong-password"
+  },
+  {
+    "id": "LRH-0",
+    "paperNodeId": "LRH-0",
+    "name": "Rotate Keyset — Error: Group Mismatch",
+    "category": "screen",
+    "flow": "rotate-keyset",
+    "outputPath": "screens/rotate-keyset/error-group-mismatch"
+  },
+  {
+    "id": "LTC-0",
+    "paperNodeId": "LTC-0",
+    "name": "Rotate Keyset — Error: Generation Failed",
+    "category": "screen",
+    "flow": "rotate-keyset",
+    "outputPath": "screens/rotate-keyset/error-generation-failed"
+  },
+  {
+    "id": "IS8-0",
+    "paperNodeId": "IS8-0",
+    "name": "Rotate Share — 1. Enter Rotate Package",
+    "category": "screen",
+    "flow": "rotate-share",
+    "outputPath": "screens/rotate-share/1-enter-rotate-package"
+  },
+  {
+    "id": "IV8-0",
+    "paperNodeId": "IV8-0",
+    "name": "Rotate Share — 2. Applying Share Update",
+    "category": "screen",
+    "flow": "rotate-share",
+    "outputPath": "screens/rotate-share/2-applying-share-update"
+  },
+  {
+    "id": "J3O-0",
+    "paperNodeId": "J3O-0",
+    "name": "Rotate Share — 2b. Share Update Failed",
+    "category": "screen",
+    "flow": "rotate-share",
+    "outputPath": "screens/rotate-share/2b-share-update-failed"
+  },
+  {
+    "id": "JIJ-0",
+    "paperNodeId": "JIJ-0",
+    "name": "Rotate Share — 3. Local Share Updated",
+    "category": "screen",
+    "flow": "rotate-share",
+    "outputPath": "screens/rotate-share/3-local-share-updated"
+  },
+  {
+    "id": "59J-0",
+    "paperNodeId": "59J-0",
+    "name": "Recover — 1. Collect Shares",
+    "category": "screen",
+    "flow": "recover",
+    "outputPath": "screens/recover/1-collect-shares"
+  },
+  {
+    "id": "3HJ-0",
+    "paperNodeId": "3HJ-0",
+    "name": "Recover — 1b. Recover Success",
+    "category": "screen",
+    "flow": "recover",
+    "outputPath": "screens/recover/1b-recover-success"
+  }
+]
