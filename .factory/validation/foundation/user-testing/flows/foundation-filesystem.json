@@ -1,0 +1,103 @@
+{
+  "milestone": "foundation",
+  "groupId": "foundation-filesystem",
+  "testedAt": "2026-04-17T23:33:53.859894Z",
+  "isolation": {
+    "surface": "filesystem-only checks",
+    "allowedScope": [
+      "/Users/plebdev/Desktop/code/igloo/igloo-paper",
+      "/Users/plebdev/.factory/missions/ff6023b0-52c0-460f-b23e-e9cc73c3dd47"
+    ],
+    "networkOrBrowserUsed": false
+  },
+  "toolsUsed": [
+    "bash",
+    "python3"
+  ],
+  "assertions": [
+    {
+      "id": "VAL-TOK-001",
+      "title": "Color tokens JSON complete",
+      "status": "pass",
+      "reason": "colors.json exists, is valid JSON, and contains 23 value tokens (>=20).",
+      "evidence": {
+        "commands": [
+          "python3 check for file existence/json parse/value token count in design-system/tokens/colors.json"
+        ],
+        "files": [
+          "foundation/foundation-filesystem/VAL-TOK-001-colors-check.txt"
+        ],
+        "keyOutput": "file_exists=True\njson_valid=true\nvalue_token_count=23\ncategories=['background', 'blue-scale', 'semantic', 'status']"
+      }
+    },
+    {
+      "id": "VAL-TOK-002",
+      "title": "Typography tokens JSON complete",
+      "status": "pass",
+      "reason": "typography.json exists, is valid JSON, includes 5 font families (>=4), and required family keys are present.",
+      "evidence": {
+        "commands": [
+          "python3 check for file existence/json parse/font family count and required family keys in design-system/tokens/typography.json"
+        ],
+        "files": [
+          "foundation/foundation-filesystem/VAL-TOK-002-typography-check.txt"
+        ],
+        "keyOutput": "file_exists=True\njson_valid=true\nfont_family_count=5\nfont_families=['ibm-plex-mono', 'inter', 'roboto-mono', 'share-tech-mono', 'system-sans-serif']\nmissing_required_families=[]\ntype_scale_sections=['body', 'caption', 'display', 'mono']"
+      }
+    },
+    {
+      "id": "VAL-TOK-003",
+      "title": "CSS custom properties file complete",
+      "status": "pass",
+      "reason": "tokens.css exists and defines 77 custom properties (>=30) with conforming token naming prefixes.",
+      "evidence": {
+        "commands": [
+          "python3 regex scan for CSS custom properties in design-system/tokens/tokens.css"
+        ],
+        "files": [
+          "foundation/foundation-filesystem/VAL-TOK-003-tokens-css-check.txt"
+        ],
+        "keyOutput": "file_exists=True\ncustom_property_count=77\njson_valid=not-applicable\nprefix_counts=color:48,font:5,spacing:0,text:24\nnonconforming_properties=[]"
+      }
+    },
+    {
+      "id": "VAL-TOK-004",
+      "title": "Foundations reference directory complete",
+      "status": "pass",
+      "reason": "design-system/foundations contains README.md, screenshot.png, and reference.html; README includes colors/typography/status sections.",
+      "evidence": {
+        "commands": [
+          "python3 file existence and README keyword checks under design-system/foundations"
+        ],
+        "files": [
+          "foundation/foundation-filesystem/VAL-TOK-004-foundations-dir-check.txt"
+        ],
+        "keyOutput": "directory_exists=True\nREADME.md_exists=True size_bytes=4972\nscreenshot.png_exists=True size_bytes=1084486\nreference.html_exists=True size_bytes=14779\nreadme_mentions_colors=True\nreadme_mentions_typography=True\nreadme_mentions_status=True"
+      }
+    },
+    {
+      "id": "VAL-CROSS-003",
+      "title": "Artboard map JSON complete",
+      "status": "pass",
+      "reason": "artboard-map.json exists, is valid JSON, has 76 entries, and all entries include required fields with valid categories.",
+      "evidence": {
+        "commands": [
+          "python3 check for file existence/json parse/entry count/required fields in artboard-map.json"
+        ],
+        "files": [
+          "foundation/foundation-filesystem/VAL-CROSS-003-artboard-map-check.txt"
+        ],
+        "keyOutput": "file_exists=True\njson_valid=true\nentry_count=76\nentries_missing_required_fields=[]\nentries_with_invalid_category=[]"
+      }
+    }
+  ],
+  "frictions": [],
+  "blockers": [],
+  "summary": {
+    "total": 5,
+    "pass": 5,
+    "fail": 0,
+    "blocked": 0,
+    "skipped": 0
+  }
+}
