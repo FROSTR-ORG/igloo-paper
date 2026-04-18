@@ -1,0 +1,801 @@
+(
+    <div className="[font-synthesis:none] flex overflow-clip w-360 h-fit flex-col pt-16 pb-20 gap-14 antialiased text-xs/4 px-20" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
+      <div className="flex flex-col self-stretch h-fit gap-1">
+        <div className="tracking-[0.12em] uppercase w-full text-[#60A5FA80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+          Igloo UI
+        </div>
+        <div className="tracking-[-0.01em] w-full text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-[32px]/10">
+          Data Display — Tables, Lists & Logs
+        </div>
+      </div>
+      <div className="flex flex-col self-stretch h-fit gap-6">
+        <div className="flex items-center w-full gap-4">
+          <div className="tracking-[0.08em] uppercase shrink-0 inline-block text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            Table / List
+          </div>
+          <div className="h-px grow bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex flex-col w-full max-w-215 h-fit rounded-lg overflow-clip border border-solid border-[#1E3A8A4D]">
+          <div className="flex items-center w-full h-fit py-3 px-5 bg-[#1F293766] border-b border-b-solid border-b-[#1E3A8A33]">
+            <div className="w-50 shrink-0 [letter-spacing:0.05em] uppercase [white-space-collapse:preserve] text-wrap text-[#B0B8C4] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Relay
+            </div>
+            <div className="w-35 shrink-0 [letter-spacing:0.05em] uppercase [white-space-collapse:preserve] text-wrap text-[#B0B8C4] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Status
+            </div>
+            <div className="w-25 shrink-0 [letter-spacing:0.05em] uppercase [white-space-collapse:preserve] text-wrap text-[#B0B8C4] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Latency
+            </div>
+            <div className="w-30 shrink-0 [letter-spacing:0.05em] uppercase [white-space-collapse:preserve] text-wrap text-[#B0B8C4] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Events
+            </div>
+            <div className="grow shrink basis-[0%] [letter-spacing:0.05em] uppercase text-right [white-space-collapse:preserve] text-wrap text-[#B0B8C4] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Last Seen
+            </div>
+          </div>
+          <div className="flex items-center w-full h-fit py-3.5 px-5 border-b border-b-solid border-b-[#1E3A8A1F]">
+            <div className="w-50 shrink-0 text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              wss://relay.damus.io
+            </div>
+            <div className="w-35 shrink-0 flex items-center gap-1.5">
+              <div className="shrink-0 rounded-full bg-[#22C55E] size-1.5" />
+              <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Connected
+              </div>
+            </div>
+            <div className="w-25 shrink-0 text-[#DBEAFE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              24ms
+            </div>
+            <div className="w-30 shrink-0 text-[#DBEAFE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              1,247
+            </div>
+            <div className="grow shrink basis-[0%] text-right text-[#9CA3AF] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              2 min ago
+            </div>
+          </div>
+          <div className="flex items-center w-full h-fit py-3.5 px-5 border-b border-b-solid border-b-[#1E3A8A1F]">
+            <div className="w-50 shrink-0 text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              wss://nos.lol
+            </div>
+            <div className="w-35 shrink-0 flex items-center gap-1.5">
+              <div className="shrink-0 rounded-full bg-[#22C55E] size-1.5" />
+              <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Connected
+              </div>
+            </div>
+            <div className="w-25 shrink-0 text-[#DBEAFE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              38ms
+            </div>
+            <div className="w-30 shrink-0 text-[#DBEAFE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              892
+            </div>
+            <div className="grow shrink basis-[0%] text-right text-[#9CA3AF] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              5 min ago
+            </div>
+          </div>
+          <div className="flex items-center w-full h-fit py-3.5 px-5 border-b border-b-solid border-b-[#1E3A8A1F]">
+            <div className="w-50 shrink-0 text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              wss://relay.nostr.band
+            </div>
+            <div className="w-35 shrink-0 flex items-center gap-1.5">
+              <div className="shrink-0 rounded-full bg-[#EAB308] size-1.5" />
+              <div className="text-[#FACC15] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Slow
+              </div>
+            </div>
+            <div className="w-25 shrink-0 text-[#FACC15] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              312ms
+            </div>
+            <div className="w-30 shrink-0 text-[#DBEAFE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              2,104
+            </div>
+            <div className="grow shrink basis-[0%] text-right text-[#9CA3AF] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              1 min ago
+            </div>
+          </div>
+          <div className="flex items-center w-full h-fit py-3.5 px-5">
+            <div className="w-50 shrink-0 text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              wss://purplepag.es
+            </div>
+            <div className="w-35 shrink-0 flex items-center gap-1.5">
+              <div className="shrink-0 rounded-full bg-[#EF4444] size-1.5" />
+              <div className="text-[#F87171] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Offline
+              </div>
+            </div>
+            <div className="w-25 shrink-0 text-[#9CA3AF] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              —
+            </div>
+            <div className="w-30 shrink-0 text-[#DBEAFE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              456
+            </div>
+            <div className="grow shrink basis-[0%] text-right text-[#9CA3AF] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              3 hours ago
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-start self-stretch h-fit gap-15">
+        <div className="flex flex-col w-95 h-fit gap-6 shrink-0">
+          <div className="flex items-center w-full gap-4">
+            <div className="tracking-[0.08em] uppercase shrink-0 inline-block text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              Key-Value List
+            </div>
+            <div className="h-px grow bg-[#1E3A8A33]" />
+          </div>
+          <div className="flex flex-col w-full h-fit rounded-lg overflow-clip bg-[#11182766] border border-solid border-[#1E3A8A4D]">
+            <div className="flex justify-between items-center w-full h-fit py-3 px-4 border-b border-b-solid border-b-[#1E3A8A1F]">
+              <div className="[white-space-collapse:preserve] text-wrap text-[#B0B8C4] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Public Key
+              </div>
+              <div className="text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                npub1qe3...7k4m
+              </div>
+            </div>
+            <div className="flex justify-between items-center w-full h-fit py-3 px-4 border-b border-b-solid border-b-[#1E3A8A1F]">
+              <div className="[white-space-collapse:preserve] text-wrap text-[#B0B8C4] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Created
+              </div>
+              <div className="text-[#DBEAFE] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Feb 24, 2026
+              </div>
+            </div>
+            <div className="flex justify-between items-center w-full h-fit py-3 px-4 border-b border-b-solid border-b-[#1E3A8A1F]">
+              <div className="[white-space-collapse:preserve] text-wrap text-[#B0B8C4] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Algorithm
+              </div>
+              <div className="text-[#DBEAFE] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                secp256k1
+              </div>
+            </div>
+            <div className="flex justify-between items-center w-full h-fit py-3 px-4">
+              <div className="[white-space-collapse:preserve] text-wrap text-[#B0B8C4] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Events Signed
+              </div>
+              <div className="text-[#DBEAFE] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                4,821
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-4">
+        <div className="flex items-center w-full gap-4">
+          <div className="tracking-[0.08em] uppercase shrink-0 inline-block text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            Event Log
+          </div>
+          <div className="h-px grow bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex flex-col w-225 rounded-xl overflow-clip bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
+          <div className="flex items-center justify-between py-3 px-4 border-b border-b-solid border-b-[#1E3A8A33]">
+            <div className="flex items-center gap-2.5">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+              <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/4.5">
+                Event Log
+              </div>
+              <div className="flex rounded-full py-0.5 px-2 bg-[#3B82F626]">
+                <div className="inline-block text-[#60A5FA] font-['Inter',system-ui,sans-serif] font-medium text-[11px]/3.5">
+                  47 events
+                </div>
+              </div>
+              <div className="flex rounded-full bg-[#4ADE80] shrink-0 size-2" />
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="flex items-center rounded-md py-1 px-2.5 gap-1.5 border border-solid border-[#94A3B833]">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
+                </svg>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Filter
+                </div>
+              </div>
+              <div className="flex rounded-md py-1 px-2.5 border border-solid border-[#94A3B833]">
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Clear
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center flex-wrap py-2 px-4 gap-1.5 border-b border-b-solid border-b-[#1E3A8A26]">
+            <div className="flex rounded-sm py-0.75 px-2 bg-[#16A34A33] border border-solid border-[#16A34A4D]">
+              <div className="inline-block text-[#4ADE80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                READY
+              </div>
+            </div>
+            <div className="flex rounded-sm py-0.75 px-2 bg-[#3B82F633] border border-solid border-[#3B82F64D]">
+              <div className="inline-block text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                INFO
+              </div>
+            </div>
+            <div className="flex rounded-sm py-0.75 px-2 bg-[#DC262633] border border-solid border-[#DC26264D]">
+              <div className="inline-block text-[#F87171] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                ERROR
+              </div>
+            </div>
+            <div className="flex rounded-sm py-0.75 px-2 bg-[#22C55E26] border border-solid border-[#22C55E4D]">
+              <div className="inline-block [white-space-collapse:preserve] w-max text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/3.5">
+                SIGN
+              </div>
+            </div>
+            <div className="flex rounded-sm py-0.75 px-2 bg-[#22D3EE26] border border-solid border-[#22D3EE4D]">
+              <div className="inline-block [white-space-collapse:preserve] w-max text-[#22D3EE] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/3.5">
+                ECDH
+              </div>
+            </div>
+            <div className="flex rounded-sm py-0.75 px-2 bg-[#F472B626] border border-solid border-[#F472B64D]">
+              <div className="inline-block [white-space-collapse:preserve] w-max text-[#F472B6] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/3.5">
+                ECHO
+              </div>
+            </div>
+            <div className="flex rounded-sm py-0.75 px-2 bg-[#A855F726] border border-solid border-[#A855F74D]">
+              <div className="inline-block [white-space-collapse:preserve] w-max text-[#A855F7] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/3.5">
+                PING
+              </div>
+            </div>
+            <div className="pl-1 inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+              Select all / Clear all
+            </div>
+            <div className="flex rounded-sm py-0.75 px-2 bg-[#2DD4BF26] border border-solid border-[#2DD4BF4D]">
+              <div className="inline-block text-[#2DD4BF] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                SYNC
+              </div>
+            </div>
+            <div className="flex rounded-sm py-0.75 px-2 bg-[#818CF826] border border-solid border-[#818CF84D]">
+              <div className="inline-block [white-space-collapse:preserve] w-max text-[#818CF8] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/3.5">
+                SIGNER POLICY
+              </div>
+            </div>
+            <div className="flex items-center rounded-sm py-1 px-2.5 bg-[#60A5FA26] border border-solid border-[#60A5FA4D]">
+              <div className="[white-space-collapse:preserve] inline-block w-max text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/3.5">
+                PEER POLICY
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <div className="flex items-center py-2 px-4 gap-3 border-b border-b-solid border-b-[#1E3A8A1A]">
+              <div className="w-16 shrink-0 inline-block text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                14:32:20
+              </div>
+              <div className="flex w-12 shrink-0 justify-center rounded-[3px] py-0.5 px-1.5 bg-[#2DD4BF33]">
+                <div className="inline-block text-[#2DD4BF] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  SYNC
+                </div>
+              </div>
+              <div className="inline-block text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Pool sync with peer #0 — 50 received · 50 sent
+              </div>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="5,3 9,7 5,11" stroke="#475569" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div className="flex items-center py-2 px-4 gap-3 border-b border-b-solid border-b-[#1E3A8A1A]">
+              <div className="w-16 shrink-0 inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                14:32:01
+              </div>
+              <div className="flex w-12 shrink-0 justify-center rounded-[3px] py-0.5 px-1.5 bg-[#22D3EE26]">
+                <div className="inline-block text-[#22D3EE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  SIGN
+                </div>
+              </div>
+              <div className="inline-block text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Signed event kind:1 for npub1qe3...7k4m
+              </div>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94A3B84D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </div>
+            <div className="flex items-center py-2 px-4 gap-3 border-b border-b-solid border-b-[#1E3A8A1A]">
+              <div className="w-16 shrink-0 inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                14:31:50
+              </div>
+              <div className="flex w-fit shrink-0 justify-center rounded-[3px] py-0.5 px-1.5 bg-[#FBBF2426]">
+                <div className="inline-block [white-space-collapse:preserve] text-wrap text-[#FBBF24] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  SIGNER POLICY
+                </div>
+              </div>
+              <div className="inline-block text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                ECDH request from peer #2 — signer policy required
+              </div>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94A3B84D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </div>
+            <div className="flex items-center py-2 px-4 gap-3 border-b border-b-solid border-b-[#1E3A8A1A]">
+              <div className="w-16 shrink-0 inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                14:31:58
+              </div>
+              <div className="flex w-12 shrink-0 justify-center rounded-[3px] py-0.5 px-1.5 bg-[#3B82F633]">
+                <div className="inline-block text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  INFO
+                </div>
+              </div>
+              <div className="inline-block text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Relay wss://relay.damus.io acknowledged event
+              </div>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94A3B84D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </div>
+            <div className="flex items-center py-2 px-4 gap-3 border-b border-b-solid border-b-[#1E3A8A1A]">
+              <div className="w-16 shrink-0 inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                14:31:44
+              </div>
+              <div className="flex w-12 shrink-0 justify-center rounded-[3px] py-0.5 px-1.5 bg-[#A855F726]">
+                <div className="inline-block text-[#C084FC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  ECDH
+                </div>
+              </div>
+              <div className="inline-block text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Encrypted DM key exchange with 02e8f4a1...d9c2
+              </div>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94A3B84D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </div>
+            <div className="flex items-center py-2 px-4 gap-3 border-b border-b-solid border-b-[#1E3A8A1A]">
+              <div className="w-16 shrink-0 inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                14:31:12
+              </div>
+              <div className="flex w-12 shrink-0 justify-center rounded-[3px] py-0.5 px-1.5 bg-[#DC262633]">
+                <div className="inline-block text-[#F87171] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  ERROR
+                </div>
+              </div>
+              <div className="inline-block text-[#FCA5A5] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Connection to wss://purplepag.es lost — retrying in 30s
+              </div>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94A3B84D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </div>
+            <div className="flex items-center py-2 px-4 gap-3 border-b border-b-solid border-b-[#1E3A8A1A]">
+              <div className="w-16 shrink-0 inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                14:30:55
+              </div>
+              <div className="flex w-12 shrink-0 justify-center rounded-[3px] py-0.5 px-1.5 bg-[#FACC1526]">
+                <div className="inline-block text-[#FACC15] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  PING
+                </div>
+              </div>
+              <div className="inline-block text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Ping sweep — 2/3 online (avg 31ms) · pools balanced
+              </div>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94A3B84D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </div>
+            <div className="flex items-center py-2 px-4 gap-3">
+              <div className="w-16 shrink-0 inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                14:30:41
+              </div>
+              <div className="flex w-12 shrink-0 justify-center rounded-[3px] py-0.5 px-1.5 bg-[#34D39926]">
+                <div className="inline-block text-[#34D399] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  ECHO
+                </div>
+              </div>
+              <div className="inline-block text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Round broadcast echoed by peer 2
+              </div>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94A3B84D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-4">
+        <div className="flex items-center w-full gap-4">
+          <div className="tracking-[0.08em] uppercase shrink-0 inline-block text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            Dashboard Event Log
+          </div>
+          <div className="h-px grow bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex flex-col self-stretch rounded-[10px] overflow-clip bg-[#11182766] border border-solid border-[#1E3A8A33]">
+          <div className="flex items-center py-3.5 px-5 gap-3 border-b border-b-solid border-b-[#1E3A8A20]">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M3 4.5L6 7.5L9 4.5" stroke="#93C5FD" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-[15px]/5">
+              Event Log
+            </div>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <circle cx="7" cy="7" r="6" stroke="#60A5FA" strokeWidth="1.2" />
+              <path d="M7 6.5V10" stroke="#60A5FA" strokeWidth="1.2" strokeLinecap="round" />
+              <circle cx="7" cy="4.5" r="0.8" fill="#60A5FA" />
+            </svg>
+            <div className="flex items-center rounded-xl py-1 px-2.5 bg-[#94A3B814]">
+              <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
+                8 events
+              </div>
+            </div>
+            <div className="grow h-0" />
+            <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              Clear
+            </div>
+            <div className="flex items-center rounded-md py-1 px-2.5 gap-1.5 border border-solid border-[#94A3B833]">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polygon points="1,1 11,1 7,6 7,11 5,11 5,6" fill="#94A3B8" />
+              </svg>
+              <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                Filter
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center py-2 px-5 gap-4 border-b border-b-solid border-b-[#1E3A8A10]">
+            <div className="w-17.5 shrink-0 inline-block text-[#4B5563] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
+              2:34:15p
+            </div>
+            <div className="flex items-center justify-center shrink-0 w-fit rounded-full py-1 px-2.5 bg-[#2DD4BF26] border border-solid border-[#2DD4BF4D]">
+              <div className="tracking-[0.04em] uppercase inline-block text-[#2DD4BF] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4.5">
+                Sync
+              </div>
+            </div>
+            <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-sm/4.5">
+              Pool sync with peer #0 — 50 received · 50 sent
+            </div>
+          </div>
+          <div className="flex items-center py-2 px-5 gap-4 border-b border-b-solid border-b-[#1E3A8A10]">
+            <div className="w-17.5 shrink-0 inline-block text-[#4B5563] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
+              2:34:12p
+            </div>
+            <div className="flex items-center justify-center shrink-0 w-fit rounded-full py-1 px-2.5 bg-[#22C55E26] border border-solid border-[#22C55E4D]">
+              <div className="tracking-[0.04em] uppercase inline-block text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4.5">
+                Sign
+              </div>
+            </div>
+            <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-sm/4.5">
+              Signature request received from 02a3f8...8f2c
+            </div>
+          </div>
+          <div className="flex items-center py-2 px-5 gap-4 border-b border-b-solid border-b-[#1E3A8A10]">
+            <div className="w-17.5 shrink-0 inline-block text-[#4B5563] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
+              2:34:12p
+            </div>
+            <div className="flex items-center justify-center shrink-0 w-fit rounded-full py-1 px-2.5 bg-[#22C55E26] border border-solid border-[#22C55E4D]">
+              <div className="tracking-[0.04em] uppercase inline-block text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4.5">
+                Sign
+              </div>
+            </div>
+            <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-sm/4.5">
+              Partial signature sent — aggregation complete
+            </div>
+          </div>
+          <div className="flex items-center py-2 px-5 gap-4 border-b border-b-solid border-b-[#1E3A8A10]">
+            <div className="w-17.5 shrink-0 inline-block text-[#4B5563] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
+              2:33:48p
+            </div>
+            <div className="flex items-center justify-center shrink-0 w-fit rounded-full py-1 px-2.5 bg-[#22D3EE26] border border-solid border-[#22D3EE4D]">
+              <div className="tracking-[0.04em] uppercase inline-block [white-space-collapse:preserve] w-max text-[#22D3EE] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4.5">
+                Ecdh
+              </div>
+            </div>
+            <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-sm/4.5">
+              ECDH request processed for 02d7e1b9...3b9e
+            </div>
+          </div>
+          <div className="flex items-center py-2 px-5 gap-4 border-b border-b-solid border-b-[#1E3A8A10]">
+            <div className="w-17.5 shrink-0 inline-block text-[#4B5563] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
+              2:33:45p
+            </div>
+            <div className="flex items-center justify-center shrink-0 w-fit rounded-full py-1 px-2.5 bg-[#818CF826] border border-solid border-[#818CF84D]">
+              <div className="tracking-[0.04em] uppercase inline-block [white-space-collapse:preserve] w-max text-[#818CF8] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4.5">
+                Signer Policy
+              </div>
+            </div>
+            <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-sm/4.5">
+              ECDH request from peer #2 — signer policy required
+            </div>
+          </div>
+          <div className="flex items-center py-2 px-5 gap-4 border-b border-b-solid border-b-[#1E3A8A10]">
+            <div className="w-17.5 shrink-0 inline-block text-[#4B5563] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
+              2:32:01p
+            </div>
+            <div className="flex items-center justify-center shrink-0 w-fit rounded-full py-1 px-2.5 bg-[#A855F726] border border-solid border-[#A855F74D]">
+              <div className="tracking-[0.04em] uppercase inline-block text-[#A855F7] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4.5">
+                Ping
+              </div>
+            </div>
+            <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-sm/4.5">
+              Ping sweep — 2/3 online (avg 31ms) · pools balanced
+            </div>
+          </div>
+          <div className="flex items-center py-2 px-5 gap-4">
+            <div className="w-17.5 shrink-0 inline-block text-[#4B5563] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
+              2:31:45p
+            </div>
+            <div className="flex items-center justify-center shrink-0 w-fit rounded-full py-1 px-2.5 bg-[#F472B626] border border-solid border-[#F472B64D]">
+              <div className="tracking-[0.04em] uppercase inline-block [white-space-collapse:preserve] w-max text-[#F472B6] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4.5">
+                Echo
+              </div>
+            </div>
+            <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-sm/4.5">
+              Echo published — announced presence on 2 relays
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-4">
+        <div className="flex items-center w-full gap-4">
+          <div className="tracking-[0.08em] uppercase shrink-0 inline-block text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            Pending Approvals
+          </div>
+          <div className="h-px grow bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex flex-col self-stretch rounded-[10px] overflow-clip bg-[#11182766] border border-solid border-[#1E3A8A33]">
+          <div className="flex items-center py-4 px-5 gap-3 border-b border-b-solid border-b-[#1E3A8A20]">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M6 0L7.5 4.5L12 6L7.5 7.5L6 12L4.5 7.5L0 6L4.5 4.5Z" fill="#F59E0B" />
+            </svg>
+            <div className="inline-block text-[#F1F5F9] font-['Inter',system-ui,sans-serif] font-semibold text-sm/4.5">
+              Pending Approvals
+            </div>
+            <div className="shrink-0 rounded-[50%] bg-[#F59E0B] size-1.5" />
+            <div className="flex items-center rounded-sm py-0.5 px-2 bg-[#F59E0B1A]">
+              <div className="inline-block text-[#F59E0BCC] font-['Inter',system-ui,sans-serif] text-xs/4">
+                3 pending
+              </div>
+            </div>
+            <div className="grow shrink basis-[0%] h-0" />
+            <div className="flex items-center gap-1">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <circle cx="6" cy="6" r="5" stroke="#94A3B8" />
+                <polyline points="6,3 6,6 8,6" stroke="#94A3B8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                Nearest: 42s
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M4 6l4 4 4-4" stroke="#94A3B8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+          <div className="flex items-center self-stretch py-3 px-5 gap-4 border-b border-b-solid border-b-[#1E3A8A15]">
+            <div className="shrink-0 rounded-[50%] bg-[#F59E0B] size-2.5" />
+            <div className="flex items-center shrink-0 rounded-sm py-0.75 px-2 gap-0.5 bg-[#4ADE801A]">
+              <div className="tracking-[0.04em] inline-block text-[#4ADE80] font-['Inter',system-ui,sans-serif] font-semibold text-[11px]/3.5">
+                SIGN
+              </div>
+            </div>
+            <div className="flex items-center shrink-0 gap-1">
+              <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+                Peer #2
+              </div>
+              <div className="inline-block text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                029c4a...1f5e
+              </div>
+            </div>
+            <div className="[white-space-collapse:collapse] text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4 line-clamp-1">
+              kind:1 Short Text Note
+            </div>
+            <div className="grow shrink basis-[0%] h-0" />
+            <div className="flex items-center shrink-0 gap-1">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <circle cx="6" cy="6" r="5" stroke="#F59E0B" />
+                <polyline points="6,3 6,6 7.5,6" stroke="#F59E0B" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="inline-block text-[#F59E0B] font-['Inter',system-ui,sans-serif] text-xs/4">
+                42s
+              </div>
+            </div>
+            <div className="flex items-center shrink-0 justify-center">
+              <div className="flex items-center justify-center rounded-md py-1.25 px-3 self-stretch grow bg-[#3B82F6] border border-solid border-[#3B82F6]">
+                <div className="inline-block text-white font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+                  Open
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center self-stretch py-3 px-5 gap-4 border-b border-b-solid border-b-[#1E3A8A15]">
+            <div className="shrink-0 rounded-[50%] bg-[#F59E0B] size-2.5" />
+            <div className="flex items-center justify-center shrink-0 rounded-sm py-0.75 px-2 bg-[#22D3EE26] border border-solid border-[#22D3EE4D]">
+              <div className="tracking-[0.04em] uppercase inline-block text-[#22D3EE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                ECDH
+              </div>
+            </div>
+            <div className="flex items-center shrink-0 gap-1">
+              <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+                Peer #1
+              </div>
+              <div className="inline-block text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                02d7e1...3b9e
+              </div>
+            </div>
+            <div className="[white-space-collapse:collapse] text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4 line-clamp-1">
+              NIP-44 key exchange
+            </div>
+            <div className="grow shrink basis-[0%] h-0" />
+            <div className="flex items-center shrink-0 gap-1">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <circle cx="6" cy="6" r="5" stroke="#94A3B8" />
+                <polyline points="6,3 6,6 7.5,6" stroke="#94A3B8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                1m 12s
+              </div>
+            </div>
+            <div className="flex items-center shrink-0 justify-center">
+              <div className="flex items-center justify-center rounded-md py-1.25 px-3 self-stretch grow bg-[#3B82F6] border border-solid border-[#3B82F6]">
+                <div className="inline-block text-white font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+                  Open
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center self-stretch py-3 px-5 gap-4">
+            <div className="shrink-0 rounded-[50%] bg-[#F59E0B] size-2.5" />
+            <div className="flex items-center shrink-0 rounded-sm py-0.75 px-2 gap-0.5 bg-[#4ADE801A]">
+              <div className="tracking-[0.04em] inline-block text-[#4ADE80] font-['Inter',system-ui,sans-serif] font-semibold text-[11px]/3.5">
+                SIGN
+              </div>
+            </div>
+            <div className="flex items-center shrink-0 gap-1">
+              <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+                Peer #0
+              </div>
+              <div className="inline-block text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                02a3f8...8f2c
+              </div>
+            </div>
+            <div className="[white-space-collapse:collapse] text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4 line-clamp-1">
+              kind:4 Encrypted DM
+            </div>
+            <div className="grow shrink basis-[0%] h-0" />
+            <div className="flex items-center shrink-0 gap-1">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <circle cx="6" cy="6" r="5" stroke="#94A3B8" />
+                <polyline points="6,3 6,6 7.5,6" stroke="#94A3B8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                3m 05s
+              </div>
+            </div>
+            <div className="flex items-center shrink-0 justify-center">
+              <div className="flex items-center justify-center rounded-md py-1.25 px-3 self-stretch grow bg-[#3B82F6] border border-solid border-[#3B82F6]">
+                <div className="inline-block text-white font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+                  Open
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-4">
+        <div className="flex items-center w-full gap-4">
+          <div className="tracking-[0.08em] uppercase shrink-0 inline-block text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            Log Entry — Expanded
+          </div>
+          <div className="h-px grow bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex flex-col w-225 rounded-[10px] overflow-clip bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
+          <div className="flex items-center py-2.5 px-4 gap-3 border-b border-b-solid border-b-[#1E3A8A26]">
+            <div className="w-16 shrink-0 inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+              14:32:01
+            </div>
+            <div className="flex w-12 shrink-0 justify-center rounded-[3px] py-0.5 px-1.5 bg-[#22D3EE26]">
+              <div className="inline-block text-[#22D3EE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                SIGN
+              </div>
+            </div>
+            <div className="grow shrink basis-[0%] inline-block text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              Signed event kind:1 for npub1qe3...7k4m
+            </div>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#60A5FA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </div>
+          <div className="flex py-3 px-4 bg-[#02061780]">
+            <div className="[white-space-collapse:preserve] w-fit text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] whitespace-pre shrink-0 text-xs/5">
+              {<br />{'  '}"id": "a1b2c3d4e5f6...",<br />{'  '}"kind": 1,<br />{'  '}"pubkey": "npub1qe3e8v...a7k4m",<br />{'  '}"created_at": 1740580321,<br />{'  '}"content": "Hello nostr!",<br />{'  '}"sig": "3045022100...",<br />{'  '}"round_id": "r-0x4f2a",<br />{'  '}"participants": [1, 2, 3],<br />{'  '}"threshold": 2<br />}
+            </div>
+          </div>
+        </div>
+        <div className="inline-block [white-space-collapse:preserve] text-wrap text-[#94A3B899] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+          Chevron rotates down when expanded · JSON data shown in pre-formatted block
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-6">
+        <div className="flex items-center w-7xl gap-4">
+          <div className="tracking-[0.08em] uppercase shrink-0 text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            All Relays Offline State
+          </div>
+          <div className="grow h-px bg-[#94A3B826]" />
+        </div>
+        <div className="flex w-175 [-webkit-font-smoothing:antialiased] rounded-lg gap-3 bg-[#EF44441A] border border-solid border-[#EF444440] p-4">
+          <div className="shrink-0 flex items-center justify-center rounded-[50%] bg-[#EF44444D] size-5">
+            <div className="inline-block text-[#F87171] font-['Inter',system-ui,sans-serif] font-bold text-xs/4">
+              !
+            </div>
+          </div>
+          <div className="flex flex-col w-full gap-1">
+            <div className="text-[#F87171] font-['Inter',system-ui,sans-serif] font-semibold text-[13px]/4">
+              All Relays Offline
+            </div>
+            <div className="text-[#FCA5A5] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              Unable to reach any configured relay. Signing, ECDH, and peer communication unavailable.
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col w-215 opacity-[0.5] [-webkit-font-smoothing:antialiased] rounded-lg overflow-clip border border-solid border-[#1E3A8A33]">
+          <div className="flex items-center py-2.5 px-5 bg-[#1E293B4D] border-b border-b-solid border-b-[#1E3A8A1F]">
+            <div className="w-50 shrink-0 tracking-[0.06em] uppercase text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Relay
+            </div>
+            <div className="w-35 shrink-0 tracking-[0.06em] uppercase text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Status
+            </div>
+            <div className="w-25 shrink-0 tracking-[0.06em] uppercase text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Latency
+            </div>
+            <div className="w-30 shrink-0 tracking-[0.06em] uppercase text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Events
+            </div>
+            <div className="grow tracking-[0.06em] uppercase text-right text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+              Last Seen
+            </div>
+          </div>
+          <div className="flex items-center py-3.5 px-5 border-b border-b-solid border-b-[#1E3A8A1F]">
+            <div className="w-50 shrink-0 text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              wss://relay.damus.io
+            </div>
+            <div className="w-35 shrink-0 flex items-center gap-1.5">
+              <div className="shrink-0 rounded-[50%] bg-[#EF4444] size-1.5" />
+              <div className="inline-block text-[#EF4444] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Offline
+              </div>
+            </div>
+            <div className="w-25 shrink-0 text-[#475569] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              —
+            </div>
+            <div className="w-30 shrink-0 text-[#475569] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              —
+            </div>
+            <div className="grow text-right text-[#475569] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              5 min ago
+            </div>
+          </div>
+          <div className="flex items-center py-3.5 px-5 border-b border-b-solid border-b-[#1E3A8A1F]">
+            <div className="w-50 shrink-0 text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              wss://nos.lol
+            </div>
+            <div className="w-35 shrink-0 flex items-center gap-1.5">
+              <div className="shrink-0 rounded-[50%] bg-[#EF4444] size-1.5" />
+              <div className="inline-block text-[#EF4444] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Offline
+              </div>
+            </div>
+            <div className="w-25 shrink-0 text-[#475569] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              —
+            </div>
+            <div className="w-30 shrink-0 text-[#475569] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              —
+            </div>
+            <div className="grow text-right text-[#475569] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              5 min ago
+            </div>
+          </div>
+          <div className="flex items-center py-3.5 px-5">
+            <div className="w-50 shrink-0 text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              wss://relay.snort.social
+            </div>
+            <div className="w-35 shrink-0 flex items-center gap-1.5">
+              <div className="shrink-0 rounded-[50%] bg-[#EF4444] size-1.5" />
+              <div className="inline-block text-[#EF4444] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Offline
+              </div>
+            </div>
+            <div className="w-25 shrink-0 text-[#475569] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              —
+            </div>
+            <div className="w-30 shrink-0 text-[#475569] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+              —
+            </div>
+            <div className="grow text-right text-[#475569] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              8 min ago
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )

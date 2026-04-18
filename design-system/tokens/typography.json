@@ -1,97 +1,72 @@
 {
   "font-families": {
-    "share-tech-mono": {
-      "value": "'Share Tech Mono', system-ui, sans-serif",
-      "description": "Primary display and heading font — used for all headings (H1–H3), section labels, and branded text. Monospace aesthetic gives the UI a technical, crypto-native feel."
+    "Share Tech Mono": {
+      "stack": "\"Share Tech Mono\", system-ui, sans-serif",
+      "usage": "Share Tech Mono / 36px / bold"
     },
-    "inter": {
-      "value": "'Inter', system-ui, sans-serif",
-      "description": "Primary body font — used for body text, labels, metadata, descriptions, button labels, and all general UI text."
+    "Inter": {
+      "stack": "\"Inter\", system-ui, sans-serif",
+      "usage": "Inter / 14px / regular"
     },
-    "ibm-plex-mono": {
-      "value": "'IBM Plex Mono', monospace",
-      "description": "Code and data font — used for displaying code snippets, hex values, cryptographic keys, and technical data."
+    "IBM Plex Mono": {
+      "stack": "\"IBM Plex Mono\", monospace",
+      "usage": "Optional alternates / non-canonical"
     },
-    "roboto-mono": {
-      "value": "'Roboto Mono', monospace",
-      "description": "Alternative monospace font — used for numeric displays, countdowns, and tabular data where fixed-width alignment matters."
-    },
-    "system-sans-serif": {
-      "value": "system-ui, -apple-system, sans-serif",
-      "description": "System fallback — used when custom fonts are unavailable or for OS-native UI elements."
+    "Roboto Mono": {
+      "stack": "\"Roboto Mono\", monospace",
+      "usage": "Optional alternates / non-canonical"
     }
   },
   "type-scale": {
-    "display": {
-      "h1": {
-        "font-family": "share-tech-mono",
-        "font-size": "36px",
-        "line-height": "44px",
-        "font-weight": "700",
-        "letter-spacing": "-0.01em",
-        "description": "H1 Heading — largest display text for page titles and hero sections"
-      },
-      "h2": {
-        "font-family": "share-tech-mono",
-        "font-size": "24px",
-        "line-height": "30px",
-        "font-weight": "600",
-        "letter-spacing": "normal",
-        "description": "H2 Section Header — section-level headings and card group titles"
-      },
-      "h3": {
-        "font-family": "share-tech-mono",
-        "font-size": "20px",
-        "line-height": "24px",
-        "font-weight": "600",
-        "letter-spacing": "normal",
-        "description": "H3 Card Title — card headings, dialog titles, and sub-section labels"
-      }
+    "H1 Heading": {
+      "sample": "H1 Heading",
+      "font-family": "Share Tech Mono",
+      "font-size": "36px",
+      "line-height": "44px",
+      "font-weight": 700,
+      "notes": "Share Tech Mono / 36px / bold",
+      "letter-spacing": "-0.01em"
     },
-    "body": {
-      "base": {
-        "font-family": "inter",
-        "font-size": "14px",
-        "line-height": "18px",
-        "font-weight": "400",
-        "description": "Body text — standard paragraph and UI text"
-      },
-      "small": {
-        "font-family": "inter",
-        "font-size": "12px",
-        "line-height": "16px",
-        "font-weight": "400",
-        "description": "Small — labels, metadata, secondary info, and helper text"
-      }
+    "H2 Section Header": {
+      "sample": "H2 Section Header",
+      "font-family": "Share Tech Mono",
+      "font-size": "24px",
+      "line-height": "30px",
+      "font-weight": 600,
+      "notes": "Share Tech Mono / 24px / semibold"
     },
-    "caption": {
-      "section-label": {
-        "font-family": "share-tech-mono",
-        "font-size": "13px",
-        "line-height": "16px",
-        "font-weight": "400",
-        "letter-spacing": "0.08em",
-        "text-transform": "uppercase",
-        "description": "Section label — uppercase category headers with tracking (Background Colors, Blue Scale, Typography, Status, etc.)"
-      },
-      "overline": {
-        "font-family": "share-tech-mono",
-        "font-size": "11px",
-        "line-height": "14px",
-        "font-weight": "400",
-        "letter-spacing": "0.12em",
-        "text-transform": "uppercase",
-        "description": "Overline — small uppercase labels like 'IGLOO UI' branding text"
-      }
+    "H3 Card Title": {
+      "sample": "H3 Card Title",
+      "font-family": "Share Tech Mono",
+      "font-size": "20px",
+      "line-height": "24px",
+      "font-weight": 600,
+      "notes": "Share Tech Mono / 20px / semibold"
     },
-    "mono": {
-      "code-value": {
-        "font-family": "share-tech-mono",
-        "font-size": "11px",
-        "line-height": "14px",
-        "font-weight": "400",
-        "description": "Code value — hex values, token names, technical annotations"
-      }
+    "Body text": {
+      "sample": "Body text \u2014 The quick brown fox jumps over the lazy dog",
+      "font-family": "Inter",
+      "font-size": "14px",
+      "line-height": "18px",
+      "font-weight": 400,
+      "notes": "Inter / 14px / regular"
+    },
+    "Small": {
+      "sample": "Small \u2014 labels, metadata, secondary info",
+      "font-family": "Inter",
+      "font-size": "12px",
+      "line-height": "16px",
+      "font-weight": 400,
+      "notes": "Inter / 12px / regular"
+    },
+    "Value data": {
+      "sample": "Value data \u2014 npub1qe3...7k4m",
+      "font-family": "Share Tech Mono",
+      "font-size": "14px",
+      "line-height": "18px",
+      "font-weight": 400,
+      "notes": "Share Tech Mono / 14px / regular / canonical",
+      "canonical": true
     }
   }
 }

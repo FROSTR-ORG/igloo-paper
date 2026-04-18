@@ -74,7 +74,7 @@
   {
     "id": "QPC-0",
     "paperNodeId": "QPC-0",
-    "name": "Settings Sidebar",
+    "name": "Settings Sidebar & Lock Profile",
     "category": "design-system",
     "flow": null,
     "outputPath": "design-system/components/settings-sidebar"
@@ -224,14 +224,6 @@
     "outputPath": "screens/welcome/1c-returning-multi"
   },
   {
-    "id": "QCP-0",
-    "paperNodeId": "QCP-0",
-    "name": "Welcome — 1c. Returning (Multi) [alt view]",
-    "category": "screen",
-    "flow": "welcome",
-    "outputPath": "screens/welcome/1c-returning-multi-alt"
-  },
-  {
     "id": "IMQ-0",
     "paperNodeId": "IMQ-0",
     "name": "Welcome — 1d. Returning (Many)",
@@ -245,7 +237,7 @@
     "name": "Welcome — 1c-1. Unlock Profile (Modal)",
     "category": "screen",
     "flow": "welcome",
-    "outputPath": "screens/welcome/1c-1-unlock-modal"
+    "outputPath": "screens/welcome/1c-1-unlock-profile-modal"
   },
   {
     "id": "QKO-0",
@@ -254,22 +246,6 @@
     "category": "screen",
     "flow": "welcome",
     "outputPath": "screens/welcome/1c-2-unlock-error-modal"
-  },
-  {
-    "id": "U7Z-0",
-    "paperNodeId": "U7Z-0",
-    "name": "Welcome — 1c-3. Rotate Keyset (Modal)",
-    "category": "screen",
-    "flow": "welcome",
-    "outputPath": "screens/welcome/1c-3-rotate-keyset-modal"
-  },
-  {
-    "id": "UAK-0",
-    "paperNodeId": "UAK-0",
-    "name": "Welcome — 1c-4. Rotate Keyset Error (Modal)",
-    "category": "screen",
-    "flow": "welcome",
-    "outputPath": "screens/welcome/1c-4-rotate-keyset-error-modal"
   },
   {
     "id": "3B1-0",
@@ -293,7 +269,7 @@
     "name": "Import — 3. Review & Save Profile",
     "category": "screen",
     "flow": "import",
-    "outputPath": "screens/import/3-review-save"
+    "outputPath": "screens/import/3-review-save-profile"
   },
   {
     "id": "6ZH-0",
@@ -325,7 +301,7 @@
     "name": "Onboard — 2b. Onboarding Failed",
     "category": "screen",
     "flow": "onboard",
-    "outputPath": "screens/onboard/2b-failed"
+    "outputPath": "screens/onboard/2b-onboarding-failed"
   },
   {
     "id": "726-0",
@@ -333,7 +309,7 @@
     "name": "Onboard — 3. Onboarding Complete",
     "category": "screen",
     "flow": "onboard",
-    "outputPath": "screens/onboard/3-complete"
+    "outputPath": "screens/onboard/3-onboarding-complete"
   },
   {
     "id": "35L-0",
@@ -408,22 +384,6 @@
     "outputPath": "screens/dashboard/1b-policies"
   },
   {
-    "id": "HAT-0",
-    "paperNodeId": "HAT-0",
-    "name": "Dashboard — 1c. Profile Switcher",
-    "category": "screen",
-    "flow": "dashboard",
-    "outputPath": "screens/dashboard/1c-profile-switcher"
-  },
-  {
-    "id": "KQO-0",
-    "paperNodeId": "KQO-0",
-    "name": "Dashboard — 1d. With Rotate Share",
-    "category": "screen",
-    "flow": "dashboard",
-    "outputPath": "screens/dashboard/1d-with-rotate-share"
-  },
-  {
     "id": "4OP-0",
     "paperNodeId": "4OP-0",
     "name": "Dashboard — 2. Stopped",
@@ -440,28 +400,28 @@
     "outputPath": "screens/dashboard/2b-all-relays-offline"
   },
   {
-    "id": "SXR-0",
-    "paperNodeId": "SXR-0",
-    "name": "Dashboard — 2c. Quorum Not Met",
-    "category": "screen",
-    "flow": "dashboard",
-    "outputPath": "screens/dashboard/2c-quorum-not-met"
-  },
-  {
     "id": "T62-0",
     "paperNodeId": "T62-0",
-    "name": "Dashboard — 2d. Signing Blocked",
+    "name": "Dashboard — 2c. Signing Blocked",
     "category": "screen",
     "flow": "dashboard",
-    "outputPath": "screens/dashboard/2d-signing-blocked"
+    "outputPath": "screens/dashboard/2c-signing-blocked"
   },
   {
     "id": "518-0",
     "paperNodeId": "518-0",
-    "name": "Dashboard — 3. Settings",
+    "name": "Dashboard — 3. Settings & Lock Profile",
     "category": "screen",
     "flow": "dashboard",
-    "outputPath": "screens/dashboard/3-settings"
+    "outputPath": "screens/dashboard/3-settings-lock-profile"
+  },
+  {
+    "id": "VG8-0",
+    "paperNodeId": "VG8-0",
+    "name": "Dashboard — 3b. Clear Credentials (Modal)",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/3b-clear-credentials-modal"
   },
   {
     "id": "75B-0",
@@ -494,22 +454,6 @@
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/6-signing-failed"
-  },
-  {
-    "id": "EIF-0",
-    "paperNodeId": "EIF-0",
-    "name": "Dashboard — 7. Pending Approvals",
-    "category": "screen",
-    "flow": "dashboard",
-    "outputPath": "screens/dashboard/7-pending-approvals"
-  },
-  {
-    "id": "HKV-0",
-    "paperNodeId": "HKV-0",
-    "name": "Dashboard — 8. Switch Profile",
-    "category": "screen",
-    "flow": "dashboard",
-    "outputPath": "screens/dashboard/8-switch-profile"
   },
   {
     "id": "83Q-0",

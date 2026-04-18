@@ -1,126 +1,143 @@
 {
-  "background": {
-    "gray-950": {
-      "value": "#030712",
-      "description": "Primary background — darkest surface used for main app background"
-    },
-    "gray-900": {
-      "value": "#111827",
-      "description": "Secondary background — slightly lighter surface for elevated containers"
-    },
-    "gray-800-50": {
-      "value": "rgba(31, 41, 55, 0.5)",
-      "hex": "#1F293780",
-      "description": "Semi-transparent overlay — used for modals, overlays, and dimmed surfaces"
-    },
-    "gray-900-40": {
-      "value": "rgba(17, 24, 39, 0.4)",
-      "hex": "#11182766",
-      "description": "Card surface — translucent background for card components"
+  "background-colors": {
+    "title": "Background Colors",
+    "tokens": {
+      "gray-950": {
+        "value": "#030712"
+      },
+      "gray-900": {
+        "value": "#111827"
+      },
+      "gray-900/40": {
+        "value": "#11182766"
+      },
+      "slate-900/60": {
+        "value": "#0F172A99"
+      },
+      "slate-900/80": {
+        "value": "#0F172ACC"
+      }
     }
   },
-  "blue-scale": {
-    "blue-100": {
-      "value": "#DBEAFE",
-      "description": "Lightest blue — used for subtle highlights and backgrounds"
-    },
-    "blue-200": {
-      "value": "#BFDBFE",
-      "description": "Light blue — used for hover states and secondary highlights"
-    },
-    "blue-300": {
-      "value": "#93C5FD",
-      "description": "Medium-light blue — used for heading text and active indicators"
-    },
-    "blue-400": {
-      "value": "#60A5FA",
-      "description": "Medium blue — used for links, interactive text, and info accents"
-    },
-    "blue-600": {
-      "value": "#2563EB",
-      "description": "Primary blue — used for primary buttons and strong interactive elements"
-    },
-    "blue-700": {
-      "value": "#1D4ED8",
-      "description": "Dark blue — used for pressed/active button states"
-    },
-    "blue-900": {
-      "value": "#1E3A8A",
-      "description": "Deepest blue — used for borders, subtle dividers, and container outlines"
+  "blue-scale-primary": {
+    "title": "Blue Scale \u2014 Primary",
+    "tokens": {
+      "blue-100": {
+        "value": "#DBEAFE"
+      },
+      "blue-200": {
+        "value": "#BFDBFE"
+      },
+      "blue-300": {
+        "value": "#93C5FD"
+      },
+      "blue-400": {
+        "value": "#60A5FA"
+      },
+      "blue-600": {
+        "value": "#2563EB"
+      },
+      "blue-700": {
+        "value": "#1D4ED8"
+      },
+      "blue-900": {
+        "value": "#1E3A8A"
+      }
     }
   },
-  "semantic": {
-    "green-500": {
-      "value": "#22C55E",
-      "description": "Success — positive actions, confirmations, and success states"
-    },
-    "red-500": {
-      "value": "#EF4444",
-      "description": "Destructive — errors, destructive actions, and danger states"
-    },
-    "yellow-500": {
-      "value": "#EAB308",
-      "description": "Warning — caution indicators and warning states"
-    },
-    "amber-900": {
-      "value": "#78350FE6",
-      "hex-alpha": "rgba(120, 53, 15, 0.9)",
-      "description": "Caution background — muted amber surface for caution banners"
-    },
-    "green-900-30": {
-      "value": "#15803D4D",
-      "hex-alpha": "rgba(21, 128, 61, 0.3)",
-      "border": "#15803D80",
-      "description": "Success background — translucent green surface for success alerts"
-    },
-    "red-900-30": {
-      "value": "#7F1D1D4D",
-      "hex-alpha": "rgba(127, 29, 29, 0.3)",
-      "border": "#EF44444D",
-      "description": "Error background — translucent red surface for error alerts"
-    },
-    "yellow-900-30": {
-      "value": "#713F124D",
-      "hex-alpha": "rgba(113, 63, 18, 0.3)",
-      "border": "#A1620780",
-      "description": "Warning background — translucent yellow surface for warning alerts"
+  "semantic-colors": {
+    "title": "Semantic Colors",
+    "tokens": {
+      "green-600": {
+        "value": "#16A34A",
+        "description": "Success"
+      },
+      "red-600": {
+        "value": "#DC2626",
+        "description": "Destructive"
+      },
+      "amber-400": {
+        "value": "#FBBF24",
+        "description": "Warning"
+      },
+      "orange-400": {
+        "value": "#FB923C",
+        "description": "Queue / Caution"
+      },
+      "purple-400": {
+        "value": "#C084FC",
+        "description": "Policy / Review"
+      },
+      "red-900/30": {
+        "value": "#7F1D1D4D",
+        "description": "Error bg"
+      },
+      "yellow-900/30": {
+        "value": "#713F124D",
+        "description": "Warning bg"
+      }
+    }
+  },
+  "interface-text-tones": {
+    "title": "Interface Text Tones",
+    "tokens": {
+      "slate-200": {
+        "value": "#E2E8F0",
+        "description": "Primary text"
+      },
+      "slate-400": {
+        "value": "#94A3B8",
+        "description": "Secondary text"
+      },
+      "slate-500": {
+        "value": "#64748B",
+        "description": "Muted metadata"
+      }
+    }
+  },
+  "interface-borders-overlays": {
+    "title": "Interface Borders & Overlays",
+    "tokens": {
+      "blue-900/30": {
+        "value": "#1E3A8A4D",
+        "description": "Focus border"
+      },
+      "blue-900/20": {
+        "value": "#1E3A8A33",
+        "description": "Panel border"
+      },
+      "slate-400/20": {
+        "value": "#94A3B833",
+        "description": "Muted border"
+      },
+      "red-500/06": {
+        "value": "#EF44440F",
+        "description": "Destructive bg"
+      },
+      "red-500/30": {
+        "value": "#EF44444D",
+        "description": "Destructive border"
+      }
     }
   },
   "status": {
-    "default": {
-      "value": "#6B7280",
-      "label-color": "#9CA3AF",
-      "bg": "#6B728033",
-      "ring": "#6B72804D",
-      "description": "Default/offline status — gray dot indicator for inactive or default state"
-    },
-    "success": {
-      "value": "#22C55E",
-      "label-color": "#4ADE80",
-      "bg": "#22C55E33",
-      "ring": "#22C55E4D",
-      "description": "Connected/success status — green dot indicator for active or connected state"
-    },
-    "error": {
-      "value": "#EF4444",
-      "label-color": "#F87171",
-      "bg": "#EF444433",
-      "ring": "#EF44444D",
-      "description": "Error status — red dot indicator for error or disconnected state"
-    },
-    "warning": {
-      "value": "#EAB308",
-      "label-color": "#FACC15",
-      "bg": "#EAB30833",
-      "ring": "#EAB3084D",
-      "description": "Warning status — yellow dot indicator for warning or degraded state"
-    },
-    "info": {
-      "value": "#3B82F6",
-      "label-color": "#60A5FA",
-      "bg": "#3B82F633",
-      "ring": "#3B82F64D",
-      "description": "Info status — blue dot indicator for informational state"
+    "title": "Status",
+    "tokens": {
+      "Default": {
+        "value": "#6B7280"
+      },
+      "Success": {
+        "value": "#22C55E"
+      },
+      "Error": {
+        "value": "#EF4444"
+      },
+      "Warning": {
+        "value": "#EAB308"
+      },
+      "Info": {
+        "value": "#3B82F6"
+      }
     }
   }
 }

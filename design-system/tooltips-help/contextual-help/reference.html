@@ -1,0 +1,180 @@
+(
+    <div className="[font-synthesis:none] flex overflow-clip w-360 h-fit flex-col pt-16 pb-20 gap-14 antialiased text-xs/4 px-20" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
+      <div className="flex flex-col self-stretch h-fit shrink-0 gap-1">
+        <div className="tracking-[0.12em] uppercase inline-block text-[#60A5FA80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+          Igloo UI
+        </div>
+        <div className="tracking-[-0.01em] inline-block text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-[32px]/10">
+          Tooltips & Help Text — Contextual Help
+        </div>
+      </div>
+      <div className="flex flex-col self-stretch max-w-225 shrink-0 gap-6">
+        <div className="flex items-center w-full gap-4">
+          <div className="tracking-[0.08em] uppercase shrink-0 inline-block text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            Contextual Help Text
+          </div>
+          <div className="h-px grow bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Signer status
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            The signer must be running to handle signature requests from clients. When active, it will communicate with other nodes through your configured relays.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Relay configuration
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Part of your device profile. You must be connected to at least one relay to communicate with other signers. Each peer configures their own relay list.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Import Credentials (bfonboard / bfprofile)
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Use an onboarding package (bfonboard1...) to onboard a device, or a profile backup (bfprofile1...) to import a saved profile.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Profile password
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Used to encrypt/decrypt a profile on this device.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Recover NSEC
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Use the threshold number of shares to recover the original nsec.
+          </div>
+        </div>
+        <div className="flex flex-col w-225">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Peer pool & readiness
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Each peer pre-exchanges signing capacity with the group. Rings, bars, and counts show whether that peer is ready to co-sign right now. Blue = healthy, amber = low, red = critical, gray = offline. The ~ready pill is the approximate total signatures currently available across online peers. Capacity refills automatically during sync and periodic health checks.
+          </div>
+        </div>
+        <div className="flex flex-col w-225">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Sync events
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Teal SYNC entries in the event log mean signing capacity was just replenished with a peer. This happens automatically during health checks. If you see frequent SYNC events, it means the system is actively signing and healthy.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Permission tags
+          </div>
+          <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Assign SIGN, ECDH, PING, and ONBOARD tags to peers you trust for automatic peer requests. Requests not explicitly allowed by signer policies require a peer policy decision.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Peer policy decisions
+          </div>
+          <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            When an external request is not explicitly allowed, you will see a peer policy decision prompt with method details and requester pubkey. Verify details before allowing.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Request timeout
+          </div>
+          <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Each request has a timeout. If no response is provided before timeout, the request is rejected and the client is notified.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-sm/5">
+            Group profile (read-only)
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Shared across all peers, synced via Nostr. Cannot be edited from a single device — changes require group consensus.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-sm/5">
+            Device profile
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Controls how this specific share operates — relay list, peer policies, and local preferences. Changes only affect this device.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Profile Backup
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            A full encrypted backup of a saved profile. Import it on another device or keep it as an encrypted archive.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Export Profile
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Create an encrypted bfprofile1... backup to import this profile on another device.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Export Share
+          </div>
+          <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Copy the raw share key in hex format. This export is unencrypted, so handle it with care.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Source share intake
+          </div>
+          <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Paste threshold-worth of bfshare packages and their passwords. Each share is decrypted and validated against the current group configuration. Old devices do not need to be online — only bfshare material and passwords are required.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Target assignment
+          </div>
+          <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Each rotated member slot is assigned an intent. Exactly one must be Local Replace (replaces the current device). Others are marked as New Device or Rotate Existing Device — this changes labeling and instructions only, not the package format. All remote outputs are bfonboard packages.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Distribution password
+          </div>
+          <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            Encrypts the bfonboard packages emitted for remote devices. Each recipient will need this password to decrypt and adopt their rotated share. Set during the Review & Generate step.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Identity changes after rotation
+          </div>
+          <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            After rotation, each device receives a new share public key and a new profile ID (derived from the share key). The group public key (npub) remains unchanged — this is the stable identity anchor. Device labels, relay configurations, and peer permissions are preserved.
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+            Group name (read-only during rotation)
+          </div>
+          <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
+            The group name is inherited and read-only during share rotation. Renaming is outside the rotation contract. To change the group name, use keyset settings separately.
+          </div>
+        </div>
+      </div>
+    </div>
+  )

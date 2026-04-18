@@ -1,26 +1,38 @@
 # Environment
 
-Environment variables, external dependencies, and setup notes.
-
-**What belongs here:** Required env vars, external dependencies, platform-specific notes.
-**What does NOT belong here:** Service ports/commands (use `.factory/services.yaml`).
-
----
+Environment requirements for maintaining the `igloo-paper` export.
 
 ## Dependencies
 
-- **Paper MCP** — Must be running and connected. Configured globally at `~/.factory/mcp.json` pointing to `http://127.0.0.1:29979/mcp`. Paper desktop app must be open with the `igloo-ui` file on the `core` page.
-- **Python 3.9+** — Used for the verification script (`scripts/verify.py`)
-- **No package managers or build tools** — This is a static reference repo
+- Paper desktop with the `igloo-ui` file open on the `core` page
+- Paper MCP available at `http://127.0.0.1:29979/mcp`
+- Python 3.9+ for:
+  - `scripts/export_from_paper.py`
+  - `scripts/verify.py`
+
+This repo has no runtime app stack, no package-manager dependency, and no secrets.
 
 ## Paper Canvas Details
 
-- **File:** igloo-ui
-- **Page:** core
-- **Artboard count:** 76 (24 design system + 51 web screens + 1 divider)
-- **Node count:** ~12,400
-- **Font families:** Inter, Share Tech Mono, IBM Plex Mono, Roboto Mono, System Sans-Serif
+- File: `igloo-ui`
+- Page: `core`
+- Artboard count: 69
+- Shared extracted nodes: `34D-0` (`AppHeader`) and `D1D-0` (`AppFooter`)
 
-## No Environment Variables Required
+## Verification Modes
 
-This project has no runtime dependencies, APIs, or secrets.
+- `python3 scripts/verify.py`
+  - structural export checks
+  - metadata curation checks
+  - Paper reconciliation
+  - drift warnings for non-Foundation colors and typography pairs
+- `python3 scripts/verify.py --strict-drift`
+  - same checks
+  - fails on non-Foundation color drift
+  - fails on non-Foundation typography pair drift
+  - still fails on unsupported font families in all modes
+
+## Output Assumptions
+
+- The exporter regenerates README files, HTML exports, screenshots, and Foundations tokens in place.
+- Deprecated screen paths from older slug naming should not remain in the working tree.

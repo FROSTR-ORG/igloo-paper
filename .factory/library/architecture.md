@@ -2,87 +2,52 @@
 
 ## Purpose
 
-This repository is a **static reference codebase** — not a functional application. It captures the complete Igloo design system and web app prototype from a Paper canvas as organized, structured files optimized for human and AI agent consumption.
+This repository is a static export of the Igloo Paper file. It is not a runnable product app. The repo is optimized for reference, review, and downstream implementation work.
 
-## Two Distinct Sections
+The current export covers 69 Paper artboards:
 
-### 1. Design System (`design-system/`)
+- 24 design-system artboards
+- 44 screen artboards
+- 1 divider artboard
 
-The authoritative reference for Igloo's visual language. Contains:
+## Core Contracts
 
-- **Tokens** (`tokens/`) — Structured design tokens as JSON + CSS custom properties
-  - `colors.json` — Background, primary (blue scale), semantic, status colors
-  - `typography.json` — Font families, size scale, weights
-  - `tokens.css` — CSS custom properties for all tokens
-- **Foundations** (`foundations/`) — The base visual layer: color palettes, type scale, status indicators
-- **Components** (`components/`) — Reusable UI elements organized by category:
-  - Core (buttons, inputs, badges, cards, alerts)
-  - Interactive Controls
-  - Form Controls
-  - Data Display (3 sub-categories: tables/lists, progress/cards, review/summary)
-  - Overlays & Feedback
-  - Navigation & Layout
-  - Settings Sidebar
-- **Patterns** (`patterns/`) — Domain-specific UI patterns:
-  - Signer states (3 categories)
-  - Flows & QR codes (2 categories)
-  - Pool & signing readiness
-  - Rotate keyset + shared distribution sections
-  - Key lifecycle progress
-- **Icons & Logos** (`icons-logos/`)
-- **Glossary** (`glossary/`) — Term definitions in markdown (3 docs)
-- **Tooltips & Help** (`tooltips-help/`) — Help text patterns (2 categories)
+- Paper is the source of truth.
+- `artboard-map.json` defines export coverage and repo paths.
+- `export-metadata.json` defines documentation-only curation such as related screen groups, shared README label ignores, and README label overrides.
+- `design-system/tokens/` is generated from Foundations (`8B-0`) only.
+- `scripts/verify.py` is structural by default and drift-enforcing only with `--strict-drift`.
 
-### 2. Web App Screens (`screens/`)
+## Repository Layout
 
-The full Igloo Web prototype organized by user flow. Shows the design system in action across real screens.
+### `design-system/`
 
-**Flows:**
-- `welcome/` — Entry point, returning user states, profile unlock modals (9 screens)
-- `import/` — Backup import flow (4 screens)
-- `onboard/` — Device onboarding flow (4 screens)
-- `create/` — Keyset creation flow (3 screens)
-- `shared/` — Screens reused across multiple flows: profile creation, share distribution (3 screens)
-- `dashboard/` — Main signer dashboard with all states (16 screens)
-- `rotate-keyset/` — Full keyset rotation flow (6 screens)
-- `rotate-share/` — Individual share rotation flow (4 screens)
-- `recover/` — Key recovery flow (2 screens)
-- `_shared/` — Shared HTML elements: AppHeader, AppFooter
+- `tokens/` contains Foundations-derived `colors.json`, `typography.json`, and `tokens.css`.
+- `foundations/`, `components/`, `patterns/`, `icons-logos/`, and `tooltips-help/` each contain exported reference directories with `README.md`, `reference.html`, and `screenshot.png`.
+- `glossary/` is markdown-first and contains three exported glossary docs plus uniquely named screenshots.
 
-## File Pattern Per Directory
+### `screens/`
 
-Every extracted artboard produces a directory with:
-- `README.md` — Description, purpose, contained elements, usage notes
-- `screenshot.png` — Visual reference (PNG from Paper canvas)
-- `reference.html` or `screen.html` — Full HTML/CSS with Tailwind classes (from Paper get_jsx)
+- Each screen directory contains `README.md`, `screen.html`, and `screenshot.png`.
+- `_shared/` contains extracted `app-header.html` and `app-footer.html`.
+- Screen READMEs use metadata-driven `Related Screens` groups instead of linear previous/next sequencing.
 
-Exceptions: Glossary artboards produce markdown files instead of HTML. The `_shared/` directory contains individual HTML component files.
+## Export Flow
 
-## Data Flow
-
-```
-Paper Canvas (igloo-ui, page: core)
-  ↓ get_jsx (Tailwind format)
-  ↓ get_screenshot (PNG)
-  ↓ get_tree_summary (for text extraction)
-  ↓
-Organized Repository Files
-  ├── Structured tokens (JSON + CSS)
-  ├── Reference HTML per artboard
-  ├── Screenshots per artboard
-  ├── Markdown documentation per directory
-  └── Glossary as markdown
+```text
+Paper (igloo-ui / core)
+  -> get_basic_info
+  -> get_children / get_tree_summary
+  -> get_jsx
+  -> get_screenshot
+  -> repo export files
 ```
 
-## Source of Truth
+The exporter writes structural HTML, screenshots, and generated README files. README content is mostly heuristic, then curated through `export-metadata.json`.
 
-The Paper canvas is the source of truth. This repository is a derived artifact. When the canvas is updated, this repository should be re-extracted following `INSTRUCTIONS.md`.
+## Drift Model
 
-## Fonts
+The Foundations board defines the canonical token set currently represented in the repo. Other exported screens and component boards may still use additional colors and typography pairs that are not yet documented there.
 
-The design system uses these font families:
-- **Inter** — Primary UI font
-- **Share Tech Mono** — Monospace display
-- **IBM Plex Mono** — Code/technical content
-- **Roboto Mono** — Alternative mono
-- **System Sans-Serif** — System fallback
+- Default verification reports this drift as warnings.
+- Strict verification treats that drift as failure.

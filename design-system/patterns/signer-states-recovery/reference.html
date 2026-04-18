@@ -1,0 +1,332 @@
+(
+    <div className="[font-synthesis:none] flex overflow-clip w-360 h-fit flex-col py-14 px-20 pt-16 pb-20 gap-14 antialiased text-xs/4" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
+      <div className="flex flex-col gap-1">
+        <div className="tracking-[0.12em] uppercase inline-block [white-space-collapse:preserve] text-wrap text-[#60A5FA80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+          Igloo UI
+        </div>
+        <div className="inline-block [white-space-collapse:preserve] tracking-[-0.01em] text-wrap text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-[32px]/10">
+          Signer & States — Recovery & Share Handling
+        </div>
+      </div>
+      <div className="flex flex-col mt-12 gap-4">
+        <div className="flex items-center gap-3">
+          <div className="tracking-[0.08em] uppercase inline-block [white-space-collapse:preserve] text-wrap text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            Security Warning Panel (Recovery)
+          </div>
+          <div className="grow shrink basis-[0%] h-px bg-[#94A3B826]" />
+        </div>
+        <div className="flex items-start rounded-lg py-4 px-5 gap-3 bg-[#713F124D] border border-solid border-[#A1620780]">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EAB308" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', marginTop: '1px' }}>
+            <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+            <line x1="12" y1="9" x2="12" y2="13" />
+            <line x1="12" y1="17" x2="12.01" y2="17" />
+          </svg>
+          <div className="flex flex-col gap-2">
+            <div className="inline-block text-[#FBBF24] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
+              Security Warning
+            </div>
+            <div className="flex flex-col pl-3.5 gap-1">
+              <div className="flex items-start gap-2">
+                <div className="inline-block text-[#FDE047CC] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                  •
+                </div>
+                <div className="inline-block text-[#FDE047CC] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                  Your private key will auto-clear in 60 seconds
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <div className="inline-block text-[#FDE047CC] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                  •
+                </div>
+                <div className="inline-block text-[#FDE047CC] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                  Do not screenshot or share this key
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <div className="inline-block text-[#FDE047CC] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                  •
+                </div>
+                <div className="inline-block text-[#FDE047CC] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                  Copy to a secure password manager
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#86EFAC] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+            Recovered NSEC:
+          </div>
+          <div className="flex items-center rounded-lg py-3 px-4 bg-[#1F293780] border border-solid border-[#15803D80]">
+            <div className="grow shrink basis-[0%] inline-block text-[#9CA3AF] font-['Share_Tech_Mono',system-ui,sans-serif] text-sm/4.5">
+              nsec1abc••••••••••••••••••••••••••••••••••••••...
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <div className="inline-block text-[#86EFAC] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+            Recovered NSEC (revealed):
+          </div>
+          <div className="flex items-center rounded-lg py-3 px-4 bg-[#1F293780] border border-solid border-[#15803D80]">
+            <div className="grow shrink basis-[0%] inline-block text-[#4ADE80] font-['Share_Tech_Mono',system-ui,sans-serif] text-sm/4.5">
+              nsec1qqqqqzpwk6m3ags7frv0j8dkwmxcf0klhfja3yd4rqlzgn64c4hq7y4ms9
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center gap-2.5">
+          <div className="flex items-center rounded-md py-2 px-4 gap-1.5 bg-[#2563EB]">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <rect x="9" y="9" width="13" height="13" rx="2" />
+              <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" />
+            </svg>
+            <div className="inline-block text-white font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+              Copy to Clipboard
+            </div>
+          </div>
+          <div className="flex items-center rounded-md py-2 px-4 gap-1.5 border border-solid border-[#94A3B840]">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D1D5DB" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+            <div className="inline-block text-[#D1D5DB] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+              Reveal
+            </div>
+          </div>
+          <div className="flex items-center rounded-md py-2 px-4 gap-1.5 border border-solid border-[#EF44444D]">
+            <div className="inline-block text-[#EF4444] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+              Clear
+            </div>
+          </div>
+          <div className="flex items-center ml-3 rounded-md py-2 px-4 gap-1.5 bg-[#16A34A]">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <div className="inline-block text-white font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+              Copied!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-6">
+        <div className="flex items-center w-7xl gap-4">
+          <div className="tracking-[0.08em] uppercase shrink-0 text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            Recovery Failure States
+          </div>
+          <div className="grow h-px bg-[#94A3B826]" />
+        </div>
+        <div className="flex w-175 [-webkit-font-smoothing:antialiased] rounded-lg gap-3 bg-[#EF44441A] border border-solid border-[#EF444440] p-4">
+          <div className="shrink-0 flex items-center justify-center rounded-[50%] bg-[#EF44444D] size-5">
+            <div className="inline-block text-[#F87171] font-['Inter',system-ui,sans-serif] font-bold text-xs/4">
+              !
+            </div>
+          </div>
+          <div className="flex flex-col w-full gap-2">
+            <div className="flex flex-col gap-1">
+              <div className="text-[#F87171] font-['Inter',system-ui,sans-serif] font-semibold text-[13px]/4">
+                Recovery Failed
+              </div>
+              <div className="text-[#FCA5A5] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                Provided 1 of 2 required shares. Add at least 1 more share to continue reconstructing your nsec.
+              </div>
+            </div>
+            <div className="rounded-sm py-1.5 px-2.5 bg-[#1F29374D]">
+              <div className="inline-block text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                Shares: 1/2 (need 2)
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex w-175 [-webkit-font-smoothing:antialiased] rounded-lg gap-3 bg-[#EF44441A] border border-solid border-[#EF444440] p-4">
+          <div className="shrink-0 flex items-center justify-center rounded-[50%] bg-[#EF44444D] size-5">
+            <div className="inline-block text-[#F87171] font-['Inter',system-ui,sans-serif] font-bold text-xs/4">
+              !
+            </div>
+          </div>
+          <div className="flex flex-col w-full gap-2">
+            <div className="flex flex-col gap-1">
+              <div className="text-[#F87171] font-['Inter',system-ui,sans-serif] font-semibold text-[13px]/4">
+                Incompatible Shares
+              </div>
+              <div className="text-[#FCA5A5] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                The provided shares belong to different keysets and cannot be combined.
+              </div>
+            </div>
+            <div className="flex flex-col gap-1">
+              <div className="flex items-center rounded-sm py-1.5 px-2.5 gap-2 bg-[#DC262614] border border-solid border-[#DC262633]">
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-[11px]/3.5">
+                  Share 1:
+                </div>
+                <div className="inline-block text-[#F87171] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                  02a3f8c2d1e4...9k2m
+                </div>
+              </div>
+              <div className="flex items-center rounded-sm py-1.5 px-2.5 gap-2 bg-[#DC262614] border border-solid border-[#DC262633]">
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-[11px]/3.5">
+                  Share 2:
+                </div>
+                <div className="inline-block text-[#F87171] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                  03b7e1f9d2c8...4j8w
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col [font-synthesis-weight:none] [font-synthesis-style:none] [font-synthesis-small-caps:none] [-webkit-font-smoothing:antialiased] gap-4">
+        <div className="flex items-center w-7xl gap-2">
+          <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+            Share Card States
+          </div>
+          <div className="grow shrink basis-[0%] h-px bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex items-start gap-6">
+          <div className="flex flex-col w-100 rounded-[10px] gap-4 bg-[#11182766] border border-solid border-[#1E3A8A33] shrink-0 p-5">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="text-[#E2E8F0] font-['Share_Tech_Mono',system-ui,sans-serif] text-[15px]/5">
+                  Share 2
+                </div>
+                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                  Index 1
+                </div>
+              </div>
+              <div className="text-[#F59E0B80] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                Not distributed
+              </div>
+            </div>
+            <div className="flex items-center rounded-lg py-2.5 px-3.5 bg-[#0F172A66] border border-solid border-[#1E3A8A33]">
+              <div className="[letter-spacing:0.05em] text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4.5">
+                bfonboard1••••••••••••••••••••
+              </div>
+            </div>
+            <div className="flex items-center gap-2 w-36.5">
+              <div className="flex items-center rounded-md py-1.5 px-3 gap-1.5 border border-solid border-[#1E3A8A4D]">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+                </svg>
+                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
+                  Copy
+                </div>
+              </div>
+              <div className="flex items-center rounded-md py-1.5 px-3 gap-1.5 border border-solid border-[#1E3A8A4D]">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <rect width="5" height="5" x="3" y="3" />
+                  <rect width="5" height="5" x="16" y="3" />
+                  <rect width="5" height="5" x="3" y="16" />
+                  <rect width="5" height="5" x="16" y="16" />
+                  <rect width="5" height="5" x="9.5" y="9.5" />
+                </svg>
+                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
+                  QR
+                </div>
+              </div>
+            </div>
+            <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
+              Package generated, awaiting distribution
+            </div>
+          </div>
+          <div className="flex flex-col w-100 rounded-[10px] gap-4 bg-[#11182766] border border-solid border-[#F59E0B40] shrink-0 p-5">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="text-[#E2E8F0] font-['Share_Tech_Mono',system-ui,sans-serif] text-[15px]/5">
+                  Share 2
+                </div>
+                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                  Index 1
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <div className="shrink-0 rounded-[50%] bg-[#F59E0B] size-2.5" />
+                <div className="text-[#F59E0B] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                  Awaiting device...
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center rounded-lg py-2.5 px-3.5 bg-[#0F172A66] border border-solid border-[#1E3A8A33]">
+              <div className="[letter-spacing:0.05em] text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4.5">
+                bfonboard1••••••••••••••••••••
+              </div>
+            </div>
+            <div className="flex items-center gap-2 w-36.5">
+              <div className="flex items-center rounded-md py-1.5 px-3 gap-1.5 border border-solid border-[#1E3A8A4D]">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+                </svg>
+                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
+                  Copy
+                </div>
+              </div>
+              <div className="flex items-center rounded-md py-1.5 px-3 gap-1.5 border border-solid border-[#1E3A8A4D]">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <rect width="5" height="5" x="3" y="3" />
+                  <rect width="5" height="5" x="16" y="3" />
+                  <rect width="5" height="5" x="3" y="16" />
+                  <rect width="5" height="5" x="16" y="16" />
+                  <rect width="5" height="5" x="9.5" y="9.5" />
+                </svg>
+                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
+                  QR
+                </div>
+              </div>
+            </div>
+            <div className="text-[#D97706CC] font-['Inter',system-ui,sans-serif] text-xs/4">
+              Package sent, waiting for echo confirmation
+            </div>
+          </div>
+          <div className="flex flex-col w-100 rounded-[10px] gap-4 bg-[#11182766] border border-solid border-[#22C55E5E] shrink-0 p-5">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="text-[#E2E8F0] font-['Share_Tech_Mono',system-ui,sans-serif] text-[15px]/5">
+                  Share 2
+                </div>
+                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                  Index 1
+                </div>
+              </div>
+              <div className="flex items-center rounded-[999px] py-0.75 px-2.5 gap-1.5 bg-[#22C55E17]">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] font-medium text-[11px]/3.5">
+                  Onboarded
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center rounded-lg py-2.5 px-3.5 bg-[#0F172A66] border border-solid border-[#1E3A8A33]">
+              <div className="[letter-spacing:0.05em] text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4.5">
+                bfonboard1••••••••••••••••••••
+              </div>
+            </div>
+            <div className="flex items-center gap-2 w-36.5">
+              <div className="flex items-center rounded-md py-1.5 px-3 gap-1.5 border border-solid border-[#1E3A8A4D]">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+                </svg>
+                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
+                  Copy
+                </div>
+              </div>
+              <div className="flex items-center rounded-md py-1.5 px-3 gap-1.5 border border-solid border-[#1E3A8A4D]">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                  <rect width="5" height="5" x="3" y="3" />
+                  <rect width="5" height="5" x="16" y="3" />
+                  <rect width="5" height="5" x="3" y="16" />
+                  <rect width="5" height="5" x="16" y="16" />
+                  <rect width="5" height="5" x="9.5" y="9.5" />
+                </svg>
+                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
+                  QR
+                </div>
+              </div>
+            </div>
+            <div className="text-[#4ADE80CC] font-['Inter',system-ui,sans-serif] text-xs/4">
+              Echo received — device confirmed onboarded
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )

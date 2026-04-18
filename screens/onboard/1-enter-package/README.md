@@ -1,0 +1,37 @@
+# Onboard — 1. Enter Package
+
+## Description
+This screen captures the `onboard` flow state "1. Enter Package" in the current Igloo web prototype.
+
+## Paper Source
+- **Artboard ID:** GW5-0
+- **Artboard Name:** Web — Onboard — 1. Enter Package
+- **Dimensions:** 1440 × 1080
+
+## Flow Context
+- **Flow:** `onboard`
+- **State:** `1. Enter Package`
+
+## Key Regions
+- **AppHeader**
+- **Form**
+- **AppFooter**
+
+## Related Screens
+
+### Onboard Flow
+- Onboard — 2. Handshake — `screens/onboard/2-handshake/README.md`
+- Onboard — 2b. Onboarding Failed — `screens/onboard/2b-onboarding-failed/README.md`
+- Onboard — 3. Onboarding Complete — `screens/onboard/3-onboarding-complete/README.md`
+
+## Representative Copy
+- Igloo
+- Back
+- Enter Onboarding Package
+- Enter the onboarding package from a source device to receive
+- Onboarding Package
+- Paste a bfonboard1... package from the source device or scan
+
+## Files
+- `screen.html` — Tailwind-flavored Paper JSX export for the screen.
+- `screenshot.png` — Screenshot exported from the current Paper canvas.

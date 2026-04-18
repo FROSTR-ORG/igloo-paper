@@ -1,0 +1,578 @@
+(
+    <div className="[font-synthesis:none] flex overflow-clip w-360 h-fit flex-col py-14 px-20 pt-16 pb-20 gap-14 antialiased text-xs/4" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
+      <div className="flex flex-col gap-1">
+        <div className="tracking-[0.12em] uppercase inline-block [white-space-collapse:preserve] text-wrap text-[#60A5FA80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+          Igloo UI
+        </div>
+        <div className="inline-block [white-space-collapse:preserve] tracking-[-0.01em] text-wrap text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-[32px]/10">
+          Signer & States — Tags & Rotation States
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-6">
+        <div className="flex items-center w-7xl gap-4">
+          <div className="shrink-0 tracking-[0.08em] uppercase text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+            Event Log Badge Types
+          </div>
+          <div className="grow h-px bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex flex-wrap max-w-7xl gap-5">
+          <div className="flex flex-col w-95 gap-2 shrink-0">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center shrink-0 w-10.5 rounded-sm py-0.5 px-2 bg-[#22C55E26] border border-solid border-[#22C55E4D]">
+                <div className="tracking-[0.04em] uppercase text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4.5">
+                  Sign
+                </div>
+              </div>
+              <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4.5">
+                Signing operations
+              </div>
+            </div>
+            <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+              Signature requests received, partial signatures sent, and aggregation results.
+            </div>
+          </div>
+          <div className="flex flex-col w-95 gap-2 shrink-0">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center shrink-0 w-10.5 rounded-sm py-0.5 px-2 bg-[#22D3EE26] border border-solid border-[#22D3EE4D]">
+                <div className="tracking-[0.04em] uppercase [white-space-collapse:preserve] w-max text-[#22D3EE] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4.5">
+                  Ecdh
+                </div>
+              </div>
+              <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4.5">
+                Key exchange operations
+              </div>
+            </div>
+            <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+              NIP-44 encryption and decryption requests processed for a target pubkey.
+            </div>
+          </div>
+          <div className="flex flex-col w-95 gap-2 shrink-0">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center shrink-0 w-10.5 rounded-sm py-0.5 px-2 bg-[#2DD4BF26] border border-solid border-[#2DD4BF4D]">
+                <div className="tracking-[0.04em] uppercase text-[#2DD4BF] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4.5">
+                  Sync
+                </div>
+              </div>
+              <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4.5">
+                Pool synchronization
+              </div>
+            </div>
+            <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+              Nonce pool exchanges between peers. Shows nonces sent and received counts.
+            </div>
+          </div>
+          <div className="flex flex-col w-95 gap-2 shrink-0">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center shrink-0 rounded-sm py-0.5 px-2 bg-[#60A5FA26] border border-solid border-[#60A5FA4D]">
+                <div className="tracking-[0.04em] uppercase [white-space-collapse:preserve] w-max text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4.5">
+                  Peer Policy
+                </div>
+              </div>
+              <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4.5">
+                Peer permission decisions
+              </div>
+            </div>
+            <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+              Peer permission grants/revocations: Sign, ECDH, Ping, Onboard allows and denials for incoming peer requests.
+            </div>
+          </div>
+          <div className="flex flex-col w-95 gap-2 shrink-0">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center shrink-0 w-10.5 rounded-sm py-0.5 px-2 bg-[#A855F726] border border-solid border-[#A855F74D]">
+                <div className="tracking-[0.04em] uppercase text-[#A855F7] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4.5">
+                  Ping
+                </div>
+              </div>
+              <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4.5">
+                Health checks
+              </div>
+            </div>
+            <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+              Periodic ping sweeps showing peer online count, average latency, and pool balance status.
+            </div>
+          </div>
+          <div className="flex flex-col w-95 gap-2 shrink-0">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center shrink-0 w-10.5 rounded-sm py-0.5 px-2 bg-[#F472B626] border border-solid border-[#F472B64D]">
+                <div className="tracking-[0.04em] uppercase [white-space-collapse:preserve] w-max text-[#F472B6] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4.5">
+                  Echo
+                </div>
+              </div>
+              <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4.5">
+                Presence announcements
+              </div>
+            </div>
+            <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+              Periodic presence broadcasts to configured relays, announcing your node is online and available.
+            </div>
+          </div>
+          <div className="flex flex-col w-95 shrink-0 gap-2">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center shrink-0 rounded-sm py-0.5 px-2 bg-[#FBBF2426] border border-solid border-[#FBBF244D]">
+                <div className="tracking-[0.04em] uppercase inline-block [white-space-collapse:preserve] w-max text-[#FBBF24] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4.5">
+                  Onboarding
+                </div>
+              </div>
+              <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4.5">
+                Onboarding handshake events
+              </div>
+            </div>
+            <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+              Incoming connections, challenges, data transfers between onboarding peer and new peers.
+            </div>
+          </div>
+          <div className="flex flex-col w-95 shrink-0 gap-2">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center shrink-0 rounded-sm py-0.5 px-2 bg-[#818CF826] border border-solid border-[#818CF84D]">
+                <div className="tracking-[0.04em] uppercase [white-space-collapse:preserve] inline-block w-max text-[#818CF8] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4.5">
+                  Signer Policy
+                </div>
+              </div>
+              <div className="[white-space-collapse:preserve] inline-block w-max text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium shrink-0 text-[13px]/4.5">
+                External signing permissions
+              </div>
+            </div>
+            <div className="[white-space-collapse:preserve] inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+              External signing/encryption permission prompts: Deny, Allow once, Always allow, Always for kind:X.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-4">
+        <div className="flex items-center gap-2">
+          <div className="tracking-[0.04em] uppercase inline-block text-[#8494A7] font-['Inter',system-ui,sans-serif] font-medium text-[11px]/4">
+            Policy Tag Color Reference
+          </div>
+          <div className="grow shrink basis-[0%] h-px" />
+        </div>
+        <div className="flex gap-6">
+          <div className="flex flex-col w-95 gap-2 shrink-0">
+            <div className="tracking-[0.03em] inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] font-semibold text-[11px]/3.5">
+              PEER POLICY TYPES
+            </div>
+            <div className="flex flex-col gap-1.5">
+              <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-center rounded-sm py-1 px-2 border border-solid border-[#22C55E4D]">
+                  <div className="inline-block text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    SIGN
+                  </div>
+                </div>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Signing operations permission
+                </div>
+              </div>
+              <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-center rounded-sm py-1 px-2 border border-solid border-[#22D3EE4D]">
+                  <div className="inline-block text-[#22D3EE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    ECDH
+                  </div>
+                </div>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Key exchange / NIP-44 permission
+                </div>
+              </div>
+              <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-center rounded-sm py-1 px-2 border border-solid border-[#FBBF244D]">
+                  <div className="inline-block text-[#FBBF24] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    ONBOARD
+                  </div>
+                </div>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Onboarding ceremony permission
+                </div>
+              </div>
+              <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-center rounded-sm py-1 px-2 border border-solid border-[#A855F74D]">
+                  <div className="inline-block text-[#A855F7] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    PING
+                  </div>
+                </div>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Health check / ping sweep permission
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-95 gap-2 shrink-0">
+            <div className="tracking-[0.03em] inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] font-semibold text-[11px]/3.5">
+              POLICY CATEGORIES
+            </div>
+            <div className="flex flex-col gap-1.5">
+              <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-center rounded-sm py-1 px-2 border border-solid border-[#60A5FA4D]">
+                  <div className="inline-block text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    PEER POLICY
+                  </div>
+                </div>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Peer permission decisions
+                </div>
+              </div>
+              <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-center rounded-sm py-1 px-2 border border-solid border-[#818CF84D]">
+                  <div className="inline-block text-[#818CF8] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    SIGNER POLICY
+                  </div>
+                </div>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  External signing permissions
+                </div>
+              </div>
+            </div>
+            <div className="tracking-[0.03em] inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] font-semibold text-[11px]/3.5">
+              EVENT LOG ONLY
+            </div>
+            <div className="flex flex-col gap-1.5">
+              <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-center rounded-sm py-1 px-2 border border-solid border-[#22C55E4D]">
+                  <div className="inline-block text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    SIGN
+                  </div>
+                </div>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Signing operations (event badge)
+                </div>
+              </div>
+              <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-center rounded-sm py-1 px-2 border border-solid border-[#2DD4BF4D]">
+                  <div className="inline-block text-[#2DD4BF] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    SYNC
+                  </div>
+                </div>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Pool synchronization
+                </div>
+              </div>
+              <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-center rounded-sm py-1 px-2 border border-solid border-[#F472B64D]">
+                  <div className="inline-block text-[#F472B6] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    ECHO
+                  </div>
+                </div>
+                <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  Presence announcements
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-4">
+        <div className="flex items-center gap-2">
+          <div className="tracking-[0.04em] uppercase inline-block text-[#8494A7] font-['Inter',system-ui,sans-serif] font-medium text-[11px]/4">
+            Signer Policies Card
+          </div>
+          <div className="grow shrink basis-[0%] h-px" />
+        </div>
+        <div className="flex flex-col self-stretch w-full rounded-[10px] overflow-clip bg-[#11182766] border border-solid border-[#1E3A8A33]">
+          <div className="flex items-center py-3.5 px-5 gap-3 border-b border-b-solid border-b-[#1E3A8A20]">
+            <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-[15px]/5">
+              Signer Policies
+            </div>
+            <div className="grow h-0" />
+            <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+              Default policy
+            </div>
+            <div className="flex items-center rounded-sm py-1 px-2.5 gap-1 bg-[#1E3A8A33] border border-solid border-[#1E3A8A4D]">
+              <div className="text-[#D1D5DB] font-['Inter',system-ui,sans-serif] text-xs/3.5">
+                Ask every time
+              </div>
+              <div className="text-[#D1D5DB] font-['Inter',system-ui,sans-serif] text-xs/3">
+                ▾
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-full pt-4.5 pb-5 gap-3.5 px-5">
+            <div className="w-140 text-[#8494A7] font-['Inter',system-ui,sans-serif] text-sm/5">
+              Controls how this signer responds to external signing and encryption requests.
+            </div>
+            <div className="flex flex-col w-full gap-2.5">
+              <div className="flex items-center w-full gap-3">
+                <div className="text-[#C7D2FE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+                  sign_event:1
+                </div>
+                <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  primal.net
+                </div>
+                <div className="w-px h-4 shrink-0 bg-[#1E3A8A33]" />
+                <div className="flex items-center rounded-sm py-0.5 px-2 bg-[#22C55E26] border border-solid border-[#22C55E4D]">
+                  <div className="tracking-[0.04em] text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    Always
+                  </div>
+                </div>
+                <div className="flex items-center justify-center rounded-sm border border-solid border-[#1E3A8A33] shrink-0 size-5">
+                  <div className="flex text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+                    ✕
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center w-full gap-3">
+                <div className="text-[#C7D2FE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+                  nip44_encrypt
+                </div>
+                <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  primal.net
+                </div>
+                <div className="w-px h-4 shrink-0 bg-[#1E3A8A33]" />
+                <div className="flex items-center rounded-sm py-0.5 px-2 bg-[#CA8A0426] border border-solid border-[#CA8A044D]">
+                  <div className="tracking-[0.04em] text-[#FBBF24] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    Allow once
+                  </div>
+                </div>
+                <div className="flex items-center justify-center rounded-sm border border-solid border-[#1E3A8A33] shrink-0 size-5">
+                  <div className="flex text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+                    ✕
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center w-full gap-3">
+                <div className="text-[#C7D2FE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+                  get_public_key
+                </div>
+                <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+                  primal.net
+                </div>
+                <div className="w-px h-4 shrink-0 bg-[#1E3A8A33]" />
+                <div className="flex items-center rounded-sm py-0.5 px-2 bg-[#22C55E26] border border-solid border-[#22C55E4D]">
+                  <div className="tracking-[0.04em] text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                    Always
+                  </div>
+                </div>
+                <div className="flex items-center justify-center rounded-sm border border-solid border-[#1E3A8A33] shrink-0 size-5">
+                  <div className="flex text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+                    ✕
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-4">
+        <div className="flex items-center gap-2">
+          <div className="tracking-[0.04em] uppercase inline-block text-[#8494A7] font-['Inter',system-ui,sans-serif] font-medium text-[11px]/4">
+            Peer Policies Card
+          </div>
+          <div className="grow shrink basis-[0%] h-px" />
+        </div>
+        <div className="flex flex-col self-stretch w-full rounded-[10px] overflow-clip bg-[#11182766] border border-solid border-[#1E3A8A33]">
+          <div className="flex items-center py-3.5 px-5 gap-3 border-b border-b-solid border-b-[#1E3A8A20]">
+            <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-semibold text-[15px]/5">
+              Peer Policies
+            </div>
+          </div>
+          <div className="flex flex-col w-full pt-4.5 pb-5 gap-3.5 px-5">
+            <div className="w-135 text-[#8494A7] font-['Inter',system-ui,sans-serif] text-sm/5">
+              Review which request types each peer is allowed to make from this signer.
+            </div>
+            <div className="flex flex-col w-full gap-2.5">
+              <div className="flex items-center justify-between w-full rounded-[10px] gap-4 py-3 px-5 bg-[#0F172A] border border-solid border-[#1E3A8A33]">
+                <div className="flex items-center gap-2.5">
+                  <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-sm/5">
+                    Peer #0
+                  </div>
+                  <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                    02a3f8...8f2c
+                  </div>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#22C55E26] border border-solid border-[#22C55E4D]">
+                    <div className="tracking-[0.04em] inline-block [white-space-collapse:preserve] w-max text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      SIGN
+                    </div>
+                  </div>
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#22D3EE26] border border-solid border-[#22D3EE4D]">
+                    <div className="tracking-[0.04em] inline-block [white-space-collapse:preserve] w-max text-[#22D3EE] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      ECDH
+                    </div>
+                  </div>
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#A855F726] border border-solid border-[#A855F74D]">
+                    <div className="tracking-[0.04em] [white-space-collapse:preserve] inline-block w-max text-[#A855F7] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      PING
+                    </div>
+                  </div>
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#FBBF2413] border border-solid border-[#FBBF2420]">
+                    <div className="tracking-[0.04em] [white-space-collapse:preserve] inline-block w-max text-[#FBBF2466] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      ONBOARD
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center justify-between w-full rounded-[10px] gap-4 py-3 px-5 bg-[#0F172A] border border-solid border-[#1E3A8A33]">
+                <div className="flex items-center gap-2.5">
+                  <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-sm/5">
+                    Peer #1
+                  </div>
+                  <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                    02d7e1...3b9e
+                  </div>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#22C55E26] border border-solid border-[#22C55E4D]">
+                    <div className="tracking-[0.04em] inline-block [white-space-collapse:preserve] w-max text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      SIGN
+                    </div>
+                  </div>
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#22D3EE13] border border-solid border-[#22D3EE20]">
+                    <div className="tracking-[0.04em] inline-block [white-space-collapse:preserve] w-max text-[#22D3EE66] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      ECDH
+                    </div>
+                  </div>
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#A855F726] border border-solid border-[#A855F74D]">
+                    <div className="tracking-[0.04em] [white-space-collapse:preserve] inline-block w-max text-[#A855F7] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      PING
+                    </div>
+                  </div>
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#FBBF2426] border border-solid border-[#FBBF244D]">
+                    <div className="tracking-[0.04em] [white-space-collapse:preserve] inline-block w-max text-[#FBBF24] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      ONBOARD
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center justify-between w-full rounded-[10px] gap-4 py-3 px-5 bg-[#0F172A] border border-solid border-[#1E3A8A33]">
+                <div className="flex items-center gap-2.5">
+                  <div className="text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-sm/5">
+                    Peer #2
+                  </div>
+                  <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+                    029c4a...1f5e
+                  </div>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#33415526] border border-solid border-[#4755694D]">
+                    <div className="tracking-[0.04em] inline-block [white-space-collapse:preserve] w-max text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      SIGN
+                    </div>
+                  </div>
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#33415526] border border-solid border-[#4755694D]">
+                    <div className="tracking-[0.04em] inline-block [white-space-collapse:preserve] w-max text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      ECDH
+                    </div>
+                  </div>
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#33415526] border border-solid border-[#4755694D]">
+                    <div className="tracking-[0.04em] [white-space-collapse:preserve] inline-block w-max text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      PING
+                    </div>
+                  </div>
+                  <div className="flex items-center rounded-sm py-0.75 px-2.5 bg-[#33415526] border border-solid border-[#4755694D]">
+                    <div className="tracking-[0.04em] [white-space-collapse:preserve] inline-block w-max text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-[11px]/4">
+                      ONBOARD
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex w-250 rounded-xl py-3 px-3.5 bg-[#0F172A73] border border-solid border-[#3B82F62E]">
+          <div className="flex text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4.5">
+            Peer Policies is read-only here. Rows always show all permission tags; ungranted ones use muted disabled tags.
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col max-w-7xl shrink-0 px-20 gap-5">
+        <div className="flex items-center w-7xl gap-3">
+          <div className="tracking-[0.08em] text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+            ROTATE SHARES STATES
+          </div>
+          <div className="grow h-px bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex items-center w-7xl rounded-lg py-3 px-5 gap-3 bg-[#11182766] border border-solid border-[#1E3A8A4D]">
+          <div className="shrink-0 rounded-[50%] bg-[#3B82F6] [box-shadow:#3B82F699_0px_0px_5px_2px] size-2.5" />
+          <div className="flex flex-col grow gap-0.5">
+            <div className="text-[#93C5FD] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
+              Share rotation in progress
+            </div>
+            <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              Collecting sources and generating fresh shares — do not close this tab
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center w-7xl rounded-lg py-3 px-5 gap-3 bg-[#11182766] border border-solid border-[#F59E0B33]">
+          <div className="shrink-0 rounded-[50%] bg-[#F59E0B] [box-shadow:#F59E0B99_0px_0px_5px_2px] size-2.5" />
+          <div className="flex flex-col grow gap-0.5">
+            <div className="text-[#FBBF24] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
+              Local replacement activated — distribution pending
+            </div>
+            <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              Your device has a fresh share, new share public key, and new profile_id. Distribute remaining bfonboard adoption packages to remote devices.
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center w-7xl rounded-lg py-3 px-5 gap-3 bg-[#11182766] border border-solid border-[#22C55E33]">
+          <div className="shrink-0 rounded-[50%] bg-[#22C55E] [box-shadow:#22C55E99_0px_0px_5px_2px] size-2.5" />
+          <div className="flex flex-col grow gap-0.5">
+            <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
+              Share rotation complete — distribution handoff finished
+            </div>
+            <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              All remote bfonboard adoption packages have been accounted for. Remote devices can now adopt through the standard onboarding flow.
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center w-7xl rounded-lg py-3 px-5 gap-3 bg-[#11182766] border border-solid border-[#1E3A8A4D]">
+          <div className="shrink-0 rounded-[50%] bg-[#EF4444] [box-shadow:#EF444499_0px_0px_5px_2px] size-2.5" />
+          <div className="flex flex-col grow gap-0.5">
+            <div className="text-[#EF4444] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
+              Share rotation failed — no changes made
+            </div>
+            <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              Generation could not complete. Your current configuration remains intact. Retry with valid sources.
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center w-7xl rounded-lg py-3 px-5 gap-3 bg-[#11182766] border border-solid border-[#1E3A8A4D]">
+          <div className="shrink-0 rounded-[50%] bg-[#3B82F6] [box-shadow:#3B82F699_0px_0px_5px_2px] size-2.5" />
+          <div className="flex flex-col grow gap-0.5">
+            <div className="text-[#93C5FD] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
+              Same group public key preserved
+            </div>
+            <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              Share rotation preserves the same group public key. Share public keys and profile_id change. Host-local settings such as relays and permissions are not rotation invariants.
+            </div>
+          </div>
+        </div>
+        <div className="flex w-7xl items-start gap-4.5">
+          <div className="mt-1.5 shrink-0 rounded-[999px] bg-[#2B6DFF] size-2.5" />
+          <div className="flex flex-col w-304 gap-1.5 shrink-0">
+            <div className="[white-space-collapse:preserve] text-[#D7E5FF] font-sans text-lg/5.5">
+              Rotation Terminology
+            </div>
+            <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
+              Rotate Shares = fresh device shares for the same group public key.
+            </div>
+            <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
+              Rotate Existing = pre-runtime host entry label for this flow.
+            </div>
+            <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
+              Keyset Replacement = new group public key. Not shown in this flow.
+            </div>
+            <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
+              Input = bfshare source packages. Output = bfonboard adoption packages.
+            </div>
+            <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
+              Share public keys and profile_id change. Group public key does not. Advanced: group_id may change with threshold or member changes.
+            </div>
+          </div>
+        </div>
+        <div className="flex w-7xl items-start gap-4.5">
+          <div className="mt-1.5 shrink-0 rounded-[999px] bg-[#2B6DFF] size-2.5" />
+          <div className="flex flex-col w-304 gap-1.5 shrink-0">
+            <div className="text-[#D7E5FF] font-sans text-lg/5.5">
+              Protocol Boundary
+            </div>
+            <div className="text-[#AEBAD3] font-sans text-sm/4.5">
+              Share generation is an operator-side trusted-dealer computation from threshold bfshare source packages.
+            </div>
+            <div className="text-[#AEBAD3] font-sans text-sm/4.5">
+              There is no dedicated rotate relay method or rotate-recipient flow.
+            </div>
+            <div className="text-[#AEBAD3] font-sans text-sm/4.5">
+              Relay protocol resumes only when rotated bfonboard packages are adopted through the standard onboarding flow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )

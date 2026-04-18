@@ -1,0 +1,3058 @@
+{
+  "description": "Explicit coverage for color and typography values used by the current exported prototype outside the canonical Foundations artboard tokens. This file is intentionally checked by scripts/verify.py --strict-drift so newly introduced undocumented values still fail strict verification.",
+  "colors": [
+    {
+      "name": "usage-color-001",
+      "value": "#000000",
+      "fileCount": 13,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/2-stopped/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-002",
+      "value": "#0000004D",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-003",
+      "value": "#00000066",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-004",
+      "value": "#02061780",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-005",
+      "value": "#02061785",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-006",
+      "value": "#052E1633",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/rotate-keyset/error-generation-failed/screen.html",
+        "screens/shared/3b-distribution-completion/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-007",
+      "value": "#0A122666",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-008",
+      "value": "#0B1120CC",
+      "fileCount": 8,
+      "sampleFiles": [
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html",
+        "screens/dashboard/4b-export-complete/screen.html",
+        "screens/dashboard/5-signer-policy-prompt/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-009",
+      "value": "#0F172A",
+      "fileCount": 11,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-010",
+      "value": "#0F172A33",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-steppers/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-011",
+      "value": "#0F172A44",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/rotate-keyset/1-rotate-keyset/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-012",
+      "value": "#0F172A59",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-013",
+      "value": "#0F172A66",
+      "fileCount": 25,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-014",
+      "value": "#0F172A73",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/rotate-share/1-enter-rotate-package/screen.html",
+        "screens/rotate-share/2-applying-share-update/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-015",
+      "value": "#0F172A7A",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/key-lifecycle-progress/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-016",
+      "value": "#0F172A80",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/2-stopped/screen.html",
+        "screens/dashboard/2b-all-relays-offline/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-017",
+      "value": "#0F172A8C",
+      "fileCount": 4,
+      "sampleFiles": [
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/2-stopped/screen.html",
+        "screens/dashboard/2b-all-relays-offline/screen.html",
+        "screens/dashboard/2c-signing-blocked/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-018",
+      "value": "#0F172AB3",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-019",
+      "value": "#0F172AB8",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/key-lifecycle-progress/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-020",
+      "value": "#0F172AEE",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-021",
+      "value": "#10B9811F",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-022",
+      "value": "#111827E6",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-023",
+      "value": "#111827F2",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-024",
+      "value": "#15803D1A",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-025",
+      "value": "#15803D4D",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-026",
+      "value": "#15803D66",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-027",
+      "value": "#15803D80",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/foundations/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "screens/recover/1b-recover-success/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-028",
+      "value": "#16A34A26",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-029",
+      "value": "#16A34A33",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-030",
+      "value": "#16A34A4D",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-031",
+      "value": "#16A34A66",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-032",
+      "value": "#17255440",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-033",
+      "value": "#17255466",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-034",
+      "value": "#1D4ED880",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-035",
+      "value": "#1DB56FA6",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-036",
+      "value": "#1E293B",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/tooltips-help/tooltip-patterns/reference.html",
+        "screens/create/1b-validation-error/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-037",
+      "value": "#1E293B4D",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-038",
+      "value": "#1E293BA6",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/key-lifecycle-progress/reference.html",
+        "screens/create/1c-generation-progress/screen.html",
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/2-stopped/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-039",
+      "value": "#1E3A8A10",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-040",
+      "value": "#1E3A8A14",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "screens/onboard/2-handshake/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-041",
+      "value": "#1E3A8A15",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-042",
+      "value": "#1E3A8A1A",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/import/3-review-save-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-043",
+      "value": "#1E3A8A1F",
+      "fileCount": 7,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/settings-sidebar/reference.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-044",
+      "value": "#1E3A8A20",
+      "fileCount": 11,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/1b-policies/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-045",
+      "value": "#1E3A8A22",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/rotate-keyset/1-rotate-keyset/screen.html",
+        "screens/rotate-keyset/error-generation-failed/screen.html",
+        "screens/rotate-keyset/error-group-mismatch/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-046",
+      "value": "#1E3A8A26",
+      "fileCount": 10,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "screens/rotate-share/3-local-share-updated/screen.html",
+        "screens/welcome/1-welcome/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-047",
+      "value": "#1E3A8A40",
+      "fileCount": 16,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-048",
+      "value": "#1E3A8A59",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "screens/welcome/1-welcome/screen.html",
+        "screens/welcome/1b-returning/screen.html",
+        "screens/welcome/1c-1-unlock-profile-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-049",
+      "value": "#1E3A8A66",
+      "fileCount": 10,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/foundations/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/key-lifecycle-progress/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-050",
+      "value": "#1E3A8A73",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-progress-cards/reference.html",
+        "screens/welcome/1b-returning/screen.html",
+        "screens/welcome/1c-returning-multi/screen.html",
+        "screens/welcome/1d-returning-many/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-051",
+      "value": "#1E3A8A80",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/foundations/reference.html",
+        "screens/create/1-create-keyset/screen.html",
+        "screens/create/1b-validation-error/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-052",
+      "value": "#1E3A8A99",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-053",
+      "value": "#1F293733",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-054",
+      "value": "#1F293740",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-055",
+      "value": "#1F29374D",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/icons-logos/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-056",
+      "value": "#1F293766",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-057",
+      "value": "#1F293780",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "design-system/tooltips-help/tooltip-patterns/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-058",
+      "value": "#1F2937F2",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-059",
+      "value": "#22C55E14",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "screens/rotate-share/3-local-share-updated/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-060",
+      "value": "#22C55E17",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-recovery/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-061",
+      "value": "#22C55E18",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/3-distribute-shares/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-062",
+      "value": "#22C55E1A",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-063",
+      "value": "#22C55E1F",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-064",
+      "value": "#22C55E26",
+      "fileCount": 16,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-065",
+      "value": "#22C55E33",
+      "fileCount": 15,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/foundations/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-066",
+      "value": "#22C55E40",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "screens/dashboard/4-export-profile/screen.html",
+        "screens/import/1-load-backup/screen.html",
+        "screens/import/2-decrypt-backup/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-067",
+      "value": "#22C55E4D",
+      "fileCount": 19,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-068",
+      "value": "#22C55E5E",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-recovery/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-069",
+      "value": "#22C55E99",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-status-empty/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-070",
+      "value": "#22D3EE",
+      "fileCount": 14,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-071",
+      "value": "#22D3EE13",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-072",
+      "value": "#22D3EE20",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-073",
+      "value": "#22D3EE26",
+      "fileCount": 14,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-074",
+      "value": "#22D3EE4D",
+      "fileCount": 14,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-075",
+      "value": "#22D3EE66",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-076",
+      "value": "#2563EB14",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-steppers/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-077",
+      "value": "#2563EB1A",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "screens/rotate-keyset/1-rotate-keyset/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-078",
+      "value": "#2563EB1F",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/rotate-share/3-local-share-updated/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-079",
+      "value": "#2563EB22",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-080",
+      "value": "#2563EB26",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-081",
+      "value": "#2563EB33",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/rotate-keyset/1-rotate-keyset/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-082",
+      "value": "#2563EB40",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "screens/recover/1-collect-shares/screen.html",
+        "screens/recover/1b-recover-success/screen.html",
+        "screens/rotate-keyset/1-rotate-keyset/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-083",
+      "value": "#2563EB4D",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "screens/rotate-keyset/1-rotate-keyset/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-084",
+      "value": "#2B6DFF",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-085",
+      "value": "#2DD4BF",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-086",
+      "value": "#2DD4BF26",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-087",
+      "value": "#2DD4BF33",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-088",
+      "value": "#2DD4BF4D",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-089",
+      "value": "#334155",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/icons-logos/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-090",
+      "value": "#33415526",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-091",
+      "value": "#33415540",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-092",
+      "value": "#34D399",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-093",
+      "value": "#34D39926",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-094",
+      "value": "#374151",
+      "fileCount": 12,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/2-stopped/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-095",
+      "value": "#37415130",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-096",
+      "value": "#3741514D",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-097",
+      "value": "#3B82F60F",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/settings-sidebar/reference.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html",
+        "screens/dashboard/4b-export-complete/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-098",
+      "value": "#3B82F614",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "screens/import/3-review-save-profile/screen.html",
+        "screens/onboard/3-onboarding-complete/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-099",
+      "value": "#3B82F61A",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-100",
+      "value": "#3B82F61F",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/2-stopped/screen.html",
+        "screens/dashboard/2b-all-relays-offline/screen.html",
+        "screens/dashboard/2c-signing-blocked/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-101",
+      "value": "#3B82F626",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/navigation-layout/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-102",
+      "value": "#3B82F629",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/2-stopped/screen.html",
+        "screens/dashboard/2b-all-relays-offline/screen.html",
+        "screens/dashboard/2c-signing-blocked/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-103",
+      "value": "#3B82F62E",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/2c-signing-blocked/screen.html",
+        "screens/import/3-review-save-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-104",
+      "value": "#3B82F633",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/foundations/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-105",
+      "value": "#3B82F638",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/key-lifecycle-progress/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-106",
+      "value": "#3B82F640",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-107",
+      "value": "#3B82F64D",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/foundations/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-108",
+      "value": "#3B82F680",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/settings-sidebar/reference.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-109",
+      "value": "#3B82F699",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-110",
+      "value": "#405D9E52",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-111",
+      "value": "#42E08A",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-112",
+      "value": "#475569",
+      "fileCount": 21,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/components/settings-sidebar/reference.html",
+        "design-system/icons-logos/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-113",
+      "value": "#4755694D",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-114",
+      "value": "#4ADE80",
+      "fileCount": 33,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/navigation-layout/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-115",
+      "value": "#4ADE801A",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-116",
+      "value": "#4ADE80CC",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-recovery/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-117",
+      "value": "#4B5563",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-118",
+      "value": "#60A5FA1A",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-119",
+      "value": "#60A5FA26",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/5-signer-policy-prompt/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-120",
+      "value": "#60A5FA4D",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/5-signer-policy-prompt/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-121",
+      "value": "#60A5FA80",
+      "fileCount": 32,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-122",
+      "value": "#60A5FA99",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-123",
+      "value": "#60A5FAB3",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "screens/rotate-share/3-local-share-updated/screen.html",
+        "screens/welcome/1-welcome/screen.html",
+        "screens/welcome/1b-returning/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-124",
+      "value": "#60A5FAB8",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/tooltips-help/tooltip-patterns/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/5-signer-policy-prompt/screen.html",
+        "screens/dashboard/6-signing-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-125",
+      "value": "#6B728033",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/foundations/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-126",
+      "value": "#6B72804D",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/foundations/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-127",
+      "value": "#78350F1A",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/rotate-keyset/1d-review-generate/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-128",
+      "value": "#78350F33",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/rotate-keyset/error-wrong-password/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-129",
+      "value": "#7F1D1D1A",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/rotate-keyset/error-generation-failed/screen.html",
+        "screens/rotate-keyset/error-group-mismatch/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-130",
+      "value": "#7F1D1D33",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/rotate-keyset/error-generation-failed/screen.html",
+        "screens/rotate-keyset/error-wrong-password/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-131",
+      "value": "#818CF8",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-132",
+      "value": "#818CF826",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-133",
+      "value": "#818CF84D",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-134",
+      "value": "#8494A7",
+      "fileCount": 54,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-135",
+      "value": "#8494A799",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "screens/welcome/1-welcome/screen.html",
+        "screens/welcome/1b-returning/screen.html",
+        "screens/welcome/1c-1-unlock-profile-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-136",
+      "value": "#8494A7B3",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html",
+        "screens/welcome/1c-1-unlock-profile-modal/screen.html",
+        "screens/welcome/1c-2-unlock-error-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-137",
+      "value": "#86EFAC",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-138",
+      "value": "#9333EA26",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-139",
+      "value": "#9333EA4D",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-140",
+      "value": "#93C5FD4D",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-141",
+      "value": "#93C5FD50",
+      "fileCount": 7,
+      "sampleFiles": [
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html",
+        "screens/dashboard/4b-export-complete/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-142",
+      "value": "#93C5FD66",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-143",
+      "value": "#93C5FD80",
+      "fileCount": 24,
+      "sampleFiles": [
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-144",
+      "value": "#93C5FD99",
+      "fileCount": 10,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-145",
+      "value": "#93C5FDCC",
+      "fileCount": 43,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-146",
+      "value": "#94A3B814",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-147",
+      "value": "#94A3B81A",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-148",
+      "value": "#94A3B81F",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "screens/dashboard/2-stopped/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-149",
+      "value": "#94A3B826",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/foundations/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-150",
+      "value": "#94A3B829",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/key-lifecycle-progress/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-151",
+      "value": "#94A3B838",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-152",
+      "value": "#94A3B840",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html",
+        "screens/recover/1b-recover-success/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-153",
+      "value": "#94A3B847",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-154",
+      "value": "#94A3B84D",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-155",
+      "value": "#94A3B859",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/rotate-share/2-applying-share-update/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-156",
+      "value": "#94A3B866",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/foundations/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-157",
+      "value": "#94A3B873",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/dashboard/1b-connecting/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-158",
+      "value": "#94A3B880",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/settings-sidebar/reference.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html",
+        "screens/dashboard/4b-export-complete/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-159",
+      "value": "#94A3B88C",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-160",
+      "value": "#94A3B899",
+      "fileCount": 18,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-161",
+      "value": "#94A3B8AA",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-162",
+      "value": "#94A3B8B3",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-163",
+      "value": "#94A3B8CC",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "design-system/tooltips-help/contextual-help/reference.html",
+        "design-system/tooltips-help/tooltip-patterns/reference.html",
+        "screens/rotate-keyset/1-rotate-keyset/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-164",
+      "value": "#97B3FF73",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-165",
+      "value": "#97B3FFCC",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-166",
+      "value": "#9CA3AF",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/foundations/reference.html",
+        "design-system/icons-logos/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-167",
+      "value": "#9CA3AFAA",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/foundations/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-168",
+      "value": "#A1620780",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/foundations/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "screens/recover/1b-recover-success/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-169",
+      "value": "#A855F7",
+      "fileCount": 14,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-170",
+      "value": "#A855F713",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-171",
+      "value": "#A855F720",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-172",
+      "value": "#A855F726",
+      "fileCount": 14,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-173",
+      "value": "#A855F74D",
+      "fileCount": 15,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-174",
+      "value": "#A855F766",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-175",
+      "value": "#AEBAD3",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-176",
+      "value": "#B0B8C4",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-177",
+      "value": "#B8C9EE",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-178",
+      "value": "#C7D2FE",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-179",
+      "value": "#CA8A04",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-180",
+      "value": "#CA8A0426",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-181",
+      "value": "#CA8A044D",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-182",
+      "value": "#CBD5E1",
+      "fileCount": 25,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/components/settings-sidebar/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-183",
+      "value": "#CFE0FF",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-184",
+      "value": "#D1D5DB",
+      "fileCount": 19,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-185",
+      "value": "#D5E4FF",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-186",
+      "value": "#D7E5FF",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-187",
+      "value": "#D97706CC",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-recovery/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-188",
+      "value": "#DC262614",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/6-signing-failed/screen.html",
+        "screens/recover/1-collect-shares/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-189",
+      "value": "#DC26261A",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/icons-logos/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-190",
+      "value": "#DC262626",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/6-signing-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-191",
+      "value": "#DC262633",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/6-signing-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-192",
+      "value": "#DC26264D",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-193",
+      "value": "#DC262666",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-194",
+      "value": "#DC262680",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-195",
+      "value": "#DCFCE7",
+      "fileCount": 2,
+      "sampleFiles": [
+        "screens/dashboard/2b-all-relays-offline/screen.html",
+        "screens/dashboard/2c-signing-blocked/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-196",
+      "value": "#E2E8F02E",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/key-lifecycle-progress/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-197",
+      "value": "#E2E8F0B8",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/key-lifecycle-progress/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-198",
+      "value": "#E6F0FF",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/key-lifecycle-progress/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-199",
+      "value": "#EAB3080A",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-200",
+      "value": "#EAB3081A",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "screens/import/error/screen.html",
+        "screens/onboard/2b-onboarding-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-201",
+      "value": "#EAB30826",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-202",
+      "value": "#EAB30833",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/foundations/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-203",
+      "value": "#EAB30840",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "screens/import/error/screen.html",
+        "screens/onboard/2b-onboarding-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-204",
+      "value": "#EAB3084D",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/foundations/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html",
+        "screens/import/error/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-205",
+      "value": "#EAB30880",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-status-empty/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-206",
+      "value": "#EF44440A",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-207",
+      "value": "#EF44441A",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-208",
+      "value": "#EF444424",
+      "fileCount": 2,
+      "sampleFiles": [
+        "screens/dashboard/2-stopped/screen.html",
+        "screens/dashboard/2b-all-relays-offline/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-209",
+      "value": "#EF444426",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-210",
+      "value": "#EF444433",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/foundations/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/dashboard/5-signer-policy-prompt/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-211",
+      "value": "#EF444440",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-212",
+      "value": "#EF444480",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-213",
+      "value": "#EF444488",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/foundations/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-214",
+      "value": "#EF444499",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-215",
+      "value": "#EF4444B3",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/rotate-share/3-local-share-updated/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-216",
+      "value": "#F1F5F9",
+      "fileCount": 12,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/tooltips-help/tooltip-patterns/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-217",
+      "value": "#F472B6",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-218",
+      "value": "#F472B626",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-219",
+      "value": "#F472B64D",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-220",
+      "value": "#F59E0B",
+      "fileCount": 18,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-221",
+      "value": "#F59E0B1A",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-222",
+      "value": "#F59E0B24",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/dashboard/2b-all-relays-offline/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-223",
+      "value": "#F59E0B26",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-224",
+      "value": "#F59E0B29",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/dashboard/1b-connecting/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-225",
+      "value": "#F59E0B2E",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/dashboard/2c-signing-blocked/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-226",
+      "value": "#F59E0B33",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-227",
+      "value": "#F59E0B38",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/dashboard/1b-connecting/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-228",
+      "value": "#F59E0B40",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-recovery/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-229",
+      "value": "#F59E0B4D",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-230",
+      "value": "#F59E0B80",
+      "fileCount": 11,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-231",
+      "value": "#F59E0B99",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-232",
+      "value": "#F59E0BCC",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3b-clear-credentials-modal/screen.html",
+        "screens/dashboard/4-export-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-233",
+      "value": "#F87171",
+      "fileCount": 22,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-234",
+      "value": "#F8717159",
+      "fileCount": 2,
+      "sampleFiles": [
+        "screens/dashboard/2b-all-relays-offline/screen.html",
+        "screens/dashboard/2c-signing-blocked/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-235",
+      "value": "#F8FAFC",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "screens/dashboard/2-stopped/screen.html",
+        "screens/dashboard/2b-all-relays-offline/screen.html",
+        "screens/dashboard/2c-signing-blocked/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-236",
+      "value": "#F9731626",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-237",
+      "value": "#F973164D",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-238",
+      "value": "#FACC15",
+      "fileCount": 7,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/foundations/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-239",
+      "value": "#FACC1526",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-tables-lists/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-240",
+      "value": "#FBBF2413",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-241",
+      "value": "#FBBF2414",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/rotate-share/2b-share-update-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-242",
+      "value": "#FBBF2420",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-243",
+      "value": "#FBBF2426",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-244",
+      "value": "#FBBF242E",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/rotate-share/2b-share-update-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-245",
+      "value": "#FBBF2433",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/rotate-keyset/1d-review-generate/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-246",
+      "value": "#FBBF244D",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-247",
+      "value": "#FBBF2459",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/rotate-share/2b-share-update-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-248",
+      "value": "#FBBF2466",
+      "fileCount": 5,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html",
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-249",
+      "value": "#FCA5A5",
+      "fileCount": 11,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-250",
+      "value": "#FDE047CC",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "screens/recover/1b-recover-success/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-251",
+      "value": "#FDE68A",
+      "fileCount": 8,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/2b-all-relays-offline/screen.html",
+        "screens/dashboard/2c-signing-blocked/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-252",
+      "value": "#FEE2E2",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-253",
+      "value": "#FEF3C7",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-254",
+      "value": "#FFFFFF",
+      "fileCount": 9,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/icons-logos/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-255",
+      "value": "#FFFFFF44",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-256",
+      "value": "#FFFFFF66",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "screens/recover/1-collect-shares/screen.html",
+        "screens/recover/1b-recover-success/screen.html",
+        "screens/rotate-keyset/1-rotate-keyset/screen.html"
+      ]
+    }
+  ],
+  "typography": [
+    {
+      "name": "usage-type-001",
+      "font-size": "10px",
+      "line-height": "10px",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/tooltips-help/tooltip-patterns/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/5-signer-policy-prompt/screen.html",
+        "screens/dashboard/6-signing-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-002",
+      "font-size": "10px",
+      "line-height": "12px",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/icons-logos/reference.html",
+        "screens/rotate-share/3-local-share-updated/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-003",
+      "font-size": "10px",
+      "line-height": "14px",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-004",
+      "font-size": "10px",
+      "line-height": "16px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/rotate-share/1-enter-rotate-package/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-005",
+      "font-size": "11px",
+      "line-height": "14px",
+      "fileCount": 42,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-006",
+      "font-size": "11px",
+      "line-height": "16px",
+      "fileCount": 23,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-007",
+      "font-size": "11px",
+      "line-height": "18px",
+      "fileCount": 12,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/navigation-layout/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-008",
+      "font-size": "12px",
+      "line-height": "12px",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-policies/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-009",
+      "font-size": "12px",
+      "line-height": "14px",
+      "fileCount": 10,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/1b-policies/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-010",
+      "font-size": "12px",
+      "line-height": "18px",
+      "fileCount": 24,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-011",
+      "font-size": "12px",
+      "line-height": "20px",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html",
+        "design-system/patterns/pool-signing-readiness/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-012",
+      "font-size": "13px",
+      "line-height": "16px",
+      "fileCount": 59,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-013",
+      "font-size": "13px",
+      "line-height": "18px",
+      "fileCount": 44,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-014",
+      "font-size": "13px",
+      "line-height": "20px",
+      "fileCount": 23,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/icons-logos/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-015",
+      "font-size": "14px",
+      "line-height": "14px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-016",
+      "font-size": "14px",
+      "line-height": "16px",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/key-lifecycle-progress/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-017",
+      "font-size": "14px",
+      "line-height": "20px",
+      "fileCount": 38,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/flows-qr-steppers/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-018",
+      "font-size": "14px",
+      "line-height": "22px",
+      "fileCount": 25,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/key-lifecycle-progress/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-019",
+      "font-size": "14px",
+      "line-height": "24px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-020",
+      "font-size": "15px",
+      "line-height": "18px",
+      "fileCount": 6,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html",
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/2-stopped/screen.html",
+        "screens/dashboard/2b-all-relays-offline/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-021",
+      "font-size": "15px",
+      "line-height": "20px",
+      "fileCount": 15,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/patterns/signer-states-recovery/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-022",
+      "font-size": "15px",
+      "line-height": "22px",
+      "fileCount": 13,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "screens/dashboard/1b-connecting/screen.html",
+        "screens/dashboard/2-stopped/screen.html",
+        "screens/dashboard/2b-all-relays-offline/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-023",
+      "font-size": "15px",
+      "line-height": "24px",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/key-lifecycle-progress/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-024",
+      "font-size": "16px",
+      "line-height": "16px",
+      "fileCount": 7,
+      "sampleFiles": [
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/key-lifecycle-progress/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/create/1c-generation-progress/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-025",
+      "font-size": "16px",
+      "line-height": "20px",
+      "fileCount": 23,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-review-summary/reference.html",
+        "design-system/components/interactive-controls/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/create/1-create-keyset/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-026",
+      "font-size": "16px",
+      "line-height": "22px",
+      "fileCount": 2,
+      "sampleFiles": [
+        "screens/import/3-review-save-profile/screen.html",
+        "screens/onboard/3-onboarding-complete/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-027",
+      "font-size": "16px",
+      "line-height": "24px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/tooltips-help/tooltip-patterns/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-028",
+      "font-size": "17px",
+      "line-height": "22px",
+      "fileCount": 7,
+      "sampleFiles": [
+        "design-system/components/data-display-progress-cards/reference.html",
+        "screens/welcome/1-welcome/screen.html",
+        "screens/welcome/1b-returning/screen.html",
+        "screens/welcome/1c-1-unlock-profile-modal/screen.html",
+        "screens/welcome/1c-2-unlock-error-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-029",
+      "font-size": "18px",
+      "line-height": "14px",
+      "fileCount": 3,
+      "sampleFiles": [
+        "screens/rotate-share/1-enter-rotate-package/screen.html",
+        "screens/rotate-share/2-applying-share-update/screen.html",
+        "screens/rotate-share/2b-share-update-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-030",
+      "font-size": "18px",
+      "line-height": "18px",
+      "fileCount": 2,
+      "sampleFiles": [
+        "screens/create/1c-generation-progress/screen.html",
+        "screens/rotate-keyset/1e-generation-progress/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-031",
+      "font-size": "18px",
+      "line-height": "22px",
+      "fileCount": 10,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html",
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/signer-states-status-empty/reference.html",
+        "design-system/patterns/signer-states-tags-rotation/reference.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-032",
+      "font-size": "18px",
+      "line-height": "24px",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/overlays-feedback/reference.html",
+        "screens/dashboard/4-export-profile/screen.html",
+        "screens/dashboard/4b-export-complete/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-033",
+      "font-size": "18px",
+      "line-height": "28px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-034",
+      "font-size": "20px",
+      "line-height": "20px",
+      "fileCount": 3,
+      "sampleFiles": [
+        "screens/create/1-create-keyset/screen.html",
+        "screens/create/1b-validation-error/screen.html",
+        "screens/rotate-keyset/1-rotate-keyset/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-035",
+      "font-size": "20px",
+      "line-height": "28px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/3-distribute-shares/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-036",
+      "font-size": "20px",
+      "line-height": "44px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/form-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-037",
+      "font-size": "22px",
+      "line-height": "14px",
+      "fileCount": 2,
+      "sampleFiles": [
+        "screens/create/1c-generation-progress/screen.html",
+        "screens/rotate-keyset/1e-generation-progress/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-038",
+      "font-size": "24px",
+      "line-height": "32px",
+      "fileCount": 27,
+      "sampleFiles": [
+        "design-system/patterns/flows-qr-transfer/reference.html",
+        "design-system/patterns/key-lifecycle-progress/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html",
+        "screens/create/1-create-keyset/screen.html",
+        "screens/create/1b-validation-error/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-039",
+      "font-size": "28px",
+      "line-height": "32px",
+      "fileCount": 46,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html",
+        "screens/_shared/app-header.html",
+        "screens/create/1-create-keyset/screen.html",
+        "screens/create/1b-validation-error/screen.html",
+        "screens/create/1c-generation-progress/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-040",
+      "font-size": "28px",
+      "line-height": "36px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-041",
+      "font-size": "32px",
+      "line-height": "40px",
+      "fileCount": 18,
+      "sampleFiles": [
+        "design-system/components/core/reference.html",
+        "design-system/components/data-display-progress-cards/reference.html",
+        "design-system/components/data-display-tables-lists/reference.html",
+        "design-system/components/form-controls/reference.html",
+        "design-system/components/interactive-controls/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-042",
+      "font-size": "40px",
+      "line-height": "40px",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/key-lifecycle-progress/reference.html",
+        "design-system/patterns/rotate-keyset-distribution/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-043",
+      "font-size": "40px",
+      "line-height": "48px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/data-display-review-summary/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-044",
+      "font-size": "9px",
+      "line-height": "9px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    }
+  ]
+}

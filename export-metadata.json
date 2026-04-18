@@ -1,0 +1,157 @@
+{
+  "global_ignore_contents": [
+    "Header",
+    "Frame",
+    "Rectangle",
+    "SVG",
+    "Section Label"
+  ],
+  "screen_groups": [
+    {
+      "id": "welcome-returning-variants",
+      "title": "Welcome Returning Variants",
+      "entries": [
+        "6MP-0",
+        "H4X-0",
+        "IMQ-0"
+      ]
+    },
+    {
+      "id": "welcome-unlock-modal-states",
+      "title": "Welcome Unlock Modal States",
+      "entries": [
+        "QI3-0",
+        "QKO-0"
+      ]
+    },
+    {
+      "id": "import-flow",
+      "title": "Import Flow",
+      "entries": [
+        "3B1-0",
+        "6VS-0",
+        "6XP-0",
+        "6ZH-0"
+      ]
+    },
+    {
+      "id": "onboard-flow",
+      "title": "Onboard Flow",
+      "entries": [
+        "GW5-0",
+        "70L-0",
+        "73U-0",
+        "726-0"
+      ]
+    },
+    {
+      "id": "create-flow",
+      "title": "Create Flow",
+      "entries": [
+        "35L-0",
+        "4FB-0",
+        "RNX-0"
+      ]
+    },
+    {
+      "id": "shared-flow",
+      "title": "Shared Flow",
+      "entries": [
+        "60R-0",
+        "8GU-0",
+        "LN7-0"
+      ]
+    },
+    {
+      "id": "dashboard-main-states",
+      "title": "Dashboard Main States",
+      "entries": [
+        "3QW-0",
+        "SH5-0",
+        "DCI-0",
+        "4OP-0",
+        "SPG-0",
+        "T62-0",
+        "5K0-0",
+        "4UN-0"
+      ]
+    },
+    {
+      "id": "dashboard-settings-export",
+      "title": "Dashboard Settings And Export",
+      "entries": [
+        "518-0",
+        "VG8-0",
+        "75B-0",
+        "7FQ-0"
+      ]
+    },
+    {
+      "id": "rotate-keyset-flow",
+      "title": "Rotate Keyset Flow",
+      "entries": [
+        "83Q-0",
+        "LF2-0",
+        "LHT-0",
+        "LPE-0",
+        "LRH-0",
+        "LTC-0"
+      ]
+    },
+    {
+      "id": "rotate-share-flow",
+      "title": "Rotate Share Flow",
+      "entries": [
+        "IS8-0",
+        "IV8-0",
+        "J3O-0",
+        "JIJ-0"
+      ]
+    },
+    {
+      "id": "recover-flow",
+      "title": "Recover Flow",
+      "entries": [
+        "59J-0",
+        "3HJ-0"
+      ]
+    }
+  ],
+  "artboard_overrides": {
+    "M5V-0": {
+      "ignore_contents": [
+        "id",
+        "kind"
+      ],
+      "rename_contents": {
+        "LogEntry Expanded Section": "Expanded Log Entry",
+        "Dashboard Event Log Section": "Dashboard Event Log",
+        "Pending Approvals Section": "Pending Approvals List"
+      }
+    },
+    "QPC-0": {
+      "contents": [
+        "Settings Sidebar",
+        "Lock Profile Panel"
+      ],
+      "description": "This artboard documents the current Paper reference for Settings Sidebar & Lock Profile. The synced export covers both the settings sidebar surface and the lock-profile surface used across the Igloo design system."
+    },
+    "S9W-0": {
+      "contents": [
+        "Neutral Key-Value Review Panel",
+        "Threshold Summary Panel",
+        "Profile Summary Panel",
+        "Read-Only Review Composition"
+      ]
+    },
+    "R49-0": {
+      "contents": [
+        "Review & Generate",
+        "Create Profile",
+        "Distribution Workspace",
+        "Distribution Completion",
+        "Rotation Error States"
+      ]
+    }
+  }
+}
