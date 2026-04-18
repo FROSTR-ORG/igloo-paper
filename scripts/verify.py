@@ -57,6 +57,7 @@ LOCAL_ASSET_RE = re.compile(r"(?P<path>(?:\.\./)+assets/paper/[A-Za-z0-9_.-]+)")
 FONT_CLASS_RE = re.compile(r"font-\['([^']+)'")
 INLINE_FONT_RE = re.compile(r"fontFamily:\s*['\"]([^'\"]+)['\"]")
 SIZE_CLASS_RE = re.compile(r"text-(\[[0-9.]+px\]|xs|sm|base|lg|xl|2xl|3xl|4xl)(?:/(\[[0-9.]+px\]|[0-9.]+))?")
+APP_FOOTER_RE = re.compile(r'className="([^"]*border-t border-t-solid border-t-\[#1E3A8A33\][^"]*)"')
 TAILWIND_TEXT_SIZES = {
     "xs": ("12px", "16px"),
     "sm": ("14px", "20px"),
@@ -299,6 +300,16 @@ def verify_local_assets() -> None:
             ensure(target.exists(), f"missing localized asset {target.relative_to(REPO_ROOT)} referenced by {path.relative_to(REPO_ROOT)}")
 
 
+def verify_footer_positioning() -> None:
+    targets = sorted(REPO_ROOT.glob("screens/**/screen.html"))
+    targets.append(REPO_ROOT / "screens" / "_shared" / "app-footer.html")
+    for path in targets:
+        text = path.read_text()
+        for match in APP_FOOTER_RE.finditer(text):
+            class_name = match.group(1)
+            ensure("mt-auto" in class_name.split(), f"AppFooter missing mt-auto bottom push in {path.relative_to(REPO_ROOT)}")
+
+
 def scan_html(path: Path) -> tuple[set[str], set[str], set[tuple[str, str]]]:
     text = path.read_text()
     colors = {normalize_hex(match.group(0)) for match in HEX_RE.finditer(text)}
@@ -393,6 +404,7 @@ def main() -> None:
     verify_outputs(entries)
     verify_readmes(entries, metadata)
     verify_local_assets()
+    verify_footer_positioning()
     verify_against_paper(entries)
     verify_drift(args.strict_drift)
     print("PASS: structural export checks passed, metadata curation checks passed, and Paper reconciliation succeeded.")
