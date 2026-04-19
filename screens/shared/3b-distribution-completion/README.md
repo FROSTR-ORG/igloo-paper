@@ -13,7 +13,7 @@ This screen captures the `shared` flow state "3b. Distribution Completion" in th
 - **State:** `3b. Distribution Completion`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

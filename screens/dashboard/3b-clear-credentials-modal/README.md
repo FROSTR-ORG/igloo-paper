@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "3b. Clear Credentials (Modal)" 
 - **State:** `3b. Clear Credentials (Modal)`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **Settings Overlay**
 - **Settings Panel**

@@ -13,7 +13,7 @@ This screen captures the `onboard` flow state "3. Onboarding Complete" in the cu
 - **State:** `3. Onboarding Complete`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Content**
 - **AppFooter**
 
@@ -26,11 +26,11 @@ This screen captures the `onboard` flow state "3. Onboarding Complete" in the cu
 
 ## Representative Copy
 - Igloo
+- Threshold Signing for Nostr
+- Onboard
 - Onboarding Complete
 - You've successfully applied the onboarding package. Review y
 - Group Profile
-- Device Profile
-- Profile Password
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

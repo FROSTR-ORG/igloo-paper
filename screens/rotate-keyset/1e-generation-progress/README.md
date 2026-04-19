@@ -13,7 +13,7 @@ This screen captures the `rotate-keyset` flow state "1e. Generation Progress" in
 - **State:** `1e. Generation Progress`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

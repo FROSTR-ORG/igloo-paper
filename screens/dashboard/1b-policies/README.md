@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "1b. Policies" in the current Ig
 - **State:** `1b. Policies`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **AppFooter**
 

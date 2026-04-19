@@ -13,7 +13,7 @@ This screen captures the `onboard` flow state "2b. Onboarding Failed" in the cur
 - **State:** `2b. Onboarding Failed`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Content**
 - **AppFooter**
 
@@ -26,11 +26,11 @@ This screen captures the `onboard` flow state "2b. Onboarding Failed" in the cur
 
 ## Representative Copy
 - Igloo
-- Back
+- Threshold Signing for Nostr
+- Onboard
 - Onboarding Failed
 - !
 - Onboarding Timed Out
-- Onboarding peer did not respond within 30 seconds. They may
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

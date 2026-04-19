@@ -13,7 +13,7 @@ This screen captures the `import` flow state "2. Decrypt Backup" in the current 
 - **State:** `2. Decrypt Backup`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Form**
 - **AppFooter**
 
@@ -26,11 +26,11 @@ This screen captures the `import` flow state "2. Decrypt Backup" in the current 
 
 ## Representative Copy
 - Igloo
+- Threshold Signing for Nostr
+- Import
 - Back
 - Decrypt Backup
 - Decrypt the loaded bfprofile1 backup using its backup passwo
-- Profile Backup
-- bfprofile1qvz8k2afcqqszq2v5v5hnpfdk2auecfnhge355m0dh8g6ms4e.
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

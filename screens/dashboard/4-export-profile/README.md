@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "4. Export Profile" in the curre
 - **State:** `4. Export Profile`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **Settings Overlay**
 - **Settings Panel**

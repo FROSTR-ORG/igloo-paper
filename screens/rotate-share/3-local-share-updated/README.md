@@ -13,7 +13,7 @@ This screen captures the `rotate-share` flow state "3. Local Share Updated" in t
 - **State:** `3. Local Share Updated`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

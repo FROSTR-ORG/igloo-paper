@@ -13,7 +13,7 @@ This screen captures the `import` flow state "Error" in the current Igloo web pr
 - **State:** `Error`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Content**
 - **AppFooter**
 
@@ -26,11 +26,11 @@ This screen captures the `import` flow state "Error" in the current Igloo web pr
 
 ## Representative Copy
 - Igloo
-- Back
+- Threshold Signing for Nostr
+- Import
 - Import Error
 - We couldn't import this profile backup. Resolve the issue be
 - !
-- Incorrect Password
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

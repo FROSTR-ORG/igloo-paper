@@ -13,7 +13,7 @@ This screen captures the `rotate-keyset` flow state "1. Rotate Keyset" in the cu
 - **State:** `1. Rotate Keyset`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

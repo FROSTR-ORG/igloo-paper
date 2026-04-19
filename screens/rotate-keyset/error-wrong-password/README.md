@@ -13,7 +13,7 @@ This screen captures the `rotate-keyset` flow state "Error: Wrong Password" in t
 - **State:** `Error: Wrong Password`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

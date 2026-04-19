@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "3. Settings & Lock Profile" in 
 - **State:** `3. Settings & Lock Profile`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **Settings Overlay**
 - **Settings Panel**

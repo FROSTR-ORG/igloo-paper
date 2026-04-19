@@ -13,7 +13,7 @@ This screen captures the `import` flow state "1. Load Backup" in the current Igl
 - **State:** `1. Load Backup`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Form**
 - **AppFooter**
 
@@ -26,11 +26,11 @@ This screen captures the `import` flow state "1. Load Backup" in the current Igl
 
 ## Representative Copy
 - Igloo
-- Back
+- Threshold Signing for Nostr
+- Import
+- Back to Welcome
 - Load Backup
 - Load a bfprofile1 device profile backup from text or file to
-- Profile Backup
-- Paste a bfprofile1... backup string or upload a backup file.
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

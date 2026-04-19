@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "4b. Export Complete" in the cur
 - **State:** `4b. Export Complete`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **Settings Overlay**
 - **Settings Panel**

@@ -13,7 +13,7 @@ This screen captures the `create` flow state "1b. Validation Error" in the curre
 - **State:** `1b. Validation Error`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Form**
 - **AppFooter**
 
@@ -25,11 +25,11 @@ This screen captures the `create` flow state "1b. Validation Error" in the curre
 
 ## Representative Copy
 - Igloo
-- Back
+- Threshold Signing for Nostr
+- Create
+- Back to Welcome
 - Create New Keyset
 - Define the group profile for a new keyset. After creation, y
-- Keyset Name
-- e.g. My Signing Key, Work Key...
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

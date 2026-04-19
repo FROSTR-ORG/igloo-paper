@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "1b. Connecting" in the current 
 - **State:** `1b. Connecting`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **AppFooter**
 

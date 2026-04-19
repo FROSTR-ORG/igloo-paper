@@ -13,7 +13,7 @@ This screen captures the `rotate-keyset` flow state "1d. Review & Generate" in t
 - **State:** `1d. Review & Generate`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

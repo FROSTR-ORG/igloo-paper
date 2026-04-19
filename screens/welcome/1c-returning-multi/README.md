@@ -13,7 +13,7 @@ This screen captures the `welcome` flow state "1c. Returning (Multi)" in the cur
 - **State:** `1c. Returning (Multi)`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicLinks**
 - **Hero**
 - **AppFooter**
 
@@ -25,11 +25,11 @@ This screen captures the `welcome` flow state "1c. Returning (Multi)" in the cur
 
 ## Representative Copy
 - Igloo
+- Threshold Signing for Nostr
+- Website
+- Docs
+- GitHub
 - Igloo Web
-- Welcome back.
-- My Signing Key
-- Work Key
-- Backup Key
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

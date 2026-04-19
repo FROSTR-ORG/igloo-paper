@@ -13,7 +13,7 @@ This screen captures the `rotate-share` flow state "2b. Share Update Failed" in 
 - **State:** `2b. Share Update Failed`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 
@@ -27,10 +27,10 @@ This screen captures the `rotate-share` flow state "2b. Share Update Failed" in 
 ## Representative Copy
 - Igloo
 - My Signing Key
-- ‹
-- Back to Rotate Share
 - Share Update Failed
 - The replacement share could not be applied. Your current loc
+- !
+- Rotate package did not apply
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

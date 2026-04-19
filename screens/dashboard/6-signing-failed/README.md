@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "6. Signing Failed" in the curre
 - **State:** `6. Signing Failed`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **Modal Overlay**
 - **AppFooter**

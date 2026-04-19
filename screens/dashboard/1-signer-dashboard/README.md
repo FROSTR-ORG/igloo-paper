@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "1. Signer Dashboard" in the cur
 - **State:** `1. Signer Dashboard`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **AppFooter**
 

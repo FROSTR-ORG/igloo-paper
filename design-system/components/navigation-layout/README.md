@@ -6,21 +6,22 @@ This artboard documents the current Paper reference for Navigation & Layout. The
 ## Paper Source
 - **Artboard ID:** LW-0
 - **Artboard Name:** Navigation & Layout
-- **Dimensions:** 1440 × 1242
+- **Dimensions:** 1440 × 1686
 
 ## Contents
 - **App Header Section**
 - **Onboarding Steps Section**
 - **PeerList Section**
 - **App Footer Section**
+- **Page Back Link Section**
 
 ## Representative Copy
 - Igloo UI
 - Navigation & Layout
-- App Header
-- Igloo
-- Flow Steps (Create)
-- Create path — step 1 active. 3-step flow: Create Keyset → Se
+- App Header Variants
+- PublicLinks
+- Welcome, import entry, onboard entry
+- PublicFocus
 
 ## Files
 - `reference.html` — Tailwind-flavored Paper JSX export for the artboard.

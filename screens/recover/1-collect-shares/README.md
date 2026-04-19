@@ -13,7 +13,7 @@ This screen captures the `recover` flow state "1. Collect Shares" in the current
 - **State:** `1. Collect Shares`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

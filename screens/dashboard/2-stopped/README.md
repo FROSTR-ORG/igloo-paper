@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 - **State:** `2. Stopped`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **AppFooter**
 

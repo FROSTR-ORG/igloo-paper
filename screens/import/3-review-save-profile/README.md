@@ -13,7 +13,7 @@ This screen captures the `import` flow state "3. Review & Save Profile" in the c
 - **State:** `3. Review & Save Profile`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Form**
 - **AppFooter**
 
@@ -26,11 +26,11 @@ This screen captures the `import` flow state "3. Review & Save Profile" in the c
 
 ## Representative Copy
 - Igloo
+- Threshold Signing for Nostr
+- Import
 - Back
 - Review & Save Profile
 - Review the imported profile and set a local password before
-- Group Profile
-- Device Profile
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

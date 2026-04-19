@@ -13,7 +13,7 @@ This screen captures the `rotate-share` flow state "2. Applying Share Update" in
 - **State:** `2. Applying Share Update`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

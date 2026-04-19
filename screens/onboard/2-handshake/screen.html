@@ -4,21 +4,21 @@
         <div className="flex items-center justify-between w-250 shrink-0 rounded-xl py-3.5 px-5 bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
           <div className="flex items-center gap-3.5">
             <div className="shrink-0 rounded-[10px] [background-position-x:center] [background-position-y:center] bg-contain bg-center bg-no-repeat size-11" style={{ backgroundImage: 'url(../../../assets/paper/1WEXSFAT73DS0G9ZZTFNR8PXP9.png)' }} />
-            <div className="tracking-[-0.01em] inline-block text-[#60A5FA] font-['Inter',system-ui,sans-serif] font-bold text-[28px]/8">
-              Igloo
+            <div className="flex flex-col items-start w-45 h-12.5 shrink-0 gap-0.5">
+              <div className="tracking-[-0.01em] [white-space-collapse:collapse] w-max text-[#60A5FA] font-['Inter',system-ui,sans-serif] font-bold text-[28px]/8">
+                Igloo
+              </div>
+              <div className="tracking-[0.01em] [white-space-collapse:collapse] w-max text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+                Threshold Signing for Nostr
+              </div>
             </div>
+          </div>
+          <div className="[white-space-collapse:collapse] w-max text-[#8494A7] font-[Paper_Mono_Preview,ui-monospace,'SFMono-Regular','SF_Mono','Menlo','Consolas','Liberation_Mono',monospace] shrink-0 text-[13px]/4">
+            Onboard
           </div>
         </div>
       </div>
       <div className="flex flex-col w-160 pt-4 pb-10 gap-6">
-        <div className="flex items-center gap-1">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#64748B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
-            <path d="M15 18l-6-6 6-6" />
-          </svg>
-          <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-[13px]/4.5">
-            Back
-          </div>
-        </div>
         <div className="flex flex-col w-160 gap-3">
           <div className="tracking-[-0.01em] inline-block text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-2xl/8">
             Onboarding...
@@ -104,7 +104,7 @@
           </div>
         </div>
       </div>
-      <div className="mt-auto flex flex-col items-center w-full shrink-0 py-5 border-t border-t-solid border-t-[#1E3A8A33] h-0">
+      <div className="flex flex-col items-center w-full shrink-0 py-5 mt-auto border-t border-t-solid border-t-[#1E3A8A33] h-0">
         <div className="flex items-center gap-5">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="#64748B" stroke="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
             <circle cx="12" cy="12" r="10" />
@@ -116,6 +116,9 @@
           </svg>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="#64748B" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
             <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+          </svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+            <path d="M17.708 10.161C18.168 13.347 14.87 14.021 12.973 13.962C12.851 13.958 12.737 14.017 12.665 14.116C12.468 14.384 12.155 14.731 11.912 14.731C11.64 14.731 11.396 15.254 11.284 15.579C11.272 15.614 11.306 15.645 11.34 15.634C14.345 14.658 15.524 14.324 16.032 14.418C16.442 14.494 17.209 15.867 17.541 16.543C16.715 16.591 16.44 15.851 16.25 15.718C16.099 15.612 16.041 16.097 16.032 16.354C15.852 16.259 15.624 16.126 15.605 15.718C15.586 15.31 15.377 15.414 15.216 15.433C15.054 15.452 12.577 16.249 12.207 16.354C11.837 16.458 11.409 16.6 11.058 16.847C10.47 17.132 10.09 16.933 9.986 16.448C9.902 16.061 10.444 14.87 10.726 14.323C10.378 14.453 9.655 14.716 9.549 14.731C9.446 14.746 8.138 15.755 7.439 16.304C7.398 16.336 7.372 16.383 7.362 16.434C7.25 17.042 6.893 17.212 6.274 17.53C5.776 17.787 4.036 20.461 3.141 21.904C3.079 22.004 2.989 22.081 2.891 22.146C2.323 22.528 1.744 23.498 1.509 23.974C1.175 23.009 1.61 22.18 1.87 21.886C1.756 21.787 1.493 21.845 1.376 21.886C1.699 20.776 2.829 20.776 2.791 20.776C2.999 20.595 5.448 17.094 5.505 16.933C5.562 16.773 5.469 16.024 6.7 15.614C6.719 15.607 6.739 15.598 6.756 15.587C7.715 14.971 8.434 13.977 8.676 13.554C7.395 13.466 5.929 12.752 5.163 12.294C4.998 12.195 4.822 12.109 4.631 12.088C3.582 11.969 2.531 12.64 2.107 13.023C1.933 12.78 2.129 12.074 2.25 11.751C1.824 11.691 1.199 12.308 0.94 12.624C0.659 12.184 0.905 11.397 1.063 11.059C0.501 11.074 0.12 11.331 0 11.457C0.465 7.993 4.023 9.001 4.063 9.047C3.873 8.849 3.889 8.591 3.92 8.487C6.075 8.544 7.081 8.183 7.717 7.813C12.729 5.014 14.888 6.731 15.686 7.163C16.483 7.595 17.93 7.77 18.932 7.372C20.128 6.831 19.948 5.437 19.705 4.905C19.44 4.321 17.94 3.514 17.408 2.494C16.877 1.474 17.34 0.234 17.956 0.061C18.543 -0.104 18.962 0.088 19.283 0.378C19.497 0.572 20.099 0.71 20.351 0.8C20.602 0.891 21.02 1.009 20.996 1.08C20.973 1.152 20.57 1.142 20.508 1.142C20.379 1.142 20.227 1.161 20.379 1.232C20.558 1.304 20.826 1.409 20.955 1.478C20.972 1.487 20.968 1.511 20.95 1.516C20.076 1.751 19.297 1.266 18.718 1.825C18.13 2.395 19.383 2.831 20.028 3.514C20.674 4.198 21.338 5.014 20.806 6.874C20.395 8.314 18.67 9.538 17.779 10.017C17.728 10.044 17.7 10.103 17.708 10.161Z" fill="#64748B" />
           </svg>
         </div>
       </div>

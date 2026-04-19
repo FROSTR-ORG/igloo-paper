@@ -13,7 +13,7 @@ This screen captures the `shared` flow state "3. Distribute Shares" in the curre
 - **State:** `3. Distribute Shares`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

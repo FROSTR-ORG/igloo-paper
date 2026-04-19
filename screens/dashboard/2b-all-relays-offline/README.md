@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "2b. All Relays Offline" in the 
 - **State:** `2b. All Relays Offline`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **AppFooter**
 

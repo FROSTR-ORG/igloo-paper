@@ -13,7 +13,7 @@ This screen captures the `onboard` flow state "1. Enter Package" in the current 
 - **State:** `1. Enter Package`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Form**
 - **AppFooter**
 
@@ -26,11 +26,11 @@ This screen captures the `onboard` flow state "1. Enter Package" in the current 
 
 ## Representative Copy
 - Igloo
-- Back
+- Threshold Signing for Nostr
+- Onboard
+- Back to Welcome
 - Enter Onboarding Package
 - Enter the onboarding package from a source device to receive
-- Onboarding Package
-- Paste a bfonboard1... package from the source device or scan
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "5. Signer Policy Prompt" in the
 - **State:** `5. Signer Policy Prompt`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **Modal Overlay**
 - **AppFooter**

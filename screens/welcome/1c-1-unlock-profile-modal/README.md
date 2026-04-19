@@ -21,12 +21,12 @@ This screen captures the `welcome` flow state "1c-1. Unlock Profile (Modal)" in 
 - Welcome — 1c-2. Unlock Error (Modal) — `screens/welcome/1c-2-unlock-error-modal/README.md`
 
 ## Representative Copy
-- Igloo
+- Website
+- Docs
+- GitHub
 - Igloo Web
 - Welcome back.
 - or
-- New Keyset
-- Import Device Profile
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

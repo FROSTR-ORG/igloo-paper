@@ -13,7 +13,7 @@ This screen captures the `shared` flow state "2. Create Profile" in the current 
 - **State:** `2. Create Profile`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

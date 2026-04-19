@@ -13,7 +13,7 @@ This screen captures the `onboard` flow state "2. Handshake" in the current Iglo
 - **State:** `2. Handshake`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Content**
 - **AppFooter**
 
@@ -26,11 +26,11 @@ This screen captures the `onboard` flow state "2. Handshake" in the current Iglo
 
 ## Representative Copy
 - Igloo
-- Back
+- Threshold Signing for Nostr
+- Onboard
 - Onboarding...
 - Connecting to your source device to receive group configurat
 - Connected to relays
-- wss://relay.primal.net, wss://relay.damus.io
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

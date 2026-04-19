@@ -13,7 +13,7 @@ This screen captures the `rotate-share` flow state "1. Enter Rotate Package" in 
 - **State:** `1. Enter Rotate Package`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

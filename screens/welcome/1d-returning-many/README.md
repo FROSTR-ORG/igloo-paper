@@ -22,12 +22,12 @@ This screen captures the `welcome` flow state "1d. Returning (Many)" in the curr
 - Welcome — 1c. Returning (Multi) — `screens/welcome/1c-returning-multi/README.md`
 
 ## Representative Copy
-- Igloo
+- Website
+- Docs
+- GitHub
 - Igloo Web
 - Welcome back.
 - or
-- New Keyset
-- Import Device Profile
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

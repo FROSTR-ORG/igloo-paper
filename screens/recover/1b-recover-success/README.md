@@ -13,7 +13,7 @@ This screen captures the `recover` flow state "1b. Recover Success" in the curre
 - **State:** `1b. Recover Success`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

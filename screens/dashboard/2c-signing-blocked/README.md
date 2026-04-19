@@ -13,7 +13,7 @@ This screen captures the `dashboard` flow state "2c. Signing Blocked" in the cur
 - **State:** `2c. Signing Blocked`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / AuthActions**
 - **Dashboard**
 - **AppFooter**
 

@@ -13,7 +13,7 @@ This screen captures the `rotate-keyset` flow state "Error: Group Mismatch" in t
 - **State:** `Error: Group Mismatch`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 
@@ -32,7 +32,7 @@ This screen captures the `rotate-keyset` flow state "Error: Group Mismatch" in t
 - Rotate Keyset
 - Create Profile
 - Distribute Shares
-- Back
+- Source Group Mismatch
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

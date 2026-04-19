@@ -13,7 +13,7 @@ This screen captures the `rotate-keyset` flow state "Error: Generation Failed" i
 - **State:** `Error: Generation Failed`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / FlowContext**
 - **Content**
 - **AppFooter**
 

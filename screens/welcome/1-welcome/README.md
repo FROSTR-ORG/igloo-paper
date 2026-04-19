@@ -13,17 +13,17 @@ This screen captures the `welcome` flow state "1. Welcome" in the current Igloo 
 - **State:** `1. Welcome`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicLinks**
 - **Hero**
 - **AppFooter**
 
 ## Representative Copy
 - Igloo
+- Threshold Signing for Nostr
+- Website
+- Docs
+- GitHub
 - Igloo Web
-- Split your Nostr key. Sign from anywhere.
-- Generate a new threshold keyset and set up its first device
-- New Keyset
-- or
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

@@ -13,7 +13,7 @@ This screen captures the `create` flow state "1c. Generation Progress" in the cu
 - **State:** `1c. Generation Progress`
 
 ## Key Regions
-- **AppHeader**
+- **AppHeader / PublicFocus**
 - **Content**
 - **AppFooter**
 
@@ -25,11 +25,11 @@ This screen captures the `create` flow state "1c. Generation Progress" in the cu
 
 ## Representative Copy
 - Igloo
+- Threshold Signing for Nostr
 - Create
 - Setup Profile
 - Onboard Devices
-- ‹
-- Back
+- Generation Progress
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.
