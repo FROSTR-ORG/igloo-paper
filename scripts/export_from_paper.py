@@ -22,7 +22,7 @@ GLOSSARY_DIR = REPO_ROOT / "design-system" / "glossary"
 ASSET_DIR = REPO_ROOT / "assets" / "paper"
 FOUNDATIONS_ID = "8B-0"
 SHARED_COMPONENTS = {
-    "app-header.html": "34D-0",
+    "app-header.html": "WA9-0",
     "app-footer.html": "D1D-0",
 }
 GLOSSARY_FILES = {

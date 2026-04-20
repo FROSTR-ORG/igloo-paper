@@ -63,7 +63,7 @@
             Rotate Keyset
           </div>
           <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-sm/5.5">
-            This keyset rotation started from the selected saved profile, which already counts as Source Share #1. Add the remaining threshold bfshare packages to refresh device shares for the same group public key, then continue into shared profile creation and share distribution.
+            This keyset rotation started from the selected saved profile, which already counts as Source Share #1. Add the remaining threshold source packages — bfprofile or bfshare — to refresh device shares for the same group public key, then continue into shared profile creation and share distribution.
           </div>
         </div>
         <div className="flex flex-col w-160 h-171.5 gap-5 shrink-0">
@@ -120,10 +120,10 @@
               </div>
               <div className="flex justify-between py-1 border-b border-b-solid border-b-[#1E3A8A22]">
                 <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-[11px]/4">
-                  Profile ID
+                  Source Type
                 </div>
                 <div className="text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4">
-                  prof_8f2c4a
+                  bfprofile
                 </div>
               </div>
               <div className="flex justify-between py-1 border-b border-b-solid border-b-[#1E3A8A22]">
@@ -155,16 +155,16 @@
                 Source Share #2
               </div>
               <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
-                Waiting for input
+                Autodetects type
               </div>
             </div>
             <div className="flex flex-col gap-1">
               <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
-                bfshare Package
+                Source Package
               </div>
               <div className="min-h-13.5 rounded-lg py-2.5 px-3.5 bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
                 <div className="text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
-                  Paste bfshare from another device or backup...
+                  Paste bfprofile or bfshare from another device or backup...
                 </div>
               </div>
             </div>
@@ -193,7 +193,7 @@
             </div>
           </div>
           <div className="[white-space-collapse:preserve] text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4.5">
-            Old devices do not need to be online. Only threshold bfshare packages and their passwords are required.
+            Old devices do not need to be online. Provide enough source packages and passwords to meet the threshold.
           </div>
         </div>
         <div className="w-full h-px shrink-0 bg-[#1E3A8A33]" />
