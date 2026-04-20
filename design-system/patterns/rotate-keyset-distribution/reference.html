@@ -37,7 +37,7 @@
                 Before generating fresh shares
               </div>
               <div className="[white-space-collapse:preserve] text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-sm/5">
-                This will reconstruct the existing signing key from threshold bfshare sources, split it into fresh shares for the same group public key, replace the current local source profile, and prepare remote bfonboard packages that other devices must adopt.
+                This will reconstruct the existing signing key from threshold source packages, split it into fresh shares for the same group public key, replace the current local source profile, and prepare remote bfonboard packages that other devices must adopt.
               </div>
             </div>
           </div>
@@ -418,10 +418,10 @@
         </div>
         <div className="flex flex-col gap-3">
           <div className="tracking-[-0.01em] text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-2xl/8">
-            Source Share Error
+            Source Package Error
           </div>
           <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-sm/5.5">
-            One or more bfshare source packages could not be validated. Check the details below and retry.
+            One or more source packages could not be validated. Check the details below and retry.
           </div>
         </div>
         <div className="flex flex-col rounded-[10px] gap-3 bg-[#0F172A99] border border-solid border-[#EF444433] p-4">
@@ -455,7 +455,7 @@
               <path d="M7 4.5v3M7 9.5h.01" stroke="#EF4444" strokeWidth="1.2" strokeLinecap="round" />
             </svg>
             <div className="text-[#EF4444] font-['Inter',system-ui,sans-serif] text-xs/4">
-              Wrong password. Unable to decrypt this bfshare source package.
+              Wrong password. Unable to decrypt this source package.
             </div>
           </div>
           <div className="flex items-center rounded-md py-2 px-3 gap-2 bg-[#78350F33]">
@@ -464,7 +464,7 @@
               <path d="M7 4.5v3M7 9.5h.01" stroke="#FBBF24" strokeWidth="1.2" strokeLinecap="round" />
             </svg>
             <div className="text-[#FBBF24] font-['Inter',system-ui,sans-serif] text-xs/4">
-              No encrypted backup found on relays for this share.
+              No share data found for this source package.
             </div>
           </div>
         </div>
@@ -510,7 +510,7 @@
             </div>
           </div>
           <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
-            All bfshare source packages must match the same current group configuration and group public key. Replace one source and retry.
+            All source packages must match the same current group configuration and group public key. Replace one source and retry.
           </div>
         </div>
         <div className="w-full flex items-center justify-center rounded-lg py-3 px-5 bg-[#2563EB]">

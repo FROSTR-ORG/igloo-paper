@@ -48,7 +48,7 @@ A device setup path for bringing an existing profile onto this device from a bac
 A device setup path for receiving a share from a source device through an onboarding package (bfonboard). Used for first-time device onboarding and runtime share rotation. The source device must be online — it transmits group and share data over relays.
 
 ### Rotate Keyset
-Outside-runtime full-keyset rotation launched from a saved profile card on returning before a profile is loaded into the signer. The selected saved profile automatically provides the local source share as Source Share #1, and the operator adds the remaining threshold source packages externally. Fresh device shares are generated for the same group public key, then the flow converges into shared Create Profile and Distribute Shares.
+Outside-runtime full-keyset rotation launched from a saved profile card on returning before a profile is loaded into the signer. The selected saved profile automatically provides the local source share as Source Share #1, and the operator adds the remaining threshold source packages externally. Each source package may be a bfprofile or bfshare. Fresh device shares are generated for the same group public key, then the flow converges into shared Create Profile and Distribute Shares.
 
 ### Rotate Share
 Inside-runtime single-share replacement launched from Settings for the currently loaded profile. The operator enters a rotate package and password, applies the share update, and returns to the signer with the same group public key and a refreshed local share.

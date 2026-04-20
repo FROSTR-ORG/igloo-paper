@@ -60,13 +60,13 @@ The bech32m prefix for profile backups (bfprofile1...). Used when importing a sa
 A full encrypted export of a saved profile, including its share and configuration. Import it on another device to save the same profile there.
 
 ### Export Share
-Copy the raw share key in hex format. This export is unencrypted, so handle it with care. Available in Settings under Export & Backup.
+Create a password-protected bfshare package for this device's share. Used as a source package during keyset rotation.
 
 ### bfshare
-The bech32m prefix for shares (bfshare1...). Used when recovering a profile from a relay.
+The bech32m prefix for password-protected share packages (bfshare1...). Used as a keyset-rotation source package and for share recovery flows.
 
 ### Package Password
-The password that decrypts an onboarding package (bfonboard1...) during onboarding.
+Password used to decrypt bfonboard, bfprofile, or bfshare packages.
 
 ### Profile Password
 The password used to encrypt and unlock a saved profile on this device.

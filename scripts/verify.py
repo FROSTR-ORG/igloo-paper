@@ -140,12 +140,12 @@ def section_bullets(text: str, heading: str) -> list[str]:
 
 
 def verify_map(entries: list[dict[str, Any]]) -> None:
-    ensure(len(entries) == 69, f"artboard-map.json should contain 69 entries, found {len(entries)}")
+    ensure(len(entries) == 71, f"artboard-map.json should contain 71 entries, found {len(entries)}")
     counts: dict[str, int] = {}
     for entry in entries:
         counts[entry["category"]] = counts.get(entry["category"], 0) + 1
     ensure(counts.get("design-system") == 24, f"expected 24 design-system entries, found {counts.get('design-system')}")
-    ensure(counts.get("screen") == 44, f"expected 44 screen entries, found {counts.get('screen')}")
+    ensure(counts.get("screen") == 46, f"expected 46 screen entries, found {counts.get('screen')}")
     ensure(counts.get("divider") == 1, f"expected 1 divider entry, found {counts.get('divider')}")
 
     entries_by_id = {entry["paperNodeId"]: entry for entry in entries}

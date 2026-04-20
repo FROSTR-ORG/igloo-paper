@@ -24,7 +24,9 @@ This screen captures the `dashboard` flow state "3. Settings & Lock Profile" in 
 ### Dashboard Settings And Export
 - Dashboard — 3b. Clear Credentials (Modal) — `screens/dashboard/3b-clear-credentials-modal/README.md`
 - Dashboard — 4. Export Profile — `screens/dashboard/4-export-profile/README.md`
-- Dashboard — 4b. Export Complete — `screens/dashboard/4b-export-complete/README.md`
+- Dashboard — 4b. Profile Export Complete — `screens/dashboard/4b-export-complete/README.md`
+- Dashboard — 4c. Export Share — `screens/dashboard/4c-export-share/README.md`
+- Dashboard — 4d. Share Export Complete — `screens/dashboard/4d-share-export-complete/README.md`
 
 ## Representative Copy
 - Igloo

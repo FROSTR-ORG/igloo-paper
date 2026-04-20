@@ -434,10 +434,26 @@
   {
     "id": "7FQ-0",
     "paperNodeId": "7FQ-0",
-    "name": "Dashboard — 4b. Export Complete",
+    "name": "Dashboard — 4b. Profile Export Complete",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/4b-export-complete"
+  },
+  {
+    "id": "1492-0",
+    "paperNodeId": "1492-0",
+    "name": "Dashboard — 4c. Export Share",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/4c-export-share"
+  },
+  {
+    "id": "14LF-0",
+    "paperNodeId": "14LF-0",
+    "name": "Dashboard — 4d. Share Export Complete",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/4d-share-export-complete"
   },
   {
     "id": "5K0-0",
