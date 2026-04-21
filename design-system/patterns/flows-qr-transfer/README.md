@@ -6,7 +6,7 @@ This artboard documents the current Paper reference for Flows & QR Codes — Tra
 ## Paper Source
 - **Artboard ID:** NSX-0
 - **Artboard Name:** Flows & QR Codes — Transfer States
-- **Dimensions:** 1440 × 4375
+- **Dimensions:** 1440 × 4353
 
 ## Contents
 - **QR Transfer Section**
@@ -21,8 +21,8 @@ This artboard documents the current Paper reference for Flows & QR Codes — Tra
 - Flows & QR Codes — Transfer States
 - QR Code Transfer States
 - Onboarding QR Code
-- Waiting for peer to scan and connect...
-- Peer will connect via relays after scanning
+- Waiting for recipient to scan...
+- Package can be scanned as a QR code
 
 ## Files
 - `reference.html` — Tailwind-flavored Paper JSX export for the artboard.

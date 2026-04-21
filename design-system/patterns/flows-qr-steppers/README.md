@@ -1,7 +1,7 @@
 # Flows & QR Codes — Steppers & Recovery
 
 ## Description
-This artboard documents the current Paper reference for Flows & QR Codes — Steppers & Recovery. The synced export covers Outside Runtime Key Lifecycle Section, Recovery Share Collection Section, Runtime Rotate Share Flow Section used across the Igloo design system.
+This artboard documents the current Paper reference for Flows & QR Codes — Steppers & Recovery. The synced export covers Outside Runtime Key Lifecycle Section, Recovery Share Collection Section, Runtime Replace Share Flow Section used across the Igloo design system.
 
 ## Paper Source
 - **Artboard ID:** O3I-0
@@ -11,7 +11,7 @@ This artboard documents the current Paper reference for Flows & QR Codes — Ste
 ## Contents
 - **Outside Runtime Key Lifecycle Section**
 - **Recovery Share Collection Section**
-- **Runtime Rotate Share Flow Section**
+- **Runtime Replace Share Flow Section**
 
 ## Representative Copy
 - Igloo UI

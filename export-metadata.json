@@ -101,8 +101,8 @@
       ]
     },
     {
-      "id": "rotate-share-flow",
-      "title": "Rotate Share Flow",
+      "id": "replace-share-flow",
+      "title": "Replace Share Flow",
       "entries": [
         "IS8-0",
         "IV8-0",

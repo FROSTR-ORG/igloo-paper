@@ -36,7 +36,7 @@
             Import Credentials (bfonboard / bfprofile)
           </div>
           <div className="inline-block text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
-            Use an onboarding package (bfonboard1...) to onboard a device, or a profile backup (bfprofile1...) to import a saved profile.
+            Use a bfonboard1... package to onboard a device or replace the loaded runtime share.
           </div>
         </div>
         <div className="flex flex-col gap-1.5">
@@ -148,7 +148,7 @@
             Target assignment
           </div>
           <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
-            Each rotated member slot is assigned an intent. Exactly one must be Local Replace (replaces the current device). Others are marked as New Device or Rotate Existing Device — this changes labeling and instructions only, not the package format. All remote outputs are bfonboard packages.
+            Each generated member package is assigned an intent. Exactly one must be Local Replace (the current device). Others are New Device or Existing Device. All remote outputs are bfonboard packages.
           </div>
         </div>
         <div className="flex flex-col gap-1.5">
@@ -164,7 +164,7 @@
             Identity changes after rotation
           </div>
           <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
-            After rotation, each device receives a new share public key and a new profile ID (derived from the share key). The group public key (npub) remains unchanged — this is the stable identity anchor. Device labels, relay configurations, and peer permissions are preserved.
+            After keyset rotation, each device receives a new share public key and profile_id while the group public key remains unchanged.
           </div>
         </div>
         <div className="flex flex-col gap-1.5">
@@ -172,7 +172,7 @@
             Group name (read-only during rotation)
           </div>
           <div className="text-[#94A3B8CC] font-['Inter',system-ui,sans-serif] text-[13px]/5">
-            The group name is inherited and read-only during share rotation. Renaming is outside the rotation contract. To change the group name, use keyset settings separately.
+            The group name is inherited and read-only during keyset rotation.
           </div>
         </div>
       </div>

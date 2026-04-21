@@ -133,8 +133,8 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/patterns/flows-qr-transfer/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/rotate-share/1-enter-rotate-package/screen.html",
-        "screens/rotate-share/2-applying-share-update/screen.html"
+        "screens/replace-share/1-enter-onboarding-package/screen.html",
+        "screens/replace-share/2-applying-replacement/screen.html"
       ]
     },
     {
@@ -444,7 +444,7 @@
         "design-system/components/data-display-progress-cards/reference.html",
         "design-system/components/data-display-tables-lists/reference.html",
         "design-system/components/interactive-controls/reference.html",
-        "screens/rotate-share/3-local-share-updated/screen.html",
+        "screens/replace-share/3-share-replaced/screen.html",
         "screens/welcome/1-welcome/screen.html"
       ]
     },
@@ -577,7 +577,7 @@
       "fileCount": 2,
       "sampleFiles": [
         "design-system/components/form-controls/reference.html",
-        "screens/rotate-share/3-local-share-updated/screen.html"
+        "screens/replace-share/3-share-replaced/screen.html"
       ]
     },
     {
@@ -777,7 +777,7 @@
       "value": "#2563EB1F",
       "fileCount": 1,
       "sampleFiles": [
-        "screens/rotate-share/3-local-share-updated/screen.html"
+        "screens/replace-share/3-share-replaced/screen.html"
       ]
     },
     {
@@ -1231,7 +1231,7 @@
       "sampleFiles": [
         "design-system/components/data-display-progress-cards/reference.html",
         "design-system/components/interactive-controls/reference.html",
-        "screens/rotate-share/3-local-share-updated/screen.html",
+        "screens/replace-share/3-share-replaced/screen.html",
         "screens/welcome/1-welcome/screen.html",
         "screens/welcome/1b-returning/screen.html"
       ]
@@ -1558,7 +1558,7 @@
       "value": "#94A3B859",
       "fileCount": 1,
       "sampleFiles": [
-        "screens/rotate-share/2-applying-share-update/screen.html"
+        "screens/replace-share/2-applying-replacement/screen.html"
       ]
     },
     {
@@ -2133,7 +2133,7 @@
       "value": "#EF4444B3",
       "fileCount": 1,
       "sampleFiles": [
-        "screens/rotate-share/3-local-share-updated/screen.html"
+        "screens/replace-share/3-share-replaced/screen.html"
       ]
     },
     {
@@ -2389,7 +2389,7 @@
       "value": "#FBBF2414",
       "fileCount": 1,
       "sampleFiles": [
-        "screens/rotate-share/2b-share-update-failed/screen.html"
+        "screens/replace-share/2b-replacement-failed/screen.html"
       ]
     },
     {
@@ -2421,7 +2421,7 @@
       "value": "#FBBF242E",
       "fileCount": 1,
       "sampleFiles": [
-        "screens/rotate-share/2b-share-update-failed/screen.html"
+        "screens/replace-share/2b-replacement-failed/screen.html"
       ]
     },
     {
@@ -2452,7 +2452,7 @@
       "value": "#FBBF2459",
       "fileCount": 1,
       "sampleFiles": [
-        "screens/rotate-share/2b-share-update-failed/screen.html"
+        "screens/replace-share/2b-replacement-failed/screen.html"
       ]
     },
     {
@@ -2571,7 +2571,7 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/components/overlays-feedback/reference.html",
         "design-system/icons-logos/reference.html",
-        "screens/rotate-share/3-local-share-updated/screen.html"
+        "screens/replace-share/3-share-replaced/screen.html"
       ]
     },
     {
@@ -2590,7 +2590,7 @@
       "line-height": "16px",
       "fileCount": 1,
       "sampleFiles": [
-        "screens/rotate-share/1-enter-rotate-package/screen.html"
+        "screens/replace-share/1-enter-onboarding-package/screen.html"
       ]
     },
     {
@@ -2890,9 +2890,9 @@
       "line-height": "14px",
       "fileCount": 3,
       "sampleFiles": [
-        "screens/rotate-share/1-enter-rotate-package/screen.html",
-        "screens/rotate-share/2-applying-share-update/screen.html",
-        "screens/rotate-share/2b-share-update-failed/screen.html"
+        "screens/replace-share/1-enter-onboarding-package/screen.html",
+        "screens/replace-share/2-applying-replacement/screen.html",
+        "screens/replace-share/2b-replacement-failed/screen.html"
       ]
     },
     {

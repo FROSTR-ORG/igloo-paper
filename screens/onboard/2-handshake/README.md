@@ -29,8 +29,8 @@ This screen captures the `onboard` flow state "2. Handshake" in the current Iglo
 - Threshold Signing for Nostr
 - Onboard
 - Onboarding...
-- Connecting to your source device to receive group configurat
-- Connected to relays
+- Validating the onboarding package and saving this device's s
+- Validated package
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

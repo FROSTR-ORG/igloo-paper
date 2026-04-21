@@ -16,8 +16,8 @@ This artboard documents the current Paper reference for Key Lifecycle Progress S
 - Key Lifecycle Progress Sections
 - Protocol Boundary Note
 - Generation Progress is a host-side lifecycle progress patter
-- Rotate Shares Progress Variant
-- Canonical sources: Web — Rotate Shares — 6. Generation Progr
+- Rotate Keyset Progress Variant
+- Canonical source: Web — Rotate Keyset — 1e. Generation Progr
 
 ## Files
 - `reference.html` — Tailwind-flavored Paper JSX export for the artboard.

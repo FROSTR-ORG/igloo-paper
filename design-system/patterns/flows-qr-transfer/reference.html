@@ -74,10 +74,10 @@
             </div>
             <div className="flex flex-col self-stretch rounded-lg py-3 px-4 gap-1 bg-[#1E3A8A4D] border border-solid border-[#1D4ED880]">
               <div className="inline-block text-[#93C5FD] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
-                Waiting for peer to scan and connect...
+                Waiting for recipient to scan...
               </div>
               <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
-                Peer will connect via relays after scanning
+                Package can be scanned as a QR code
               </div>
             </div>
             <div className="flex rounded-md py-2 px-5 border border-solid border-[#94A3B840]">
@@ -137,7 +137,7 @@
                 Peer connected!
               </div>
               <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
-                Onboarding complete — peer received keyset data.
+                Onboarding complete — recipient imported keyset data.
               </div>
             </div>
             <div className="flex rounded-md py-2 px-5 bg-[#16A34A]">
@@ -312,7 +312,7 @@
               Distribution Workspace
             </div>
             <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-sm/5.5">
-              Distribute the rotated share packages to remaining devices. Your local signer is the provisioning responder and must be reachable.
+              Distribute the generated bfonboard packages to remaining devices. Recipient devices import them through the standard onboarding flow.
             </div>
           </div>
           <div className="flex items-center rounded-[10px] py-3 px-4 gap-2.5 bg-[#1E3A8A1A] border border-solid border-[#2563EB33]">
@@ -334,7 +334,7 @@
               <div className="flex gap-1.5">
                 <div className="flex items-center rounded-md py-1 px-2.5 bg-[#FBBF2433]">
                   <div className="text-[#FBBF24] font-['Inter',system-ui,sans-serif] font-medium text-[11px]/3.5">
-                    Rotate Existing
+                    Existing Device
                   </div>
                 </div>
                 <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
@@ -591,10 +591,10 @@
           </div>
           <div className="flex flex-col w-full gap-1">
             <div className="text-[#FACC15] font-['Inter',system-ui,sans-serif] font-semibold text-[13px]/4">
-              Onboarding Timed Out
+              Package Did Not Apply
             </div>
             <div className="text-[#FDE68A] font-['Inter',system-ui,sans-serif] text-[13px]/4">
-              Onboarding peer did not respond within 30 seconds. They may be offline.
+              Package could not be applied. Check the package, password, and group details.
             </div>
           </div>
         </div>
@@ -606,10 +606,10 @@
           </div>
           <div className="flex flex-col w-full gap-1">
             <div className="text-[#F87171] font-['Inter',system-ui,sans-serif] font-semibold text-[13px]/4">
-              Onboarding Rejected
+              Package Rejected
             </div>
             <div className="text-[#FCA5A5] font-['Inter',system-ui,sans-serif] text-[13px]/4">
-              Challenge verification failed. You may not have a valid share for this group.
+              The package could not be verified for this keyset or share.
             </div>
           </div>
         </div>
@@ -626,10 +626,10 @@
         </div>
         <div className="flex flex-col w-7xl gap-4">
           <div className="text-[#DBEAFE] font-['Inter',system-ui,sans-serif] font-semibold text-[15px]/5.5">
-            Handshake Variant
+            Package Apply Variant
           </div>
           <div className="max-w-195 text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-sm/5.5">
-            Completed rows may show supporting connection details. The package strip and cancellation action sit beneath the active timeline.
+            Completed rows may show supporting package details. The pattern avoids implying runtime share generation.
           </div>
           <div className="flex flex-col w-160 gap-4">
             <div className="flex flex-col w-160">
@@ -643,10 +643,10 @@
                 </div>
                 <div className="flex flex-col pt-0.5 gap-0.5">
                   <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-sm/5">
-                    Connected to relays
+                    Validated package
                   </div>
                   <div className="inline-block text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4.5">
-                    wss://relay.primal.net, wss://relay.damus.io
+                    bfonboard1•••
                   </div>
                 </div>
               </div>
@@ -660,10 +660,10 @@
                 </div>
                 <div className="flex flex-col pt-0.5 gap-0.5">
                   <div className="inline-block text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-sm/5">
-                    Found source device
+                    Matched keyset
                   </div>
                   <div className="inline-block text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4.5">
-                    02a3f8c2d1...8f2c
+                    My Signing Key (2/3)
                   </div>
                 </div>
               </div>
@@ -677,7 +677,7 @@
                 </div>
                 <div className="flex flex-col pt-0.5 gap-0.5">
                   <div className="inline-block text-[#F59E0B] font-['Inter',system-ui,sans-serif] font-medium text-sm/5">
-                    Receiving keyset data
+                    Applying share data
                   </div>
                 </div>
               </div>
@@ -769,7 +769,7 @@
             </div>
             <div className="flex flex-col w-160 gap-3">
               <div className="tracking-[0.08em] uppercase text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
-                Rotate Shares / Generation Progress
+                Rotate Keyset / Generation Progress
               </div>
               <div className="w-160 flex flex-col rounded-[10px] bg-[#0F172A99] border border-solid border-[#1E3A8A4D] p-4">
                 <div className="w-151.5 h-11.25 flex items-center gap-4 border-b border-b-solid border-b-[#1E293BA6] shrink-0">
@@ -810,7 +810,7 @@
                 <div className="w-151.5 h-11 flex items-center gap-4 shrink-0">
                   <div className="rounded-[999px] [border-width:1.5px] border-solid border-[#1E3A8A66] shrink-0 size-5" />
                   <div className="grow shrink basis-[0%] text-[#64748B] font-['Inter',system-ui,sans-serif] text-[13px]/4.5">
-                    Prepare Rotated Shares
+                    Prepare Onboarding Packages
                   </div>
                 </div>
               </div>

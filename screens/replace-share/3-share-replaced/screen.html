@@ -1,6 +1,6 @@
 (
     <div className="[font-synthesis:none] flex overflow-clip w-360 h-321 flex-col items-center pb-15 antialiased text-xs/4" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
-      <div className="flex items-center justify-center w-full shrink-0 py-5 px-20 h-0 min-h-28.5">
+      <div className="flex items-center justify-center w-full shrink-0 py-5 px-20 min-h-28.5 h-0">
         <div className="flex items-center justify-between w-250 shrink-0 rounded-xl py-3.5 px-5 bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
           <div className="flex items-center gap-3.5">
             <div className="shrink-0 rounded-[10px] [background-position-x:center] [background-position-y:center] bg-contain bg-center bg-no-repeat size-11" style={{ backgroundImage: 'url(../../../assets/paper/1WEXSFAT73DS0G9ZZTFNR8PXP9.png)' }} />
@@ -13,75 +13,99 @@
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-160 pt-6 pb-10 gap-6 h-0">
-        <div className="flex items-center gap-1.5">
-          <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-lg/3.5">
-            ‹
-          </div>
-          <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-[13px]/4.5">
-            Back to Settings
-          </div>
-        </div>
+      <div className="flex flex-col w-160 pt-6 pb-10 gap-5 h-0">
         <div className="flex flex-col gap-3">
           <div className="tracking-[-0.01em] text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-2xl/8">
-            Enter Rotate Package
+            Share Replaced
           </div>
           <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-sm/5.5">
-            Enter the rotate package from a source device to replace this device's local share while keeping the same group public key.
+            Your local share has been replaced. Review the identity changes below before returning to the signer.
           </div>
         </div>
-        <div className="flex flex-col gap-1.5">
-          <div className="flex items-center gap-1.5">
-            <div className="inline-block text-[#93C5FDCC] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
-              Rotate Package
+        <div className="flex items-start w-full rounded-[10px] gap-3 bg-[#22C55E14] border border-solid border-[#22C55E40] p-4">
+          <div className="flex items-center justify-center rounded-[999px] [border-width:1.5px] border-solid border-[#4ADE80] shrink-0 size-6">
+            <div className="flex text-[#4ADE80] font-['Inter',system-ui,sans-serif] text-sm/4.5">
+              ✓
             </div>
-            <div className="flex items-center justify-center rounded-[999px] border border-solid border-[#64748B] shrink-0 size-3.5">
-              <div className="flex text-[#64748B] font-['Inter',system-ui,sans-serif] font-medium text-[10px]/4">
-                i
+          </div>
+          <div className="flex flex-col grow shrink basis-[0%] gap-0.5">
+            <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
+              Replacement share is active on this device
+            </div>
+            <div className="text-[#86EFAC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+              Profile ID changes because it is derived from the new share public key.
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col w-full rounded-[10px] gap-3 bg-[#0F172A99] border border-solid border-[#1E3A8A4D] p-4">
+          <div className="tracking-[0.08em] text-[#93C5FDCC] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+            IDENTITY CHANGES
+          </div>
+          <div className="flex items-center justify-between py-2.5 border-b border-b-solid border-b-[#1E3A8A26]">
+            <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
+              Group Public Key
+            </div>
+            <div className="flex items-center gap-1.5">
+              <div className="text-[#60A5FA] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
+                npub1qe3...7kkm
+              </div>
+              <div className="rounded-sm py-0.5 px-1.5 bg-[#2563EB1F]">
+                <div className="text-[#60A5FAB3] font-['Inter',system-ui,sans-serif] text-[10px]/3">
+                  Unchanged
+                </div>
               </div>
             </div>
           </div>
-          <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
-            Paste the bfonboard rotate package from the source device or scan its QR code.
-          </div>
-          <div className="min-h-18 rounded-lg py-4 px-3.5 bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
-            <div className="text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
-              bfonboard1...
+          <div className="flex items-center justify-between py-2.5 border-b border-b-solid border-b-[#1E3A8A26]">
+            <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
+              Share Public Key
             </div>
-          </div>
-          <div className="flex items-center justify-center w-25.5 h-9 rounded-lg bg-[#0F172A73] border border-solid border-[#1E3A8A4D] shrink-0">
-            <div className="flex text-[#E2E8F0] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-              Scan QR
-            </div>
-          </div>
-          <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] text-[13px]/4.5">
-            Valid package — My Signing Key (2/3) · replacement for Share #0
-          </div>
-        </div>
-        <div className="h-px w-full bg-[#1E3A8A33] shrink-0" />
-        <div className="flex flex-col gap-1.5">
-          <div className="flex items-center gap-1.5">
-            <div className="inline-block text-[#93C5FDCC] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
-              Package Password
-            </div>
-            <div className="flex items-center justify-center rounded-[999px] border border-solid border-[#64748B] shrink-0 size-3.5">
-              <div className="flex text-[#64748B] font-['Inter',system-ui,sans-serif] font-medium text-[10px]/4">
-                i
+            <div className="flex flex-col items-end gap-1">
+              <div className="flex items-center gap-1.5">
+                <div className="text-[#EF4444B3] font-['Share_Tech_Mono',system-ui,sans-serif] line-through decoration-1 [text-underline-position:from-font] text-[11px]/3.5">
+                  02a3f8...8f2c
+                </div>
+                <div className="text-[#EF4444] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                  Old
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <div className="text-[#4ADE80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  03b7d9...2e5a
+                </div>
+                <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                  New
+                </div>
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-between h-10.5 rounded-lg px-3.5 bg-[#0F172A99] border border-solid border-[#1E3A8A4D] shrink-0">
-            <div className="text-[#E2E8F0] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
-              ••••••••
+          <div className="flex items-center justify-between py-2.5">
+            <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
+              Profile ID
             </div>
-            <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-sm/4.5">
-              ◌
+            <div className="flex flex-col items-end gap-1">
+              <div className="flex items-center gap-1.5">
+                <div className="text-[#EF4444B3] font-['Share_Tech_Mono',system-ui,sans-serif] line-through decoration-1 [text-underline-position:from-font] text-[11px]/3.5">
+                  prof_8f2c4a
+                </div>
+                <div className="text-[#EF4444] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                  Old
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <div className="text-[#4ADE80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+                  prof_2e5a19
+                </div>
+                <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                  New
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full h-12 rounded-lg bg-[#2563EB] shrink-0">
+        <div className="flex items-center justify-center w-full h-11 rounded-lg bg-[#2563EB] shrink-0">
           <div className="flex text-white font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-            Apply Share Update
+            Return to Signer
           </div>
         </div>
       </div>

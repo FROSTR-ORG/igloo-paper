@@ -522,34 +522,34 @@
   {
     "id": "IS8-0",
     "paperNodeId": "IS8-0",
-    "name": "Rotate Share — 1. Enter Rotate Package",
+    "name": "Replace Share — 1. Enter Onboarding Package",
     "category": "screen",
-    "flow": "rotate-share",
-    "outputPath": "screens/rotate-share/1-enter-rotate-package"
+    "flow": "replace-share",
+    "outputPath": "screens/replace-share/1-enter-onboarding-package"
   },
   {
     "id": "IV8-0",
     "paperNodeId": "IV8-0",
-    "name": "Rotate Share — 2. Applying Share Update",
+    "name": "Replace Share — 2. Applying Replacement",
     "category": "screen",
-    "flow": "rotate-share",
-    "outputPath": "screens/rotate-share/2-applying-share-update"
+    "flow": "replace-share",
+    "outputPath": "screens/replace-share/2-applying-replacement"
   },
   {
     "id": "J3O-0",
     "paperNodeId": "J3O-0",
-    "name": "Rotate Share — 2b. Share Update Failed",
+    "name": "Replace Share — 2b. Replacement Failed",
     "category": "screen",
-    "flow": "rotate-share",
-    "outputPath": "screens/rotate-share/2b-share-update-failed"
+    "flow": "replace-share",
+    "outputPath": "screens/replace-share/2b-replacement-failed"
   },
   {
     "id": "JIJ-0",
     "paperNodeId": "JIJ-0",
-    "name": "Rotate Share — 3. Local Share Updated",
+    "name": "Replace Share — 3. Share Replaced",
     "category": "screen",
-    "flow": "rotate-share",
-    "outputPath": "screens/rotate-share/3-local-share-updated"
+    "flow": "replace-share",
+    "outputPath": "screens/replace-share/3-share-replaced"
   },
   {
     "id": "59J-0",

@@ -30,7 +30,7 @@ This screen captures the `onboard` flow state "2b. Onboarding Failed" in the cur
 - Onboard
 - Onboarding Failed
 - !
-- Onboarding Timed Out
+- Package Did Not Apply
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

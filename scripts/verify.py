@@ -33,6 +33,7 @@ STALE_DIRS = [
     REPO_ROOT / "screens" / "dashboard" / "3-settings",
     REPO_ROOT / "screens" / "dashboard" / "7-pending-approvals",
     REPO_ROOT / "screens" / "dashboard" / "8-switch-profile",
+    REPO_ROOT / "screens" / "rotate-share",
 ]
 EXPECTED_SCREEN_PATHS = {
     "QI3-0": "screens/welcome/1c-1-unlock-profile-modal",
@@ -41,6 +42,10 @@ EXPECTED_SCREEN_PATHS = {
     "726-0": "screens/onboard/3-onboarding-complete",
     "T62-0": "screens/dashboard/2c-signing-blocked",
     "518-0": "screens/dashboard/3-settings-lock-profile",
+    "IS8-0": "screens/replace-share/1-enter-onboarding-package",
+    "IV8-0": "screens/replace-share/2-applying-replacement",
+    "J3O-0": "screens/replace-share/2b-replacement-failed",
+    "JIJ-0": "screens/replace-share/3-share-replaced",
 }
 GLOSSARY_FILES = {
     "core-protocol.md",

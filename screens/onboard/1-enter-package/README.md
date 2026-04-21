@@ -30,7 +30,7 @@ This screen captures the `onboard` flow state "1. Enter Package" in the current 
 - Onboard
 - Back to Welcome
 - Enter Onboarding Package
-- Enter the onboarding package from a source device to receive
+- Import a valid onboarding package to receive this device's s
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

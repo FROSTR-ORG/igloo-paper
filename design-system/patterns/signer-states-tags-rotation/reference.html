@@ -474,7 +474,7 @@
       <div className="flex flex-col max-w-7xl shrink-0 px-20 gap-5">
         <div className="flex items-center w-7xl gap-3">
           <div className="tracking-[0.08em] text-[#64748B] font-['Share_Tech_Mono',system-ui,sans-serif] text-xs/4">
-            ROTATE SHARES STATES
+            ROTATE KEYSET STATES
           </div>
           <div className="grow h-px bg-[#1E3A8A33]" />
         </div>
@@ -482,10 +482,10 @@
           <div className="shrink-0 rounded-[50%] bg-[#3B82F6] [box-shadow:#3B82F699_0px_0px_5px_2px] size-2.5" />
           <div className="flex flex-col grow gap-0.5">
             <div className="text-[#93C5FD] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-              Share rotation in progress
+              Keyset rotation in progress
             </div>
             <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
-              Collecting sources and generating fresh shares — do not close this tab
+              Collecting outside-runtime sources and generating fresh shares — do not close this tab
             </div>
           </div>
         </div>
@@ -496,7 +496,7 @@
               Local replacement activated — distribution pending
             </div>
             <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
-              Your device has a fresh share, new share public key, and new profile_id. Distribute remaining bfonboard adoption packages to remote devices.
+              Your device has a fresh local share, new share public key, and new profile_id. Distribute remaining bfonboard packages to remote devices.
             </div>
           </div>
         </div>
@@ -504,10 +504,10 @@
           <div className="shrink-0 rounded-[50%] bg-[#22C55E] [box-shadow:#22C55E99_0px_0px_5px_2px] size-2.5" />
           <div className="flex flex-col grow gap-0.5">
             <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-              Share rotation complete — distribution handoff finished
+              Keyset rotation complete — distribution handoff finished
             </div>
             <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
-              All remote bfonboard adoption packages have been accounted for. Remote devices can now adopt through the standard onboarding flow.
+              All remote bfonboard packages have been accounted for. Remote devices can now adopt through the standard onboarding flow.
             </div>
           </div>
         </div>
@@ -515,10 +515,10 @@
           <div className="shrink-0 rounded-[50%] bg-[#EF4444] [box-shadow:#EF444499_0px_0px_5px_2px] size-2.5" />
           <div className="flex flex-col grow gap-0.5">
             <div className="text-[#EF4444] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-              Share rotation failed — no changes made
+              Keyset rotation failed — no changes made
             </div>
             <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
-              Generation could not complete. Your current configuration remains intact. Retry with valid sources.
+              Generation could not complete. Your current configuration remains active.
             </div>
           </div>
         </div>
@@ -529,7 +529,7 @@
               Same group public key preserved
             </div>
             <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
-              Share rotation preserves the same group public key. Share public keys and profile_id change. Host-local settings such as relays and permissions are not rotation invariants.
+              Keyset rotation preserves the same group public key. Share public keys and profile_id change. Host-local settings such as relays and permissions are not rotation invariants.
             </div>
           </div>
         </div>
@@ -537,19 +537,19 @@
           <div className="mt-1.5 shrink-0 rounded-[999px] bg-[#2B6DFF] size-2.5" />
           <div className="flex flex-col w-304 gap-1.5 shrink-0">
             <div className="[white-space-collapse:preserve] text-[#D7E5FF] font-sans text-lg/5.5">
-              Rotation Terminology
+              Keyset Rotation Terminology
             </div>
             <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
-              Rotate Shares = fresh device shares for the same group public key.
+              Rotate Keyset = fresh device shares for the same group public key.
             </div>
             <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
-              Rotate Existing = pre-runtime host entry label for this flow.
+              Existing Device = remote output label for an already-known member receiving a new onboarding package.
             </div>
             <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
               Keyset Replacement = new group public key. Not shown in this flow.
             </div>
             <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
-              Input = source packages (bfprofile or bfshare). Output = bfonboard adoption packages.
+              Input = source packages (bfprofile or bfshare, or nsec where supported). Output = bfonboard packages.
             </div>
             <div className="[white-space-collapse:preserve] text-[#AEBAD3] font-sans text-sm/4.5">
               Share public keys and profile_id change. Group public key does not. Advanced: group_id may change with threshold or member changes.
@@ -563,13 +563,13 @@
               Protocol Boundary
             </div>
             <div className="text-[#AEBAD3] font-sans text-sm/4.5">
-              Share generation is an operator-side trusted-dealer computation from threshold source packages.
+              Share generation is an outside-runtime trusted-dealer computation from nsec or threshold source packages.
             </div>
             <div className="text-[#AEBAD3] font-sans text-sm/4.5">
-              There is no dedicated rotate relay method or rotate-recipient flow.
+              There is no dedicated runtime share-generation relay method.
             </div>
             <div className="text-[#AEBAD3] font-sans text-sm/4.5">
-              Relay protocol resumes only when rotated bfonboard packages are adopted through the standard onboarding flow.
+              Relay protocol resumes only when bfonboard packages are adopted through the standard onboarding flow.
             </div>
           </div>
         </div>

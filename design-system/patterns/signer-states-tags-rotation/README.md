@@ -13,7 +13,7 @@ This artboard documents the current Paper reference for Signer & States — Tags
 - **Policy Tag Color Reference**
 - **Signer Policies Card Section**
 - **Peer Policies Card Section**
-- **Rotate Shares States Section**
+- **Rotate Keyset States Section**
 
 ## Representative Copy
 - Igloo UI

@@ -6,7 +6,7 @@ This artboard documents the current Paper reference for Tooltips & Help Text —
 ## Paper Source
 - **Artboard ID:** OIP-0
 - **Artboard Name:** Tooltips & Help Text — Contextual Help
-- **Dimensions:** 1440 × 1922
+- **Dimensions:** 1440 × 1862
 
 ## Contents
 - **Contextual Help Text**

@@ -48,10 +48,10 @@ The reference FROSTR node implementation. Each Bifrost node manages a Group Prof
 Another signer node in your FROSTR threshold group. Peers coordinate over relays to co-sign requests.
 
 ### Onboarding Package
-The transport format for delivering a share to a device. Used for both first-time onboarding and rotated-share adoption. Contains the share secret plus group metadata needed to connect to an onboarding peer. Encoded as a bech32m string with the bfonboard prefix. Colloquially: "here's your bfonboard."
+The transport format for delivering a share to a device. Used for first-time onboarding and runtime Replace Share. Contains the share secret plus group metadata needed to save or migrate a profile. Encoded as a bech32m string with the bfonboard prefix. Colloquially: "here's your bfonboard."
 
 ### bfonboard
-The bech32m prefix for onboarding packages (bfonboard1...). Used for standard onboarding, including first-time onboarding and rotated-share adoption.
+The bech32m prefix for onboarding packages (bfonboard1...). Onboarding packages are produced outside runtime from an nsec or a threshold of source shares, then imported by Onboard or Replace Share.
 
 ### bfprofile
 The bech32m prefix for profile backups (bfprofile1...). Used when importing a saved profile from text or file.
@@ -71,11 +71,11 @@ Password used to decrypt bfonboard, bfprofile, or bfshare packages.
 ### Profile Password
 The password used to encrypt and unlock a saved profile on this device.
 
-### Onboarding Peer
-The device already online that sponsors onboarding for another device. During onboarding, the onboarding peer transmits group configuration and share data over relays. Must be online for onboarding to complete.
+### Package Producer
+The outside-runtime process or operator that creates a bfonboard package from an nsec or threshold source shares. Runtime Replace Share only imports the finished package.
 
-### Handshake
-The process of connecting to relays, finding an onboarding peer, and receiving group/share data from a bfonboard package. Used for both first-time onboarding and rotated-share adoption.
+### Apply Package
+The process of decrypting, validating, and saving share data from a bfonboard package. Used for first-time onboarding and runtime Replace Share.
 
 ### Profile Name
 A human-readable name for a profile on this device, used to identify it in the peer list and profile selector.
