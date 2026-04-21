@@ -30,7 +30,7 @@ This screen captures the `replace-share` flow state "2. Applying Replacement" in
 - ‹
 - Back to Settings
 - Applying Replacement
-- Validating the onboarding package and replacing this profile
+- Validating the onboarding package and replacing this device’
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

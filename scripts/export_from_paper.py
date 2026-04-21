@@ -37,8 +37,17 @@ FOUNDATION_COLOR_SECTIONS = [
     ("Interface Text Tones Section", "Interface Text Tones", "interface-text-tones"),
     ("Interface Borders & Overlays Section", "Interface Borders & Overlays", "interface-borders-overlays"),
 ]
+CANONICAL_FONT_STACKS = {
+    "Inter": '"Inter", system-ui, sans-serif',
+    "Share Tech Mono": '"Share Tech Mono", system-ui, sans-serif',
+}
+CANONICAL_INTER_FONT_CLASS = "font-['Inter',system-ui,sans-serif]"
+CANONICAL_MONO_FONT_CLASS = "font-['Share_Tech_Mono',system-ui,sans-serif]"
+DEPRECATED_MONO_FONT_FAMILIES = {"paper mono preview", "paper mono", "ibm plex mono", "roboto mono"}
+DEPRECATED_SANS_FONT_FAMILIES = {"matter", "inter tight", "system sans-serif", "noto sans", "archivo black"}
 HEX_RE = re.compile(r"^#[0-9A-Fa-f]{6}(?:[0-9A-Fa-f]{2})?$")
 PAPER_ASSET_RE = re.compile(r"https://app\.paper\.design/file-assets/[A-Za-z0-9]+/[A-Za-z0-9_.-]+")
+ARBITRARY_FONT_RE = re.compile(r"font-\[([^\]]+)\]")
 STRUCTURAL_LABELS = {"Header", "Frame", "Rectangle", "SVG", "Section Label"}
 
 
@@ -139,6 +148,23 @@ def localize_asset_urls(jsx: str, output_dir: Path) -> str:
         return Path(os.path.relpath(target, output_dir)).as_posix()
 
     return PAPER_ASSET_RE.sub(replace, jsx)
+
+
+def primary_font_family(raw_font_class: str) -> str:
+    primary = raw_font_class.split(",", 1)[0].strip().strip("'\"")
+    return " ".join(primary.replace("_", " ").split()).lower()
+
+
+def canonicalize_font_classes(jsx: str) -> str:
+    def replace(match: re.Match[str]) -> str:
+        primary = primary_font_family(match.group(1))
+        if primary in DEPRECATED_MONO_FONT_FAMILIES:
+            return CANONICAL_MONO_FONT_CLASS
+        if primary in DEPRECATED_SANS_FONT_FAMILIES:
+            return CANONICAL_INTER_FONT_CLASS
+        return match.group(0)
+
+    return ARBITRARY_FONT_RE.sub(replace, jsx)
 
 
 def node_info(client: PaperClient, node_id: str) -> dict[str, Any]:
@@ -391,6 +417,14 @@ def primary_family_name(stack: str) -> str:
     return first.strip("'\"")
 
 
+def canonical_family_name(name: str) -> str:
+    normalized = " ".join(name.replace("_", " ").split()).lower()
+    for canonical in CANONICAL_FONT_STACKS:
+        if normalized == canonical.lower():
+            return canonical
+    raise SystemExit(f"Unsupported Foundations typography family: {name}")
+
+
 def extract_color_section(client: PaperClient, content_id: str) -> dict[str, dict[str, str]]:
     rows = node_children(client, content_id)
     row_infos = [node_info(client, row["id"]) for row in rows]
@@ -462,21 +496,13 @@ def extract_typography(client: PaperClient, section_ids: dict[str, str]) -> dict
         label = sample.split(" — ", 1)[0].strip()
 
         if info["name"] == "Secondary Mono Row":
-            alternates = sample.split(" — ", 1)[1] if " — " in sample else ""
-            for family_name in [part.strip() for part in alternates.split(",") if part.strip()]:
-                font_families.setdefault(
-                    family_name,
-                    {
-                        "stack": f'"{family_name}", monospace',
-                        "usage": note,
-                    },
-                )
             continue
 
-        family_name = note.split(" / ", 1)[0].strip() if " / " in note else primary_family_name(style.get("fontFamily", ""))
+        raw_family_name = note.split(" / ", 1)[0].strip() if " / " in note else primary_family_name(style.get("fontFamily", ""))
+        family_name = canonical_family_name(raw_family_name)
         if family_name and family_name not in font_families:
             font_families[family_name] = {
-                "stack": style.get("fontFamily", ""),
+                "stack": CANONICAL_FONT_STACKS[family_name],
                 "usage": note,
             }
 
@@ -562,7 +588,8 @@ def export_shared_components(client: PaperClient) -> None:
     shared_dir = REPO_ROOT / "screens" / "_shared"
     shared_dir.mkdir(parents=True, exist_ok=True)
     for filename, node_id in SHARED_COMPONENTS.items():
-        write_text(shared_dir / filename, localize_asset_urls(client.get_jsx(node_id), shared_dir))
+        jsx = canonicalize_font_classes(client.get_jsx(node_id))
+        write_text(shared_dir / filename, localize_asset_urls(jsx, shared_dir))
 
 
 def export_glossary_entry(
@@ -594,7 +621,7 @@ def export_standard_entry(
 ) -> None:
     paper_id = entry["paperNodeId"]
     summary = client.get_tree_summary(paper_id, depth=5)
-    jsx = client.get_jsx(paper_id)
+    jsx = canonicalize_font_classes(client.get_jsx(paper_id))
     mime_type, encoded = client.get_screenshot(paper_id)
     output_dir = REPO_ROOT / entry["outputPath"]
     output_dir.mkdir(parents=True, exist_ok=True)

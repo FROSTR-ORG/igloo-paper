@@ -13,7 +13,8 @@ This screen captures the `welcome` flow state "1c-1. Unlock Profile (Modal)" in 
 - **State:** `1c-1. Unlock Profile (Modal)`
 
 ## Key Regions
-- The full structure is available in `screen.html`.
+- **Welcome Returning Shell**
+- **Unlock Profile Modal Overlay**
 
 ## Related Screens
 

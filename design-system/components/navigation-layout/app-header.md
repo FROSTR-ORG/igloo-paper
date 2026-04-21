@@ -89,7 +89,7 @@ Used when signer is fully operational.
 ## Structure
 
 ```
-AppHeader (1440×114)
+AppHeader (1440×120)
 └── Pill (1000×74, flex, space-between, align-center)
     ├── Left Cluster (flex, align-center, gap: 14px)
     │   ├── Snowflake Icon (44×44)
@@ -107,7 +107,7 @@ AppHeader (1440×114)
 
 ### Container
 - Width: 100% (1440px in artboards)
-- Height: 114px
+- Height: 120px
 - Padding: 20px vertical, 80px horizontal
 - Display: flex
 - Justify: center

@@ -26,9 +26,9 @@ This screen captures the `shared` flow state "2. Create Profile" in the current 
 ## Representative Copy
 - Igloo
 - My Signing Key
-- Create / Rotate
-- Create Profile
-- Distribute Shares
+- Create Keyset
+- Setup Profile
+- Onboard Devices
 - Back
 
 ## Files

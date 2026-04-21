@@ -1578,18 +1578,6 @@
       ]
     },
     {
-      "name": "usage-color-158",
-      "value": "#94A3B880",
-      "fileCount": 5,
-      "sampleFiles": [
-        "design-system/components/settings-sidebar/reference.html",
-        "screens/dashboard/3-settings-lock-profile/screen.html",
-        "screens/dashboard/3b-clear-credentials-modal/screen.html",
-        "screens/dashboard/4-export-profile/screen.html",
-        "screens/dashboard/4b-export-complete/screen.html"
-      ]
-    },
-    {
       "name": "usage-color-159",
       "value": "#94A3B88C",
       "fileCount": 1,

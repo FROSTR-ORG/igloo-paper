@@ -30,8 +30,8 @@ This screen captures the `rotate-keyset` flow state "1d. Review & Generate" in t
 - Igloo
 - My Signing Key
 - Rotate Keyset
-- Create Profile
-- Distribute Shares
+- Setup Profile
+- Onboard Devices
 - Back
 
 ## Files

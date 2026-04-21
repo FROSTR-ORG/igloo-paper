@@ -19,11 +19,11 @@
           <div className="flex gap-5">
             <div className="flex flex-col grow shrink basis-[0%] rounded-[10px] gap-4.5 bg-[#0F172A80] border border-solid border-[#1E3A8A4D] p-5">
               <div className="flex flex-col gap-1.5">
-                <div className="text-[#93C5FDCC] font-['IBM_Plex_Mono',system-ui,sans-serif] text-[13px]/4">
+                <div className="text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
                   Create
                 </div>
                 <div className="text-[#B8C9EE] font-['Inter',system-ui,sans-serif] text-[13px]/5">
-                  Generate a new keyset outside runtime, then continue into the shared profile and distribution steps.
+                  Generate a new keyset outside runtime, then continue through profile setup and device onboarding.
                 </div>
               </div>
               <div className="flex items-center w-full">
@@ -34,7 +34,7 @@
                     </div>
                   </div>
                   <div className="w-full text-center text-[#60A5FA] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
-                    Create
+                    Create Keyset
                   </div>
                 </div>
                 <div className="grow shrink basis-[0%] h-0.5 bg-[#1E3A8A4D]" />
@@ -45,7 +45,7 @@
                     </div>
                   </div>
                   <div className="w-full text-center text-[#94A3B899] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
-                    Create Profile
+                    Setup Profile
                   </div>
                 </div>
                 <div className="grow shrink basis-[0%] h-0.5 bg-[#1E3A8A4D]" />
@@ -56,23 +56,23 @@
                     </div>
                   </div>
                   <div className="w-full text-center text-[#94A3B899] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
-                    Distribute Shares
+                    Onboard Devices
                   </div>
                 </div>
               </div>
               <div className="rounded-lg py-3 px-4 bg-[#17255466] border border-solid border-[#1E3A8A33]">
                 <div className="text-[#BFDBFE] font-['Inter',system-ui,sans-serif] text-[13px]/5">
-                  Step 1 generates the keyset and assigns the local share before the shared Create Profile step begins.
+                  Step 1 generates the keyset and assigns the local share before Setup Profile begins.
                 </div>
               </div>
             </div>
             <div className="flex flex-col grow shrink basis-[0%] rounded-[10px] gap-4.5 bg-[#0F172A80] border border-solid border-[#1E3A8A4D] p-5">
               <div className="flex flex-col gap-1.5">
-                <div className="text-[#93C5FDCC] font-['IBM_Plex_Mono',system-ui,sans-serif] text-[13px]/4">
+                <div className="text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
                   Rotate Keyset
                 </div>
                 <div className="text-[#B8C9EE] font-['Inter',system-ui,sans-serif] text-[13px]/5">
-                  Collect threshold source shares outside runtime, rotate the full keyset, then converge into the same shared profile and distribution steps.
+                  Collect threshold source shares outside runtime, rotate the full keyset, then continue through profile setup and device onboarding.
                 </div>
               </div>
               <div className="flex items-center w-full">
@@ -94,7 +94,7 @@
                     </div>
                   </div>
                   <div className="w-full text-center text-[#94A3B899] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
-                    Create Profile
+                    Setup Profile
                   </div>
                 </div>
                 <div className="grow shrink basis-[0%] h-0.5 bg-[#1E3A8A4D]" />
@@ -105,20 +105,20 @@
                     </div>
                   </div>
                   <div className="w-full text-center text-[#94A3B899] font-['Inter',system-ui,sans-serif] font-medium text-xs/4">
-                    Distribute Shares
+                    Onboard Devices
                   </div>
                 </div>
               </div>
               <div className="rounded-lg py-3 px-4 bg-[#17255466] border border-solid border-[#1E3A8A33]">
                 <div className="text-[#BFDBFE] font-['Inter',system-ui,sans-serif] text-[13px]/5">
-                  Step 1 collects threshold sources and rotates all shares. The replacement local share is already assigned when shared Create Profile begins.
+                  Step 1 collects threshold sources and rotates all shares before Setup Profile begins.
                 </div>
               </div>
             </div>
           </div>
           <div className="rounded-lg py-3.5 px-4 bg-[#2563EB14] border border-solid border-[#1E3A8A33]">
             <div className="text-[#BFDBFE] font-['Inter',system-ui,sans-serif] text-sm/5">
-              Outside-runtime Create and Rotate Keyset now share the same step order after Step 1. Runtime Replace Share is a separate maintenance flow and is documented below.
+              Outside-runtime Create and Rotate Keyset now share Setup Profile and Onboard Devices after Step 1. Runtime Replace Share is separate.
             </div>
           </div>
         </div>

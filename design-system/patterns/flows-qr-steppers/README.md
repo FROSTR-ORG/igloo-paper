@@ -17,7 +17,7 @@ This artboard documents the current Paper reference for Flows & QR Codes — Ste
 - Igloo UI
 - Flows & QR Codes — Steppers & Recovery
 - OUTSIDE-RUNTIME KEY LIFECYCLE
-- Outside-runtime Create and Rotate Keyset now share the same
+- Outside-runtime Create and Rotate Keyset now share Setup Pro
 - Recovery Share Collection
 - 2-of-3 Threshold
 

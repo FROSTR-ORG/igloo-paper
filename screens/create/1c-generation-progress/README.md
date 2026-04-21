@@ -27,9 +27,9 @@ This screen captures the `create` flow state "1c. Generation Progress" in the cu
 - Igloo
 - Threshold Signing for Nostr
 - Create
+- Create Keyset
 - Setup Profile
 - Onboard Devices
-- Generation Progress
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

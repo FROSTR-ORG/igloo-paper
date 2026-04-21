@@ -53,8 +53,6 @@
   /* Font families */
   --font-share-tech-mono: "Share Tech Mono", system-ui, sans-serif;
   --font-inter: "Inter", system-ui, sans-serif;
-  --font-ibm-plex-mono: "IBM Plex Mono", monospace;
-  --font-roboto-mono: "Roboto Mono", monospace;
 
   /* Type scale */
   --text-h1-heading-font-family: var(--font-share-tech-mono);
@@ -82,4 +80,8 @@
   --text-value-data-size: 14px;
   --text-value-data-line-height: 18px;
   --text-value-data-weight: 400;
+  --text-mono-labels-font-family: var(--font-inter);
+  --text-mono-labels-size: 12px;
+  --text-mono-labels-line-height: 16px;
+  --text-mono-labels-weight: 400;
 }

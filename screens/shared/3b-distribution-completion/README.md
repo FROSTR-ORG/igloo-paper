@@ -26,9 +26,9 @@ This screen captures the `shared` flow state "3b. Distribution Completion" in th
 ## Representative Copy
 - Igloo
 - My Signing Key
-- Create / Rotate
-- Create Profile
-- Distribute Shares
+- Create Keyset
+- Setup Profile
+- Onboard Devices
 - Back
 
 ## Files

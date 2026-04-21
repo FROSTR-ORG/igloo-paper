@@ -6,7 +6,7 @@ This artboard documents the current Paper reference for Overlays & Feedback. The
 ## Paper Source
 - **Artboard ID:** JU-0
 - **Artboard Name:** Overlays & Feedback
-- **Dimensions:** 1440 × 3227
+- **Dimensions:** 1440 × 3249
 
 ## Contents
 - **Modal Section**

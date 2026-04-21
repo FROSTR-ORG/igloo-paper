@@ -26,10 +26,10 @@ This screen captures the `shared` flow state "3. Distribute Shares" in the curre
 ## Representative Copy
 - Igloo
 - My Signing Key
-- Create / Rotate
-- Create Profile
+- Create Keyset
+- Setup Profile
+- Onboard Devices
 - Distribute Shares
-- Distribute the remaining bfonboard adoption packages to remo
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

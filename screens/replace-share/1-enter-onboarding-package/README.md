@@ -30,7 +30,7 @@ This screen captures the `replace-share` flow state "1. Enter Onboarding Package
 - ‹
 - Back to Settings
 - Enter Onboarding Package
-- Import a valid onboarding package to replace this profile's
+- Import a valid onboarding package to replace this device’s l
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

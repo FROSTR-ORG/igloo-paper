@@ -7,14 +7,6 @@
     "Inter": {
       "stack": "\"Inter\", system-ui, sans-serif",
       "usage": "Inter / 14px / regular"
-    },
-    "IBM Plex Mono": {
-      "stack": "\"IBM Plex Mono\", monospace",
-      "usage": "Optional alternates / non-canonical"
-    },
-    "Roboto Mono": {
-      "stack": "\"Roboto Mono\", monospace",
-      "usage": "Optional alternates / non-canonical"
     }
   },
   "type-scale": {
@@ -66,6 +58,15 @@
       "line-height": "18px",
       "font-weight": 400,
       "notes": "Share Tech Mono / 14px / regular / canonical",
+      "canonical": true
+    },
+    "Mono labels": {
+      "sample": "Mono labels \u2014 Share Tech Mono",
+      "font-family": "Inter",
+      "font-size": "12px",
+      "line-height": "16px",
+      "font-weight": 400,
+      "notes": "Canonical UI mono only",
       "canonical": true
     }
   }

@@ -28,7 +28,7 @@ This screen captures the `replace-share` flow state "3. Share Replaced" in the c
 - Igloo
 - My Signing Key
 - Share Replaced
-- Your local share has been replaced. Review the identity chan
+- Your local share has been replaced. The group public key and
 - ✓
 - Replacement share is active on this device
 

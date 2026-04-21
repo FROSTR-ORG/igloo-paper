@@ -16,8 +16,26 @@ METADATA_PATH = REPO_ROOT / "export-metadata.json"
 TOKEN_DIR = REPO_ROOT / "design-system" / "tokens"
 USAGE_COVERAGE_PATH = TOKEN_DIR / "usage-coverage.json"
 GLOSSARY_DIR = REPO_ROOT / "design-system" / "glossary"
+ASSET_DIR = REPO_ROOT / "assets" / "paper"
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 STALE_IDS = {"QCP-0", "U7Z-0", "UAK-0", "KQO-0", "SXR-0", "EIF-0"}
+CANONICAL_FONT_FAMILIES = {"inter", "share tech mono"}
+DEPRECATED_FONT_NAMES = (
+    "Paper_Mono_Preview",
+    "Paper Mono Preview",
+    "Matter",
+    "Inter Tight",
+    "System Sans-Serif",
+    "Noto Sans",
+    "Archivo Black",
+    "IBM Plex Mono",
+    "Roboto Mono",
+)
+CANONICAL_LOGO_FILENAME = "1WEXSFAT73DS0G9ZZTFNR8PXP9.png"
+STALE_ASSET_FILENAMES = {
+    "5RCNS3F30SGRXT0BETQWTC3KP3.png",
+    "6NH0KS4WDM0F74VG0ZSAMGRPZ6.png",
+}
 STALE_DIRS = [
     REPO_ROOT / "screens" / "welcome" / "1c-returning-multi-alt",
     REPO_ROOT / "screens" / "welcome" / "1c-3-rotate-keyset-modal",
@@ -59,10 +77,11 @@ GLOSSARY_FILES = {
 HEX_RE = re.compile(r"#[0-9A-Fa-f]{6}(?:[0-9A-Fa-f]{2})?")
 PAPER_ASSET_URL_RE = re.compile(r"https://app\.paper\.design/file-assets/")
 LOCAL_ASSET_RE = re.compile(r"(?P<path>(?:\.\./)+assets/paper/[A-Za-z0-9_.-]+)")
-FONT_CLASS_RE = re.compile(r"font-\['([^']+)'")
+FONT_CLASS_RE = re.compile(r"font-\[([^\]]+)\]")
 INLINE_FONT_RE = re.compile(r"fontFamily:\s*['\"]([^'\"]+)['\"]")
 SIZE_CLASS_RE = re.compile(r"text-(\[[0-9.]+px\]|xs|sm|base|lg|xl|2xl|3xl|4xl)(?:/(\[[0-9.]+px\]|[0-9.]+))?")
 APP_FOOTER_RE = re.compile(r'className="([^"]*border-t border-t-solid border-t-\[#1E3A8A33\][^"]*)"')
+ROOT_OPENING_RE = re.compile(r'^\s*<div className="([^"]+)"([^>]*)>', re.MULTILINE)
 TAILWIND_TEXT_SIZES = {
     "xs": ("12px", "16px"),
     "sm": ("14px", "20px"),
@@ -256,7 +275,13 @@ def collect_color_tokens() -> set[str]:
             value = token.get("value")
             if isinstance(value, str) and HEX_RE.fullmatch(value):
                 token_set.add(normalize_hex(value))
+    token_set.update(collect_usage_coverage_color_tokens())
+    return token_set
+
+
+def collect_usage_coverage_color_tokens() -> set[str]:
     usage_coverage = load_json(USAGE_COVERAGE_PATH) if USAGE_COVERAGE_PATH.exists() else {}
+    token_set: set[str] = set()
     for token in usage_coverage.get("colors", []):
         value = token.get("value") if isinstance(token, dict) else token
         if isinstance(value, str) and HEX_RE.fullmatch(value):
@@ -277,7 +302,13 @@ def collect_type_tokens() -> set[tuple[str, str]]:
         line_height = token.get("line-height")
         if isinstance(font_size, str) and isinstance(line_height, str):
             combos.add((normalize_px(font_size), normalize_px(line_height)))
+    combos.update(collect_usage_coverage_type_tokens())
+    return combos
+
+
+def collect_usage_coverage_type_tokens() -> set[tuple[str, str]]:
     usage_coverage = load_json(USAGE_COVERAGE_PATH) if USAGE_COVERAGE_PATH.exists() else {}
+    combos: set[tuple[str, str]] = set()
     for token in usage_coverage.get("typography", []):
         if not isinstance(token, dict):
             continue
@@ -305,6 +336,63 @@ def verify_local_assets() -> None:
             ensure(target.exists(), f"missing localized asset {target.relative_to(REPO_ROOT)} referenced by {path.relative_to(REPO_ROOT)}")
 
 
+def text_targets() -> list[Path]:
+    files = html_targets()
+    files.append(TOKEN_DIR / "typography.json")
+    files.append(TOKEN_DIR / "tokens.css")
+    return sorted({path for path in files if path.exists()})
+
+
+def root_markup_for(path: Path) -> tuple[str, str, str]:
+    text = path.read_text()
+    match = ROOT_OPENING_RE.search(text)
+    ensure(match is not None, f"could not find root className in {path.relative_to(REPO_ROOT)}")
+    return match.group(1), match.group(2), text
+
+
+def verify_web_screen_roots(entries: list[dict[str, Any]]) -> None:
+    required_tokens = {"flex", "flex-col", "items-center"}
+    modal_ids = {"QI3-0", "QKO-0"}
+
+    for entry in entries:
+        if entry["category"] != "screen":
+            continue
+        path = REPO_ROOT / entry["outputPath"] / "screen.html"
+        root_class, root_attrs, text = root_markup_for(path)
+        tokens = set(root_class.split())
+        missing = sorted(required_tokens - tokens)
+        ensure(not missing, f"{entry['outputPath']} root missing classes: {missing}")
+        ensure({"overflow-hidden", "overflow-clip"} & tokens, f"{entry['outputPath']} root missing clipped overflow")
+        ensure("bg-gradient-to-br" in root_class or "linear-gradient" in root_attrs, f"{entry['outputPath']} root missing dark gradient")
+        ensure("bg-white" not in root_class and "bg-white" not in root_attrs, f"{entry['outputPath']} has a white artboard root")
+        if entry["paperNodeId"] in modal_ids:
+            ensure("bg-white" not in root_class and "bg-white" not in root_attrs, f"{entry['outputPath']} modal root should use the dark web background")
+        if entry["paperNodeId"] == "IMQ-0":
+            gradient_root_count = text.count("backgroundImage: 'linear-gradient") + text.count("bg-gradient-to-br")
+            ensure(gradient_root_count == 1, f"{entry['outputPath']} appears to contain a redundant full-screen gradient wrapper")
+
+
+def verify_canonical_export_contract(entries: list[dict[str, Any]]) -> None:
+    typography = load_json(TOKEN_DIR / "typography.json")
+    font_families = {normalize_family(name) for name in typography.get("font-families", {})}
+    ensure(font_families == CANONICAL_FONT_FAMILIES, f"typography font families must be Inter and Share Tech Mono only, found {sorted(font_families)}")
+
+    for path in text_targets():
+        text = path.read_text()
+        rel = path.relative_to(REPO_ROOT)
+        for font_name in DEPRECATED_FONT_NAMES:
+            ensure(font_name not in text, f"deprecated font {font_name} remains in {rel}")
+        for filename in STALE_ASSET_FILENAMES:
+            ensure(filename not in text, f"stale logo asset {filename} remains in {rel}")
+
+    for filename in STALE_ASSET_FILENAMES:
+        ensure(not (ASSET_DIR / filename).exists(), f"stale localized asset still exists: assets/paper/{filename}")
+
+    shared_header = (REPO_ROOT / "screens" / "_shared" / "app-header.html").read_text()
+    ensure(CANONICAL_LOGO_FILENAME in shared_header, "shared app header does not reference the canonical logo asset")
+    verify_web_screen_roots(entries)
+
+
 def verify_footer_positioning() -> None:
     targets = sorted(REPO_ROOT.glob("screens/**/screen.html"))
     targets.append(REPO_ROOT / "screens" / "_shared" / "app-footer.html")
@@ -321,7 +409,9 @@ def scan_html(path: Path) -> tuple[set[str], set[str], set[tuple[str, str]]]:
 
     fonts: set[str] = set()
     for match in FONT_CLASS_RE.finditer(text):
-        fonts.add(normalize_family(match.group(1)))
+        family = match.group(1).strip().strip("'\"")
+        if family and not family[0].isdigit() and not family.startswith("var("):
+            fonts.add(normalize_family(family))
     for match in INLINE_FONT_RE.finditer(text):
         fonts.add(normalize_family(match.group(1)))
 
@@ -353,6 +443,8 @@ def verify_drift(strict_drift: bool) -> None:
     canonical_colors = collect_color_tokens()
     canonical_fonts = collect_font_tokens()
     canonical_typography = collect_type_tokens()
+    covered_colors = collect_usage_coverage_color_tokens()
+    covered_typography = collect_usage_coverage_type_tokens()
 
     color_usage: dict[str, set[str]] = defaultdict(set)
     font_usage: dict[str, set[str]] = defaultdict(set)
@@ -371,6 +463,13 @@ def verify_drift(strict_drift: bool) -> None:
     color_drift = {color: paths for color, paths in color_usage.items() if color not in canonical_colors}
     font_drift = {font: paths for font, paths in font_usage.items() if font not in canonical_fonts}
     typography_drift = {combo: paths for combo, paths in typography_usage.items() if combo not in canonical_typography}
+    coverage_path = USAGE_COVERAGE_PATH.relative_to(REPO_ROOT).as_posix()
+    unused_covered_colors = {color: {coverage_path} for color in covered_colors if color not in color_usage}
+    unused_covered_typography = {
+        combo: {coverage_path}
+        for combo in covered_typography
+        if combo not in typography_usage
+    }
 
     if color_drift:
         print(("FAIL" if strict_drift else "WARN") + f": color drift against Foundations tokens ({len(color_drift)} values)")
@@ -382,16 +481,29 @@ def verify_drift(strict_drift: bool) -> None:
         print(("FAIL" if strict_drift else "WARN") + f": typography drift against Foundations tokens ({len(typography_drift)} size/line-height pairs)")
         formatted = {f"{size} / {line_height}": paths for (size, line_height), paths in typography_drift.items()}
         print_drift_bucket("typography", formatted)
+    if unused_covered_colors:
+        print(f"FAIL: unused color entries in usage-coverage ({len(unused_covered_colors)} values)")
+        print_drift_bucket("unused coverage colors", unused_covered_colors)
+    if unused_covered_typography:
+        print(f"FAIL: unused typography entries in usage-coverage ({len(unused_covered_typography)} size/line-height pairs)")
+        formatted = {f"{size} / {line_height}": paths for (size, line_height), paths in unused_covered_typography.items()}
+        print_drift_bucket("unused coverage typography", formatted)
 
     print(
         "Drift summary:"
         f" colors={len(color_drift)}"
         f" fonts={len(font_drift)}"
         f" typography={len(typography_drift)}"
+        f" unused_coverage_colors={len(unused_covered_colors)}"
+        f" unused_coverage_typography={len(unused_covered_typography)}"
     )
 
     if font_drift:
         fail("font drift detected outside Foundations typography families")
+    if unused_covered_colors:
+        fail("usage-coverage contains unused color entries")
+    if unused_covered_typography:
+        fail("usage-coverage contains unused typography entries")
     if strict_drift and color_drift:
         fail("strict drift mode detected colors outside Foundations and usage-coverage token coverage")
     if strict_drift and typography_drift:
@@ -410,6 +522,7 @@ def main() -> None:
     verify_readmes(entries, metadata)
     verify_local_assets()
     verify_footer_positioning()
+    verify_canonical_export_contract(entries)
     verify_against_paper(entries)
     verify_drift(args.strict_drift)
     print("PASS: structural export checks passed, metadata curation checks passed, and Paper reconciliation succeeded.")

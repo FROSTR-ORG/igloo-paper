@@ -13,7 +13,8 @@ This screen captures the `welcome` flow state "1c-2. Unlock Error (Modal)" in th
 - **State:** `1c-2. Unlock Error (Modal)`
 
 ## Key Regions
-- The full structure is available in `screen.html`.
+- **Welcome Returning Shell**
+- **Unlock Profile Modal Error Overlay**
 
 ## Related Screens
 
