@@ -32,10 +32,12 @@ DEPRECATED_FONT_NAMES = (
     "Roboto Mono",
 )
 CANONICAL_LOGO_FILENAME = "1WEXSFAT73DS0G9ZZTFNR8PXP9.png"
+INHERITED_POSITION_TOKEN = "[position:" + "inherit]"
 STALE_ASSET_FILENAMES = {
     "5RCNS3F30SGRXT0BETQWTC3KP3.png",
     "6NH0KS4WDM0F74VG0ZSAMGRPZ6.png",
 }
+STALE_DASHBOARD_POLICIES_SLUG = "1b" + "-policies"
 STALE_DIRS = [
     REPO_ROOT / "screens" / "welcome" / "1c-returning-multi-alt",
     REPO_ROOT / "screens" / "welcome" / "1c-3-rotate-keyset-modal",
@@ -45,6 +47,7 @@ STALE_DIRS = [
     REPO_ROOT / "screens" / "onboard" / "2b-failed",
     REPO_ROOT / "screens" / "onboard" / "3-complete",
     REPO_ROOT / "screens" / "dashboard" / "1c-profile-switcher",
+    REPO_ROOT / "screens" / "dashboard" / STALE_DASHBOARD_POLICIES_SLUG,
     REPO_ROOT / "screens" / "dashboard" / "1d-with-rotate-share",
     REPO_ROOT / "screens" / "dashboard" / "2c-quorum-not-met",
     REPO_ROOT / "screens" / "dashboard" / "2d-signing-blocked",
@@ -60,6 +63,7 @@ EXPECTED_SCREEN_PATHS = {
     "726-0": "screens/onboard/3-onboarding-complete",
     "T62-0": "screens/dashboard/2c-signing-blocked",
     "518-0": "screens/dashboard/3-settings-lock-profile",
+    "DCI-0": "screens/dashboard/1c-policies",
     "IS8-0": "screens/replace-share/1-enter-onboarding-package",
     "IV8-0": "screens/replace-share/2-applying-replacement",
     "J3O-0": "screens/replace-share/2b-replacement-failed",
@@ -394,13 +398,61 @@ def verify_canonical_export_contract(entries: list[dict[str, Any]]) -> None:
 
 
 def verify_footer_positioning() -> None:
+    required_tokens = {
+        "flex",
+        "flex-col",
+        "items-center",
+        "w-full",
+        "shrink-0",
+        "py-5",
+        "mt-auto",
+        "border-t",
+        "border-t-solid",
+        "border-t-[#1E3A8A33]",
+    }
+    forbidden_tokens = {
+        "absolute",
+        "fixed",
+        "sticky",
+        INHERITED_POSITION_TOKEN,
+        "[position:absolute]",
+        "[position:fixed]",
+        "[position:sticky]",
+    }
     targets = sorted(REPO_ROOT.glob("screens/**/screen.html"))
     targets.append(REPO_ROOT / "screens" / "_shared" / "app-footer.html")
     for path in targets:
         text = path.read_text()
         for match in APP_FOOTER_RE.finditer(text):
             class_name = match.group(1)
-            ensure("mt-auto" in class_name.split(), f"AppFooter missing mt-auto bottom push in {path.relative_to(REPO_ROOT)}")
+            tokens = set(class_name.split())
+            missing = sorted(required_tokens - tokens)
+            ensure(not missing, f"AppFooter missing canonical tokens {missing} in {path.relative_to(REPO_ROOT)}")
+            ensure(
+                {"h-0", "h-[0px]"} & tokens,
+                f"AppFooter missing zero-height contract in {path.relative_to(REPO_ROOT)}",
+            )
+            forbidden = sorted(forbidden_tokens & tokens)
+            ensure(not forbidden, f"AppFooter uses non-static positioning tokens {forbidden} in {path.relative_to(REPO_ROOT)}")
+            offset_tokens = sorted(
+                token
+                for token in tokens
+                if token.startswith(("top-", "right-", "bottom-", "left-", "inset-", "-top-", "-right-", "-bottom-", "-left-"))
+                and not token.endswith("-auto")
+            )
+            ensure(not offset_tokens, f"AppFooter uses positional offset tokens {offset_tokens} in {path.relative_to(REPO_ROOT)}")
+            icon_row_snippet = text[match.end() : match.end() + 500]
+            icon_row_match = re.search(r'<div className="([^"]*)">', icon_row_snippet)
+            ensure(icon_row_match is not None, f"AppFooter missing icon row in {path.relative_to(REPO_ROOT)}")
+            icon_row_tokens = set(icon_row_match.group(1).split())
+            ensure(
+                {"flex", "items-center", "gap-5"}.issubset(icon_row_tokens),
+                f"AppFooter missing centered icon row in {path.relative_to(REPO_ROOT)}",
+            )
+            ensure(
+                'width="16" height="16"' in icon_row_snippet,
+                f"AppFooter icons are not exported at 16px in {path.relative_to(REPO_ROOT)}",
+            )
 
 
 def scan_html(path: Path) -> tuple[set[str], set[str], set[tuple[str, str]]]:

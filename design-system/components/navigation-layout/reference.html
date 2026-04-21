@@ -566,5 +566,24 @@
           </div>
         </div>
       </div>
+      <div className="flex flex-col w-7xl shrink-0 gap-4 h-63">
+        <div className="flex items-center w-7xl gap-4">
+          <div className="tracking-[0.08em] uppercase [white-space-collapse:preserve] text-[#E2E8F0B8] font-['Share_Tech_Mono',system-ui,sans-serif] text-sm/4">
+            Screen Layer Contract
+          </div>
+          <div className="h-px grow bg-[#1E3A8A33]" />
+        </div>
+        <div className="flex flex-col w-250 rounded-lg gap-3 h-55 bg-[#11182766] border border-solid border-[#1E3A8A4D] shrink-0 p-5">
+          <div className="[white-space-collapse:preserve] text-[#E6F0FF] font-['Share_Tech_Mono',system-ui,sans-serif] text-xl/5.5">
+            Web screen layer contract
+          </div>
+          <div className="[white-space-collapse:preserve] h-18 text-[#CBD5E1] font-['Inter',system-ui,sans-serif] shrink-0 text-sm/5.5">
+            Public screens use AppHeader / [variant], then Hero, Form, or Content, then AppFooter. Authenticated screens use AppHeader / AuthActions, Dashboard, optional Settings Overlay + Settings Panel, optional named modal overlay, then AppFooter. Modal-only boards may use [Base Screen] Shell plus [State] Modal Overlay.
+          </div>
+          <div className="[white-space-collapse:preserve] h-13.5 text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] shrink-0 text-xs/4.5">
+            Use semantic direct-child layer names inside Form, Content, Dashboard, Settings Panel, and modal shells. Do not leave role-known layers named Frame; modal overlays should be named for the state they show.
+          </div>
+        </div>
+      </div>
     </div>
   )

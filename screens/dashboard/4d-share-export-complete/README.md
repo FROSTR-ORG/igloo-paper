@@ -17,7 +17,7 @@ This screen captures the `dashboard` flow state "4d. Share Export Complete" in t
 - **Dashboard**
 - **Settings Overlay**
 - **Settings Panel**
-- **Modal Overlay**
+- **Share Backup Ready Modal Overlay**
 - **AppFooter**
 
 ## Related Screens

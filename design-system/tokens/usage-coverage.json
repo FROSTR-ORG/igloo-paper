@@ -9,7 +9,7 @@
         "design-system/components/navigation-layout/reference.html",
         "screens/dashboard/1-signer-dashboard/screen.html",
         "screens/dashboard/1b-connecting/screen.html",
-        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/1c-policies/screen.html",
         "screens/dashboard/2-stopped/screen.html"
       ]
     },
@@ -36,14 +36,6 @@
       "fileCount": 1,
       "sampleFiles": [
         "design-system/components/data-display-tables-lists/reference.html"
-      ]
-    },
-    {
-      "name": "usage-color-005",
-      "value": "#02061785",
-      "fileCount": 1,
-      "sampleFiles": [
-        "screens/dashboard/3b-clear-credentials-modal/screen.html"
       ]
     },
     {
@@ -85,7 +77,7 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/components/overlays-feedback/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/1c-policies/screen.html",
         "screens/dashboard/3b-clear-credentials-modal/screen.html"
       ]
     },
@@ -421,7 +413,7 @@
         "design-system/components/data-display-tables-lists/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
         "screens/dashboard/1-signer-dashboard/screen.html",
-        "screens/dashboard/1b-policies/screen.html"
+        "screens/dashboard/1c-policies/screen.html"
       ]
     },
     {
@@ -702,7 +694,7 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/components/interactive-controls/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/1c-policies/screen.html",
         "screens/shared/2-create-profile/screen.html"
       ]
     },
@@ -714,7 +706,7 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/components/interactive-controls/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/1c-policies/screen.html",
         "screens/shared/2-create-profile/screen.html"
       ]
     },
@@ -750,7 +742,7 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/components/interactive-controls/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/1c-policies/screen.html",
         "screens/shared/2-create-profile/screen.html"
       ]
     },
@@ -898,7 +890,7 @@
       "sampleFiles": [
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html"
+        "screens/dashboard/1c-policies/screen.html"
       ]
     },
     {
@@ -1122,7 +1114,7 @@
       "sampleFiles": [
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html"
+        "screens/dashboard/1c-policies/screen.html"
       ]
     },
     {
@@ -1768,7 +1760,7 @@
       "sampleFiles": [
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html"
+        "screens/dashboard/1c-policies/screen.html"
       ]
     },
     {
@@ -1786,7 +1778,7 @@
       "sampleFiles": [
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html"
+        "screens/dashboard/1c-policies/screen.html"
       ]
     },
     {
@@ -1796,7 +1788,7 @@
       "sampleFiles": [
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html"
+        "screens/dashboard/1c-policies/screen.html"
       ]
     },
     {
@@ -2368,7 +2360,7 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/components/interactive-controls/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/1c-policies/screen.html",
         "screens/shared/2-create-profile/screen.html"
       ]
     },
@@ -2388,7 +2380,7 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/components/interactive-controls/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/1c-policies/screen.html",
         "screens/shared/2-create-profile/screen.html"
       ]
     },
@@ -2451,7 +2443,7 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/components/interactive-controls/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html",
+        "screens/dashboard/1c-policies/screen.html",
         "screens/shared/2-create-profile/screen.html"
       ]
     },
@@ -2628,7 +2620,7 @@
       "sampleFiles": [
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
-        "screens/dashboard/1b-policies/screen.html"
+        "screens/dashboard/1c-policies/screen.html"
       ]
     },
     {
@@ -2641,7 +2633,7 @@
         "design-system/components/data-display-review-summary/reference.html",
         "design-system/patterns/signer-states-tags-rotation/reference.html",
         "screens/dashboard/1b-connecting/screen.html",
-        "screens/dashboard/1b-policies/screen.html"
+        "screens/dashboard/1c-policies/screen.html"
       ]
     },
     {
@@ -3040,6 +3032,15 @@
       "fileCount": 1,
       "sampleFiles": [
         "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-type-045",
+      "font-size": "20px",
+      "line-height": "22px",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/navigation-layout/reference.html"
       ]
     }
   ]

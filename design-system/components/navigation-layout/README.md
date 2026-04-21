@@ -6,7 +6,7 @@ This artboard documents the current Paper reference for Navigation & Layout. The
 ## Paper Source
 - **Artboard ID:** LW-0
 - **Artboard Name:** Navigation & Layout
-- **Dimensions:** 1440 × 1686
+- **Dimensions:** 1440 × 1994
 
 ## Contents
 - **App Header Section**
@@ -14,6 +14,7 @@ This artboard documents the current Paper reference for Navigation & Layout. The
 - **PeerList Section**
 - **App Footer Section**
 - **Page Back Link Section**
+- **Screen Layer Contract**
 
 ## Representative Copy
 - Igloo UI

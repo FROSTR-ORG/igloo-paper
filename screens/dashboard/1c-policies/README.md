@@ -1,16 +1,16 @@
-# Dashboard — 1b. Policies
+# Dashboard — 1c. Policies
 
 ## Description
-This screen captures the `dashboard` flow state "1b. Policies" in the current Igloo web prototype.
+This screen captures the `dashboard` flow state "1c. Policies" in the current Igloo web prototype.
 
 ## Paper Source
 - **Artboard ID:** DCI-0
-- **Artboard Name:** Web — Dashboard — 1b. Policies
+- **Artboard Name:** Web — Dashboard — 1c. Policies
 - **Dimensions:** 1440 × 1284
 
 ## Flow Context
 - **Flow:** `dashboard`
-- **State:** `1b. Policies`
+- **State:** `1c. Policies`
 
 ## Key Regions
 - **AppHeader / AuthActions**

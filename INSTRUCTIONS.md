@@ -63,6 +63,7 @@ These renamed paths are the current canonical screen outputs and the old slugs m
 - `screens/import/3-review-save-profile`
 - `screens/onboard/2b-onboarding-failed`
 - `screens/onboard/3-onboarding-complete`
+- `screens/dashboard/1c-policies`
 - `screens/dashboard/2c-signing-blocked`
 - `screens/dashboard/3-settings-lock-profile`
 

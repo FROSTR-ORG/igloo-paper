@@ -17,7 +17,7 @@ This screen captures the `dashboard` flow state "4c. Export Share" in the curren
 - **Dashboard**
 - **Settings Overlay**
 - **Settings Panel**
-- **Modal Overlay**
+- **Export Share Modal Overlay**
 - **AppFooter**
 
 ## Related Screens

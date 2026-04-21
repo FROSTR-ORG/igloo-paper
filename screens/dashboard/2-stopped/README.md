@@ -22,7 +22,7 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 ### Dashboard Main States
 - Dashboard — 1. Signer Dashboard — `screens/dashboard/1-signer-dashboard/README.md`
 - Dashboard — 1b. Connecting — `screens/dashboard/1b-connecting/README.md`
-- Dashboard — 1b. Policies — `screens/dashboard/1b-policies/README.md`
+- Dashboard — 1c. Policies — `screens/dashboard/1c-policies/README.md`
 - Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
 - Dashboard — 5. Signer Policy Prompt — `screens/dashboard/5-signer-policy-prompt/README.md`

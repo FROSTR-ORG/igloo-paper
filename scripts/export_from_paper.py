@@ -48,7 +48,12 @@ DEPRECATED_SANS_FONT_FAMILIES = {"matter", "inter tight", "system sans-serif", "
 HEX_RE = re.compile(r"^#[0-9A-Fa-f]{6}(?:[0-9A-Fa-f]{2})?$")
 PAPER_ASSET_RE = re.compile(r"https://app\.paper\.design/file-assets/[A-Za-z0-9]+/[A-Za-z0-9_.-]+")
 ARBITRARY_FONT_RE = re.compile(r"font-\[([^\]]+)\]")
+APP_FOOTER_CLASS_RE = re.compile(r'<div className="([^"]*border-t border-t-solid border-t-\[#1E3A8A33\][^"]*)">')
 STRUCTURAL_LABELS = {"Header", "Frame", "Rectangle", "SVG", "Section Label"}
+CANONICAL_APP_FOOTER_CLASS = (
+    "flex flex-col items-center w-full shrink-0 py-5 mt-auto justify-start "
+    "static h-0 border-t border-t-solid border-t-[#1E3A8A33]"
+)
 
 
 def load_json(path: Path) -> Any:
@@ -165,6 +170,19 @@ def canonicalize_font_classes(jsx: str) -> str:
         return match.group(0)
 
     return ARBITRARY_FONT_RE.sub(replace, jsx)
+
+
+def canonicalize_app_footer_contract(jsx: str) -> str:
+    def replace_footer(match: re.Match[str]) -> str:
+        tokens = set(match.group(1).split())
+        if "mt-auto" not in tokens:
+            return match.group(0)
+        return f'<div className="{CANONICAL_APP_FOOTER_CLASS}">'
+
+    jsx = APP_FOOTER_CLASS_RE.sub(replace_footer, jsx)
+    canonical_root = re.escape(f'<div className="{CANONICAL_APP_FOOTER_CLASS}">')
+    icon_row_re = re.compile(rf'({canonical_root}\n\s*)<div className="[^"]*">')
+    return icon_row_re.sub(r'\1<div className="flex items-center gap-5">', jsx)
 
 
 def node_info(client: PaperClient, node_id: str) -> dict[str, Any]:
@@ -588,7 +606,7 @@ def export_shared_components(client: PaperClient) -> None:
     shared_dir = REPO_ROOT / "screens" / "_shared"
     shared_dir.mkdir(parents=True, exist_ok=True)
     for filename, node_id in SHARED_COMPONENTS.items():
-        jsx = canonicalize_font_classes(client.get_jsx(node_id))
+        jsx = canonicalize_app_footer_contract(canonicalize_font_classes(client.get_jsx(node_id)))
         write_text(shared_dir / filename, localize_asset_urls(jsx, shared_dir))
 
 
@@ -621,7 +639,7 @@ def export_standard_entry(
 ) -> None:
     paper_id = entry["paperNodeId"]
     summary = client.get_tree_summary(paper_id, depth=5)
-    jsx = canonicalize_font_classes(client.get_jsx(paper_id))
+    jsx = canonicalize_app_footer_contract(canonicalize_font_classes(client.get_jsx(paper_id)))
     mime_type, encoded = client.get_screenshot(paper_id)
     output_dir = REPO_ROOT / entry["outputPath"]
     output_dir.mkdir(parents=True, exist_ok=True)

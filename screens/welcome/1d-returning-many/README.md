@@ -13,7 +13,9 @@ This screen captures the `welcome` flow state "1d. Returning (Many)" in the curr
 - **State:** `1d. Returning (Many)`
 
 ## Key Regions
-- The full structure is available in `screen.html`.
+- **AppHeader / PublicLinks**
+- **Hero**
+- **AppFooter**
 
 ## Related Screens
 

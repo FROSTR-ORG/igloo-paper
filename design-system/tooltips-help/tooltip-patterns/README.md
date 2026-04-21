@@ -6,7 +6,7 @@ This artboard documents the current Paper reference for Tooltips & Help Text —
 ## Paper Source
 - **Artboard ID:** OE3-0
 - **Artboard Name:** Tooltips & Help Text — Tooltip Patterns
-- **Dimensions:** 1440 × 1086
+- **Dimensions:** 1440 × 1106
 
 ## Contents
 - **Tooltip Patterns**

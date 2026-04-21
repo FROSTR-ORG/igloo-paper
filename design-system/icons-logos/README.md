@@ -20,9 +20,9 @@ This artboard documents the current Paper reference for Icons & Logos. The synce
 - IGLOO UI
 - Icons & Logos
 - APP LOGOS
-- Frostr Logo — brand mark
-- App Icon — 80px
-- App Icon — 40px
+- FROSTR protocol mark
+- Igloo app icon — 80px
+- Igloo app icon — 40px
 
 ## Files
 - `reference.html` — Tailwind-flavored Paper JSX export for the artboard.

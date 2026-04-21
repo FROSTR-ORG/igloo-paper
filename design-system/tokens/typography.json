@@ -2,7 +2,7 @@
   "font-families": {
     "Share Tech Mono": {
       "stack": "\"Share Tech Mono\", system-ui, sans-serif",
-      "usage": "Share Tech Mono / 36px / bold"
+      "usage": "Share Tech Mono / 36px / regular"
     },
     "Inter": {
       "stack": "\"Inter\", system-ui, sans-serif",
@@ -15,8 +15,8 @@
       "font-family": "Share Tech Mono",
       "font-size": "36px",
       "line-height": "44px",
-      "font-weight": 700,
-      "notes": "Share Tech Mono / 36px / bold",
+      "font-weight": 400,
+      "notes": "Share Tech Mono / 36px / regular",
       "letter-spacing": "-0.01em"
     },
     "H2 Section Header": {
@@ -24,16 +24,16 @@
       "font-family": "Share Tech Mono",
       "font-size": "24px",
       "line-height": "30px",
-      "font-weight": 600,
-      "notes": "Share Tech Mono / 24px / semibold"
+      "font-weight": 400,
+      "notes": "Share Tech Mono / 24px / regular"
     },
     "H3 Card Title": {
       "sample": "H3 Card Title",
       "font-family": "Share Tech Mono",
       "font-size": "20px",
       "line-height": "24px",
-      "font-weight": 600,
-      "notes": "Share Tech Mono / 20px / semibold"
+      "font-weight": 400,
+      "notes": "Share Tech Mono / 20px / regular"
     },
     "Body text": {
       "sample": "Body text \u2014 The quick brown fox jumps over the lazy dog",

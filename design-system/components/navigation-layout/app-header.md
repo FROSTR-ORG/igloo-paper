@@ -82,7 +82,7 @@ Used when signer is fully operational.
 
 **Applied to dashboard screens:**
 - `3QW-0` Signer Dashboard
-- `DCI-0` Policies
+- `DCI-0` 1c. Policies
 - `518-0` Settings & Lock Profile
 - And all other dashboard variants
 
@@ -97,8 +97,8 @@ AppHeader (1440×120)
     │       ├── "Igloo" (Inter, 28/32, #60A5FA, weight 700)
     │       └── "Threshold Signing for Nostr" (Inter, 12/16, #64748B)
     └── Right Cluster
-        ├── Welcome Flow: "Website" · "Docs" · "GitHub" (Paper Mono, 13/16, #8494A7)
-        ├── Task Flows: passive flow tag (Paper Mono, 13/16, #8494A7)
+        ├── Welcome Flow: "Website" · "Docs" · "GitHub" (Share Tech Mono, 13/16, #8494A7)
+        ├── Task Flows: passive flow tag (Share Tech Mono, 13/16, #8494A7)
         ├── Post-Auth: Profile Name (Inter, 16px, #8494A7)
         └── Dashboard: [Buttons]
 ```
@@ -165,7 +165,7 @@ AppHeader (1440×120)
 - Gap: 20px
 
 #### Nav Links
-- Font: Paper Mono (Preview), monospace
+- Font: Share Tech Mono, system-ui, sans-serif
 - Size: 13px
 - Line-height: 16px
 - Weight: 400
@@ -179,7 +179,7 @@ AppHeader (1440×120)
 
 #### HeaderFlowTag
 - Text only, no icon.
-- Font: Paper Mono (Preview), monospace fallback.
+- Font: Share Tech Mono, system-ui, sans-serif.
 - Size: 13px.
 - Line-height: 16px.
 - Weight: 400.

@@ -378,10 +378,10 @@
   {
     "id": "DCI-0",
     "paperNodeId": "DCI-0",
-    "name": "Dashboard — 1b. Policies",
+    "name": "Dashboard — 1c. Policies",
     "category": "screen",
     "flow": "dashboard",
-    "outputPath": "screens/dashboard/1b-policies"
+    "outputPath": "screens/dashboard/1c-policies"
   },
   {
     "id": "4OP-0",

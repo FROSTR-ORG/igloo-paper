@@ -17,7 +17,7 @@ This screen captures the `dashboard` flow state "4b. Profile Export Complete" in
 - **Dashboard**
 - **Settings Overlay**
 - **Settings Panel**
-- **Modal Overlay**
+- **Profile Backup Ready Modal Overlay**
 - **AppFooter**
 
 ## Related Screens

@@ -17,7 +17,7 @@ This screen captures the `dashboard` flow state "4. Export Profile" in the curre
 - **Dashboard**
 - **Settings Overlay**
 - **Settings Panel**
-- **Modal Overlay**
+- **Export Profile Modal Overlay**
 - **AppFooter**
 
 ## Related Screens
