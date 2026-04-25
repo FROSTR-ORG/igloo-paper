@@ -6,7 +6,7 @@ This screen captures the `shared` flow state "3b. Distribution Completion" in th
 ## Paper Source
 - **Artboard ID:** LN7-0
 - **Artboard Name:** Web — Shared — 3b. Distribution Completion
-- **Dimensions:** 1440 × 1284
+- **Dimensions:** 1440 × 1080
 
 ## Flow Context
 - **Flow:** `shared`

@@ -1,5 +1,5 @@
 (
-    <div className="[font-synthesis:none] flex overflow-clip w-360 h-321 flex-col items-center pb-15 antialiased text-xs/4" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
+    <div className="[font-synthesis:none] flex overflow-clip w-360 h-270 flex-col items-center pb-15 antialiased text-xs/4" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
       <div className="flex items-center justify-center w-full shrink-0 py-5 px-20">
         <div className="flex items-center justify-between w-250 shrink-0 rounded-xl py-3.5 px-5 bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
           <div className="flex items-center gap-3.5">
@@ -63,7 +63,7 @@
             Distribution Completion
           </div>
           <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-sm/5.5">
-            Track which remote bfonboard adoption packages have been distributed. Finish when each target device is ready to adopt its fresh share through the standard onboarding flow.
+            Track remote bfonboard packages as they are handed off. Finish once each target device is ready to adopt its fresh share.
           </div>
         </div>
         <div className="flex flex-col rounded-[10px] gap-3 bg-[#0F172A99] border border-solid border-[#1E3A8A4D] p-4">
@@ -76,21 +76,21 @@
                 <circle cx="9" cy="9" r="7" fill="#22C55E33" stroke="#4ADE80" strokeWidth="1.2" />
                 <path d="M6 9l2 2 4-4" stroke="#4ADE80" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              <div className="flex flex-col gap-0.5">
-                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
-                  Member #1 — Igloo Mobile
+              <div className="flex flex-col gap-0.5 w-41.25 h-8 overflow-clip shrink-0">
+                <div className="[white-space-collapse:collapse] [letter-spacing:0px] text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4 line-clamp-1">
+                  Member #1 - Igloo Mobile
                 </div>
-                <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                <div className="[white-space-collapse:collapse] [letter-spacing:0px] text-[#64748B] font-['Inter',system-ui,sans-serif] text-[11px]/3.5 line-clamp-1">
                   Existing Device
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-1.5">
-              <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
-                Copied
-              </div>
-              <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
-                QR shown
+            <div className="flex items-center shrink-0 [white-space-collapse:collapse] gap-1.5">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <div className="[white-space-collapse:collapse] w-max text-[#4ADE80] font-['Inter',system-ui,sans-serif] shrink-0 text-[11px]/3.5">
+                Echo received
               </div>
             </div>
           </div>
@@ -100,28 +100,31 @@
                 <circle cx="9" cy="9" r="7" fill="#22C55E33" stroke="#4ADE80" strokeWidth="1.2" />
                 <path d="M6 9l2 2 4-4" stroke="#4ADE80" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              <div className="flex flex-col gap-0.5">
-                <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
-                  Member #2 — Igloo Desktop
+              <div className="flex flex-col gap-0.5 w-44.25 h-8 overflow-clip shrink-0">
+                <div className="[white-space-collapse:collapse] [letter-spacing:0px] text-[#94A3B8] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4 line-clamp-1">
+                  Member #2 - Igloo Desktop
                 </div>
-                <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                <div className="[white-space-collapse:collapse] [letter-spacing:0px] text-[#64748B] font-['Inter',system-ui,sans-serif] text-[11px]/3.5 line-clamp-1">
                   New Device
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-1.5 w-13.25 shrink-0">
-              <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
-                QR shown
+            <div className="flex items-center shrink-0 [white-space-collapse:collapse] gap-1.5">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <div className="[white-space-collapse:collapse] w-max text-[#4ADE80] font-['Inter',system-ui,sans-serif] shrink-0 text-[11px]/3.5">
+                Marked distributed
               </div>
             </div>
           </div>
         </div>
         <div className="flex flex-col rounded-[10px] gap-2 bg-[#052E1633] border border-solid border-[#22C55E33] p-4">
           <div className="text-[#4ADE80] font-['Inter',system-ui,sans-serif] font-semibold text-sm/4.5">
-            All packages distributed
+            All remote packages complete
           </div>
           <div className="text-[#86EFAC] font-['Inter',system-ui,sans-serif] text-xs/4.5">
-            2 of 2 remote bfonboard packages have been accounted for. Continue when device adoption handoff can proceed.
+            2 of 2 remote bfonboard packages are complete. Handoff is accounted for.
           </div>
         </div>
         <div className="w-full flex items-center justify-center rounded-lg py-3 px-5 bg-[#2563EB]">

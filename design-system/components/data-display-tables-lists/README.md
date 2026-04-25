@@ -6,7 +6,7 @@ This artboard documents the current Paper reference for Data Display — Tables,
 ## Paper Source
 - **Artboard ID:** M5V-0
 - **Artboard Name:** Data Display — Tables, Lists & Logs
-- **Dimensions:** 1440 × 2764
+- **Dimensions:** 1440 × 2772
 
 ## Contents
 - **Table Section**

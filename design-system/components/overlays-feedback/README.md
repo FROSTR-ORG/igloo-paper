@@ -6,7 +6,7 @@ This artboard documents the current Paper reference for Overlays & Feedback. The
 ## Paper Source
 - **Artboard ID:** JU-0
 - **Artboard Name:** Overlays & Feedback
-- **Dimensions:** 1440 × 3249
+- **Dimensions:** 1440 × 3605
 
 ## Contents
 - **Modal Section**
@@ -16,6 +16,7 @@ This artboard documents the current Paper reference for Overlays & Feedback. The
 - **Backup Ready Modal Section**
 - **Error Modals Section**
 - **Signer Policy Prompt Section**
+- **Profile Loading Section**
 
 ## Representative Copy
 - Igloo UI

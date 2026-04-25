@@ -6,7 +6,7 @@ This artboard documents the current Paper reference for Flows & QR Codes — Tra
 ## Paper Source
 - **Artboard ID:** NSX-0
 - **Artboard Name:** Flows & QR Codes — Transfer States
-- **Dimensions:** 1440 × 4353
+- **Dimensions:** 1440 × 4387
 
 ## Contents
 - **QR Transfer Section**

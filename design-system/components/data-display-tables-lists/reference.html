@@ -392,7 +392,7 @@
           </div>
           <div className="h-px grow bg-[#1E3A8A33]" />
         </div>
-        <div className="flex flex-col self-stretch rounded-[10px] overflow-clip bg-[#11182766] border border-solid border-[#1E3A8A33]">
+        <div className="flex flex-col self-stretch rounded-[10px] overflow-clip relative bg-[#11182766] border border-solid border-[#1E3A8A33]">
           <div className="flex items-center py-3.5 px-5 gap-3 border-b border-b-solid border-b-[#1E3A8A20]">
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
               <path d="M3 4.5L6 7.5L9 4.5" stroke="#93C5FD" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -414,12 +414,20 @@
             <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-[13px]/4">
               Clear
             </div>
-            <div className="flex items-center rounded-md py-1 px-2.5 gap-1.5 border border-solid border-[#94A3B833]">
+            <div className="flex items-center rounded-[9px] px-2.5 gap-2 w-43.5 h-8.5 pr-2.25 pl-2.75 justify-start bg-[#0F172A70] border border-solid border-[#60A5FA70] [box-shadow:#FFFFFF08_0px_1px_0px_inset] shrink-0 py-1.5">
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
                 <polygon points="1,1 11,1 7,6 7,11 5,11 5,6" fill="#94A3B8" />
               </svg>
-              <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
+              <div className="inline-block [white-space-collapse:collapse] shrink-0 w-max text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-xs/4">
                 Filter
+              </div>
+              <div className="flex items-center justify-center rounded-[999px] py-0.5 px-1.5 w-14.5 h-4.5 shrink-0 bg-[#60A5FA24]">
+                <div className="flex text-[#93C5FD] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
+                  4 active
+                </div>
+              </div>
+              <div className="[white-space-collapse:preserve] w-2.75 shrink-0 text-[#BFDBFE] font-['Inter',system-ui,sans-serif] origin-center text-[11px]/2.75" style={{ rotate: '180deg' }}>
+                ▾
               </div>
             </div>
           </div>
@@ -512,6 +520,66 @@
             </div>
             <div className="inline-block text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-sm/4.5">
               Echo published — announced presence on 2 relays
+            </div>
+          </div>
+          <div className="absolute top-12 right-5 flex flex-col w-63 rounded-xl gap-0.5 bg-[#080D1AFA] border border-solid border-[#60A5FA3D] [box-shadow:#FFFFFF0A_0px_1px_0px_inset,#0206178A_0px_20px_60px,#0F172A6B_0px_8px_22px] p-1.5">
+            <div className="flex pt-0.5 pb-1.5 gap-1.5 border-b border-b-solid border-b-[#94A3B81F] px-0.5">
+              <div className="flex items-center justify-center grow shrink basis-[0%] min-h-8 rounded-lg py-1.5 px-2 bg-[#0F172A70]">
+                <div className="flex text-[#93C5FD] font-['Inter',system-ui,sans-serif] font-semibold text-[11px]/4">
+                  Select all
+                </div>
+              </div>
+              <div className="flex items-center justify-center grow shrink basis-[0%] min-h-8 rounded-lg py-1.5 px-2 bg-[#0F172A70]">
+                <div className="flex text-[#93C5FD] font-['Inter',system-ui,sans-serif] font-semibold text-[11px]/4">
+                  Clear all
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col gap-0.5">
+              <div className="flex items-center min-h-10 rounded-lg py-2.25 px-2.5 gap-2.5 bg-[#3B82F61F]">
+                <div className="relative shrink-0 rounded-[5px] bg-[#2563EB52] border border-solid border-[#60A5FAB8] size-4">
+                  <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', top: '0px', right: '0px', bottom: '0px', left: '0px' }}>
+                    <path d="M5 8.2L7 10.2L11.2 5.6" fill="none" stroke="#BFDBFE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+                <div className="flex items-center justify-center min-w-20 rounded-[999px] py-0.75 px-2 border border-solid border-[#22C55E4D]">
+                  <div className="flex uppercase text-[#22C55E] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4">
+                    SIGN
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center min-h-10 rounded-lg py-2.25 px-2.5 gap-2.5 bg-[#3B82F61F]">
+                <div className="relative shrink-0 rounded-[5px] bg-[#2563EB52] border border-solid border-[#60A5FAB8] size-4">
+                  <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', top: '0px', right: '0px', bottom: '0px', left: '0px' }}>
+                    <path d="M5 8.2L7 10.2L11.2 5.6" fill="none" stroke="#BFDBFE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+                <div className="flex items-center justify-center min-w-20 rounded-[999px] py-0.75 px-2 border border-solid border-[#22D3EE4D]">
+                  <div className="flex uppercase text-[#22D3EE] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4">
+                    ECDH
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center min-h-10 rounded-lg py-2.25 px-2.5 gap-2.5">
+                <div className="shrink-0 rounded-[5px] bg-[#0F172AB8] border border-solid border-[#94A3B847] size-4" />
+                <div className="flex items-center justify-center min-w-20 rounded-[999px] py-0.75 px-2 border border-solid border-[#A855F74D]">
+                  <div className="flex uppercase text-[#A855F7] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4">
+                    PING
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center min-h-10 rounded-lg py-2.25 px-2.5 gap-2.5 bg-[#3B82F61F]">
+                <div className="relative shrink-0 rounded-[5px] bg-[#2563EB52] border border-solid border-[#60A5FAB8] size-4">
+                  <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', top: '0px', right: '0px', bottom: '0px', left: '0px' }}>
+                    <path d="M5 8.2L7 10.2L11.2 5.6" fill="none" stroke="#BFDBFE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+                <div className="flex items-center justify-center min-w-20 rounded-[999px] py-0.75 px-2 border border-solid border-[#EF44444D]">
+                  <div className="flex uppercase text-[#EF4444] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4">
+                    ERROR
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

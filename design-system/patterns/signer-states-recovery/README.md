@@ -1,17 +1,16 @@
 # Signer & States — Recovery & Share Handling
 
 ## Description
-This artboard documents the current Paper reference for Signer & States — Recovery & Share Handling. The synced export covers Security Warning Section, Recovery Failure States Section, Share Card States Section used across the Igloo design system.
+This artboard documents the current Paper reference for Signer & States — Recovery & Share Handling. The synced export covers Security Warning Section, Recovery Failure States Section used across the Igloo design system.
 
 ## Paper Source
 - **Artboard ID:** N4P-0
 - **Artboard Name:** Signer & States — Recovery & Share Handling
-- **Dimensions:** 1440 × 1321
+- **Dimensions:** 1440 × 1521
 
 ## Contents
 - **Security Warning Section**
 - **Recovery Failure States Section**
-- **Share Card States Section**
 
 ## Representative Copy
 - Igloo UI

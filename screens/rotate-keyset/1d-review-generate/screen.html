@@ -1,5 +1,5 @@
 (
-    <div className="[font-synthesis:none] flex overflow-clip w-360 h-237.75 flex-col items-center pb-15 antialiased text-xs/4" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
+    <div className="[font-synthesis:none] flex overflow-clip w-360 h-270 flex-col items-center pb-15 antialiased text-xs/4" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
       <div className="flex items-center justify-center w-full shrink-0 py-5 px-20">
         <div className="flex items-center justify-between w-250 shrink-0 rounded-xl py-3.5 px-5 bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
           <div className="flex items-center gap-3.5">
@@ -13,7 +13,7 @@
           </div>
         </div>
       </div>
-      <div className="w-160 flex flex-col grow pt-6 pb-10 gap-5 h-180">
+      <div className="w-160 flex flex-col grow pt-6 pb-10 gap-5 h-fit">
         <div className="items-center flex justify-center w-160 pb-4 min-h-19 h-0">
           <div className="items-center flex shrink-0 w-110">
             <div className="items-center flex flex-col shrink-0 w-30 gap-2">
@@ -62,8 +62,8 @@
           <div className="tracking-[-0.01em] text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-2xl/8">
             Review & Generate
           </div>
-          <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-sm/5.5">
-            This is the irreversible step in keyset rotation. Confirm the distribution password, then generate fresh device shares for the same group public key.
+          <div className="[white-space-collapse:preserve] h-fit text-[#8494A7] font-['Inter',system-ui,sans-serif] text-sm/5.5">
+            This is the irreversible step in keyset rotation. Confirm the source set, then generate fresh device shares for the same group public key. Package passwords are assigned later on the Distribute Shares step.
           </div>
         </div>
         <div className="flex items-start w-160 h-29.5 rounded-[10px] gap-3 bg-[#78350F1A] border border-solid border-[#FBBF2433] shrink-0 p-4">
@@ -75,42 +75,17 @@
             <div className="text-[#FBBF24] font-['Inter',system-ui,sans-serif] font-semibold text-sm/5">
               Before generating fresh shares
             </div>
-            <div className="[white-space-collapse:preserve] text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-sm/5">
-              This will reconstruct the existing signing key from threshold source packages, split it into fresh shares for the same group public key, replace the current local source profile, and prepare remote bfonboard packages that other devices must adopt.
+            <div className="[white-space-collapse:preserve] h-fit text-[#CBD5E1] font-['Inter',system-ui,sans-serif] text-sm/5">
+              This will reconstruct the existing signing key from threshold bfshare sources, split it into fresh shares for the same group public key, replace the current local source profile, and prepare remote bfonboard packages that other devices must adopt.
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-2">
-          <div className="text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-base/5">
-            Distribution Password
+        <div className="flex flex-col gap-2 h-fit">
+          <div className="[white-space-collapse:preserve] h-fit text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-base/5">
+            Distribution happens per share
           </div>
-          <div className="text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4.5">
-            Set a password for the remote bfonboard packages.
-          </div>
-          <div className="flex gap-3">
-            <div className="grow shrink basis-[0%] flex flex-col gap-1">
-              <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
-                Password
-              </div>
-              <div className="rounded-lg py-2.5 px-3.5 bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
-                <div className="text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
-                  ••••••••
-                </div>
-              </div>
-            </div>
-            <div className="grow shrink basis-[0%] flex flex-col gap-1">
-              <div className="text-[#64748B] font-['Inter',system-ui,sans-serif] text-[11px]/3.5">
-                Confirm Password
-              </div>
-              <div className="flex items-center justify-between rounded-lg py-2.5 px-3.5 bg-[#0F172A99] border border-solid border-[#22C55E33]">
-                <div className="text-[#94A3B8] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
-                  ••••••••
-                </div>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
-                  <path d="M3 7l3 3 5-5" stroke="#4ADE80" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </div>
-            </div>
+          <div className="[white-space-collapse:preserve] h-fit text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4.5">
+            You will create each remote bfonboard package on the next step and choose its password there.
           </div>
         </div>
         <div className="w-full flex items-center justify-center rounded-lg py-3 px-5 bg-[#DC2626]">

@@ -6,7 +6,7 @@ This screen captures the `rotate-keyset` flow state "1d. Review & Generate" in t
 ## Paper Source
 - **Artboard ID:** LF2-0
 - **Artboard Name:** Web — Rotate Keyset — 1d. Review & Generate
-- **Dimensions:** 1440 × 951
+- **Dimensions:** 1440 × 1080
 
 ## Flow Context
 - **Flow:** `rotate-keyset`

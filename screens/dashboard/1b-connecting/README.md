@@ -5,7 +5,7 @@ This screen captures the `dashboard` flow state "1b. Connecting" in the current 
 
 ## Paper Source
 - **Artboard ID:** SH5-0
-- **Artboard Name:** Web — Dashboard — 1b. Connecting
+- **Artboard Name:** Web — Dashboard — 1b. Loading Profile
 - **Dimensions:** 1440 × 1284
 
 ## Flow Context

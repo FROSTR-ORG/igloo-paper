@@ -14,7 +14,6 @@ This screen captures the `shared` flow state "3. Distribute Shares" in the curre
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens
