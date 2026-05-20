@@ -458,10 +458,10 @@
   {
     "id": "7O9-0",
     "paperNodeId": "7O9-0",
-    "name": "Dashboard \u2014 1b. Connecting",
+    "name": "Dashboard \u2014 1b. Loading Profile",
     "category": "screen",
     "flow": "dashboard",
-    "outputPath": "screens/dashboard/1b-connecting"
+    "outputPath": "screens/dashboard/1b-loading-profile"
   },
   {
     "id": "7Q9-0",

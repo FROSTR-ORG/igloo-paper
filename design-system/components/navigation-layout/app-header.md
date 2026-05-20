@@ -228,6 +228,6 @@ Use one screen-level `PageBackLink` when the screen needs backward navigation.
 
 ## Paper References
 
-- **Navigation & Layout artboard:** `LW-0` (component reference)
-- **Foundations artboard:** `8B-0` (color tokens)
+- **Navigation & Layout artboard:** `1HI-0` (component reference)
+- **Foundations artboard:** `1-0` (color tokens)
 - **Typography tokens:** See `design-system/tokens/typography.json`
