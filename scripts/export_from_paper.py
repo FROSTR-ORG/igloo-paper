@@ -11,15 +11,18 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from igloo_paper.assets import asset_dir
+from igloo_paper.generated import add_generated_banner, collect_generated_files, write_manifest
+from igloo_paper.tokens import glossary_dir, token_dir
 from paper_mcp import PaperClient
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MAP_PATH = REPO_ROOT / "artboard-map.json"
 METADATA_PATH = REPO_ROOT / "export-metadata.json"
-TOKEN_DIR = REPO_ROOT / "design-system" / "tokens"
-GLOSSARY_DIR = REPO_ROOT / "design-system" / "glossary"
-ASSET_DIR = REPO_ROOT / "assets" / "paper"
+TOKEN_DIR = token_dir(REPO_ROOT)
+GLOSSARY_DIR = glossary_dir(REPO_ROOT)
+ASSET_DIR = asset_dir(REPO_ROOT)
 FOUNDATIONS_ID = "1-0"
 GLOSSARY_FILES = {
     "1QH-0": ("core-protocol.md", "core-protocol-screenshot.png"),
@@ -132,6 +135,7 @@ def write_json(path: Path, data: Any) -> None:
 
 def write_text(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    content = add_generated_banner(path, content)
     path.write_text(content.rstrip() + "\n")
 
 
@@ -220,7 +224,7 @@ def remove_smallest_div_block_containing(lines: list[str], phrase: str) -> list[
         return lines
 
     # Tiny matches are usually only the text node. Prefer the nearest containing
-    # panel/card so standalone explanatory diagrams leave the design-system export.
+    # panel/card so standalone explanatory diagrams leave the design export.
     start, end = min(matches, key=lambda span: (span[1] - span[0] < 8, span[1] - span[0]))
     return lines[:start] + lines[end + 1 :]
 
@@ -778,6 +782,19 @@ def main() -> None:
             export_standard_entry(client, entry, artboard, metadata, entries_by_id)
 
     write_text(GLOSSARY_DIR / "README.md", glossary_readme())
+    write_manifest(REPO_ROOT)
+    classified_count = 0
+    policy_path = REPO_ROOT / "artboard-policy.json"
+    if policy_path.exists():
+        classified_count = len(load_json(policy_path).get("artboards", {}))
+    generated_count = len(collect_generated_files(REPO_ROOT))
+    print(
+        "Export summary:"
+        f" exported_artboards={sum(1 for entry in entries if entry['category'] != 'divider')}"
+        f" classified_non_exported_artboards={classified_count}"
+        f" generated_files={generated_count}"
+        f" localized_assets={len(list(ASSET_DIR.glob('*'))) if ASSET_DIR.exists() else 0}"
+    )
 
 
 if __name__ == "__main__":

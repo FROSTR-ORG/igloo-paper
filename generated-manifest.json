@@ -1,0 +1,1054 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-20T21:47:00Z",
+  "files": [
+    {
+      "path": "assets/paper/1WEXSFAT73DS0G9ZZTFNR8PXP9.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/components/core/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/core/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/core/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/components/data-display-progress-cards/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/data-display-progress-cards/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/data-display-progress-cards/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/components/data-display-review-summary/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/data-display-review-summary/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/data-display-review-summary/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/components/data-display-tables-lists/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/data-display-tables-lists/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/data-display-tables-lists/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/components/form-controls/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/form-controls/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/form-controls/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/components/interactive-controls/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/interactive-controls/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/interactive-controls/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/components/navigation-layout/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/navigation-layout/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/navigation-layout/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/components/overlays-feedback/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/overlays-feedback/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/overlays-feedback/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/components/settings-sidebar/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/settings-sidebar/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/settings-sidebar/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/foundations/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/foundations/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/foundations/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/glossary/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/glossary/core-protocol-screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/glossary/core-protocol.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/glossary/operations-setup-screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/glossary/operations-setup.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/glossary/policies-data-model-screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/glossary/policies-data-model.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/icons-logos/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/icons-logos/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/icons-logos/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/create-keyset/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/create-keyset/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/create-keyset/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/flows-qr-steppers/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/flows-qr-steppers/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/flows-qr-steppers/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/flows-qr-transfer/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/flows-qr-transfer/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/flows-qr-transfer/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/import-flow/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/import-flow/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/import-flow/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/key-lifecycle-progress/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/key-lifecycle-progress/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/key-lifecycle-progress/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/onboard-recipient/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/onboard-recipient/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/onboard-recipient/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/onboard-sponsor/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/onboard-sponsor/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/onboard-sponsor/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/pool-signing-readiness/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/pool-signing-readiness/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/pool-signing-readiness/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/recover-flow/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/recover-flow/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/recover-flow/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/replace-share/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/replace-share/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/replace-share/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/rotate-keyset-distribution/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/rotate-keyset-distribution/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/rotate-keyset-distribution/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/signer-states-recovery/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/signer-states-recovery/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/signer-states-recovery/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/signer-states-status-empty/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/signer-states-status-empty/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/signer-states-status-empty/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/signer-states-tags-rotation/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/signer-states-tags-rotation/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/signer-states-tags-rotation/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/welcome-flow/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/welcome-flow/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/welcome-flow/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/tokens/colors.json",
+      "kind": "json"
+    },
+    {
+      "path": "design/tokens/tokens.css",
+      "kind": "css"
+    },
+    {
+      "path": "design/tokens/typography.json",
+      "kind": "json"
+    },
+    {
+      "path": "design/tooltips-help/contextual-help/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/tooltips-help/contextual-help/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/tooltips-help/contextual-help/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/tooltips-help/tooltip-patterns/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/tooltips-help/tooltip-patterns/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/tooltips-help/tooltip-patterns/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/_shared/app-footer.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/_shared/app-header.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/create/1-create-keyset/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/create/1-create-keyset/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/create/1-create-keyset/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/create/1b-validation-error/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/create/1b-validation-error/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/create/1b-validation-error/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/create/1c-generation-progress/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/create/1c-generation-progress/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/create/1c-generation-progress/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/1-signer-dashboard/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/1-signer-dashboard/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/1-signer-dashboard/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/1b-loading-profile/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/1b-loading-profile/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/1b-loading-profile/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/1b-profile-load-failed/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/1b-profile-load-failed/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/1b-profile-load-failed/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/1c-policies/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/1c-policies/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/1c-policies/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/1d-recover/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/1d-recover/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/1d-recover/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/1e-recover-success/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/1e-recover-success/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/1e-recover-success/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/2-stopped/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/2-stopped/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/2-stopped/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/2b-all-relays-offline/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/2b-all-relays-offline/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/2b-all-relays-offline/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/2c-signing-blocked/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/2c-signing-blocked/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/2c-signing-blocked/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/3-settings-lock-profile/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/3-settings-lock-profile/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/3-settings-lock-profile/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/3b-clear-credentials-modal/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/3b-clear-credentials-modal/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/3b-clear-credentials-modal/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/3c-unsaved-changes-modal/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/3c-unsaved-changes-modal/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/3c-unsaved-changes-modal/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/4-export-profile/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/4-export-profile/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/4-export-profile/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/4b-export-complete/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/4b-export-complete/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/4b-export-complete/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/4c-export-share/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/4c-export-share/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/4c-export-share/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/4d-share-export-complete/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/4d-share-export-complete/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/4d-share-export-complete/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/5-signer-policy-prompt/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/5-signer-policy-prompt/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/5-signer-policy-prompt/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/6-signing-failed/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/6-signing-failed/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/6-signing-failed/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/import/1-load-backup/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/import/1-load-backup/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/import/1-load-backup/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/import/2-decrypt-backup/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/import/2-decrypt-backup/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/import/2-decrypt-backup/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/import/3-review-save-profile/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/import/3-review-save-profile/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/import/3-review-save-profile/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/import/error/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/import/error/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/import/error/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/onboard-sponsor/1-configure-device/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/onboard-sponsor/1-configure-device/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/onboard-sponsor/1-configure-device/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/onboard-sponsor/2-package-handoff/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/onboard-sponsor/2-package-handoff/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/onboard-sponsor/2-package-handoff/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/onboard-sponsor/2b-device-onboarded/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/onboard-sponsor/2b-device-onboarded/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/onboard-sponsor/2b-device-onboarded/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/onboard-sponsor/2c-onboarding-failed/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/onboard-sponsor/2c-onboarding-failed/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/onboard-sponsor/2c-onboarding-failed/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/onboard-sponsor/2d-cancel-confirm-modal/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/onboard-sponsor/2d-cancel-confirm-modal/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/onboard-sponsor/2d-cancel-confirm-modal/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/onboard/1-enter-package/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/onboard/1-enter-package/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/onboard/1-enter-package/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/onboard/2-handshake/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/onboard/2-handshake/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/onboard/2-handshake/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/onboard/2b-onboarding-failed/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/onboard/2b-onboarding-failed/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/onboard/2b-onboarding-failed/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/onboard/3-onboarding-complete/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/onboard/3-onboarding-complete/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/onboard/3-onboarding-complete/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/recover/1-collect-shares/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/recover/1-collect-shares/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/recover/1-collect-shares/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/recover/1b-recover-success/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/recover/1b-recover-success/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/recover/1b-recover-success/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/replace-share/1-enter-onboarding-package/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/replace-share/1-enter-onboarding-package/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/replace-share/1-enter-onboarding-package/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/replace-share/2-applying-replacement/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/replace-share/2-applying-replacement/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/replace-share/2-applying-replacement/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/replace-share/2b-replacement-failed/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/replace-share/2b-replacement-failed/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/replace-share/2b-replacement-failed/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/replace-share/3-share-replaced/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/replace-share/3-share-replaced/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/replace-share/3-share-replaced/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/rotate-keyset/1-rotate-keyset/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/rotate-keyset/1-rotate-keyset/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/rotate-keyset/1-rotate-keyset/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/rotate-keyset/1d-review-generate/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/rotate-keyset/1d-review-generate/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/rotate-keyset/1d-review-generate/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/rotate-keyset/1e-generation-progress/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/rotate-keyset/1e-generation-progress/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/rotate-keyset/1e-generation-progress/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/rotate-keyset/error-generation-failed/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/rotate-keyset/error-generation-failed/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/rotate-keyset/error-generation-failed/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/rotate-keyset/error-group-mismatch/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/rotate-keyset/error-group-mismatch/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/rotate-keyset/error-group-mismatch/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/rotate-keyset/error-wrong-password/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/rotate-keyset/error-wrong-password/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/rotate-keyset/error-wrong-password/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/shared/2-create-profile/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/shared/2-create-profile/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/shared/2-create-profile/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/shared/3-distribute-shares/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/shared/3-distribute-shares/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/shared/3-distribute-shares/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/shared/3b-distribution-completion/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/shared/3b-distribution-completion/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/shared/3b-distribution-completion/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/welcome/1-welcome/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/welcome/1-welcome/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/welcome/1-welcome/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/welcome/1b-returning/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/welcome/1b-returning/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/welcome/1b-returning/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/welcome/1c-1-unlock-profile-modal/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/welcome/1c-1-unlock-profile-modal/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/welcome/1c-1-unlock-profile-modal/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/welcome/1c-2-unlock-error-modal/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/welcome/1c-2-unlock-error-modal/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/welcome/1c-2-unlock-error-modal/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/welcome/1c-returning-multi/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/welcome/1c-returning-multi/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/welcome/1c-returning-multi/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/welcome/1d-returning-many/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/welcome/1d-returning-many/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/welcome/1d-returning-many/screenshot.png",
+      "kind": "png"
+    }
+  ]
+}

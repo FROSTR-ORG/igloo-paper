@@ -3,241 +3,241 @@
     "id": "1-0",
     "paperNodeId": "1-0",
     "name": "Foundations",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/foundations"
+    "outputPath": "design/foundations"
   },
   {
     "id": "55-0",
     "paperNodeId": "55-0",
     "name": "Core Components",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/components/core"
+    "outputPath": "design/components/core"
   },
   {
     "id": "AC-0",
     "paperNodeId": "AC-0",
     "name": "Interactive Controls",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/components/interactive-controls"
+    "outputPath": "design/components/interactive-controls"
   },
   {
     "id": "3AY-0",
     "paperNodeId": "3AY-0",
     "name": "Form Controls",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/components/form-controls"
+    "outputPath": "design/components/form-controls"
   },
   {
     "id": "HI-0",
     "paperNodeId": "HI-0",
     "name": "Data Display \u2014 Tables, Lists & Logs",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/components/data-display-tables-lists"
+    "outputPath": "design/components/data-display-tables-lists"
   },
   {
     "id": "S7-0",
     "paperNodeId": "S7-0",
     "name": "Data Display \u2014 Progress & Profile Cards",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/components/data-display-progress-cards"
+    "outputPath": "design/components/data-display-progress-cards"
   },
   {
     "id": "AAY-0",
     "paperNodeId": "AAY-0",
     "name": "Data Display \u2014 Review & Summary Panels",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/components/data-display-review-summary"
+    "outputPath": "design/components/data-display-review-summary"
   },
   {
     "id": "Z7-0",
     "paperNodeId": "Z7-0",
     "name": "Overlays & Feedback",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/components/overlays-feedback"
+    "outputPath": "design/components/overlays-feedback"
   },
   {
     "id": "1HI-0",
     "paperNodeId": "1HI-0",
     "name": "Navigation & Layout",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/components/navigation-layout"
+    "outputPath": "design/components/navigation-layout"
   },
   {
     "id": "1DQ-0",
     "paperNodeId": "1DQ-0",
     "name": "Settings Sidebar & Lock Profile",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/components/settings-sidebar"
+    "outputPath": "design/components/settings-sidebar"
   },
   {
     "id": "20E-0",
     "paperNodeId": "20E-0",
     "name": "Signer & States \u2014 Status & Empty",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/signer-states-status-empty"
+    "outputPath": "design/patterns/signer-states-status-empty"
   },
   {
     "id": "25D-0",
     "paperNodeId": "25D-0",
     "name": "Signer & States \u2014 Recovery & Share Handling",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/signer-states-recovery"
+    "outputPath": "design/patterns/signer-states-recovery"
   },
   {
     "id": "2GY-0",
     "paperNodeId": "2GY-0",
     "name": "Signer & States \u2014 Tags & Rotation States",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/signer-states-tags-rotation"
+    "outputPath": "design/patterns/signer-states-tags-rotation"
   },
   {
     "id": "2NN-0",
     "paperNodeId": "2NN-0",
     "name": "Flows & QR Codes \u2014 Transfer States",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/flows-qr-transfer"
+    "outputPath": "design/patterns/flows-qr-transfer"
   },
   {
     "id": "2XH-0",
     "paperNodeId": "2XH-0",
     "name": "Flows & QR Codes \u2014 Steppers & Recovery",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/flows-qr-steppers"
+    "outputPath": "design/patterns/flows-qr-steppers"
   },
   {
     "id": "4BT-0",
     "paperNodeId": "4BT-0",
     "name": "Pool & Signing Readiness",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/pool-signing-readiness"
+    "outputPath": "design/patterns/pool-signing-readiness"
   },
   {
     "id": "9WY-0",
     "paperNodeId": "9WY-0",
     "name": "Rotate Keyset + Shared Distribution Sections",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/rotate-keyset-distribution"
+    "outputPath": "design/patterns/rotate-keyset-distribution"
   },
   {
     "id": "A8N-0",
     "paperNodeId": "A8N-0",
     "name": "Key Lifecycle Progress Sections",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/key-lifecycle-progress"
+    "outputPath": "design/patterns/key-lifecycle-progress"
   },
   {
     "id": "AIH-0",
     "paperNodeId": "AIH-0",
     "name": "Onboard Sponsor Flow Sections",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/onboard-sponsor"
+    "outputPath": "design/patterns/onboard-sponsor"
   },
   {
     "id": "B8N-0",
     "paperNodeId": "B8N-0",
     "name": "Replace Share Flow Sections",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/replace-share"
+    "outputPath": "design/patterns/replace-share"
   },
   {
     "id": "B3Y-0",
     "paperNodeId": "B3Y-0",
     "name": "Import Flow Sections",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/import-flow"
+    "outputPath": "design/patterns/import-flow"
   },
   {
     "id": "AO3-0",
     "paperNodeId": "AO3-0",
     "name": "Welcome Flow Sections",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/welcome-flow"
+    "outputPath": "design/patterns/welcome-flow"
   },
   {
     "id": "AT6-0",
     "paperNodeId": "AT6-0",
     "name": "Create Keyset Flow Sections",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/create-keyset"
+    "outputPath": "design/patterns/create-keyset"
   },
   {
     "id": "AYG-0",
     "paperNodeId": "AYG-0",
     "name": "Onboard Flow Sections",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/onboard-recipient"
+    "outputPath": "design/patterns/onboard-recipient"
   },
   {
     "id": "321-0",
     "paperNodeId": "321-0",
     "name": "Icons & Logos",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/icons-logos"
+    "outputPath": "design/icons-logos"
   },
   {
     "id": "1QH-0",
     "paperNodeId": "1QH-0",
     "name": "Glossary \u2014 Core & Protocol",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/glossary"
+    "outputPath": "design/glossary"
   },
   {
     "id": "1SQ-0",
     "paperNodeId": "1SQ-0",
     "name": "Glossary \u2014 Operations, Setup & Infrastructure",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/glossary"
+    "outputPath": "design/glossary"
   },
   {
     "id": "1US-0",
     "paperNodeId": "1US-0",
     "name": "Glossary \u2014 Policies & Data Model",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/glossary"
+    "outputPath": "design/glossary"
   },
   {
     "id": "1W4-0",
     "paperNodeId": "1W4-0",
     "name": "Tooltips & Help Text \u2014 Tooltip Patterns",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/tooltips-help/tooltip-patterns"
+    "outputPath": "design/tooltips-help/tooltip-patterns"
   },
   {
     "id": "1YI-0",
     "paperNodeId": "1YI-0",
     "name": "Tooltips & Help Text \u2014 Contextual Help",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/tooltips-help/contextual-help"
+    "outputPath": "design/tooltips-help/contextual-help"
   },
   {
     "id": "3QR-0",
@@ -683,9 +683,9 @@
     "id": "BI4-0",
     "paperNodeId": "BI4-0",
     "name": "Recover Flow Sections",
-    "category": "design-system",
+    "category": "design",
     "flow": null,
-    "outputPath": "design-system/patterns/recover-flow"
+    "outputPath": "design/patterns/recover-flow"
   },
   {
     "id": "5O7-0",

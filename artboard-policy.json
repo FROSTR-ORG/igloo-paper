@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artboards": {
+    "BCO-0": {
+      "name": "Row Label — Onboard Sponsor",
+      "status": "internal",
+      "reason": "Canvas row label for organizing exported web screens; not a design contract artifact."
+    },
+    "BCR-0": {
+      "name": "Row Label — Onboard Recipient",
+      "status": "internal",
+      "reason": "Canvas row label for organizing exported web screens; not a design contract artifact."
+    },
+    "BR8-0": {
+      "name": "Row Label — Import",
+      "status": "internal",
+      "reason": "Canvas row label for organizing exported web screens; not a design contract artifact."
+    }
+  }
+}

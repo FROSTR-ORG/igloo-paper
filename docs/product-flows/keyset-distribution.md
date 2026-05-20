@@ -1,6 +1,6 @@
 # Keyset Distribution Notes
 
-This document preserves product-flow details that were previously mixed into Paper design-system reference boards. The design-system exports should show canonical UI surfaces only; protocol notes, implementation warnings, and standalone state diagrams belong here.
+This document preserves product-flow details that were previously mixed into Paper design reference boards. The design exports should show canonical UI surfaces only; protocol notes, implementation warnings, and standalone state diagrams belong here.
 
 ## Outside-Runtime Rotation
 

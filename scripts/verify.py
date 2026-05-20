@@ -7,16 +7,23 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
+from igloo_paper.artboards import ALLOWED_POLICY_STATUSES, CONTRACT_PATH_REQUIRED_STATUSES
+from igloo_paper.assets import asset_dir
+from igloo_paper.generated import collect_generated_files, is_generated_path, manifest_path
+from igloo_paper.tokens import glossary_dir, token_dir
 from paper_mcp import PaperClient, PaperMCPError
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MAP_PATH = REPO_ROOT / "artboard-map.json"
 METADATA_PATH = REPO_ROOT / "export-metadata.json"
-TOKEN_DIR = REPO_ROOT / "design-system" / "tokens"
+ARTBOARD_POLICY_PATH = REPO_ROOT / "artboard-policy.json"
+DESIGN_CONTRACT_PATH = REPO_ROOT / "design-contract.json"
+GENERATED_MANIFEST_PATH = manifest_path(REPO_ROOT)
+TOKEN_DIR = token_dir(REPO_ROOT)
 USAGE_COVERAGE_PATH = TOKEN_DIR / "usage-coverage.json"
-GLOSSARY_DIR = REPO_ROOT / "design-system" / "glossary"
-ASSET_DIR = REPO_ROOT / "assets" / "paper"
+GLOSSARY_DIR = glossary_dir(REPO_ROOT)
+ASSET_DIR = asset_dir(REPO_ROOT)
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 STALE_IDS = {"QCP-0", "U7Z-0", "UAK-0", "KQO-0", "SXR-0", "EIF-0"}
 CANONICAL_FONT_FAMILIES = {"inter", "share tech mono"}
@@ -121,6 +128,18 @@ def load_metadata() -> dict[str, Any]:
     return load_json(METADATA_PATH)
 
 
+def load_artboard_policy() -> dict[str, Any]:
+    return load_json(ARTBOARD_POLICY_PATH)
+
+
+def load_design_contract() -> dict[str, Any]:
+    return load_json(DESIGN_CONTRACT_PATH)
+
+
+def load_generated_manifest() -> dict[str, Any]:
+    return load_json(GENERATED_MANIFEST_PATH)
+
+
 def is_png(path: Path) -> bool:
     return path.read_bytes()[: len(PNG_SIGNATURE)] == PNG_SIGNATURE
 
@@ -173,13 +192,93 @@ def verify_map(entries: list[dict[str, Any]]) -> None:
     counts: dict[str, int] = {}
     for entry in entries:
         counts[entry["category"]] = counts.get(entry["category"], 0) + 1
-    ensure(counts.get("design-system") == 31, f"expected 31 design-system entries, found {counts.get('design-system')}")
+    ensure(counts.get("design") == 31, f"expected 31 design entries, found {counts.get('design')}")
     ensure(counts.get("screen") == 55, f"expected 55 screen entries, found {counts.get('screen')}")
     ensure(counts.get("divider") == 1, f"expected 1 divider entry, found {counts.get('divider')}")
 
     entries_by_id = {entry["paperNodeId"]: entry for entry in entries}
     for artboard_id, output_path in EXPECTED_SCREEN_PATHS.items():
         ensure(entries_by_id[artboard_id]["outputPath"] == output_path, f"{artboard_id} should map to {output_path}")
+
+
+def verify_hard_cut_files() -> None:
+    ensure(not (REPO_ROOT / "INSTRUCTIONS.md").exists(), "legacy INSTRUCTIONS.md still exists")
+    ensure(not (REPO_ROOT / ".factory").exists(), "legacy .factory directory still exists")
+    ensure(not (REPO_ROOT / "design-system").exists(), "legacy design-system directory still exists")
+    for path in REPO_ROOT.rglob("*"):
+        rel = path.relative_to(REPO_ROOT).as_posix()
+        ensure("__pycache__" not in path.parts, f"Python cache artifact remains: {rel}")
+        ensure(path.suffix != ".pyc", f"Python bytecode artifact remains: {rel}")
+
+
+def verify_artboard_policy(policy: dict[str, Any]) -> None:
+    ensure(policy.get("version") == 1, "artboard-policy.json version must be 1")
+    artboards = policy.get("artboards")
+    ensure(isinstance(artboards, dict), "artboard-policy.json artboards must be an object")
+    for artboard_id, entry in artboards.items():
+        ensure(isinstance(entry, dict), f"artboard policy entry must be an object: {artboard_id}")
+        ensure(entry.get("status") in ALLOWED_POLICY_STATUSES, f"invalid artboard policy status for {artboard_id}: {entry.get('status')}")
+        ensure(isinstance(entry.get("name"), str) and entry["name"], f"artboard policy entry missing name: {artboard_id}")
+        ensure(isinstance(entry.get("reason"), str) and entry["reason"], f"artboard policy entry missing reason: {artboard_id}")
+
+
+def verify_design_contract(contract: dict[str, Any]) -> None:
+    ensure(contract.get("version") == 1, "design-contract.json version must be 1")
+    entries = contract.get("entries")
+    ensure(isinstance(entries, list) and entries, "design-contract.json entries must be a non-empty list")
+    for index, entry in enumerate(entries):
+        label = entry.get("name", f"entry[{index}]")
+        ensure(isinstance(entry.get("name"), str) and entry["name"], f"design contract entry missing name: {index}")
+        ensure(isinstance(entry.get("kind"), str) and entry["kind"], f"design contract entry missing kind: {label}")
+        status = entry.get("status")
+        ensure(isinstance(status, str) and status, f"design contract entry missing status: {label}")
+        paper = entry.get("paper")
+        implementation = entry.get("implementation")
+        ensure(isinstance(paper, dict), f"design contract entry missing paper object: {label}")
+        ensure(isinstance(implementation, dict), f"design contract entry missing implementation object: {label}")
+        for path_value in paper.get("paths", []):
+            path = REPO_ROOT / path_value
+            ensure(path.exists(), f"design contract paper path missing for {label}: {path_value}")
+        for token_path in entry.get("tokens", []):
+            path = REPO_ROOT / token_path
+            ensure(path.exists(), f"design contract token path missing for {label}: {token_path}")
+        if status in CONTRACT_PATH_REQUIRED_STATUSES:
+            paths = implementation.get("paths", [])
+            ensure(isinstance(paths, list) and paths, f"design contract implementation paths required for {label}")
+            for path_value in paths:
+                path = (REPO_ROOT / path_value).resolve()
+                ensure(path.exists(), f"design contract implementation path missing for {label}: {path_value}")
+
+
+def verify_generated_manifest(manifest: dict[str, Any]) -> None:
+    ensure(manifest.get("version") == 1, "generated-manifest.json version must be 1")
+    files = manifest.get("files")
+    ensure(isinstance(files, list), "generated-manifest.json files must be a list")
+    manifest_paths: set[str] = set()
+    for item in files:
+        ensure(isinstance(item, dict), "generated-manifest.json file entries must be objects")
+        rel = item.get("path")
+        kind = item.get("kind")
+        ensure(isinstance(rel, str) and rel, "generated-manifest.json file entry missing path")
+        ensure(kind in {"html", "markdown", "png", "json", "asset", "css"}, f"invalid generated file kind for {rel}: {kind}")
+        path = REPO_ROOT / rel
+        ensure(path.exists(), f"manifest file missing on disk: {rel}")
+        ensure(path.is_file(), f"manifest path is not a file: {rel}")
+        manifest_paths.add(rel)
+
+    generated_paths = {path.relative_to(REPO_ROOT).as_posix() for path in collect_generated_files(REPO_ROOT)}
+    missing = sorted(generated_paths - manifest_paths)
+    stale = sorted(manifest_paths - generated_paths)
+    ensure(not missing, f"generated files missing from manifest: {missing[:20]}")
+    ensure(not stale, f"manifest tracks stale or non-generated files: {stale[:20]}")
+
+    for root in [REPO_ROOT / "design", REPO_ROOT / "screens", REPO_ROOT / "assets" / "paper"]:
+        if not root.exists():
+            continue
+        for path in root.rglob("*"):
+            if path.is_file() and is_generated_path(REPO_ROOT, path):
+                rel = path.relative_to(REPO_ROOT).as_posix()
+                ensure(rel in manifest_paths, f"generated file not manifest-tracked: {rel}")
 
 
 def verify_outputs(entries: list[dict[str, Any]]) -> None:
@@ -266,20 +365,20 @@ def verify_noncanonical_design_system_text(metadata: dict[str, Any]) -> None:
         ensure(docs_path.stat().st_size > 0, f"empty non-canonical notes destination: {docs_destination}")
 
     for phrase in phrases:
-        ensure(isinstance(phrase, str) and phrase, "noncanonical design-system text phrase must be a non-empty string")
+        ensure(isinstance(phrase, str) and phrase, "noncanonical design text phrase must be a non-empty string")
 
-    targets = list(REPO_ROOT.glob("design-system/**/reference.html"))
-    targets.extend(REPO_ROOT.glob("design-system/**/README.md"))
+    targets = list(REPO_ROOT.glob("design/**/reference.html"))
+    targets.extend(REPO_ROOT.glob("design/**/README.md"))
     for path in sorted(targets):
         text = path.read_text()
         for phrase in phrases:
             ensure(
                 phrase not in text,
-                f"non-canonical spec text remains in design-system export ({phrase!r}): {path.relative_to(REPO_ROOT)}",
+                f"non-canonical spec text remains in design export ({phrase!r}): {path.relative_to(REPO_ROOT)}",
             )
 
 
-def verify_against_paper(entries: list[dict[str, Any]]) -> None:
+def verify_against_paper(entries: list[dict[str, Any]], policy: dict[str, Any]) -> None:
     try:
         client = PaperClient()
         client.initialize()
@@ -288,9 +387,14 @@ def verify_against_paper(entries: list[dict[str, Any]]) -> None:
         fail(f"could not reach Paper MCP: {exc}")
 
     artboard_ids = {artboard["id"] for artboard in basic["artboards"]}
-    mapped_ids = {entry["paperNodeId"] for entry in entries if entry["category"] != "divider"}
+    mapped_ids = {entry["paperNodeId"] for entry in entries}
     missing = sorted(mapped_ids - artboard_ids)
     ensure(not missing, f"mapped ids missing from Paper: {missing}")
+    policy_ids = set(policy.get("artboards", {}))
+    unclassified = sorted(artboard_ids - mapped_ids - policy_ids)
+    ensure(not unclassified, f"live Paper artboards are neither exported nor classified: {unclassified}")
+    obsolete_policy_ids = sorted(policy_ids - artboard_ids)
+    ensure(not obsolete_policy_ids, f"artboard-policy.json references missing Paper artboards: {obsolete_policy_ids}")
     present_stale = sorted(STALE_IDS & artboard_ids)
     ensure(not present_stale, f"stale ids unexpectedly present in Paper: {present_stale}")
 
@@ -350,7 +454,7 @@ def collect_usage_coverage_type_tokens() -> set[tuple[str, str]]:
 
 
 def html_targets() -> list[Path]:
-    files = list(REPO_ROOT.glob("design-system/**/reference.html"))
+    files = list(REPO_ROOT.glob("design/**/reference.html"))
     files.extend(REPO_ROOT.glob("screens/**/screen.html"))
     files.append(REPO_ROOT / "screens" / "_shared" / "app-header.html")
     files.append(REPO_ROOT / "screens" / "_shared" / "app-footer.html")
@@ -595,16 +699,23 @@ def main() -> None:
 
     entries = load_map()
     metadata = load_metadata()
+    policy = load_artboard_policy()
+    contract = load_design_contract()
+    manifest = load_generated_manifest()
+    verify_hard_cut_files()
     verify_map(entries)
+    verify_artboard_policy(policy)
+    verify_design_contract(contract)
+    verify_generated_manifest(manifest)
     verify_outputs(entries)
     verify_readmes(entries, metadata)
     verify_noncanonical_design_system_text(metadata)
     verify_local_assets()
     verify_footer_positioning()
     verify_canonical_export_contract(entries)
-    verify_against_paper(entries)
+    verify_against_paper(entries, policy)
     verify_drift(args.strict_drift)
-    print("PASS: structural export checks passed, metadata curation checks passed, and Paper reconciliation succeeded.")
+    print("PASS: structural export checks passed, metadata curation checks passed, manifest checks passed, and Paper reconciliation succeeded.")
 
 
 if __name__ == "__main__":
