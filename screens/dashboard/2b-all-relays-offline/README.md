@@ -4,9 +4,9 @@
 This screen captures the `dashboard` flow state "2b. All Relays Offline" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** SPG-0
+- **Artboard ID:** 7SF-0
 - **Artboard Name:** Web — Dashboard — 2b. All Relays Offline
-- **Dimensions:** 1440 × 1284
+- **Dimensions:** 1440 × 533
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -14,14 +14,13 @@ This screen captures the `dashboard` flow state "2b. All Relays Offline" in the 
 
 ## Key Regions
 - **AppHeader / AuthActions**
-- **Dashboard**
-- **AppFooter**
 
 ## Related Screens
 
 ### Dashboard Main States
 - Dashboard — 1. Signer Dashboard — `screens/dashboard/1-signer-dashboard/README.md`
 - Dashboard — 1b. Connecting — `screens/dashboard/1b-connecting/README.md`
+- Dashboard — 1b Error. Profile Load Failed — `screens/dashboard/1b-profile-load-failed/README.md`
 - Dashboard — 1c. Policies — `screens/dashboard/1c-policies/README.md`
 - Dashboard — 2. Stopped — `screens/dashboard/2-stopped/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
@@ -34,7 +33,7 @@ This screen captures the `dashboard` flow state "2b. All Relays Offline" in the 
 - ·
 - 2/3
 - npub1qe3...7k4m
-- Share #0
+- Share #1
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

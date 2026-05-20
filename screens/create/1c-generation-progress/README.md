@@ -4,7 +4,7 @@
 This screen captures the `create` flow state "1c. Generation Progress" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** RNX-0
+- **Artboard ID:** 3ZI-0
 - **Artboard Name:** Web — Create — 1c. Generation Progress
 - **Dimensions:** 1440 × 1485
 
@@ -14,8 +14,6 @@ This screen captures the `create` flow state "1c. Generation Progress" in the cu
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Content**
-- **AppFooter**
 
 ## Related Screens
 

@@ -4,7 +4,7 @@
 This screen captures the `replace-share` flow state "3. Share Replaced" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** JIJ-0
+- **Artboard ID:** 9C8-0
 - **Artboard Name:** Web — Replace Share — 3. Share Replaced
 - **Dimensions:** 1440 × 1284
 
@@ -14,7 +14,6 @@ This screen captures the `replace-share` flow state "3. Share Replaced" in the c
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

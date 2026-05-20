@@ -4,9 +4,9 @@
 This screen captures the `shared` flow state "3b. Distribution Completion" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** LN7-0
+- **Artboard ID:** 9KA-0
 - **Artboard Name:** Web — Shared — 3b. Distribution Completion
-- **Dimensions:** 1440 × 1080
+- **Dimensions:** 1440 × 898
 
 ## Flow Context
 - **Flow:** `shared`
@@ -14,7 +14,6 @@ This screen captures the `shared` flow state "3b. Distribution Completion" in th
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

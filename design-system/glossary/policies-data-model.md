@@ -3,7 +3,7 @@
 Derived from the current Paper glossary artboard export.
 
 ## Paper Source
-- **Artboard ID:** OXZ-0
+- **Artboard ID:** 1US-0
 - **Artboard Name:** Glossary — Policies & Data Model
 - **Dimensions:** 1440 × 1338
 
@@ -34,9 +34,7 @@ A Nostr encryption standard for private messages. Uses ECDH key exchange to deri
 Rules that control how this signer responds to external requests using NIP-46 permission strings (get_public_key, sign_event, sign_event:
 
 ### , nip04_encrypt/decrypt, nip44_encrypt/decrypt, switch_relays). Decisions: Allow once, Allow forever, Allow forever for kind X, or Reject. Requests not explicitly allowed require a peer policy decision.
-
-
-## Data Model
+Data Model
 
 ### Group Profile
 Shared keyset configuration visible to all peers. Contains keyset name, keyset npub, threshold, total keys, and created/updated timestamps. Synced via Nostr automatically — cannot be edited from a single device.

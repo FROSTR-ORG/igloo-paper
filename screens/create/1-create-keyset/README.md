@@ -4,7 +4,7 @@
 This screen captures the `create` flow state "1. Create Keyset" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 35L-0
+- **Artboard ID:** 3WK-0
 - **Artboard Name:** Web — Create — 1. Create Keyset
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `create` flow state "1. Create Keyset" in the current I
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Form**
-- **AppFooter**
 
 ## Related Screens
 
@@ -29,7 +27,7 @@ This screen captures the `create` flow state "1. Create Keyset" in the current I
 - Create
 - Back to Welcome
 - Create New Keyset
-- Define the group profile for a new keyset. After creation, y
+- Define the group profile for a new keyset. After generation,
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

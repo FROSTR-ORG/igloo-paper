@@ -1,20 +1,16 @@
 # Navigation & Layout
 
 ## Description
-This artboard documents the current Paper reference for Navigation & Layout. The synced export covers App Header Section, Onboarding Steps Section, PeerList Section used across the Igloo design system.
+This artboard documents the current Paper reference for Navigation & Layout. The synced export covers App Footer Section, Peer Row Settings Open Section used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** LW-0
+- **Artboard ID:** 1HI-0
 - **Artboard Name:** Navigation & Layout
-- **Dimensions:** 1440 × 1994
+- **Dimensions:** 1440 × 2195
 
 ## Contents
-- **App Header Section**
-- **Onboarding Steps Section**
-- **PeerList Section**
 - **App Footer Section**
-- **Page Back Link Section**
-- **Screen Layer Contract**
+- **Peer Row Settings Open Section**
 
 ## Representative Copy
 - Igloo UI

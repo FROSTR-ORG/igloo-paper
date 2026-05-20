@@ -1,15 +1,15 @@
 # Tooltips & Help Text — Contextual Help
 
 ## Description
-This artboard documents the current Paper reference for Tooltips & Help Text — Contextual Help. The synced export covers Contextual Help Text used across the Igloo design system.
+This artboard documents the current Paper reference for Tooltips & Help Text — Contextual Help. The synced export covers the current reusable layout and states used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** OIP-0
+- **Artboard ID:** 1YI-0
 - **Artboard Name:** Tooltips & Help Text — Contextual Help
 - **Dimensions:** 1440 × 1862
 
 ## Contents
-- **Contextual Help Text**
+- Structural sections are available in `reference.html`.
 
 ## Representative Copy
 - Igloo UI

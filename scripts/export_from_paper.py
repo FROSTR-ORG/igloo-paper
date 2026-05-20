@@ -20,23 +20,31 @@ METADATA_PATH = REPO_ROOT / "export-metadata.json"
 TOKEN_DIR = REPO_ROOT / "design-system" / "tokens"
 GLOSSARY_DIR = REPO_ROOT / "design-system" / "glossary"
 ASSET_DIR = REPO_ROOT / "assets" / "paper"
-FOUNDATIONS_ID = "8B-0"
-SHARED_COMPONENTS = {
-    "app-header.html": "WA9-0",
-    "app-footer.html": "D1D-0",
-}
+FOUNDATIONS_ID = "1-0"
 GLOSSARY_FILES = {
-    "ONB-0": ("core-protocol.md", "core-protocol-screenshot.png"),
-    "OSN-0": ("operations-setup.md", "operations-setup-screenshot.png"),
-    "OXZ-0": ("policies-data-model.md", "policies-data-model-screenshot.png"),
+    "1QH-0": ("core-protocol.md", "core-protocol-screenshot.png"),
+    "1SQ-0": ("operations-setup.md", "operations-setup-screenshot.png"),
+    "1US-0": ("policies-data-model.md", "policies-data-model-screenshot.png"),
 }
 FOUNDATION_COLOR_SECTIONS = [
-    ("Color Palette Section", "Background Colors", "background-colors"),
-    ("Blue Scale Section", "Blue Scale — Primary", "blue-scale-primary"),
-    ("Semantic Colors Section", "Semantic Colors", "semantic-colors"),
-    ("Interface Text Tones Section", "Interface Text Tones", "interface-text-tones"),
-    ("Interface Borders & Overlays Section", "Interface Borders & Overlays", "interface-borders-overlays"),
+    ("background-colors", "Background Colors", "background-colors"),
+    ("blue-scale-primary", "Blue Scale — Primary", "blue-scale-primary"),
+    ("semantic-colors", "Semantic Colors", "semantic-colors"),
+    ("interface-text-tones", "Interface Text Tones", "interface-text-tones"),
+    ("interface-borders-overlays", "Interface Borders & Overlays", "interface-borders-overlays"),
 ]
+FOUNDATION_SECTION_FRAMES = {
+    "background-colors": "5-0",
+    "blue-scale-primary": "U-0",
+    "typography-status": "1R-0",
+    "semantic-colors": "32-0",
+    "interface-text-tones": "3Z-0",
+    "interface-borders-overlays": "4G-0",
+}
+SHARED_COMPONENTS = {
+    "app-header.html": "3TF-0",
+    "app-footer.html": "3UK-0",
+}
 CANONICAL_FONT_STACKS = {
     "Inter": '"Inter", system-ui, sans-serif',
     "Share Tech Mono": '"Share Tech Mono", system-ui, sans-serif',
@@ -185,6 +193,74 @@ def canonicalize_app_footer_contract(jsx: str) -> str:
     return icon_row_re.sub(r'\1<div className="flex items-center gap-5">', jsx)
 
 
+def div_block_spans(lines: list[str]) -> list[tuple[int, int]]:
+    stack: list[int] = []
+    spans: list[tuple[int, int]] = []
+
+    for index, line in enumerate(lines):
+        block_line = re.sub(r"<div\b[^>]*/>", "", line)
+        opens = len(re.findall(r"<div(?:\s|>)", block_line))
+        closes = line.count("</div>")
+        for _ in range(opens):
+            stack.append(index)
+        for _ in range(closes):
+            if stack:
+                spans.append((stack.pop(), index))
+    return spans
+
+
+def remove_smallest_div_block_containing(lines: list[str], phrase: str) -> list[str]:
+    spans = div_block_spans(lines)
+    matches = [
+        (start, end)
+        for start, end in spans
+        if phrase in "\n".join(lines[start : end + 1])
+    ]
+    if not matches:
+        return lines
+
+    # Tiny matches are usually only the text node. Prefer the nearest containing
+    # panel/card so standalone explanatory diagrams leave the design-system export.
+    start, end = min(matches, key=lambda span: (span[1] - span[0] < 8, span[1] - span[0]))
+    return lines[:start] + lines[end + 1 :]
+
+
+def remove_empty_div_blocks(lines: list[str]) -> list[str]:
+    while True:
+        spans = div_block_spans(lines)
+        empty_spans = [
+            (start, end)
+            for start, end in spans
+            if start < end and all(not line.strip() for line in lines[start + 1 : end])
+        ]
+        if not empty_spans:
+            return lines
+
+        start, end = min(empty_spans, key=lambda span: span[1] - span[0])
+        lines = lines[:start] + lines[end + 1 :]
+
+
+def scrub_noncanonical_design_system_jsx(jsx: str, metadata: dict[str, Any]) -> str:
+    policy = metadata.get("noncanonical_design_system_text", {})
+    if not policy:
+        return jsx
+
+    lines = jsx.splitlines()
+    for phrase in policy.get("remove_blocks_containing", []):
+        while any(phrase in line for line in lines):
+            next_lines = remove_smallest_div_block_containing(lines, phrase)
+            if next_lines == lines:
+                lines = [line for line in lines if phrase not in line]
+                break
+            lines = next_lines
+
+    remove_lines = tuple(policy.get("remove_lines_containing", []))
+    if remove_lines:
+        lines = [line for line in lines if not any(phrase in line for phrase in remove_lines)]
+        lines = remove_empty_div_blocks(lines)
+    return "\n".join(lines)
+
+
 def node_info(client: PaperClient, node_id: str) -> dict[str, Any]:
     return client.get_node_info(node_id)
 
@@ -218,6 +294,22 @@ def clean_contents(artboard_id: str, items: list[str], metadata: dict[str, Any])
         seen.add(name)
         cleaned.append(name)
     return cleaned[:8]
+
+
+def noncanonical_phrases(metadata: dict[str, Any]) -> list[str]:
+    policy = metadata.get("noncanonical_design_system_text", {})
+    phrases = list(policy.get("remove_blocks_containing", []))
+    phrases.extend(policy.get("remove_lines_containing", []))
+    return [phrase for phrase in phrases if isinstance(phrase, str) and phrase]
+
+
+def keep_canonical_text(value: str, metadata: dict[str, Any]) -> bool:
+    normalized = " ".join(value.split()).lower()
+    for phrase in noncanonical_phrases(metadata):
+        phrase_words = " ".join(phrase.split()).lower()
+        if phrase_words in normalized or normalized in phrase_words:
+            return False
+    return True
 
 
 def related_screens(
@@ -255,6 +347,7 @@ def make_design_readme(
 ) -> str:
     sections, snippets = parse_summary(summary)
     contents = clean_contents(entry["paperNodeId"], sections, metadata)
+    snippets = [snippet for snippet in snippets if keep_canonical_text(snippet, metadata)]
     override = metadata.get("artboard_overrides", {}).get(entry["paperNodeId"], {})
     description = override.get("description")
     if not description:
@@ -469,19 +562,18 @@ def extract_color_section(client: PaperClient, content_id: str) -> dict[str, dic
     return tokens
 
 
-def extract_colors(client: PaperClient, section_ids: dict[str, str]) -> dict[str, Any]:
+def extract_colors(client: PaperClient, section_frames: dict[str, str]) -> dict[str, Any]:
     colors: dict[str, Any] = {}
 
-    for frame_name, title, key in FOUNDATION_COLOR_SECTIONS:
-        section_id = section_ids[frame_name]
+    for _key, title, output_key in FOUNDATION_COLOR_SECTIONS:
+        section_id = section_frames[output_key]
         content_id = node_children(client, section_id)[1]["id"]
-        colors[key] = {
+        colors[output_key] = {
             "title": title,
             "tokens": extract_color_section(client, content_id),
         }
 
-    typography_status_children = node_children(client, section_ids["Typography & Status"])
-    status_section_id = next(child["id"] for child in typography_status_children if child["name"] == "Status Colors")
+    status_section_id = "2I-0"
     status_content_id = node_children(client, status_section_id)[1]["id"]
     colors["status"] = {
         "title": "Status",
@@ -490,11 +582,12 @@ def extract_colors(client: PaperClient, section_ids: dict[str, str]) -> dict[str
     return colors
 
 
-def extract_typography(client: PaperClient, section_ids: dict[str, str]) -> dict[str, Any]:
-    typography_status_children = node_children(client, section_ids["Typography & Status"])
-    typography_section_id = next(child["id"] for child in typography_status_children if child["name"] == "Typography Scale")
+def extract_typography(client: PaperClient, section_frames: dict[str, str]) -> dict[str, Any]:
+    typography_section_id = next(
+        child["id"] for child in node_children(client, section_frames["typography-status"]) if child["id"] == "1S-0"
+    )
     typography_children = node_children(client, typography_section_id)
-    rows_container_id = next(child["id"] for child in typography_children if child["name"] == "Frame")
+    rows_container_id = next(child["id"] for child in typography_children if child["name"] == "Frame" and child["id"] != "1T-0")
     rows = node_children(client, rows_container_id)
     row_infos = [node_info(client, row["id"]) for row in rows]
     sample_ids = [info["childIds"][0] for info in row_infos if len(info.get("childIds", [])) >= 2]
@@ -548,7 +641,7 @@ def render_tokens_css(colors: dict[str, Any], typography: dict[str, Any]) -> str
     lines = [
         "/*",
         " * Igloo Design Tokens",
-        ' * Extracted from Paper canvas "igloo-ui" -> Foundations artboard (8B-0) only.',
+        ' * Extracted from Paper canvas "igloo-ui-shared" -> Foundations artboard (1-0) only.',
         " * This file is regenerated from the Foundations board and intentionally does not inventory",
         " * every color or type treatment used elsewhere in the prototype.",
         " */",
@@ -593,9 +686,9 @@ def render_tokens_css(colors: dict[str, Any], typography: dict[str, Any]) -> str
 
 
 def export_token_files(client: PaperClient) -> None:
-    section_ids = {child["name"]: child["id"] for child in node_children(client, FOUNDATIONS_ID)}
-    colors = extract_colors(client, section_ids)
-    typography = extract_typography(client, section_ids)
+    section_frames = FOUNDATION_SECTION_FRAMES
+    colors = extract_colors(client, section_frames)
+    typography = extract_typography(client, section_frames)
     css = render_tokens_css(colors, typography)
     write_json(TOKEN_DIR / "colors.json", colors)
     write_json(TOKEN_DIR / "typography.json", typography)
@@ -622,9 +715,9 @@ def export_glossary_entry(
     mime_type, encoded = client.get_screenshot(paper_id)
     markdown_name, screenshot_name = GLOSSARY_FILES[paper_id]
     title = {
-        "ONB-0": "Core & Protocol Glossary",
-        "OSN-0": "Operations, Setup & Infrastructure Glossary",
-        "OXZ-0": "Policies & Data Model Glossary",
+        "1QH-0": "Core & Protocol Glossary",
+        "1SQ-0": "Operations, Setup & Infrastructure Glossary",
+        "1US-0": "Policies & Data Model Glossary",
     }[paper_id]
     write_text(GLOSSARY_DIR / markdown_name, parse_glossary(jsx, summary, title, artboard, paper_id, metadata))
     write_png(GLOSSARY_DIR / screenshot_name, mime_type, encoded)
@@ -649,6 +742,7 @@ def export_standard_entry(
         write_text(output_dir / "screen.html", jsx)
         write_text(output_dir / "README.md", make_screen_readme(entry, artboard, summary, metadata, entries_by_id))
     else:
+        jsx = scrub_noncanonical_design_system_jsx(jsx, metadata)
         write_text(output_dir / "reference.html", jsx)
         write_text(output_dir / "README.md", make_design_readme(entry, artboard, summary, metadata))
     write_png(output_dir / "screenshot.png", mime_type, encoded)

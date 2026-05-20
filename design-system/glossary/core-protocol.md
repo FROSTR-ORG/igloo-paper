@@ -3,41 +3,9 @@
 Derived from the current Paper glossary artboard export.
 
 ## Paper Source
-- **Artboard ID:** ONB-0
+- **Artboard ID:** 1QH-0
 - **Artboard Name:** Glossary — Core & Protocol
 - **Dimensions:** 1440 × 2564
-
-## Core Concepts
-
-### FROSTR
-Flexible Round-Optimized Schnorr Threshold signatures. Splits an nsec into k-of-n shares and coordinates signing over Nostr relays via bifrost nodes.
-
-### Share
-An individual secret key piece within a FROSTR keyset's group. A single share cannot sign or reveal the private key — only a threshold of shares working together can produce a signature. Each device holds exactly one share. For transport, a share is wrapped with group metadata into an onboarding package (bfonboard).
-
-### Keyset
-The complete FROSTR threshold signing unit: a group of related shares plus the shared group configuration (Group Profile). A keyset is identified by its keyset npub and name. Shares from different keysets cannot be combined.
-
-### nsec
-Your Nostr private key. In Igloo it is split into shares — the full key is never reconstructed during signing.
-
-### Threshold
-The minimum number of shares required to produce a valid signature (e.g., 2-of-3 means any 2 of 3 shares can sign).
-
-### Relay
-A Nostr relay server that facilitates communication between signer nodes. All signers in a group need at least one common relay.
-
-### Index
-The numeric identifier of a share within a keyset (e.g. #0, #1, #2). Each device holds one share at a specific index. Index 0 is assigned to the creator by default.
-
-### Remote Signing Service
-The app category label shown in the header. Refers to any igloo application that signs Nostr events on behalf of a user from a remote device or browser, using FROST threshold signatures.
-
-### Keyset npub
-The group public key of a FROSTR keyset, displayed in npub format. Visible to all peers via the group profile. Derived from the signing key that was split into shares.
-
-### Group
-The collective signing unit within a keyset. Consists of all shares, the shared group configuration, and the group's public key. When we say "the group" we mean the set of participants and their shared parameters — distinct from any individual share.
 
 ## Artifacts & Protocol
 

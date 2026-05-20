@@ -4,7 +4,7 @@
 This screen captures the `rotate-keyset` flow state "Error: Group Mismatch" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** LRH-0
+- **Artboard ID:** 9GP-0
 - **Artboard Name:** Web — Rotate Keyset — Error: Group Mismatch
 - **Dimensions:** 1440 × 1080
 
@@ -14,7 +14,6 @@ This screen captures the `rotate-keyset` flow state "Error: Group Mismatch" in t
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

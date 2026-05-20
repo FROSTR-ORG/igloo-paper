@@ -47,15 +47,6 @@
       ]
     },
     {
-      "name": "usage-color-006",
-      "value": "#020817",
-      "fileCount": 2,
-      "sampleFiles": [
-        "design-system/patterns/flows-qr-transfer/reference.html",
-        "design-system/patterns/rotate-keyset-distribution/reference.html"
-      ]
-    },
-    {
       "name": "usage-color-007",
       "value": "#052E1633",
       "fileCount": 4,
@@ -707,14 +698,6 @@
       "fileCount": 1,
       "sampleFiles": [
         "design-system/patterns/pool-signing-readiness/reference.html"
-      ]
-    },
-    {
-      "name": "usage-color-075",
-      "value": "#22C55E0F",
-      "fileCount": 1,
-      "sampleFiles": [
-        "design-system/patterns/flows-qr-transfer/reference.html"
       ]
     },
     {
@@ -2176,15 +2159,6 @@
       ]
     },
     {
-      "name": "usage-color-223",
-      "value": "#D4E5FF",
-      "fileCount": 2,
-      "sampleFiles": [
-        "design-system/patterns/flows-qr-transfer/reference.html",
-        "design-system/patterns/rotate-keyset-distribution/reference.html"
-      ]
-    },
-    {
       "name": "usage-color-224",
       "value": "#D5E4FF",
       "fileCount": 1,
@@ -2603,15 +2577,6 @@
       ]
     },
     {
-      "name": "usage-color-267",
-      "value": "#F59E0B6B",
-      "fileCount": 2,
-      "sampleFiles": [
-        "design-system/patterns/flows-qr-transfer/reference.html",
-        "design-system/patterns/rotate-keyset-distribution/reference.html"
-      ]
-    },
-    {
       "name": "usage-color-268",
       "value": "#F59E0B80",
       "fileCount": 13,
@@ -2911,6 +2876,120 @@
         "screens/recover/1b-recover-success/screen.html",
         "screens/rotate-keyset/1-rotate-keyset/screen.html"
       ]
+    },
+    {
+      "name": "usage-color-298",
+      "value": "#17255480",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-299",
+      "value": "#2563EB66",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/shared/2-create-profile/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-300",
+      "value": "#020617B8",
+      "fileCount": 1,
+      "sampleFiles": [
+        "screens/onboard-sponsor/2d-cancel-confirm-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-301",
+      "value": "#1E293B66",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/patterns/onboard-sponsor/reference.html",
+        "screens/onboard-sponsor/2-package-handoff/screen.html",
+        "screens/onboard-sponsor/2b-device-onboarded/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-302",
+      "value": "#1E293B80",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/patterns/onboard-sponsor/reference.html",
+        "screens/onboard-sponsor/2-package-handoff/screen.html",
+        "screens/onboard-sponsor/2b-device-onboarded/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-303",
+      "value": "#22C55E52",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/onboard-sponsor/reference.html",
+        "screens/onboard-sponsor/2b-device-onboarded/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-304",
+      "value": "#60A5FA52",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/patterns/onboard-sponsor/reference.html",
+        "screens/onboard-sponsor/2-package-handoff/screen.html",
+        "screens/onboard-sponsor/2d-cancel-confirm-modal/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-305",
+      "value": "#94A3B873",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/patterns/onboard-sponsor/reference.html",
+        "screens/onboard-sponsor/2-package-handoff/screen.html",
+        "screens/onboard-sponsor/2b-device-onboarded/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-306",
+      "value": "#EAB3080F",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/patterns/signer-states-status-empty/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-307",
+      "value": "#EF444452",
+      "fileCount": 2,
+      "sampleFiles": [
+        "design-system/patterns/onboard-sponsor/reference.html",
+        "screens/onboard-sponsor/2c-onboarding-failed/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-308",
+      "value": "#020617",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-309",
+      "value": "#60A5FA66",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/overlays-feedback/reference.html"
+      ]
+    },
+    {
+      "name": "usage-color-310",
+      "value": "#EF44441F",
+      "fileCount": 1,
+      "sampleFiles": [
+        "design-system/components/core/reference.html"
+      ]
     }
   ],
   "typography": [
@@ -3179,16 +3258,6 @@
       ]
     },
     {
-      "name": "usage-type-024",
-      "font-size": "14px",
-      "line-height": "21px",
-      "fileCount": 2,
-      "sampleFiles": [
-        "design-system/patterns/flows-qr-transfer/reference.html",
-        "design-system/patterns/rotate-keyset-distribution/reference.html"
-      ]
-    },
-    {
       "name": "usage-type-025",
       "font-size": "14px",
       "line-height": "22px",
@@ -3440,16 +3509,6 @@
       ]
     },
     {
-      "name": "usage-type-048",
-      "font-size": "22px",
-      "line-height": "30px",
-      "fileCount": 2,
-      "sampleFiles": [
-        "design-system/patterns/flows-qr-transfer/reference.html",
-        "design-system/patterns/rotate-keyset-distribution/reference.html"
-      ]
-    },
-    {
       "name": "usage-type-049",
       "font-size": "24px",
       "line-height": "32px",
@@ -3514,6 +3573,17 @@
       "fileCount": 1,
       "sampleFiles": [
         "design-system/components/data-display-review-summary/reference.html"
+      ]
+    },
+    {
+      "name": "usage-type-055",
+      "font-size": "13px",
+      "line-height": "19px",
+      "fileCount": 3,
+      "sampleFiles": [
+        "design-system/patterns/onboard-sponsor/reference.html",
+        "screens/onboard-sponsor/2-package-handoff/screen.html",
+        "screens/onboard-sponsor/2b-device-onboarded/screen.html"
       ]
     }
   ]

@@ -4,7 +4,7 @@
 This screen captures the `welcome` flow state "1c-1. Unlock Profile (Modal)" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** QI3-0
+- **Artboard ID:** 9RJ-0
 - **Artboard Name:** Web — Welcome — 1c-1. Unlock Profile (Modal)
 - **Dimensions:** 1440 × 1080
 

@@ -1,0 +1,37 @@
+# Onboard Sponsor — 2. Package Handoff
+
+## Description
+This screen captures the `onboard-sponsor` flow state "2. Package Handoff" in the current Igloo web prototype.
+
+## Paper Source
+- **Artboard ID:** 8XC-0
+- **Artboard Name:** Web — Onboard Sponsor — 2. Package Handoff
+- **Dimensions:** 1440 × 934
+
+## Flow Context
+- **Flow:** `onboard-sponsor`
+- **State:** `2. Package Handoff`
+
+## Key Regions
+- **AppHeader / PublicFocus**
+- **Handoff Form**
+
+## Related Screens
+
+### Onboard Sponsor Flow
+- Onboard Sponsor — 1. Configure Device — `screens/onboard-sponsor/1-configure-device/README.md`
+- Onboard Sponsor — 2b. Device Onboarded — `screens/onboard-sponsor/2b-device-onboarded/README.md`
+- Onboard Sponsor — 2c. Onboarding Failed — `screens/onboard-sponsor/2c-onboarding-failed/README.md`
+- Onboard Sponsor — 2d. Cancel Confirm (Modal) — `screens/onboard-sponsor/2d-cancel-confirm-modal/README.md`
+
+## Representative Copy
+- Igloo
+- Threshold Signing for Nostr
+- Onboard Sponsor
+- Onboard Package Ready
+- Hand the package below to Alice's iPhone. They will enter th
+- Waiting for new device...
+
+## Files
+- `screen.html` — Tailwind-flavored Paper JSX export for the screen.
+- `screenshot.png` — Screenshot exported from the current Paper canvas.

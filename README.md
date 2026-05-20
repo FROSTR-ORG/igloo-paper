@@ -1,5 +1,5 @@
 # igloo-paper
-Static export of the `igloo-ui` Paper file on the `core` page.
+Static export of the `igloo-ui-shared` Paper file on the `core` page.
 
 - Source of truth: the live Paper canvas
 - Extraction coverage and output paths: `artboard-map.json`
@@ -10,3 +10,5 @@ Static export of the `igloo-ui` Paper file on the `core` page.
 
 `design-system/tokens/` is generated from the Foundations artboard only. It is the canonical Foundations token set, not a whole-repo inventory of every color or type treatment used elsewhere in the exported prototype.
 Current non-Foundation prototype usage is explicitly tracked in `design-system/tokens/usage-coverage.json` so strict drift checks catch newly introduced undocumented values.
+
+Spec-only notes from Paper boards are preserved under `docs/`, not in `design-system/` reference exports. The current distribution-flow notes live in `docs/product-flows/keyset-distribution.md`.

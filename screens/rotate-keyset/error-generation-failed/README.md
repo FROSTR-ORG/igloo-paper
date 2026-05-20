@@ -4,7 +4,7 @@
 This screen captures the `rotate-keyset` flow state "Error: Generation Failed" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** LTC-0
+- **Artboard ID:** 9I9-0
 - **Artboard Name:** Web — Rotate Keyset — Error: Generation Failed
 - **Dimensions:** 1440 × 1080
 
@@ -14,7 +14,6 @@ This screen captures the `rotate-keyset` flow state "Error: Generation Failed" i
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

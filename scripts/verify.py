@@ -57,18 +57,19 @@ STALE_DIRS = [
     REPO_ROOT / "screens" / "rotate-share",
 ]
 EXPECTED_SCREEN_PATHS = {
-    "QI3-0": "screens/welcome/1c-1-unlock-profile-modal",
-    "6XP-0": "screens/import/3-review-save-profile",
-    "73U-0": "screens/onboard/2b-onboarding-failed",
-    "726-0": "screens/onboard/3-onboarding-complete",
-    "T62-0": "screens/dashboard/2c-signing-blocked",
-    "518-0": "screens/dashboard/3-settings-lock-profile",
-    "DCI-0": "screens/dashboard/1c-policies",
-    "IS8-0": "screens/replace-share/1-enter-onboarding-package",
-    "IV8-0": "screens/replace-share/2-applying-replacement",
-    "J3O-0": "screens/replace-share/2b-replacement-failed",
-    "JIJ-0": "screens/replace-share/3-share-replaced",
+    "9RJ-0": "screens/welcome/1c-1-unlock-profile-modal",
+    "8C4-0": "screens/import/3-review-save-profile",
+    "8JF-0": "screens/onboard/2b-onboarding-failed",
+    "8HB-0": "screens/onboard/3-onboarding-complete",
+    "7V9-0": "screens/dashboard/2c-signing-blocked",
+    "502-0": "screens/dashboard/3-settings-lock-profile",
+    "4WB-0": "screens/dashboard/1c-policies",
+    "9AV-0": "screens/replace-share/1-enter-onboarding-package",
+    "9PX-0": "screens/replace-share/2-applying-replacement",
+    "9DU-0": "screens/replace-share/2b-replacement-failed",
+    "9C8-0": "screens/replace-share/3-share-replaced",
 }
+GLOSSARY_ARTBOARD_IDS = {"ONB-0", "OSN-0", "OXZ-0", "1QH-0", "1SQ-0", "1US-0"}
 GLOSSARY_FILES = {
     "core-protocol.md",
     "operations-setup.md",
@@ -168,12 +169,12 @@ def section_bullets(text: str, heading: str) -> list[str]:
 
 
 def verify_map(entries: list[dict[str, Any]]) -> None:
-    ensure(len(entries) == 71, f"artboard-map.json should contain 71 entries, found {len(entries)}")
+    ensure(len(entries) == 87, f"artboard-map.json should contain 87 entries, found {len(entries)}")
     counts: dict[str, int] = {}
     for entry in entries:
         counts[entry["category"]] = counts.get(entry["category"], 0) + 1
-    ensure(counts.get("design-system") == 24, f"expected 24 design-system entries, found {counts.get('design-system')}")
-    ensure(counts.get("screen") == 46, f"expected 46 screen entries, found {counts.get('screen')}")
+    ensure(counts.get("design-system") == 31, f"expected 31 design-system entries, found {counts.get('design-system')}")
+    ensure(counts.get("screen") == 55, f"expected 55 screen entries, found {counts.get('screen')}")
     ensure(counts.get("divider") == 1, f"expected 1 divider entry, found {counts.get('divider')}")
 
     entries_by_id = {entry["paperNodeId"]: entry for entry in entries}
@@ -188,7 +189,7 @@ def verify_outputs(entries: list[dict[str, Any]]) -> None:
             continue
         path = REPO_ROOT / output_path
         ensure(path.exists(), f"missing output directory {output_path}")
-        if entry["paperNodeId"] in {"ONB-0", "OSN-0", "OXZ-0"}:
+        if entry["paperNodeId"] in GLOSSARY_ARTBOARD_IDS:
             continue
         required = ["README.md", "screen.html", "screenshot.png"] if entry["category"] == "screen" else ["README.md", "reference.html", "screenshot.png"]
         for name in required:
@@ -251,6 +252,31 @@ def verify_readmes(entries: list[dict[str, Any]], metadata: dict[str, Any]) -> N
             ensure(contents == override["contents"], f"README contents do not match override for {readme_path.relative_to(REPO_ROOT)}")
         if "description" in override:
             ensure(override["description"] in text, f"README description override missing for {readme_path.relative_to(REPO_ROOT)}")
+
+
+def verify_noncanonical_design_system_text(metadata: dict[str, Any]) -> None:
+    policy = metadata.get("noncanonical_design_system_text", {})
+    docs_destination = policy.get("docs_destination")
+    phrases = list(policy.get("remove_blocks_containing", []))
+    phrases.extend(policy.get("remove_lines_containing", []))
+
+    if docs_destination:
+        docs_path = REPO_ROOT / docs_destination
+        ensure(docs_path.exists(), f"missing non-canonical notes destination: {docs_destination}")
+        ensure(docs_path.stat().st_size > 0, f"empty non-canonical notes destination: {docs_destination}")
+
+    for phrase in phrases:
+        ensure(isinstance(phrase, str) and phrase, "noncanonical design-system text phrase must be a non-empty string")
+
+    targets = list(REPO_ROOT.glob("design-system/**/reference.html"))
+    targets.extend(REPO_ROOT.glob("design-system/**/README.md"))
+    for path in sorted(targets):
+        text = path.read_text()
+        for phrase in phrases:
+            ensure(
+                phrase not in text,
+                f"non-canonical spec text remains in design-system export ({phrase!r}): {path.relative_to(REPO_ROOT)}",
+            )
 
 
 def verify_against_paper(entries: list[dict[str, Any]]) -> None:
@@ -572,6 +598,7 @@ def main() -> None:
     verify_map(entries)
     verify_outputs(entries)
     verify_readmes(entries, metadata)
+    verify_noncanonical_design_system_text(metadata)
     verify_local_assets()
     verify_footer_positioning()
     verify_canonical_export_contract(entries)

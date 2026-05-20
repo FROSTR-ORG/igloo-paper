@@ -4,9 +4,9 @@
 This screen captures the `dashboard` flow state "1. Signer Dashboard" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 3QW-0
+- **Artboard ID:** 4HK-0
 - **Artboard Name:** Web — Dashboard — 1. Signer Dashboard
-- **Dimensions:** 1440 × 1284
+- **Dimensions:** 1440 × 1192
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -14,13 +14,12 @@ This screen captures the `dashboard` flow state "1. Signer Dashboard" in the cur
 
 ## Key Regions
 - **AppHeader / AuthActions**
-- **Dashboard**
-- **AppFooter**
 
 ## Related Screens
 
 ### Dashboard Main States
 - Dashboard — 1b. Connecting — `screens/dashboard/1b-connecting/README.md`
+- Dashboard — 1b Error. Profile Load Failed — `screens/dashboard/1b-profile-load-failed/README.md`
 - Dashboard — 1c. Policies — `screens/dashboard/1c-policies/README.md`
 - Dashboard — 2. Stopped — `screens/dashboard/2-stopped/README.md`
 - Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
@@ -34,7 +33,7 @@ This screen captures the `dashboard` flow state "1. Signer Dashboard" in the cur
 - ·
 - 2/3
 - npub1qe3...7k4m
-- Share #0
+- Share #1
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

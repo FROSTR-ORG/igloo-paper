@@ -47,6 +47,13 @@ Focused task execution. The header stays reserved for brand presence; back/exit 
 - `726-0` Onboard — 3. Onboarding Complete
 - `73U-0` Onboard — 2b. Onboarding Failed
 
+**Onboard Sponsor (5 screens):**
+- `1B3Q-0` Onboard Sponsor — 1. Configure Device
+- `1B5X-0` Onboard Sponsor — 2. Package Handoff
+- `1B84-0` Onboard Sponsor — 2b. Device Onboarded
+- `1BAB-0` Onboard Sponsor — 2c. Onboarding Failed
+- `1BCI-0` Onboard Sponsor — 2d. Cancel Confirm (Modal)
+
 ### Post-Auth with Profile Context
 
 Used when a profile is selected but not fully unlocked (intermediate states).
@@ -82,6 +89,10 @@ Used when signer is fully operational.
 
 **Applied to dashboard screens:**
 - `3QW-0` Signer Dashboard
+- `SH5-0` Dashboard — 1b. Loading Profile
+- `1AWU-0` Dashboard — 1b Error. Profile Load Failed
+- `1ABR-0` Dashboard — 1d. Recover
+- `1AJJ-0` Dashboard — 1e. Recover Success
 - `DCI-0` 1c. Policies
 - `518-0` Settings & Lock Profile
 - And all other dashboard variants

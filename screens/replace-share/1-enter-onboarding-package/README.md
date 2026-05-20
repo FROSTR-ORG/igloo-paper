@@ -4,7 +4,7 @@
 This screen captures the `replace-share` flow state "1. Enter Onboarding Package" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** IS8-0
+- **Artboard ID:** 9AV-0
 - **Artboard Name:** Web — Replace Share — 1. Enter Onboarding Package
 - **Dimensions:** 1440 × 1284
 
@@ -14,7 +14,6 @@ This screen captures the `replace-share` flow state "1. Enter Onboarding Package
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

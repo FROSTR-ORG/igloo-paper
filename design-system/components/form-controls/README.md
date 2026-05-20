@@ -1,22 +1,16 @@
 # Form Controls
 
 ## Description
-This artboard documents the current Paper reference for Form Controls. The synced export covers Threshold Selector, Password Create & Confirm, nsec Import Field used across the Igloo design system.
+This artboard documents the current Paper reference for Form Controls. The synced export covers Credential Input States Section, Import Package Textarea Section used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** 1QN-0
+- **Artboard ID:** 3AY-0
 - **Artboard Name:** Form Controls
-- **Dimensions:** 1440 × 2802
+- **Dimensions:** 1440 × 3278
 
 ## Contents
-- **Threshold Selector**
-- **Password Create & Confirm**
-- **nsec Import Field**
-- **Toggle Switch**
-- **Copy Feedback**
-- **Share List Item**
-- **Number Input**
-- **Keyset Name Input**
+- **Credential Input States Section**
+- **Import Package Textarea Section**
 
 ## Representative Copy
 - Igloo UI

@@ -1,0 +1,24 @@
+{
+  "artboard_overrides": {
+    "BI4-0": {
+      "contents": [
+        "Collect Shares Section",
+        "Recover Success Section"
+      ]
+    }
+  },
+  "screen_groups": {
+    "recover-flow": {
+      "screens": [
+        "screens/recover/1-collect-shares",
+        "screens/recover/1b-recover-success"
+      ],
+      "pattern": "design-system/patterns/recover-flow"
+    }
+  },
+  "paper_file": {
+    "name": "igloo-ui-shared",
+    "id": "01KS0ZAKQ6KF98SHDJHB6STG1K",
+    "page": "core"
+  }
+}

@@ -4,7 +4,7 @@
 This screen captures the `onboard` flow state "3. Onboarding Complete" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 726-0
+- **Artboard ID:** 8HB-0
 - **Artboard Name:** Web — Onboard — 3. Onboarding Complete
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `onboard` flow state "3. Onboarding Complete" in the cu
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Content**
-- **AppFooter**
 
 ## Related Screens
 

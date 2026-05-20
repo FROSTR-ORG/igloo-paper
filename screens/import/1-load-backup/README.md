@@ -4,7 +4,7 @@
 This screen captures the `import` flow state "1. Load Backup" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 3B1-0
+- **Artboard ID:** 44B-0
 - **Artboard Name:** Web — Import — 1. Load Backup
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `import` flow state "1. Load Backup" in the current Igl
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Form**
-- **AppFooter**
 
 ## Related Screens
 

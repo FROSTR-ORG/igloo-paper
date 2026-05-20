@@ -4,7 +4,7 @@
 This screen captures the `rotate-keyset` flow state "1e. Generation Progress" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** LHT-0
+- **Artboard ID:** 9NX-0
 - **Artboard Name:** Web — Rotate Keyset — 1e. Generation Progress
 - **Dimensions:** 1440 × 1485
 
@@ -14,7 +14,6 @@ This screen captures the `rotate-keyset` flow state "1e. Generation Progress" in
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

@@ -3,7 +3,7 @@
 Derived from the current Paper glossary artboard export.
 
 ## Paper Source
-- **Artboard ID:** OSN-0
+- **Artboard ID:** 1SQ-0
 - **Artboard Name:** Glossary — Operations, Setup & Infrastructure
 - **Dimensions:** 1440 × 2086
 
@@ -39,7 +39,7 @@ The selection screen showing all saved profiles on this device, allowing the use
 ## Device Setup
 
 ### Create Keyset
-The outside-runtime flow for generating a new FROSTR threshold keyset from scratch. Generates a new signing key and initial share set, then converges into shared Create Profile and Distribute Shares.
+The outside-runtime flow for generating a new FROSTR threshold keyset from scratch. Generates a new signing key and initial share set, then converges into shared Create Profile — where the operator chooses the local share — and Distribute Shares.
 
 ### Import Device Profile
 A device setup path for bringing an existing profile onto this device from a backup or by recovering it from a relay.

@@ -4,9 +4,9 @@
 This screen captures the `replace-share` flow state "2. Applying Replacement" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** IV8-0
+- **Artboard ID:** 9PX-0
 - **Artboard Name:** Web — Replace Share — 2. Applying Replacement
-- **Dimensions:** 1440 × 1700
+- **Dimensions:** 1440 × 829
 
 ## Flow Context
 - **Flow:** `replace-share`
@@ -14,7 +14,6 @@ This screen captures the `replace-share` flow state "2. Applying Replacement" in
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

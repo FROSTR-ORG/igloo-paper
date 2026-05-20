@@ -4,9 +4,9 @@
 This screen captures the `shared` flow state "3. Distribute Shares" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 8GU-0
+- **Artboard ID:** 8OP-0
 - **Artboard Name:** Web — Shared — 3. Distribute Shares
-- **Dimensions:** 1440 × 1284
+- **Dimensions:** 1440 × 1346
 
 ## Flow Context
 - **Flow:** `shared`
@@ -14,7 +14,6 @@ This screen captures the `shared` flow state "3. Distribute Shares" in the curre
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **AppFooter**
 
 ## Related Screens
 

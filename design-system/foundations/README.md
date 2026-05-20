@@ -1,18 +1,14 @@
 # Foundations
 
 ## Description
-This artboard documents the current Paper reference for Foundations. The synced export covers Color Palette Section, Blue Scale Section, Typography & Status used across the Igloo design system.
+This artboard documents the current Paper reference for Foundations. The synced export covers Interface Text Tones Section, Interface Borders & Overlays Section used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** 8B-0
+- **Artboard ID:** 1-0
 - **Artboard Name:** Foundations
-- **Dimensions:** 1440 × 1660
+- **Dimensions:** 1440 × 1582
 
 ## Contents
-- **Color Palette Section**
-- **Blue Scale Section**
-- **Typography & Status**
-- **Semantic Colors Section**
 - **Interface Text Tones Section**
 - **Interface Borders & Overlays Section**
 

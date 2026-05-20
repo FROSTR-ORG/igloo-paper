@@ -1,0 +1,37 @@
+# Onboard Sponsor — 2d. Cancel Confirm (Modal)
+
+## Description
+This screen captures the `onboard-sponsor` flow state "2d. Cancel Confirm (Modal)" in the current Igloo web prototype.
+
+## Paper Source
+- **Artboard ID:** 91U-0
+- **Artboard Name:** Web — Onboard Sponsor — 2d. Cancel Confirm (Modal)
+- **Dimensions:** 1440 × 934
+
+## Flow Context
+- **Flow:** `onboard-sponsor`
+- **State:** `2d. Cancel Confirm (Modal)`
+
+## Key Regions
+- **AppHeader / PublicFocus**
+- **Cancel Overlay**
+
+## Related Screens
+
+### Onboard Sponsor Flow
+- Onboard Sponsor — 1. Configure Device — `screens/onboard-sponsor/1-configure-device/README.md`
+- Onboard Sponsor — 2. Package Handoff — `screens/onboard-sponsor/2-package-handoff/README.md`
+- Onboard Sponsor — 2b. Device Onboarded — `screens/onboard-sponsor/2b-device-onboarded/README.md`
+- Onboard Sponsor — 2c. Onboarding Failed — `screens/onboard-sponsor/2c-onboarding-failed/README.md`
+
+## Representative Copy
+- Igloo
+- Threshold Signing for Nostr
+- Hand the package below to Alice's iPhone. They will enter th
+- Onboard Package Ready
+- Waiting for new device...
+- Keep this page open while the new device saves the share and
+
+## Files
+- `screen.html` — Tailwind-flavored Paper JSX export for the screen.
+- `screenshot.png` — Screenshot exported from the current Paper canvas.

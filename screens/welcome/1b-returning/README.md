@@ -4,7 +4,7 @@
 This screen captures the `welcome` flow state "1b. Returning" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 6MP-0
+- **Artboard ID:** 3UX-0
 - **Artboard Name:** Web — Welcome — 1b. Returning
 - **Dimensions:** 1440 × 1080
 
@@ -14,10 +14,12 @@ This screen captures the `welcome` flow state "1b. Returning" in the current Igl
 
 ## Key Regions
 - **AppHeader / PublicLinks**
-- **Hero**
-- **AppFooter**
 
 ## Related Screens
+
+### Welcome Flow
+- Welcome — 1. Welcome — `screens/welcome/1-welcome/README.md`
+- Welcome — 1d. Returning (Many) — `screens/welcome/1d-returning-many/README.md`
 
 ### Welcome Returning Variants
 - Welcome — 1c. Returning (Multi) — `screens/welcome/1c-returning-multi/README.md`

@@ -1,24 +1,22 @@
 # Signer & States — Status & Empty
 
 ## Description
-This artboard documents the current Paper reference for Signer & States — Status & Empty. The synced export covers Signer Status Row Section, Share Info Strip Section, Empty States Section used across the Igloo design system.
+This artboard documents the current Paper reference for Signer & States — Status & Empty. The synced export covers Signer State Hero Section, Dashboard Twin-Card Shell Section used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** MSL-0
+- **Artboard ID:** 20E-0
 - **Artboard Name:** Signer & States — Status & Empty
-- **Dimensions:** 1440 × 1446
+- **Dimensions:** 1440 × 2398
 
 ## Contents
-- **Signer Status Row Section**
-- **Share Info Strip Section**
-- **Empty States Section**
-- **Profile Switcher Trigger Section**
+- **Signer State Hero Section**
+- **Dashboard Twin-Card Shell Section**
 
 ## Representative Copy
 - Igloo UI
 - Signer & States — Status & Empty
-- Signer Status Row
 - Signer Running
+- Connected to wss://relay.primal.net, wss://relay.damus.io
 - Stop Signer
 - Signer Connecting...
 

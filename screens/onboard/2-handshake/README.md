@@ -4,7 +4,7 @@
 This screen captures the `onboard` flow state "2. Handshake" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 70L-0
+- **Artboard ID:** 8FO-0
 - **Artboard Name:** Web — Onboard — 2. Handshake
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `onboard` flow state "2. Handshake" in the current Iglo
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Content**
-- **AppFooter**
 
 ## Related Screens
 

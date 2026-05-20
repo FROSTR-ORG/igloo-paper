@@ -4,7 +4,7 @@ Runbook for re-syncing `igloo-paper` from the live Paper canvas.
 
 ## Source Of Truth
 
-- Paper desktop file: `igloo-ui`
+- Paper desktop file: `igloo-ui-shared` (`01KS0ZAKQ6KF98SHDJHB6STG1K`)
 - Page: `core`
 - `artboard-map.json` defines which artboards are exported and where they land in the repo.
 - `export-metadata.json` defines documentation-only curation:
@@ -12,12 +12,13 @@ Runbook for re-syncing `igloo-paper` from the live Paper canvas.
   - shared README label ignore rules
   - README contents overrides
   - README description overrides
-- `design-system/tokens/` is generated from the Foundations artboard (`8B-0`) only.
+- `design-system/tokens/` is generated from the Foundations artboard (`1-0`) only.
 - `design-system/tokens/usage-coverage.json` explicitly allowlists current non-Foundation prototype color and type usage for strict drift checks.
+- Spec-only Paper notes listed in `export-metadata.json` are preserved under `docs/` and stripped from `design-system/` reference exports.
 
 ## Prerequisites
 
-- Paper desktop must be open with the `igloo-ui` file on the `core` page.
+- Paper desktop must be open with the `igloo-ui-shared` file on the `core` page.
 - Paper MCP must be reachable at `http://127.0.0.1:29979/mcp`.
 - Use Python 3.9+ from the repo root.
 
@@ -78,6 +79,7 @@ These renamed paths are the current canonical screen outputs and the old slugs m
 - deprecated directory absence
 - Paper artboard reconciliation
 - README curation overrides from `export-metadata.json`
+- non-canonical spec text absence from `design-system/` exports
 - localized Paper asset references
 - PNG screenshot file signatures
 - Foundations-token drift across exported HTML

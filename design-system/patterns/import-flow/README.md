@@ -1,0 +1,27 @@
+# Import Flow Sections
+
+## Description
+This artboard documents the current Paper reference for Import Flow Sections. The synced export covers Load Backup Section, Decrypt Backup Section, Review Save Profile Section used across the Igloo design system.
+
+## Paper Source
+- **Artboard ID:** B3Y-0
+- **Artboard Name:** Import Flow Sections
+- **Dimensions:** 1440 × 2771
+
+## Contents
+- **Load Backup Section**
+- **Decrypt Backup Section**
+- **Review Save Profile Section**
+- **Import Error Section**
+
+## Representative Copy
+- Igloo UI
+- Import Flow Sections
+- Outside-runtime import path — load a bfprofile1 backup, decr
+- Load Backup
+- Canonical source: Web — Import — 1. Load Backup
+- Back to Welcome
+
+## Files
+- `reference.html` — Tailwind-flavored Paper JSX export for the artboard.
+- `screenshot.png` — Screenshot exported from the current Paper canvas.
