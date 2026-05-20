@@ -20,15 +20,15 @@ METADATA_PATH = REPO_ROOT / "export-metadata.json"
 TOKEN_DIR = REPO_ROOT / "design-system" / "tokens"
 GLOSSARY_DIR = REPO_ROOT / "design-system" / "glossary"
 ASSET_DIR = REPO_ROOT / "assets" / "paper"
-FOUNDATIONS_ID = "8B-0"
+FOUNDATIONS_ID = "1-0"
 SHARED_COMPONENTS = {
-    "app-header.html": "WA9-0",
-    "app-footer.html": "D1D-0",
+    "app-header.html": "3TF-0",
+    "app-footer.html": "3UK-0",
 }
 GLOSSARY_FILES = {
-    "ONB-0": ("core-protocol.md", "core-protocol-screenshot.png"),
-    "OSN-0": ("operations-setup.md", "operations-setup-screenshot.png"),
-    "OXZ-0": ("policies-data-model.md", "policies-data-model-screenshot.png"),
+    "1QH-0": ("core-protocol.md", "core-protocol-screenshot.png"),
+    "1SQ-0": ("operations-setup.md", "operations-setup-screenshot.png"),
+    "1US-0": ("policies-data-model.md", "policies-data-model-screenshot.png"),
 }
 FOUNDATION_COLOR_SECTIONS = [
     ("Color Palette Section", "Background Colors", "background-colors"),
@@ -196,6 +196,47 @@ def node_children(client: PaperClient, node_id: str) -> list[dict[str, Any]]:
 def node_text(client: PaperClient, node_id: str) -> str:
     info = node_info(client, node_id)
     return (info.get("textContent") or info.get("name") or "").strip()
+
+
+def node_area(client: PaperClient, node_id: str) -> float:
+    info = node_info(client, node_id)
+    return float(info.get("width") or 0) * float(info.get("height") or 0)
+
+
+def section_content_id(client: PaperClient, section_id: str) -> str:
+    children = node_children(client, section_id)
+    if len(children) < 2:
+        raise SystemExit(f"Foundations section {section_id} does not have label and content children")
+    return children[1]["id"]
+
+
+def section_has_label(client: PaperClient, section_id: str, label: str) -> bool:
+    children = node_children(client, section_id)
+    if len(children) < 2 or children[1]["name"] == "Rectangle":
+        return False
+    label_summary = client.get_tree_summary(children[0]["id"], depth=2)
+    return f'"{label}"' in label_summary
+
+
+def find_foundations_section(client: PaperClient, label: str) -> str:
+    candidates: list[str] = []
+    for child in node_children(client, FOUNDATIONS_ID):
+        candidates.append(child["id"])
+        candidates.extend(grandchild["id"] for grandchild in node_children(client, child["id"]))
+
+    matches = [candidate for candidate in candidates if section_has_label(client, candidate, label)]
+    if not matches:
+        raise SystemExit(f"Could not find Foundations section labeled {label}")
+    return min(matches, key=lambda candidate: node_area(client, candidate))
+
+
+def foundations_section_ids(client: PaperClient) -> dict[str, str]:
+    section_ids = {child["name"]: child["id"] for child in node_children(client, FOUNDATIONS_ID)}
+    labels = [title for _, title, _ in FOUNDATION_COLOR_SECTIONS] + ["Typography", "Status"]
+    for label in labels:
+        if label not in section_ids:
+            section_ids[label] = find_foundations_section(client, label)
+    return section_ids
 
 
 def clean_contents(artboard_id: str, items: list[str], metadata: dict[str, Any]) -> list[str]:
@@ -473,16 +514,19 @@ def extract_colors(client: PaperClient, section_ids: dict[str, str]) -> dict[str
     colors: dict[str, Any] = {}
 
     for frame_name, title, key in FOUNDATION_COLOR_SECTIONS:
-        section_id = section_ids[frame_name]
-        content_id = node_children(client, section_id)[1]["id"]
+        section_id = section_ids.get(frame_name) or section_ids[title]
+        content_id = section_content_id(client, section_id)
         colors[key] = {
             "title": title,
             "tokens": extract_color_section(client, content_id),
         }
 
-    typography_status_children = node_children(client, section_ids["Typography & Status"])
-    status_section_id = next(child["id"] for child in typography_status_children if child["name"] == "Status Colors")
-    status_content_id = node_children(client, status_section_id)[1]["id"]
+    if "Typography & Status" in section_ids:
+        typography_status_children = node_children(client, section_ids["Typography & Status"])
+        status_section_id = next(child["id"] for child in typography_status_children if child["name"] == "Status Colors")
+        status_content_id = section_content_id(client, status_section_id)
+    else:
+        status_content_id = section_content_id(client, section_ids["Status"])
     colors["status"] = {
         "title": "Status",
         "tokens": extract_color_section(client, status_content_id),
@@ -491,10 +535,13 @@ def extract_colors(client: PaperClient, section_ids: dict[str, str]) -> dict[str
 
 
 def extract_typography(client: PaperClient, section_ids: dict[str, str]) -> dict[str, Any]:
-    typography_status_children = node_children(client, section_ids["Typography & Status"])
-    typography_section_id = next(child["id"] for child in typography_status_children if child["name"] == "Typography Scale")
-    typography_children = node_children(client, typography_section_id)
-    rows_container_id = next(child["id"] for child in typography_children if child["name"] == "Frame")
+    if "Typography & Status" in section_ids:
+        typography_status_children = node_children(client, section_ids["Typography & Status"])
+        typography_section_id = next(child["id"] for child in typography_status_children if child["name"] == "Typography Scale")
+        typography_children = node_children(client, typography_section_id)
+        rows_container_id = next(child["id"] for child in typography_children if child["name"] == "Frame")
+    else:
+        rows_container_id = section_content_id(client, section_ids["Typography"])
     rows = node_children(client, rows_container_id)
     row_infos = [node_info(client, row["id"]) for row in rows]
     sample_ids = [info["childIds"][0] for info in row_infos if len(info.get("childIds", [])) >= 2]
@@ -548,7 +595,7 @@ def render_tokens_css(colors: dict[str, Any], typography: dict[str, Any]) -> str
     lines = [
         "/*",
         " * Igloo Design Tokens",
-        ' * Extracted from Paper canvas "igloo-ui" -> Foundations artboard (8B-0) only.',
+        ' * Extracted from Paper canvas "igloo-ui-shared" -> Foundations artboard (1-0) only.',
         " * This file is regenerated from the Foundations board and intentionally does not inventory",
         " * every color or type treatment used elsewhere in the prototype.",
         " */",
@@ -593,7 +640,7 @@ def render_tokens_css(colors: dict[str, Any], typography: dict[str, Any]) -> str
 
 
 def export_token_files(client: PaperClient) -> None:
-    section_ids = {child["name"]: child["id"] for child in node_children(client, FOUNDATIONS_ID)}
+    section_ids = foundations_section_ids(client)
     colors = extract_colors(client, section_ids)
     typography = extract_typography(client, section_ids)
     css = render_tokens_css(colors, typography)
@@ -622,9 +669,9 @@ def export_glossary_entry(
     mime_type, encoded = client.get_screenshot(paper_id)
     markdown_name, screenshot_name = GLOSSARY_FILES[paper_id]
     title = {
-        "ONB-0": "Core & Protocol Glossary",
-        "OSN-0": "Operations, Setup & Infrastructure Glossary",
-        "OXZ-0": "Policies & Data Model Glossary",
+        "1QH-0": "Core & Protocol Glossary",
+        "1SQ-0": "Operations, Setup & Infrastructure Glossary",
+        "1US-0": "Policies & Data Model Glossary",
     }[paper_id]
     write_text(GLOSSARY_DIR / markdown_name, parse_glossary(jsx, summary, title, artboard, paper_id, metadata))
     write_png(GLOSSARY_DIR / screenshot_name, mime_type, encoded)

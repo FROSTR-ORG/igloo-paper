@@ -1,19 +1,14 @@
 # Pool & Signing Readiness
 
 ## Description
-This artboard documents the current Paper reference for Pool & Signing Readiness. The synced export covers Peer Pool Ring Section, Signing Capacity Bar Section, Enhanced Peer Row Section used across the Igloo design system.
+This artboard documents the current Paper reference for Pool & Signing Readiness. The synced export covers round_id, event_kind, particip used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** 3MC-0
+- **Artboard ID:** 4BT-0
 - **Artboard Name:** Pool & Signing Readiness
 - **Dimensions:** 1440 × 2045
 
 ## Contents
-- **Peer Pool Ring Section**
-- **Signing Capacity Bar Section**
-- **Enhanced Peer Row Section**
-- **Pool Exchange Event Section**
-- **Signing Failure Log Section**
 - **round_id**
 - **event_kind**
 - **particip**

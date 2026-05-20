@@ -4,7 +4,7 @@
 This screen captures the `rotate-keyset` flow state "Error: Wrong Password" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** LPE-0
+- **Artboard ID:** 9ET-0
 - **Artboard Name:** Web — Rotate Keyset — Error: Wrong Password
 - **Dimensions:** 1440 × 1080
 
@@ -14,7 +14,6 @@ This screen captures the `rotate-keyset` flow state "Error: Wrong Password" in t
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

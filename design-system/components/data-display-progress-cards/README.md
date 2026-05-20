@@ -1,19 +1,15 @@
 # Data Display — Progress & Profile Cards
 
 ## Description
-This artboard documents the current Paper reference for Data Display — Progress & Profile Cards. The synced export covers Progress Bar Section, Group Profile Card Section, Device Profile Card Section used across the Igloo design system.
+This artboard documents the current Paper reference for Data Display — Progress & Profile Cards. The synced export covers the current reusable layout and states used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** MH8-0
+- **Artboard ID:** S7-0
 - **Artboard Name:** Data Display — Progress & Profile Cards
 - **Dimensions:** 1440 × 1959
 
 ## Contents
-- **Progress Bar Section**
-- **Group Profile Card Section**
-- **Device Profile Card Section**
-- **Profile List Card Section**
-- **Scrollable State Section**
+- Structural sections are available in `reference.html`.
 
 ## Representative Copy
 - Igloo UI

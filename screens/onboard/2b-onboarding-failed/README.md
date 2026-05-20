@@ -4,7 +4,7 @@
 This screen captures the `onboard` flow state "2b. Onboarding Failed" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 73U-0
+- **Artboard ID:** 8JF-0
 - **Artboard Name:** Web — Onboard — 2b. Onboarding Failed
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `onboard` flow state "2b. Onboarding Failed" in the cur
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Content**
-- **AppFooter**
 
 ## Related Screens
 

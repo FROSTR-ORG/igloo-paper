@@ -1,16 +1,15 @@
 # Tooltips & Help Text — Tooltip Patterns
 
 ## Description
-This artboard documents the current Paper reference for Tooltips & Help Text — Tooltip Patterns. The synced export covers Tooltip Patterns, Destructive Actions used across the Igloo design system.
+This artboard documents the current Paper reference for Tooltips & Help Text — Tooltip Patterns. The synced export covers the current reusable layout and states used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** OE3-0
+- **Artboard ID:** 1W4-0
 - **Artboard Name:** Tooltips & Help Text — Tooltip Patterns
 - **Dimensions:** 1440 × 1106
 
 ## Contents
-- **Tooltip Patterns**
-- **Destructive Actions**
+- Structural sections are available in `reference.html`.
 
 ## Representative Copy
 - Igloo UI

@@ -1,20 +1,15 @@
 # Icons & Logos
 
 ## Description
-This artboard documents the current Paper reference for Icons & Logos. The synced export covers App Logos Section, Icon Library Section, Icon Sizes Section used across the Igloo design system.
+This artboard documents the current Paper reference for Icons & Logos. The synced export covers the current reusable layout and states used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** 1HL-0
+- **Artboard ID:** 321-0
 - **Artboard Name:** Icons & Logos
 - **Dimensions:** 1440 × 1916
 
 ## Contents
-- **App Logos Section**
-- **Icon Library Section**
-- **Icon Sizes Section**
-- **Icon Colors Section**
-- **Icon Containers Section**
-- **Conventions Section**
+- Structural sections are available in `reference.html`.
 
 ## Representative Copy
 - IGLOO UI

@@ -1,20 +1,17 @@
 # Flows & QR Codes — Transfer States
 
 ## Description
-This artboard documents the current Paper reference for Flows & QR Codes — Transfer States. The synced export covers QR Transfer Section, Share Distribution Section, Distribution Workspace Section used across the Igloo design system.
+This artboard documents the current Paper reference for Flows & QR Codes — Transfer States. The synced export covers Share Distribution Section, Distribution Workspace Section, Onboarding Failure States Section used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** NSX-0
+- **Artboard ID:** 2NN-0
 - **Artboard Name:** Flows & QR Codes — Transfer States
-- **Dimensions:** 1440 × 4353
+- **Dimensions:** 1440 × 4445
 
 ## Contents
-- **QR Transfer Section**
 - **Share Distribution Section**
 - **Distribution Workspace Section**
-- **QR Error States Section**
 - **Onboarding Failure States Section**
-- **Vertical Status Timeline Section**
 
 ## Representative Copy
 - Igloo UI

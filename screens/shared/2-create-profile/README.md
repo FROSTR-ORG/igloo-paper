@@ -4,9 +4,9 @@
 This screen captures the `shared` flow state "2. Create Profile" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 60R-0
+- **Artboard ID:** 87A-0
 - **Artboard Name:** Web — Shared — 2. Create Profile
-- **Dimensions:** 1440 × 1787
+- **Dimensions:** 1440 × 1861
 
 ## Flow Context
 - **Flow:** `shared`
@@ -14,8 +14,6 @@ This screen captures the `shared` flow state "2. Create Profile" in the current 
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
-- **AppFooter**
 
 ## Related Screens
 

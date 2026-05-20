@@ -4,7 +4,7 @@
 This screen captures the `welcome` flow state "1c-2. Unlock Error (Modal)" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** QKO-0
+- **Artboard ID:** 9U8-0
 - **Artboard Name:** Web — Welcome — 1c-2. Unlock Error (Modal)
 - **Dimensions:** 1440 × 1080
 

@@ -4,7 +4,7 @@
 This artboard documents the current Paper reference for Data Display — Review & Summary Panels. The synced export covers Neutral Key-Value Review Panel, Threshold Summary Panel, Profile Summary Panel used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** S9W-0
+- **Artboard ID:** AAY-0
 - **Artboard Name:** Data Display — Review & Summary Panels
 - **Dimensions:** 1440 × 4120
 

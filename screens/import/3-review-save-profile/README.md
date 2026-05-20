@@ -4,7 +4,7 @@
 This screen captures the `import` flow state "3. Review & Save Profile" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 6XP-0
+- **Artboard ID:** 8C4-0
 - **Artboard Name:** Web — Import — 3. Review & Save Profile
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `import` flow state "3. Review & Save Profile" in the c
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Form**
-- **AppFooter**
 
 ## Related Screens
 

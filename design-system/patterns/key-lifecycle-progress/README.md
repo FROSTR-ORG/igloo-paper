@@ -1,15 +1,15 @@
 # Key Lifecycle Progress Sections
 
 ## Description
-This artboard documents the current Paper reference for Key Lifecycle Progress Sections. The synced export covers Content used across the Igloo design system.
+This artboard documents the current Paper reference for Key Lifecycle Progress Sections. The synced export covers the current reusable layout and states used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** RVC-0
+- **Artboard ID:** A8N-0
 - **Artboard Name:** Key Lifecycle Progress Sections
 - **Dimensions:** 1440 × 2200
 
 ## Contents
-- **Content**
+- Structural sections are available in `reference.html`.
 
 ## Representative Copy
 - Igloo UI

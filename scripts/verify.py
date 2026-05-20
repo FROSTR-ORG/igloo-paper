@@ -47,6 +47,7 @@ STALE_DIRS = [
     REPO_ROOT / "screens" / "onboard" / "2b-failed",
     REPO_ROOT / "screens" / "onboard" / "3-complete",
     REPO_ROOT / "screens" / "dashboard" / "1c-profile-switcher",
+    REPO_ROOT / "screens" / "dashboard" / "1b-connecting",
     REPO_ROOT / "screens" / "dashboard" / STALE_DASHBOARD_POLICIES_SLUG,
     REPO_ROOT / "screens" / "dashboard" / "1d-with-rotate-share",
     REPO_ROOT / "screens" / "dashboard" / "2c-quorum-not-met",
@@ -57,17 +58,17 @@ STALE_DIRS = [
     REPO_ROOT / "screens" / "rotate-share",
 ]
 EXPECTED_SCREEN_PATHS = {
-    "QI3-0": "screens/welcome/1c-1-unlock-profile-modal",
-    "6XP-0": "screens/import/3-review-save-profile",
-    "73U-0": "screens/onboard/2b-onboarding-failed",
-    "726-0": "screens/onboard/3-onboarding-complete",
-    "T62-0": "screens/dashboard/2c-signing-blocked",
-    "518-0": "screens/dashboard/3-settings-lock-profile",
-    "DCI-0": "screens/dashboard/1c-policies",
-    "IS8-0": "screens/replace-share/1-enter-onboarding-package",
-    "IV8-0": "screens/replace-share/2-applying-replacement",
-    "J3O-0": "screens/replace-share/2b-replacement-failed",
-    "JIJ-0": "screens/replace-share/3-share-replaced",
+    "9RJ-0": "screens/welcome/1c-1-unlock-profile-modal",
+    "8C4-0": "screens/import/3-review-save-profile",
+    "8JF-0": "screens/onboard/2b-onboarding-failed",
+    "8HB-0": "screens/onboard/3-onboarding-complete",
+    "7V9-0": "screens/dashboard/2c-signing-blocked",
+    "502-0": "screens/dashboard/3-settings-lock-profile",
+    "4WB-0": "screens/dashboard/1c-policies",
+    "9AV-0": "screens/replace-share/1-enter-onboarding-package",
+    "9PX-0": "screens/replace-share/2-applying-replacement",
+    "9DU-0": "screens/replace-share/2b-replacement-failed",
+    "9C8-0": "screens/replace-share/3-share-replaced",
 }
 GLOSSARY_FILES = {
     "core-protocol.md",
@@ -188,7 +189,7 @@ def verify_outputs(entries: list[dict[str, Any]]) -> None:
             continue
         path = REPO_ROOT / output_path
         ensure(path.exists(), f"missing output directory {output_path}")
-        if entry["paperNodeId"] in {"ONB-0", "OSN-0", "OXZ-0"}:
+        if entry["paperNodeId"] in {"1QH-0", "1SQ-0", "1US-0"}:
             continue
         required = ["README.md", "screen.html", "screenshot.png"] if entry["category"] == "screen" else ["README.md", "reference.html", "screenshot.png"]
         for name in required:
@@ -356,7 +357,7 @@ def root_markup_for(path: Path) -> tuple[str, str, str]:
 
 def verify_web_screen_roots(entries: list[dict[str, Any]]) -> None:
     required_tokens = {"flex", "flex-col", "items-center"}
-    modal_ids = {"QI3-0", "QKO-0"}
+    modal_ids = {"9RJ-0", "9U8-0"}
 
     for entry in entries:
         if entry["category"] != "screen":
@@ -371,7 +372,7 @@ def verify_web_screen_roots(entries: list[dict[str, Any]]) -> None:
         ensure("bg-white" not in root_class and "bg-white" not in root_attrs, f"{entry['outputPath']} has a white artboard root")
         if entry["paperNodeId"] in modal_ids:
             ensure("bg-white" not in root_class and "bg-white" not in root_attrs, f"{entry['outputPath']} modal root should use the dark web background")
-        if entry["paperNodeId"] == "IMQ-0":
+        if entry["paperNodeId"] == "96E-0":
             gradient_root_count = text.count("backgroundImage: 'linear-gradient") + text.count("bg-gradient-to-br")
             ensure(gradient_root_count == 1, f"{entry['outputPath']} appears to contain a redundant full-screen gradient wrapper")
 

@@ -4,7 +4,7 @@
 This screen captures the `dashboard` flow state "3b. Clear Credentials (Modal)" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** VG8-0
+- **Artboard ID:** 5BY-0
 - **Artboard Name:** Web — Dashboard — 3b. Clear Credentials (Modal)
 - **Dimensions:** 1440 × 1700
 
@@ -14,11 +14,7 @@ This screen captures the `dashboard` flow state "3b. Clear Credentials (Modal)" 
 
 ## Key Regions
 - **AppHeader / AuthActions**
-- **Dashboard**
-- **Settings Overlay**
-- **Settings Panel**
 - **AppFooter**
-- **Clear Credentials Modal Overlay**
 
 ## Related Screens
 
@@ -35,7 +31,7 @@ This screen captures the `dashboard` flow state "3b. Clear Credentials (Modal)" 
 - ·
 - 2/3
 - npub1qe3...7k4m
-- Share #0
+- Share #1
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

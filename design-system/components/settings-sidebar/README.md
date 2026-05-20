@@ -4,7 +4,7 @@
 This artboard documents the current Paper reference for Settings Sidebar & Lock Profile. The synced export covers both the settings sidebar surface and the lock-profile surface used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** QPC-0
+- **Artboard ID:** 1DQ-0
 - **Artboard Name:** Settings Sidebar & Lock Profile
 - **Dimensions:** 1440 × 1859
 
@@ -18,7 +18,7 @@ This artboard documents the current Paper reference for Settings Sidebar & Lock 
 - Settings Sidebar — Profile & Relay Controls
 - Settings
 - Device Profile
-- Configuration for this device's share (Share #0)
+- Configuration for this device's share (Share #1)
 
 ## Files
 - `reference.html` — Tailwind-flavored Paper JSX export for the artboard.

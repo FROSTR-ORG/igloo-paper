@@ -1,18 +1,15 @@
 # Core Components
 
 ## Description
-This artboard documents the current Paper reference for Core Components. The synced export covers Buttons Section, Inputs Section, Badges Section used across the Igloo design system.
+This artboard documents the current Paper reference for Core Components. The synced export covers Status Pills Section used across the Igloo design system.
 
 ## Paper Source
-- **Artboard ID:** AX-0
+- **Artboard ID:** 55-0
 - **Artboard Name:** Core Components
-- **Dimensions:** 1440 × 1254
+- **Dimensions:** 1440 × 1394
 
 ## Contents
-- **Buttons Section**
-- **Inputs Section**
-- **Badges Section**
-- **Card & Alerts Row**
+- **Status Pills Section**
 
 ## Representative Copy
 - Igloo UI

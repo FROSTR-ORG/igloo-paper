@@ -4,7 +4,7 @@
 This screen captures the `onboard` flow state "1. Enter Package" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** GW5-0
+- **Artboard ID:** 8SU-0
 - **Artboard Name:** Web — Onboard — 1. Enter Package
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `onboard` flow state "1. Enter Package" in the current 
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Form**
-- **AppFooter**
 
 ## Related Screens
 

@@ -4,9 +4,9 @@
 This screen captures the `dashboard` flow state "3. Settings & Lock Profile" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 518-0
+- **Artboard ID:** 502-0
 - **Artboard Name:** Web — Dashboard — 3. Settings & Lock Profile
-- **Dimensions:** 1440 × 1700
+- **Dimensions:** 1440 × 1184
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -14,9 +14,6 @@ This screen captures the `dashboard` flow state "3. Settings & Lock Profile" in 
 
 ## Key Regions
 - **AppHeader / AuthActions**
-- **Dashboard**
-- **Settings Overlay**
-- **Settings Panel**
 - **AppFooter**
 
 ## Related Screens
@@ -34,7 +31,7 @@ This screen captures the `dashboard` flow state "3. Settings & Lock Profile" in 
 - ·
 - 2/3
 - npub1qe3...7k4m
-- Share #0
+- Share #1
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

@@ -4,7 +4,7 @@
 This screen captures the `dashboard` flow state "4. Export Profile" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 75B-0
+- **Artboard ID:** 6CH-0
 - **Artboard Name:** Web — Dashboard — 4. Export Profile
 - **Dimensions:** 1440 × 1700
 
@@ -14,9 +14,6 @@ This screen captures the `dashboard` flow state "4. Export Profile" in the curre
 
 ## Key Regions
 - **AppHeader / AuthActions**
-- **Dashboard**
-- **Settings Overlay**
-- **Settings Panel**
 - **Export Profile Modal Overlay**
 - **AppFooter**
 
@@ -35,7 +32,7 @@ This screen captures the `dashboard` flow state "4. Export Profile" in the curre
 - ·
 - 2/3
 - npub1qe3...7k4m
-- Share #0
+- Share #1
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

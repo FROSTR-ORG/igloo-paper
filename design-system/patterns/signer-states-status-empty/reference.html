@@ -1,80 +1,295 @@
 (
-    <div className="[font-synthesis:none] flex overflow-clip w-360 h-fit flex-col py-14 px-20 pt-16 pb-20 gap-14 antialiased text-xs/4" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
+    <div className="[font-synthesis:none] flex overflow-clip w-360 h-fit flex-col py-14 pt-16 pb-20 gap-14 antialiased text-xs/4" style={{ backgroundImage: 'linear-gradient(in oklab 160deg, oklab(13% -0.004 -0.027) 0%, oklab(20% -0.008 -0.039) 50%, oklab(28.2% -0.003 -0.087) 100%)' }}>
       <div className="flex flex-col gap-1">
-        <div className="tracking-[0.12em] uppercase inline-block [white-space-collapse:preserve] text-wrap text-[#60A5FA80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/3.5">
+        <div className="tracking-[0.12em] uppercase inline-block [white-space-collapse:preserve] text-wrap font-['Share_Tech_Mono',system-ui,sans-serif] text-[#60A5FA80] text-[11px]/3.5">
           Igloo UI
         </div>
-        <div className="inline-block [white-space-collapse:preserve] tracking-[-0.01em] text-wrap text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-[32px]/10">
+        <div className="inline-block [white-space-collapse:preserve] tracking-[-0.01em] text-wrap font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FD] text-[32px]/10">
           Signer & States — Status & Empty
         </div>
       </div>
       <div className="flex flex-col mt-12 gap-4">
-        <div className="flex items-center gap-3">
-          <div className="tracking-[0.08em] uppercase inline-block [white-space-collapse:preserve] text-wrap text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
-            Signer Status Row
-          </div>
-          <div className="grow shrink basis-[0%] h-px bg-[#94A3B826]" />
-        </div>
-        <div className="flex flex-col self-stretch rounded-lg py-4 px-5 gap-3 bg-[#11182766] border border-solid border-[#1E3A8A4D]">
-          <div className="flex items-center gap-3">
-            <div className="shrink-0 rounded-[50%] bg-[#22C55E] [box-shadow:#22C55E99_0px_0px_5px_2px] size-2.5" />
-            <div className="grow inline-block text-[#D1D5DB] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-              Signer Running
-            </div>
-            <div className="flex items-center justify-center rounded-lg py-2.5 px-5 bg-[#EF44440F] border border-solid border-[#EF44444D]">
-              <div className="inline-block text-[#EF4444] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4.5">
-                Stop Signer
+        <div className="flex items-start justify-between w-7xl rounded-[14px] py-4.5 px-5 bg-[#0F172A8C] border border-solid border-[#3B82F629]">
+          <div className="flex flex-col w-180 gap-2 shrink-0">
+            <div className="flex items-center gap-2.5">
+              <div className="rounded-[999px] shrink-0 bg-[#22C55E] size-2.5" />
+              <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#DCFCE7] text-base/5">
+                Signer Running
               </div>
             </div>
+            <div className="font-['Inter',system-ui,sans-serif] text-[#94A3B8] text-[15px]/5.5">
+              Connected to wss://relay.primal.net, wss://relay.damus.io
+            </div>
+          </div>
+          <div className="flex items-center justify-center min-w-30 h-10.5 rounded-xl px-4.5 border border-solid border-[#F8717159]">
+            <div className="flex font-['Inter',system-ui,sans-serif] font-semibold text-[#FCA5A5] text-[15px]/4.5">
+              Stop Signer
+            </div>
           </div>
         </div>
-        <div className="flex items-center rounded-lg py-4 px-5 gap-3 bg-[#11182766] border border-solid border-[#1E3A8A4D]">
-          <div className="rounded-[50%] bg-[#EAB308] [box-shadow:#EAB30880_0px_0px_5px_2px] shrink-0 size-2.5" />
-          <div className="grow shrink basis-[0%] inline-block text-[#D1D5DB] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-            Signer Connecting...
+        <div className="flex items-start justify-between w-250 rounded-[14px] py-4.5 px-5 bg-[#0F172A8C] border border-solid border-[#3B82F629]">
+          <div className="flex flex-col w-180 gap-2 shrink-0">
+            <div className="flex items-center gap-2.5">
+              <div className="rounded-[999px] shrink-0 [box-shadow:#EAB30880_0px_0px_5px_2px] bg-[#EAB308] size-2.5" />
+              <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#DCFCE7] text-base/5">
+                Signer Connecting...
+              </div>
+            </div>
+            <div className="font-['Inter',system-ui,sans-serif] text-[#94A3B8] text-[15px]/5.5">
+              Establishing relay sessions and restoring peer presence.
+            </div>
           </div>
-          <div className="flex items-center justify-center opacity-[0.6] rounded-md py-2 px-4 bg-[#EAB30833] border border-solid border-[#EAB3084D]">
-            <div className="inline-block text-[#EAB308] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+          <div className="flex items-center justify-center min-w-30 h-10.5 rounded-xl px-4.5 bg-[#EAB3080F] border border-solid border-[#EAB3084D]">
+            <div className="flex [white-space-collapse:preserve] opacity-[0.6] font-['Inter',system-ui,sans-serif] font-semibold text-[#FCA5A5] text-[15px]/4.5">
               Connecting...
             </div>
           </div>
         </div>
-        <div className="flex items-center rounded-lg py-4 px-5 gap-3 bg-[#11182766] border border-solid border-[#1E3A8A4D]">
-          <div className="rounded-[50%] bg-[#EF4444] shrink-0 size-2.5" />
-          <div className="grow shrink basis-[0%] inline-block text-[#D1D5DB] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-            Signer Stopped
+        <div className="flex items-center gap-3">
+          <div className="tracking-[0.08em] uppercase inline-block [white-space-collapse:preserve] text-wrap font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FDCC] text-[13px]/4">
+            Signer State Hero
           </div>
-          <div className="flex items-center justify-center rounded-md py-2 px-4 bg-[#2563EB]">
-            <div className="inline-block text-white font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+          <div className="grow shrink basis-[0%] h-px bg-[#94A3B826]" />
+        </div>
+        <div className="flex items-start justify-between w-7xl rounded-[14px] py-4.5 px-5 bg-[#0F172A8C] border border-solid border-[#3B82F629]">
+          <div className="flex flex-col w-180 gap-2 shrink-0">
+            <div className="flex items-center gap-2.5">
+              <div className="rounded-[999px] shrink-0 bg-[#22C55E] size-2.5" />
+              <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#DCFCE7] text-base/5">
+                Signer Running
+              </div>
+            </div>
+            <div className="font-['Inter',system-ui,sans-serif] text-[#94A3B8] text-[15px]/5.5">
+              Runtime is active, but every configured relay is currently unreachable. Signing and sync are degraded until connectivity returns.
+            </div>
+          </div>
+          <div className="flex items-center justify-center min-w-30 h-10.5 rounded-xl px-4.5 border border-solid border-[#F8717159]">
+            <div className="flex font-['Inter',system-ui,sans-serif] font-semibold text-[#FCA5A5] text-[15px]/4.5">
+              Stop Signer
+            </div>
+          </div>
+        </div>
+        <div className="flex items-start justify-between w-7xl rounded-[14px] py-4.5 px-5 bg-[#0F172A8C] border border-solid border-[#3B82F629]">
+          <div className="flex flex-col w-180 gap-2 shrink-0">
+            <div className="flex items-center gap-2.5">
+              <div className="rounded-[999px] shrink-0 bg-[#EF4444] size-2.5" />
+              <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#FCA5A5] text-base/5">
+                Signer Stopped
+              </div>
+            </div>
+            <div className="font-['Inter',system-ui,sans-serif] text-[#94A3B8] text-[15px]/5.5">
+              Runtime is intentionally offline. Relay sessions, peer discovery, and signing capacity are paused until you start the signer again.
+            </div>
+          </div>
+          <div className="flex items-center justify-center min-w-31 h-10.5 rounded-xl px-4.5 bg-[#2563EB]">
+            <div className="flex font-['Inter',system-ui,sans-serif] font-semibold text-[#F8FAFC] text-[15px]/4.5">
               Start Signer
             </div>
           </div>
         </div>
-        <div className="flex items-center [-webkit-font-smoothing:antialiased] w-7xl rounded-lg py-3 px-5 gap-3 bg-[#11182766] border border-solid border-[#1E3A8A4D]">
-          <div className="shrink-0 rounded-[50%] bg-[#EF4444] size-2.5" />
-          <div className="flex flex-col grow gap-0.5">
-            <div className="text-[#F87171] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-              Signer Error
+        <div className="max-w-205 pt-1">
+          <div className="font-['Inter',system-ui,sans-serif] text-[#8494A7] text-[13px]/5">
+            Healthy dashboard stacks Peers / Event Log / Pending Approvals below the hero — see Data Display — Tables, Lists & Logs and live Signer Dashboard.
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-7xl gap-4">
+        <div className="flex items-center w-full gap-3">
+          <div className="tracking-[0.08em] uppercase w-max shrink-0 font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FDCC] text-[13px]/4">
+            Dashboard Twin-Card Shell
+          </div>
+          <div className="grow shrink basis-[0%] h-px bg-[#94A3B826]" />
+        </div>
+        <div className="flex flex-col w-7xl pt-2 gap-2">
+          <div className="tracking-[0.06em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#64748B] text-[11px]/3.5">
+            Stopped — Canonical source: Web — Dashboard — 2. Stopped
+          </div>
+        </div>
+        <div className="flex w-7xl gap-4.5">
+          <div className="flex flex-col w-122.75 rounded-[14px] py-4.5 px-5 gap-3.5 shrink-0 bg-[#0F172A80] border border-solid border-[#3B82F629]">
+            <div className="tracking-[0.12em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#94A3B8] text-xs/3.5">
+              Readiness
             </div>
-            <div className="text-[#94A3B8] font-['Inter',system-ui,sans-serif] text-[13px]/4">
-              Nonce generation failed — restart required
+            <div className="flex items-center gap-4">
+              <div className="flex flex-col items-center w-20 gap-3 shrink-0">
+                <div className="flex items-center justify-center rounded-[50%] shrink-0 bg-[#374151] size-8">
+                  <div className="w-5.5 h-5.5 flex items-center justify-center rounded-[50%] shrink-0 bg-[oklab(17%_-0.006_-0.033)]">
+                    <div className="rounded-[50%] shrink-0 bg-[#6B7280] size-2.5" />
+                  </div>
+                </div>
+                <div className="flex flex-col items-center gap-1">
+                  <div className="tracking-[0.06em] uppercase inline-block font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FDCC] text-[11px]/3.5">
+                    Offline
+                  </div>
+                  <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#6B7280] text-xs/4">
+                    —
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-1.5">
+                <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#E2E8F0] text-base/5">
+                  No active relay or peer sessions
+                </div>
+                <div className="font-['Inter',system-ui,sans-serif] text-[#94A3B8] text-sm/5">
+                  Starting the signer reconnects configured relays, re-announces presence, and begins refilling pool state.
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-wrap gap-2.5">
+              <div className="rounded-[999px] py-1.5 px-2.5 bg-[#EF444424]">
+                <div className="font-['Inter',system-ui,sans-serif] text-[#FCA5A5] text-[13px]/4">
+                  0 relays connected
+                </div>
+              </div>
+              <div className="rounded-[999px] py-1.5 px-2.5 bg-[#EF444424]">
+                <div className="font-['Inter',system-ui,sans-serif] text-[#FCA5A5] text-[13px]/4">
+                  0 peers online
+                </div>
+              </div>
+              <div className="rounded-[999px] py-1.5 px-2.5 bg-[#94A3B81F]">
+                <div className="font-['Inter',system-ui,sans-serif] text-[#CBD5E1] text-[13px]/4">
+                  Signing unavailable
+                </div>
+              </div>
             </div>
           </div>
-          <div className="flex items-center justify-center rounded-lg py-2.5 px-5 bg-[#EF44440F] border border-solid border-[#EF44444D]">
-            <div className="inline-block text-[#EF4444] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4.5">
-              Restart Signer
+          <div className="flex flex-col w-122.75 rounded-[14px] py-4.5 px-5 gap-3.5 shrink-0 bg-[#0F172A80] border border-solid border-[#3B82F629]">
+            <div className="tracking-[0.12em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#94A3B8] text-xs/3.5">
+              Next Step
+            </div>
+            <div className="flex flex-col gap-2.5">
+              <div className="font-['Inter',system-ui,sans-serif] text-[#E2E8F0] text-[15px]/5.5">
+                1. Start the signer to resume relay connectivity.
+              </div>
+              <div className="font-['Inter',system-ui,sans-serif] text-[#E2E8F0] text-[15px]/5.5">
+                2. Wait for peers to return online and refill signing pools.
+              </div>
+              <div className="font-['Inter',system-ui,sans-serif] text-[#E2E8F0] text-[15px]/5.5">
+                3. Policy prompts and approvals will resume once runtime is available again.
+              </div>
+            </div>
+            <div className="rounded-xl py-3 px-3.5 bg-[#1E293BA6] border border-solid border-[#3B82F61F]">
+              <div className="font-['Inter',system-ui,sans-serif] text-[#94A3B8] text-sm/5">
+                Recent request queues remain preserved, but no new signing or encryption work can complete while the signer is stopped.
+              </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col self-stretch rounded-lg py-4 px-5 gap-3 bg-[#11182766] border border-solid border-[#1E3A8A4D]">
-          <div className="flex items-center gap-3">
-            <div className="shrink-0 rounded-[50%] bg-[#60A5FA] [box-shadow:#60A5FA99_0px_0px_5px_2px] size-2.5" />
-            <div className="grow inline-block text-[#D1D5DB] font-['Inter',system-ui,sans-serif] font-medium text-sm/4.5">
-              Onboarding Peer Active
+        <div className="flex flex-col w-7xl pt-4 gap-2">
+          <div className="tracking-[0.06em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#64748B] text-[11px]/3.5">
+            All Relays Offline — Canonical source: Web — Dashboard — 2b. All Relays Offline
+          </div>
+        </div>
+        <div className="flex w-7xl gap-4.5">
+          <div className="flex flex-col w-122.75 rounded-[14px] py-4.5 px-5 gap-3.5 shrink-0 bg-[#0F172A80] border border-solid border-[#3B82F629]">
+            <div className="tracking-[0.12em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#94A3B8] text-xs/3.5">
+              Readiness
             </div>
-            <div className="flex items-center justify-center rounded-md py-2 px-4 border border-solid border-[#DC2626]">
-              <div className="inline-block text-[#DC2626] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
-                Stop Onboarding Peer
+            <div className="flex items-center gap-4">
+              <div className="flex flex-col items-center w-20 gap-3 shrink-0">
+                <div className="flex items-center justify-center rounded-[50%] shrink-0 bg-[#374151] size-8">
+                  <div className="w-5.5 h-5.5 flex items-center justify-center rounded-[50%] shrink-0 bg-[oklab(17%_-0.006_-0.033)]">
+                    <div className="rounded-[50%] shrink-0 bg-[#6B7280] size-2.5" />
+                  </div>
+                </div>
+                <div className="flex flex-col items-center gap-1">
+                  <div className="tracking-[0.06em] uppercase inline-block font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FDCC] text-[11px]/3.5">
+                    Offline
+                  </div>
+                  <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#6B7280] text-xs/4">
+                    —
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-1.5">
+                <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#E2E8F0] text-base/5">
+                  All Relays Offline
+                </div>
+                <div className="font-['Inter',system-ui,sans-serif] text-[#94A3B8] text-sm/5">
+                  Peer presence and pool exchange pause when no relay route is available.
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-wrap gap-2.5">
+              <div className="rounded-[999px] py-1.5 px-2.5 bg-[#EF444424]">
+                <div className="font-['Inter',system-ui,sans-serif] text-[#FCA5A5] text-[13px]/4">
+                  0 / 2 relays reachable
+                </div>
+              </div>
+              <div className="rounded-[999px] py-1.5 px-2.5 bg-[#F59E0B24]">
+                <div className="font-['Inter',system-ui,sans-serif] text-[#FDE68A] text-[13px]/4">
+                  Ready count degraded
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-122.75 rounded-[14px] py-4.5 px-5 gap-3.5 shrink-0 bg-[#0F172A80] border border-solid border-[#3B82F629]">
+            <div className="tracking-[0.12em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#94A3B8] text-xs/3.5">
+              Recovery
+            </div>
+            <div className="font-['Inter',system-ui,sans-serif] text-[#E2E8F0] text-[15px]/5.5">
+              Check network reachability, relay DNS resolution, and local firewall state. Relay sessions will automatically recover when a route is available.
+            </div>
+            <div className="rounded-xl py-3 px-3.5 bg-[#1E293BA6] border border-solid border-[#3B82F61F]">
+              <div className="font-['Inter',system-ui,sans-serif] text-[#94A3B8] text-sm/5">
+                Signing requests remain blocked or degraded here because runtime has no live relay path to peers.
+              </div>
+            </div>
+            <div className="flex items-center justify-center w-40 h-9.5 rounded-xl shrink-0 bg-[#2563EB]">
+              <div className="flex font-['Inter',system-ui,sans-serif] font-semibold text-[#F8FAFC] text-[15px]/4.5">
+                Retry Connections
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col w-7xl pt-4 gap-2">
+          <div className="tracking-[0.06em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#64748B] text-[11px]/3.5">
+            Signing Blocked — Canonical source: Web — Dashboard — 2c. Signing Blocked
+          </div>
+        </div>
+        <div className="flex flex-col w-7xl rounded-[14px] py-4.5 px-5 gap-3.5 bg-[#0F172A80] border border-solid border-[#F59E0B2E]">
+          <div className="flex items-center gap-2.5">
+            <div className="rounded-[999px] shrink-0 bg-[#F59E0B] size-2.5" />
+            <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#FDE68A] text-base/5">
+              Signing Blocked
+            </div>
+          </div>
+          <div className="font-['Inter',system-ui,sans-serif] text-[#E2E8F0] text-[15px]/5.5">
+            Requests are not failing outright, but they cannot complete until the blocking condition clears. Use this state for policy prompts, pending operator review, or temporary readiness gating that stops signing before execution.
+          </div>
+          <div className="flex w-240 gap-4.5">
+            <div className="flex flex-col w-117.75 rounded-xl py-3.5 px-4 gap-2 shrink-0 bg-[#1E293BA6] border border-solid border-[#3B82F61F]">
+              <div className="tracking-[0.12em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#94A3B8] text-xs/3.5">
+                Common Causes
+              </div>
+              <div className="font-['Inter',system-ui,sans-serif] text-[#CBD5E1] text-sm/5">
+                Pending signer-policy decision
+              </div>
+              <div className="font-['Inter',system-ui,sans-serif] text-[#CBD5E1] text-sm/5">
+                Insufficient ready peers for current request type
+              </div>
+              <div className="font-['Inter',system-ui,sans-serif] text-[#CBD5E1] text-sm/5">
+                Temporary pool imbalance after reconnect
+              </div>
+            </div>
+            <div className="flex flex-col w-117.75 rounded-xl py-3.5 px-4 gap-2.5 shrink-0 bg-[#1E293BA6] border border-solid border-[#3B82F61F]">
+              <div className="tracking-[0.12em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#94A3B8] text-xs/3.5">
+                Operator Action
+              </div>
+              <div className="font-['Inter',system-ui,sans-serif] text-[#CBD5E1] text-sm/5">
+                Review approvals or open policies before retrying. If readiness is the issue, wait for relay and peer health to recover.
+              </div>
+              <div className="flex gap-2.5">
+                <div className="flex items-center justify-center w-34 h-9.5 rounded-xl shrink-0 bg-[#2563EB]">
+                  <div className="flex font-['Inter',system-ui,sans-serif] font-semibold text-[#F8FAFC] text-[15px]/4.5">
+                    Open Policies
+                  </div>
+                </div>
+                <div className="flex items-center justify-center w-39 h-9.5 rounded-xl shrink-0 border border-solid border-[#3B82F62E]">
+                  <div className="flex font-['Inter',system-ui,sans-serif] font-semibold text-[#CBD5E1] text-[15px]/4.5">
+                    Review Approvals
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -82,38 +297,38 @@
       </div>
       <div className="flex flex-col mt-12 gap-4">
         <div className="flex items-center gap-3">
-          <div className="tracking-[0.08em] uppercase inline-block [white-space-collapse:preserve] text-wrap text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+          <div className="tracking-[0.08em] uppercase inline-block [white-space-collapse:preserve] text-wrap font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FDCC] text-[13px]/4">
             Share Info Header Strip
           </div>
           <div className="grow shrink basis-[0%] h-px bg-[#94A3B826]" />
         </div>
         <div className="flex items-center flex-wrap rounded-[10px] py-3.5 px-5 bg-[#0F172A66] border border-solid border-[#1E3A8A33]">
           <div className="flex items-center gap-3">
-            <div className="inline-block text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-sm/4.5">
+            <div className="inline-block font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FD] text-sm/4.5">
               My Signing Key
             </div>
-            <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+            <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#64748B] text-xs/4">
               ·
             </div>
-            <div className="inline-block text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
+            <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#8494A7] text-xs/4">
               2/3
             </div>
-            <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+            <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#64748B] text-xs/4">
               ·
             </div>
-            <div className="inline-block text-[#60A5FA80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4">
+            <div className="inline-block font-['Share_Tech_Mono',system-ui,sans-serif] text-[#60A5FA80] text-[11px]/4">
               npub1qe3...7k4m
             </div>
           </div>
           <div className="w-px h-4.5 shrink-0 bg-[#1E3A8A4D] mx-4" />
           <div className="flex items-center gap-3">
-            <div className="inline-block text-[#8494A7] font-['Inter',system-ui,sans-serif] text-xs/4">
-              Share #0
+            <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#8494A7] text-xs/4">
+              Share #1
             </div>
-            <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-xs/4">
+            <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#64748B] text-xs/4">
               ·
             </div>
-            <div className="inline-block text-[#60A5FA80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4">
+            <div className="inline-block font-['Share_Tech_Mono',system-ui,sans-serif] text-[#60A5FA80] text-[11px]/4">
               02a3f8...8f2c
             </div>
           </div>
@@ -121,17 +336,17 @@
       </div>
       <div className="flex flex-col mt-12 gap-4">
         <div className="flex items-center gap-3">
-          <div className="tracking-[0.08em] uppercase inline-block [white-space-collapse:preserve] text-wrap text-[#93C5FDCC] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4">
+          <div className="tracking-[0.08em] uppercase inline-block [white-space-collapse:preserve] text-wrap font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FDCC] text-[13px]/4">
             Empty States
           </div>
           <div className="grow shrink basis-[0%] h-px bg-[#94A3B826]" />
         </div>
         <div className="flex gap-6">
           <div className="flex flex-col items-center justify-center grow shrink basis-[0%] rounded-lg py-12 px-8 gap-2 bg-[#11182766] border border-solid border-[#1E3A8A4D]">
-            <div className="inline-block text-[#9CA3AF] font-['Inter',system-ui,sans-serif] text-[15px]/4.5">
+            <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#9CA3AF] text-[15px]/4.5">
               No shares available
             </div>
-            <div className="mb-2 inline-block text-[#6B7280] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+            <div className="mb-2 inline-block font-['Inter',system-ui,sans-serif] text-[#6B7280] text-[13px]/4">
               Get started by creating your first keyset
             </div>
             <div className="flex items-center rounded-md py-2 px-4.5 gap-1.5 bg-[#2563EB]">
@@ -139,20 +354,20 @@
                 <line x1="12" y1="5" x2="12" y2="19" />
                 <line x1="5" y1="12" x2="19" y2="12" />
               </svg>
-              <div className="inline-block text-white font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+              <div className="inline-block font-['Inter',system-ui,sans-serif] font-medium text-white text-[13px]/4">
                 Create New Keyset
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center grow shrink basis-[0%] rounded-lg py-12 px-8 gap-2 border border-solid border-[#1E3A8A4D]">
-            <div className="inline-block text-[#93C5FD] font-['Inter',system-ui,sans-serif] font-semibold text-lg/5.5">
+            <div className="inline-block font-['Inter',system-ui,sans-serif] font-semibold text-[#93C5FD] text-lg/5.5">
               No saved profiles
             </div>
-            <div className="mb-2 inline-block text-[#9CA3AF] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+            <div className="mb-2 inline-block font-['Inter',system-ui,sans-serif] text-[#9CA3AF] text-[13px]/4">
               Import a profile to this device to get started.
             </div>
             <div className="flex items-center rounded-md py-2 px-4.5 gap-1.5 border border-solid border-[#94A3B840]">
-              <div className="inline-block text-[#D1D5DB] font-['Inter',system-ui,sans-serif] font-medium text-[13px]/4">
+              <div className="inline-block font-['Inter',system-ui,sans-serif] font-medium text-[#D1D5DB] text-[13px]/4">
                 Import Profile
               </div>
             </div>
@@ -161,7 +376,7 @@
       </div>
       <div className="flex flex-col w-7xl gap-4">
         <div className="flex items-center w-7xl h-4 shrink-0">
-          <div className="tracking-[0.12em] uppercase [white-space-collapse:collapse] inline-block w-max text-[#8494A7] font-['Inter',system-ui,sans-serif] shrink-0 text-[11px]/4">
+          <div className="tracking-[0.12em] uppercase [white-space-collapse:collapse] inline-block w-max shrink-0 font-['Inter',system-ui,sans-serif] text-[#8494A7] text-[11px]/4">
             Profile Switcher Trigger
           </div>
           <div className="grow h-px ml-3 bg-[#1E3A8A4D]" />
@@ -169,7 +384,7 @@
         <div className="flex items-start gap-8">
           <div className="flex items-center flex-nowrap rounded-[10px] bg-[#0F172A66] border border-solid border-[#1E3A8A33]">
             <div className="flex items-center gap-1.5">
-              <div className="inline-block text-[#93C5FD] font-['Share_Tech_Mono',system-ui,sans-serif] text-[13px]/4.5">
+              <div className="inline-block font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FD] text-[13px]/4.5">
                 My Signing Key
               </div>
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#93C5FD99" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0' }}>
@@ -178,25 +393,25 @@
             </div>
             <div className="w-px h-4.5 shrink-0 bg-[#1E3A8A4D] mx-4" />
             <div className="flex items-center gap-2.5">
-              <div className="inline-block text-[#8494A7] font-['Inter',system-ui,sans-serif] text-[13px]/4">
-                Share #0
+              <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#8494A7] text-[13px]/4">
+                Share #1
               </div>
-              <div className="inline-block text-[#64748B] font-['Inter',system-ui,sans-serif] text-[13px]/4">
+              <div className="inline-block font-['Inter',system-ui,sans-serif] text-[#64748B] text-[13px]/4">
                 ·
               </div>
-              <div className="inline-block text-[#60A5FA80] font-['Share_Tech_Mono',system-ui,sans-serif] text-[11px]/4">
+              <div className="inline-block font-['Share_Tech_Mono',system-ui,sans-serif] text-[#60A5FA80] text-[11px]/4">
                 02a3f8...8f2c
               </div>
             </div>
           </div>
           <div className="flex flex-col max-w-100 gap-2">
-            <div className="inline-block text-[#8494A7B3] font-['Inter',system-ui,sans-serif] italic text-[11px]/3.5">
+            <div className="inline-block font-['Inter',system-ui,sans-serif] italic text-[#8494A7B3] text-[11px]/3.5">
               Variant of the Share Info Strip. Profile name becomes clickable with a chevron-down indicator (stroke: blue-300/60).
             </div>
-            <div className="inline-block text-[#8494A7B3] font-['Inter',system-ui,sans-serif] italic text-[11px]/3.5">
+            <div className="inline-block font-['Inter',system-ui,sans-serif] italic text-[#8494A7B3] text-[11px]/3.5">
               Clicking opens the Profile Switcher Dropdown overlay positioned below the Info Strip.
             </div>
-            <div className="inline-block text-[#8494A7B3] font-['Inter',system-ui,sans-serif] italic text-[11px]/3.5">
+            <div className="inline-block font-['Inter',system-ui,sans-serif] italic text-[#8494A7B3] text-[11px]/3.5">
               Only appears when multi-profile is enabled (2+ saved profiles). Single-profile devices show the standard non-interactive Info Strip.
             </div>
           </div>

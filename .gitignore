@@ -4,6 +4,8 @@
 # Temporary files
 /tmp/
 *.tmp
+__pycache__/
+*.py[cod]
 
 # macOS
 .DS_Store

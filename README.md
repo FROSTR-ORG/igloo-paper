@@ -1,5 +1,5 @@
 # igloo-paper
-Static export of the `igloo-ui` Paper file on the `core` page.
+Static export of the `igloo-ui-shared` Paper file on the `core` page.
 
 - Source of truth: the live Paper canvas
 - Extraction coverage and output paths: `artboard-map.json`

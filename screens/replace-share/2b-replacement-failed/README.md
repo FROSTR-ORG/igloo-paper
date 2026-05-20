@@ -4,7 +4,7 @@
 This screen captures the `replace-share` flow state "2b. Replacement Failed" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** J3O-0
+- **Artboard ID:** 9DU-0
 - **Artboard Name:** Web — Replace Share — 2b. Replacement Failed
 - **Dimensions:** 1440 × 1284
 
@@ -14,7 +14,6 @@ This screen captures the `replace-share` flow state "2b. Replacement Failed" in 
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

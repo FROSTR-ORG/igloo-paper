@@ -1,21 +1,19 @@
-# Dashboard — 1b. Connecting
+# Dashboard — 1b. Loading Profile
 
 ## Description
-This screen captures the `dashboard` flow state "1b. Connecting" in the current Igloo web prototype.
+This screen captures the `dashboard` flow state "1b. Loading Profile" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** SH5-0
-- **Artboard Name:** Web — Dashboard — 1b. Connecting
+- **Artboard ID:** 7O9-0
+- **Artboard Name:** Web — Dashboard — 1b. Loading Profile
 - **Dimensions:** 1440 × 1284
 
 ## Flow Context
 - **Flow:** `dashboard`
-- **State:** `1b. Connecting`
+- **State:** `1b. Loading Profile`
 
 ## Key Regions
 - **AppHeader / AuthActions**
-- **Dashboard**
-- **AppFooter**
 
 ## Related Screens
 
@@ -34,7 +32,7 @@ This screen captures the `dashboard` flow state "1b. Connecting" in the current 
 - ·
 - 2/3
 - npub1qe3...7k4m
-- Share #0
+- Share #1
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

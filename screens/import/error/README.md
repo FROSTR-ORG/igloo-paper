@@ -4,7 +4,7 @@
 This screen captures the `import` flow state "Error" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 6ZH-0
+- **Artboard ID:** 8EC-0
 - **Artboard Name:** Web — Import — Error
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `import` flow state "Error" in the current Igloo web pr
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Content**
-- **AppFooter**
 
 ## Related Screens
 

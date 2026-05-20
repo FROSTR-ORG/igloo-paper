@@ -4,7 +4,7 @@
 This screen captures the `welcome` flow state "1c. Returning (Multi)" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** H4X-0
+- **Artboard ID:** 93M-0
 - **Artboard Name:** Web — Welcome — 1c. Returning (Multi)
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `welcome` flow state "1c. Returning (Multi)" in the cur
 
 ## Key Regions
 - **AppHeader / PublicLinks**
-- **Hero**
-- **AppFooter**
 
 ## Related Screens
 

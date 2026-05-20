@@ -4,9 +4,9 @@
 This screen captures the `dashboard` flow state "2. Stopped" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 4OP-0
+- **Artboard ID:** 7LC-0
 - **Artboard Name:** Web — Dashboard — 2. Stopped
-- **Dimensions:** 1440 × 1284
+- **Dimensions:** 1440 × 179
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -14,14 +14,12 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 
 ## Key Regions
 - **AppHeader / AuthActions**
-- **Dashboard**
-- **AppFooter**
 
 ## Related Screens
 
 ### Dashboard Main States
 - Dashboard — 1. Signer Dashboard — `screens/dashboard/1-signer-dashboard/README.md`
-- Dashboard — 1b. Connecting — `screens/dashboard/1b-connecting/README.md`
+- Dashboard — 1b. Loading Profile — `screens/dashboard/1b-loading-profile/README.md`
 - Dashboard — 1c. Policies — `screens/dashboard/1c-policies/README.md`
 - Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
@@ -34,7 +32,7 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 - ·
 - 2/3
 - npub1qe3...7k4m
-- Share #0
+- Share #1
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

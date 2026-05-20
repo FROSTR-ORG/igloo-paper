@@ -4,7 +4,7 @@
 This screen captures the `rotate-keyset` flow state "1. Rotate Keyset" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 83Q-0
+- **Artboard ID:** 8KS-0
 - **Artboard Name:** Web — Rotate Keyset — 1. Rotate Keyset
 - **Dimensions:** 1440 × 1600
 
@@ -14,7 +14,6 @@ This screen captures the `rotate-keyset` flow state "1. Rotate Keyset" in the cu
 
 ## Key Regions
 - **AppHeader / FlowContext**
-- **Content**
 - **AppFooter**
 
 ## Related Screens

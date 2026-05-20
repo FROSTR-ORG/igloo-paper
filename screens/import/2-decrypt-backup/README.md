@@ -4,7 +4,7 @@
 This screen captures the `import` flow state "2. Decrypt Backup" in the current Igloo web prototype.
 
 ## Paper Source
-- **Artboard ID:** 6VS-0
+- **Artboard ID:** 45M-0
 - **Artboard Name:** Web — Import — 2. Decrypt Backup
 - **Dimensions:** 1440 × 1080
 
@@ -14,8 +14,6 @@ This screen captures the `import` flow state "2. Decrypt Backup" in the current 
 
 ## Key Regions
 - **AppHeader / PublicFocus**
-- **Form**
-- **AppFooter**
 
 ## Related Screens
 
