@@ -3,7 +3,10 @@
 Use this workflow when editing the live Paper Desktop canvas through an agent
 chat that has access to the Paper MCP server. This complements
 `docs/sync-runbook.md`, which covers exporting and verifying the canvas after
-the design edit is complete.
+the design edit is complete. In the parent workspace, use
+`dev/docs/WORKFLOWS.md#paperui-workflows` first when deciding whether the task
+is Paper-only, Paper-to-UI alignment, or a dual Paper plus implementation
+change.
 
 ## Prerequisites
 

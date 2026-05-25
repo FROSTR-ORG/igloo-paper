@@ -714,6 +714,7 @@ def export_glossary_entry(
     metadata: dict[str, Any],
 ) -> None:
     paper_id = entry["paperNodeId"]
+    print(f"Exporting glossary {paper_id} {entry['name']}", flush=True)
     summary = client.get_tree_summary(paper_id, depth=8)
     jsx = client.get_jsx(paper_id)
     mime_type, encoded = client.get_screenshot(paper_id)
@@ -735,6 +736,7 @@ def export_standard_entry(
     entries_by_id: dict[str, dict[str, Any]],
 ) -> None:
     paper_id = entry["paperNodeId"]
+    print(f"Exporting {entry['category']} {paper_id} {entry['name']} -> {entry['outputPath']}", flush=True)
     summary = client.get_tree_summary(paper_id, depth=5)
     jsx = canonicalize_app_footer_contract(canonicalize_font_classes(client.get_jsx(paper_id)))
     mime_type, encoded = client.get_screenshot(paper_id)

@@ -53,7 +53,19 @@ class PaperClient:
             raise PaperMCPError(f"Paper tool {name} returned an empty response")
         if response.get("error"):
             raise PaperMCPError(f"Paper tool {name} failed: {response['error']}")
-        return response["result"]
+        result = response["result"]
+        if result.get("isError"):
+            detail = self._content_text(result)
+            raise PaperMCPError(f"Paper tool {name} returned an error: {detail}")
+        return result
+
+    def _content_text(self, result: dict[str, Any]) -> str:
+        texts = [
+            item.get("text", "")
+            for item in result.get("content", [])
+            if isinstance(item, dict) and item.get("type") == "text"
+        ]
+        return " ".join(text for text in texts if text).strip() or "no error detail"
 
     def get_basic_info(self) -> dict[str, Any]:
         content = self.call_tool("get_basic_info")["content"][0]["text"]
@@ -94,18 +106,26 @@ class PaperClient:
                 last_error = exc
                 if attempt == 0 and "timed out" in str(exc).lower():
                     continue
-                raise PaperMCPError(f"Paper screenshot for {node_id} failed: {exc}") from exc
+                raise PaperMCPError(
+                    f"Paper screenshot for {node_id} (scale={scale}, transparent={transparent}) failed: {exc}"
+                ) from exc
         else:
-            raise PaperMCPError(f"Paper screenshot for {node_id} failed: {last_error}") from last_error
+            raise PaperMCPError(
+                f"Paper screenshot for {node_id} (scale={scale}, transparent={transparent}) failed: {last_error}"
+            ) from last_error
 
         encoded = content.get("data")
         if not encoded:
-            raise PaperMCPError(f"Paper screenshot for {node_id} did not include image data")
+            raise PaperMCPError(
+                f"Paper screenshot for {node_id} (scale={scale}, transparent={transparent}) did not include image data"
+            )
         mime_type = content.get("mimeType")
         if not mime_type and content.get("type") == "image":
             mime_type = "image/png"
         if not mime_type:
-            raise PaperMCPError(f"Paper screenshot for {node_id} did not include a MIME type")
+            raise PaperMCPError(
+                f"Paper screenshot for {node_id} (scale={scale}, transparent={transparent}) did not include a MIME type"
+            )
         return mime_type, encoded
 
     def _take_id(self) -> int:
