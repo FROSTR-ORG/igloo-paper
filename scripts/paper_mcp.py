@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import socket
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
@@ -44,7 +45,10 @@ class PaperClient:
             "method": "tools/call",
             "params": {"name": name, "arguments": arguments or {}},
         }
-        response = self._request(payload)
+        try:
+            response = self._request(payload)
+        except PaperMCPError as exc:
+            raise PaperMCPError(f"Paper tool {name} failed while calling MCP: {exc}") from exc
         if response is None:
             raise PaperMCPError(f"Paper tool {name} returned an empty response")
         if response.get("error"):
@@ -78,11 +82,31 @@ class PaperClient:
         return json.loads(content)
 
     def get_screenshot(self, node_id: str, scale: int = 1, transparent: bool = True) -> tuple[str, str]:
-        content = self.call_tool(
-            "get_screenshot",
-            {"nodeId": node_id, "scale": scale, "transparent": transparent},
-        )["content"][0]
-        return content["mimeType"], content["data"]
+        last_error: PaperMCPError | None = None
+        for attempt in range(2):
+            try:
+                content = self.call_tool(
+                    "get_screenshot",
+                    {"nodeId": node_id, "scale": scale, "transparent": transparent},
+                )["content"][0]
+                break
+            except PaperMCPError as exc:
+                last_error = exc
+                if attempt == 0 and "timed out" in str(exc).lower():
+                    continue
+                raise PaperMCPError(f"Paper screenshot for {node_id} failed: {exc}") from exc
+        else:
+            raise PaperMCPError(f"Paper screenshot for {node_id} failed: {last_error}") from last_error
+
+        encoded = content.get("data")
+        if not encoded:
+            raise PaperMCPError(f"Paper screenshot for {node_id} did not include image data")
+        mime_type = content.get("mimeType")
+        if not mime_type and content.get("type") == "image":
+            mime_type = "image/png"
+        if not mime_type:
+            raise PaperMCPError(f"Paper screenshot for {node_id} did not include a MIME type")
+        return mime_type, encoded
 
     def _take_id(self) -> int:
         current = self.next_id
@@ -112,6 +136,12 @@ class PaperClient:
         except urllib.error.HTTPError as exc:
             detail = exc.read().decode("utf-8", "replace")
             raise PaperMCPError(f"HTTP {exc.code} from Paper MCP: {detail}") from exc
+        except (TimeoutError, socket.timeout) as exc:
+            raise PaperMCPError("Timed out waiting for Paper MCP response") from exc
+        except urllib.error.URLError as exc:
+            if isinstance(exc.reason, socket.timeout):
+                raise PaperMCPError("Timed out waiting for Paper MCP response") from exc
+            raise
 
         text = body.decode("utf-8", "replace").strip()
         if not text or text == "null":

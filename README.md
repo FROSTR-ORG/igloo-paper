@@ -35,6 +35,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify.py --strict-drift
 
 - `AGENTS.md` - repo-local contributor rules
 - `docs/onboarding.md` - first-read workflow
+- `docs/mcp-edit-workflow.md` - live Paper Desktop edits through Paper MCP
 - `docs/sync-runbook.md` - export and verification procedure
 - `docs/generated-files.md` - generated artifact contract
 - `docs/token-policy.md` - Foundations token and drift policy

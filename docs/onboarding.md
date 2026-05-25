@@ -7,8 +7,10 @@ Start with:
 
 1. `README.md` for the command surface.
 2. `AGENTS.md` for repo-local rules.
-3. `docs/sync-runbook.md` before exporting from Paper.
-4. `docs/design-contract.md` before comparing Paper references with implementation.
+3. `docs/mcp-edit-workflow.md` before editing the live Paper canvas through an
+   agent chat.
+4. `docs/sync-runbook.md` before exporting from Paper.
+5. `docs/design-contract.md` before comparing Paper references with implementation.
 
 ## Local Setup
 
