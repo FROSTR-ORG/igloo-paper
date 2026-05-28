@@ -24,6 +24,7 @@ This screen captures the `welcome` flow state "1b. Returning" in the current Igl
 - Welcome — 1d. Returning (Many) — `screens/welcome/1d-returning-many/README.md`
 
 ### Welcome Returning Variants
+- Welcome — 1b-1. Returning (Menu Open) — `screens/welcome/1b-1-returning-menu-open/README.md`
 - Welcome — 1c. Returning (Multi) — `screens/welcome/1c-returning-multi/README.md`
 - Welcome — 1d. Returning (Many) — `screens/welcome/1d-returning-many/README.md`
 

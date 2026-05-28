@@ -8,7 +8,7 @@ This screen captures the `recover` flow state "1b. Recover Success" in the curre
 ## Paper Source
 - **Artboard ID:** 476-0
 - **Artboard Name:** Web — Recover — 1b. Recover Success
-- **Dimensions:** 1440 × 1080
+- **Dimensions:** 1440 × 982
 
 ## Flow Context
 - **Flow:** `recover`
@@ -25,10 +25,10 @@ This screen captures the `recover` flow state "1b. Recover Success" in the curre
 ## Representative Copy
 - Igloo
 - My Signing Key
-- Back to Signer
-- Recover NSEC
-- Recovering your nsec requires 2 of your 3 shares. Your local
-- Share #1 — This Browser
+- ✓
+- Collect Shares
+- 2
+- Recover Key
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

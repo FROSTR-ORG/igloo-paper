@@ -20,17 +20,16 @@ This screen captures the `import` flow state "Error" in the current Igloo web pr
 ## Related Screens
 
 ### Import Flow
-- Import — 1. Load Backup — `screens/import/1-load-backup/README.md`
-- Import — 2. Decrypt Backup — `screens/import/2-decrypt-backup/README.md`
-- Import — 3. Review & Save Profile — `screens/import/3-review-save-profile/README.md`
+- Import — 1. Import Device Profile — `screens/import/1-import-device-profile/README.md`
+- Import — 2. Save Profile — `screens/import/2-save-profile/README.md`
 
 ## Representative Copy
 - Igloo
 - Threshold Signing for Nostr
 - Import
-- Import Error
-- We couldn't import this profile backup. Resolve the issue be
-- !
+- 1
+- Import Profile
+- 2
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

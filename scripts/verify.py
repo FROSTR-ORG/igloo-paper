@@ -65,16 +65,12 @@ STALE_DIRS = [
 ]
 EXPECTED_SCREEN_PATHS = {
     "9RJ-0": "screens/welcome/1c-1-unlock-profile-modal",
-    "8C4-0": "screens/import/3-review-save-profile",
+    "O2M-0": "screens/import/2-save-profile",
     "8JF-0": "screens/onboard/2b-onboarding-failed",
-    "8HB-0": "screens/onboard/3-onboarding-complete",
+    "O61-0": "screens/onboard/3-save-profile",
     "7V9-0": "screens/dashboard/2c-signing-blocked",
     "502-0": "screens/dashboard/3-settings-lock-profile",
     "4WB-0": "screens/dashboard/1c-policies",
-    "9AV-0": "screens/replace-share/1-enter-onboarding-package",
-    "9PX-0": "screens/replace-share/2-applying-replacement",
-    "9DU-0": "screens/replace-share/2b-replacement-failed",
-    "9C8-0": "screens/replace-share/3-share-replaced",
 }
 GLOSSARY_ARTBOARD_IDS = {"ONB-0", "OSN-0", "OXZ-0", "1QH-0", "1SQ-0", "1US-0"}
 GLOSSARY_FILES = {
@@ -105,6 +101,12 @@ TAILWIND_TEXT_SIZES = {
     "4xl": ("36px", "40px"),
 }
 MAX_DRIFT_ITEMS = 20
+EXPECTED_MAP_CATEGORY_COUNTS = {
+    "design": 29,
+    "screen": 38,
+    "divider": 1,
+}
+EXPECTED_MAP_TOTAL = sum(EXPECTED_MAP_CATEGORY_COUNTS.values())
 
 
 def fail(message: str) -> None:
@@ -188,13 +190,18 @@ def section_bullets(text: str, heading: str) -> list[str]:
 
 
 def verify_map(entries: list[dict[str, Any]]) -> None:
-    ensure(len(entries) == 87, f"artboard-map.json should contain 87 entries, found {len(entries)}")
+    ensure(
+        len(entries) == EXPECTED_MAP_TOTAL,
+        f"artboard-map.json should contain {EXPECTED_MAP_TOTAL} entries, found {len(entries)}",
+    )
     counts: dict[str, int] = {}
     for entry in entries:
         counts[entry["category"]] = counts.get(entry["category"], 0) + 1
-    ensure(counts.get("design") == 31, f"expected 31 design entries, found {counts.get('design')}")
-    ensure(counts.get("screen") == 55, f"expected 55 screen entries, found {counts.get('screen')}")
-    ensure(counts.get("divider") == 1, f"expected 1 divider entry, found {counts.get('divider')}")
+    for category, expected in EXPECTED_MAP_CATEGORY_COUNTS.items():
+        ensure(
+            counts.get(category) == expected,
+            f"expected {expected} {category} entries, found {counts.get(category)}",
+        )
 
     entries_by_id = {entry["paperNodeId"]: entry for entry in entries}
     for artboard_id, output_path in EXPECTED_SCREEN_PATHS.items():

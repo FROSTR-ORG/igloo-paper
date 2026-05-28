@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from igloo_paper.assets import asset_dir
-from igloo_paper.generated import add_generated_banner, collect_generated_files, write_manifest
+from igloo_paper.generated import add_generated_banner, collect_generated_files, is_generated_path, prune_stale_generated_files, write_manifest
 from igloo_paper.tokens import glossary_dir, token_dir
 from paper_mcp import PaperClient
 
@@ -23,6 +23,7 @@ METADATA_PATH = REPO_ROOT / "export-metadata.json"
 TOKEN_DIR = token_dir(REPO_ROOT)
 GLOSSARY_DIR = glossary_dir(REPO_ROOT)
 ASSET_DIR = asset_dir(REPO_ROOT)
+WRITTEN_GENERATED_FILES: set[Path] = set()
 FOUNDATIONS_ID = "1-0"
 GLOSSARY_FILES = {
     "1QH-0": ("core-protocol.md", "core-protocol-screenshot.png"),
@@ -128,15 +129,22 @@ def state_label(name: str) -> str:
     return name.split(" — ", 1)[1]
 
 
+def record_generated_file(path: Path) -> None:
+    if path.exists() and is_generated_path(REPO_ROOT, path):
+        WRITTEN_GENERATED_FILES.add(path)
+
+
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2) + "\n")
+    record_generated_file(path)
 
 
 def write_text(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     content = add_generated_banner(path, content)
     path.write_text(content.rstrip() + "\n")
+    record_generated_file(path)
 
 
 def write_png(path: Path, mime_type: str, encoded: str) -> None:
@@ -144,6 +152,7 @@ def write_png(path: Path, mime_type: str, encoded: str) -> None:
         raise SystemExit(f"Expected Paper screenshot as image/png for {path.relative_to(REPO_ROOT)}, got {mime_type}")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(base64.b64decode(encoded))
+    record_generated_file(path)
 
 
 def local_asset_path(url: str) -> Path:
@@ -156,6 +165,7 @@ def local_asset_path(url: str) -> Path:
         request = urllib.request.Request(url, headers={"User-Agent": "igloo-paper-export/0.1"})
         with urllib.request.urlopen(request, timeout=60) as response:
             target.write_bytes(response.read())
+    record_generated_file(target)
     return target
 
 
@@ -784,6 +794,7 @@ def main() -> None:
             export_standard_entry(client, entry, artboard, metadata, entries_by_id)
 
     write_text(GLOSSARY_DIR / "README.md", glossary_readme())
+    pruned = prune_stale_generated_files(REPO_ROOT, sorted(WRITTEN_GENERATED_FILES))
     write_manifest(REPO_ROOT)
     classified_count = 0
     policy_path = REPO_ROOT / "artboard-policy.json"
@@ -795,6 +806,7 @@ def main() -> None:
         f" exported_artboards={sum(1 for entry in entries if entry['category'] != 'divider')}"
         f" classified_non_exported_artboards={classified_count}"
         f" generated_files={generated_count}"
+        f" pruned_stale_files={len(pruned)}"
         f" localized_assets={len(list(ASSET_DIR.glob('*'))) if ASSET_DIR.exists() else 0}"
     )
 

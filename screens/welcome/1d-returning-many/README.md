@@ -27,6 +27,7 @@ This screen captures the `welcome` flow state "1d. Returning (Many)" in the curr
 
 ### Welcome Returning Variants
 - Welcome — 1b. Returning — `screens/welcome/1b-returning/README.md`
+- Welcome — 1b-1. Returning (Menu Open) — `screens/welcome/1b-1-returning-menu-open/README.md`
 - Welcome — 1c. Returning (Multi) — `screens/welcome/1c-returning-multi/README.md`
 
 ## Representative Copy

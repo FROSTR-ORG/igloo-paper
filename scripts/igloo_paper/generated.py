@@ -92,3 +92,46 @@ def manifest_data(repo_root: Path, files: list[Path] | None = None) -> dict[str,
 def write_manifest(repo_root: Path) -> None:
     path = manifest_path(repo_root)
     path.write_text(json.dumps(manifest_data(repo_root), indent=2) + "\n")
+
+
+def _load_manifest_paths(repo_root: Path) -> set[Path]:
+    path = manifest_path(repo_root)
+    if not path.exists():
+        return set()
+    data = json.loads(path.read_text())
+    paths: set[Path] = set()
+    for entry in data.get("files", []):
+        rel = entry.get("path") if isinstance(entry, dict) else None
+        if isinstance(rel, str) and rel:
+            paths.add(repo_root / rel)
+    return paths
+
+
+def _prune_empty_generated_dirs(repo_root: Path, start: Path) -> None:
+    for path in [start, *start.parents]:
+        if path == repo_root:
+            return
+        rel = path.relative_to(repo_root).as_posix()
+        if not rel.startswith(("screens/", "design/", "assets/paper")):
+            return
+        try:
+            path.rmdir()
+        except OSError:
+            return
+
+
+def prune_stale_generated_files(repo_root: Path, current_files: list[Path]) -> list[str]:
+    current = {path.resolve() for path in current_files}
+    pruned: list[str] = []
+
+    for path in sorted(_load_manifest_paths(repo_root), key=lambda item: item.relative_to(repo_root).as_posix()):
+        resolved = path.resolve()
+        if resolved in current or not path.exists() or not path.is_file():
+            continue
+        if not is_generated_path(repo_root, path):
+            continue
+        path.unlink()
+        pruned.append(path.relative_to(repo_root).as_posix())
+        _prune_empty_generated_dirs(repo_root, path.parent)
+
+    return pruned

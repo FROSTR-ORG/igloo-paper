@@ -8,7 +8,7 @@ This screen captures the `onboard` flow state "2b. Onboarding Failed" in the cur
 ## Paper Source
 - **Artboard ID:** 8JF-0
 - **Artboard Name:** Web — Onboard — 2b. Onboarding Failed
-- **Dimensions:** 1440 × 1080
+- **Dimensions:** 1440 × 1081
 
 ## Flow Context
 - **Flow:** `onboard`
@@ -20,17 +20,17 @@ This screen captures the `onboard` flow state "2b. Onboarding Failed" in the cur
 ## Related Screens
 
 ### Onboard Flow
-- Onboard — 1. Enter Package — `screens/onboard/1-enter-package/README.md`
-- Onboard — 2. Handshake — `screens/onboard/2-handshake/README.md`
-- Onboard — 3. Onboarding Complete — `screens/onboard/3-onboarding-complete/README.md`
+- Onboard — 1. Input Package — `screens/onboard/1-input-package/README.md`
+- Onboard — 2. Onboard Device — `screens/onboard/2-onboard-device/README.md`
+- Onboard — 3. Save Profile — `screens/onboard/3-save-profile/README.md`
 
 ## Representative Copy
 - Igloo
 - Threshold Signing for Nostr
 - Onboard
-- Onboarding Failed
-- !
-- Package Did Not Apply
+- ✓
+- Input Package
+- 2
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

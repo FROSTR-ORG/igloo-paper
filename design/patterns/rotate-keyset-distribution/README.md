@@ -3,19 +3,18 @@
 # Rotate Keyset + Shared Distribution Sections
 
 ## Description
-This artboard documents the current Paper reference for Rotate Keyset + Shared Distribution Sections. The synced export covers Rotate Keyset Source Collection Section, Review Generate Section, Shared Create Profile Section used across the Igloo design system.
+This artboard documents the current Paper reference for Rotate Keyset + Shared Distribution Sections. The synced export covers Rotate Keyset Source Collection Section, Review Generate Section, Shared Select Share and Save Profile Sections used across the Igloo design system.
 
 ## Paper Source
 - **Artboard ID:** 9WY-0
 - **Artboard Name:** Rotate Keyset + Shared Distribution Sections
-- **Dimensions:** 1440 × 5402
+- **Dimensions:** 1440 × 6234
 
 ## Contents
 - **Rotate Keyset Source Collection Section**
 - **Review Generate Section**
-- **Shared Create Profile Section**
+- **Shared Select Share and Save Profile Sections**
 - **Distribution Workspace Section**
-- **Distribution Completion Section**
 - **Rotate Error Sections**
 
 ## Representative Copy

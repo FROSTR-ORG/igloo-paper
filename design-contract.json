@@ -6,13 +6,22 @@
       "kind": "component",
       "status": "implemented",
       "paper": {
-        "artboardIds": ["1HI-0"],
-        "paths": ["design/components/navigation-layout/README.md"]
+        "artboardIds": [
+          "1HI-0"
+        ],
+        "paths": [
+          "design/components/navigation-layout/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/ui/app-header.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/ui/app-header.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
       "notes": "Shared application header and brand/navigation shell."
     },
     {
@@ -20,13 +29,23 @@
       "kind": "component",
       "status": "implemented",
       "paper": {
-        "artboardIds": ["AC-0"],
-        "paths": ["design/components/interactive-controls/README.md"]
+        "artboardIds": [
+          "AC-0"
+        ],
+        "paths": [
+          "design/components/interactive-controls/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/ui/button.tsx", "../igloo-ui/src/components/ui/icon-button.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/ui/button.tsx",
+          "../igloo-ui/src/components/ui/icon-button.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
       "notes": "Primary, secondary, icon, and interaction states."
     },
     {
@@ -34,13 +53,27 @@
       "kind": "component",
       "status": "implemented",
       "paper": {
-        "artboardIds": ["55-0", "S7-0", "AAY-0"],
-        "paths": ["design/components/core/README.md", "design/components/data-display-progress-cards/README.md", "design/components/data-display-review-summary/README.md"]
+        "artboardIds": [
+          "55-0",
+          "S7-0",
+          "AAY-0"
+        ],
+        "paths": [
+          "design/components/core/README.md",
+          "design/components/data-display-progress-cards/README.md",
+          "design/components/data-display-review-summary/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/ui/card.tsx", "../igloo-ui/src/components/ui/content-card.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/ui/card.tsx",
+          "../igloo-ui/src/components/ui/content-card.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
       "notes": "Base card primitives and content-card shell."
     },
     {
@@ -48,13 +81,24 @@
       "kind": "component",
       "status": "implemented",
       "paper": {
-        "artboardIds": ["3AY-0"],
-        "paths": ["design/components/form-controls/README.md"]
+        "artboardIds": [
+          "3AY-0"
+        ],
+        "paths": [
+          "design/components/form-controls/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/ui/input.tsx", "../igloo-ui/src/components/ui/input-with-validation.tsx", "../igloo-ui/src/components/ui/relay-input.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/ui/input.tsx",
+          "../igloo-ui/src/components/ui/input-with-validation.tsx",
+          "../igloo-ui/src/components/ui/relay-input.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
       "notes": "Form input, validation, and relay entry controls."
     },
     {
@@ -62,13 +106,24 @@
       "kind": "component",
       "status": "implemented",
       "paper": {
-        "artboardIds": ["Z7-0"],
-        "paths": ["design/components/overlays-feedback/README.md"]
+        "artboardIds": [
+          "Z7-0"
+        ],
+        "paths": [
+          "design/components/overlays-feedback/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/ui/modal.tsx", "../igloo-ui/src/components/ui/confirm-modal.tsx", "../igloo-ui/src/components/flows/QrPayloadModal.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/ui/modal.tsx",
+          "../igloo-ui/src/components/ui/confirm-modal.tsx",
+          "../igloo-ui/src/components/flows/QrPayloadModal.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
       "notes": "Overlay, confirmation, and QR payload modal surfaces."
     },
     {
@@ -76,13 +131,23 @@
       "kind": "component",
       "status": "implemented",
       "paper": {
-        "artboardIds": ["2GY-0"],
-        "paths": ["design/patterns/signer-states-tags-rotation/README.md"]
+        "artboardIds": [
+          "2GY-0"
+        ],
+        "paths": [
+          "design/patterns/signer-states-tags-rotation/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/ui/badge.tsx", "../igloo-ui/src/components/ui/status-indicator.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/ui/badge.tsx",
+          "../igloo-ui/src/components/ui/status-indicator.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
       "notes": "Status badges and indicators."
     },
     {
@@ -90,13 +155,30 @@
       "kind": "pattern",
       "status": "implemented",
       "paper": {
-        "artboardIds": ["20E-0", "4BT-0", "4HK-0", "7LC-0", "7SF-0", "7V9-0"],
-        "paths": ["design/patterns/signer-states-status-empty/README.md", "design/patterns/pool-signing-readiness/README.md", "screens/dashboard/1-signer-dashboard/README.md"]
+        "artboardIds": [
+          "20E-0",
+          "4BT-0",
+          "4HK-0",
+          "7LC-0",
+          "7SF-0",
+          "7V9-0"
+        ],
+        "paths": [
+          "design/patterns/signer-states-status-empty/README.md",
+          "design/patterns/pool-signing-readiness/README.md",
+          "screens/dashboard/1-signer-dashboard/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/flows/OperatorSignerPanel.tsx", "../igloo-ui/src/components/flows/OperatorDashboardTabs.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/flows/OperatorSignerPanel.tsx",
+          "../igloo-ui/src/components/flows/OperatorDashboardTabs.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
       "notes": "Dashboard readiness, blocked, stopped, and signer status states."
     },
     {
@@ -104,27 +186,63 @@
       "kind": "pattern",
       "status": "implemented",
       "paper": {
-        "artboardIds": ["AAY-0", "B3Y-0", "87A-0", "8C4-0"],
-        "paths": ["design/components/data-display-review-summary/README.md", "design/patterns/import-flow/README.md", "screens/shared/2-create-profile/README.md", "screens/import/3-review-save-profile/README.md"]
+        "artboardIds": [
+          "AAY-0",
+          "B3Y-0",
+          "87A-0",
+          "NCL-0",
+          "O2M-0"
+        ],
+        "paths": [
+          "design/components/data-display-review-summary/README.md",
+          "design/patterns/import-flow/README.md",
+          "screens/shared/2-select-share/README.md",
+          "screens/shared/3-save-profile/README.md",
+          "screens/import/2-save-profile/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/flows/ProfileConfirmationCard.tsx", "../igloo-ui/src/components/flows/ManagedProfilesPanel.tsx", "../igloo-ui/src/components/flows/CreateImportPanel.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/flows/ProfileConfirmationCard.tsx",
+          "../igloo-ui/src/components/flows/ManagedProfilesPanel.tsx",
+          "../igloo-ui/src/components/flows/CreateImportPanel.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
-      "notes": "Profile creation, import review, and managed profile summaries."
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
+      "notes": "Profile creation, local share selection, import review, and managed profile summaries."
     },
     {
       "name": "Recovery Flow Panels",
       "kind": "flow",
       "status": "implemented",
       "paper": {
-        "artboardIds": ["25D-0", "2XH-0", "49W-0", "476-0", "BI4-0"],
-        "paths": ["design/patterns/signer-states-recovery/README.md", "design/patterns/flows-qr-steppers/README.md", "screens/recover/1-collect-shares/README.md", "screens/recover/1b-recover-success/README.md", "design/patterns/recover-flow/README.md"]
+        "artboardIds": [
+          "25D-0",
+          "2XH-0",
+          "49W-0",
+          "476-0",
+          "BI4-0"
+        ],
+        "paths": [
+          "design/patterns/signer-states-recovery/README.md",
+          "design/patterns/flows-qr-steppers/README.md",
+          "screens/recover/1-collect-shares/README.md",
+          "screens/recover/1b-recover-success/README.md",
+          "design/patterns/recover-flow/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/flows/RecoveryWorkspace.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/flows/RecoveryWorkspace.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
       "notes": "Recovery workspace and share collection states."
     },
     {
@@ -132,13 +250,27 @@
       "kind": "flow",
       "status": "in-progress",
       "paper": {
-        "artboardIds": ["9WY-0", "8KS-0", "9MD-0", "9NX-0", "9ET-0", "9GP-0", "9I9-0"],
-        "paths": ["design/patterns/rotate-keyset-distribution/README.md", "screens/rotate-keyset/1-rotate-keyset/README.md", "screens/rotate-keyset/1d-review-generate/README.md"]
+        "artboardIds": [
+          "9WY-0",
+          "8KS-0",
+          "8OP-0"
+        ],
+        "paths": [
+          "design/patterns/rotate-keyset-distribution/README.md",
+          "screens/rotate-keyset/1-collect-shares/README.md",
+          "screens/shared/4-distribute-shares/README.md"
+        ]
       },
       "implementation": {
-        "paths": ["../igloo-ui/src/components/flows/CreateFlow.tsx", "../igloo-ui/src/components/flows/QrPayloadModal.tsx"]
+        "paths": [
+          "../igloo-ui/src/components/flows/CreateFlow.tsx",
+          "../igloo-ui/src/components/flows/QrPayloadModal.tsx"
+        ]
       },
-      "tokens": ["design/tokens/colors.json", "design/tokens/typography.json"],
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
       "notes": "Rotation flow currently maps to shared creation and QR flow surfaces pending a dedicated implementation."
     }
   ]

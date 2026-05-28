@@ -20,7 +20,7 @@ This artboard documents the current Paper reference for Recover Flow Sections. T
 - Outside-runtime reconstruct path — collect threshold shares
 - Collect Shares
 - Canonical source: Web — Recover — 1. Collect Shares
-- Back to Signer
+- Back
 
 ## Files
 - `reference.html` — Tailwind-flavored Paper JSX export for the artboard.

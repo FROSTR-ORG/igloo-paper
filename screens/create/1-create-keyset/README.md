@@ -16,20 +16,20 @@ This screen captures the `create` flow state "1. Create Keyset" in the current I
 
 ## Key Regions
 - **AppHeader / PublicFocus**
+- **Create Keyset Content**
 
 ## Related Screens
 
 ### Create Flow
 - Create — 1b. Validation Error — `screens/create/1b-validation-error/README.md`
-- Create — 1c. Generation Progress — `screens/create/1c-generation-progress/README.md`
 
 ## Representative Copy
 - Igloo
 - Threshold Signing for Nostr
 - Create
-- Back to Welcome
-- Create New Keyset
-- Define the group profile for a new keyset. After generation,
+- 1
+- Create Keyset
+- 2
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

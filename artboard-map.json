@@ -34,7 +34,7 @@
   {
     "id": "HI-0",
     "paperNodeId": "HI-0",
-    "name": "Data Display \u2014 Tables, Lists & Logs",
+    "name": "Data Display — Tables, Lists & Logs",
     "category": "design",
     "flow": null,
     "outputPath": "design/components/data-display-tables-lists"
@@ -42,7 +42,7 @@
   {
     "id": "S7-0",
     "paperNodeId": "S7-0",
-    "name": "Data Display \u2014 Progress & Profile Cards",
+    "name": "Data Display — Progress & Profile Cards",
     "category": "design",
     "flow": null,
     "outputPath": "design/components/data-display-progress-cards"
@@ -50,7 +50,7 @@
   {
     "id": "AAY-0",
     "paperNodeId": "AAY-0",
-    "name": "Data Display \u2014 Review & Summary Panels",
+    "name": "Data Display — Review & Summary Panels",
     "category": "design",
     "flow": null,
     "outputPath": "design/components/data-display-review-summary"
@@ -82,7 +82,7 @@
   {
     "id": "20E-0",
     "paperNodeId": "20E-0",
-    "name": "Signer & States \u2014 Status & Empty",
+    "name": "Signer & States — Status & Empty",
     "category": "design",
     "flow": null,
     "outputPath": "design/patterns/signer-states-status-empty"
@@ -90,7 +90,7 @@
   {
     "id": "25D-0",
     "paperNodeId": "25D-0",
-    "name": "Signer & States \u2014 Recovery & Share Handling",
+    "name": "Signer & States — Recovery & Share Handling",
     "category": "design",
     "flow": null,
     "outputPath": "design/patterns/signer-states-recovery"
@@ -98,7 +98,7 @@
   {
     "id": "2GY-0",
     "paperNodeId": "2GY-0",
-    "name": "Signer & States \u2014 Tags & Rotation States",
+    "name": "Signer & States — Tags & Rotation States",
     "category": "design",
     "flow": null,
     "outputPath": "design/patterns/signer-states-tags-rotation"
@@ -106,7 +106,7 @@
   {
     "id": "2NN-0",
     "paperNodeId": "2NN-0",
-    "name": "Flows & QR Codes \u2014 Transfer States",
+    "name": "Flows & QR Codes — Transfer States",
     "category": "design",
     "flow": null,
     "outputPath": "design/patterns/flows-qr-transfer"
@@ -114,7 +114,7 @@
   {
     "id": "2XH-0",
     "paperNodeId": "2XH-0",
-    "name": "Flows & QR Codes \u2014 Steppers & Recovery",
+    "name": "Flows & QR Codes — Steppers & Recovery",
     "category": "design",
     "flow": null,
     "outputPath": "design/patterns/flows-qr-steppers"
@@ -134,22 +134,6 @@
     "category": "design",
     "flow": null,
     "outputPath": "design/patterns/rotate-keyset-distribution"
-  },
-  {
-    "id": "A8N-0",
-    "paperNodeId": "A8N-0",
-    "name": "Key Lifecycle Progress Sections",
-    "category": "design",
-    "flow": null,
-    "outputPath": "design/patterns/key-lifecycle-progress"
-  },
-  {
-    "id": "AIH-0",
-    "paperNodeId": "AIH-0",
-    "name": "Onboard Sponsor Flow Sections",
-    "category": "design",
-    "flow": null,
-    "outputPath": "design/patterns/onboard-sponsor"
   },
   {
     "id": "B8N-0",
@@ -202,7 +186,7 @@
   {
     "id": "1QH-0",
     "paperNodeId": "1QH-0",
-    "name": "Glossary \u2014 Core & Protocol",
+    "name": "Glossary — Core & Protocol",
     "category": "design",
     "flow": null,
     "outputPath": "design/glossary"
@@ -210,7 +194,7 @@
   {
     "id": "1SQ-0",
     "paperNodeId": "1SQ-0",
-    "name": "Glossary \u2014 Operations, Setup & Infrastructure",
+    "name": "Glossary — Operations, Setup & Infrastructure",
     "category": "design",
     "flow": null,
     "outputPath": "design/glossary"
@@ -218,7 +202,7 @@
   {
     "id": "1US-0",
     "paperNodeId": "1US-0",
-    "name": "Glossary \u2014 Policies & Data Model",
+    "name": "Glossary — Policies & Data Model",
     "category": "design",
     "flow": null,
     "outputPath": "design/glossary"
@@ -226,7 +210,7 @@
   {
     "id": "1W4-0",
     "paperNodeId": "1W4-0",
-    "name": "Tooltips & Help Text \u2014 Tooltip Patterns",
+    "name": "Tooltips & Help Text — Tooltip Patterns",
     "category": "design",
     "flow": null,
     "outputPath": "design/tooltips-help/tooltip-patterns"
@@ -234,7 +218,7 @@
   {
     "id": "1YI-0",
     "paperNodeId": "1YI-0",
-    "name": "Tooltips & Help Text \u2014 Contextual Help",
+    "name": "Tooltips & Help Text — Contextual Help",
     "category": "design",
     "flow": null,
     "outputPath": "design/tooltips-help/contextual-help"
@@ -242,7 +226,7 @@
   {
     "id": "3QR-0",
     "paperNodeId": "3QR-0",
-    "name": "\u2014 Igloo Web App Screens \u2014",
+    "name": "— Igloo Web App Screens —",
     "category": "divider",
     "flow": null,
     "outputPath": null
@@ -250,7 +234,7 @@
   {
     "id": "3TE-0",
     "paperNodeId": "3TE-0",
-    "name": "Welcome \u2014 1. Welcome",
+    "name": "Welcome — 1. Welcome",
     "category": "screen",
     "flow": "welcome",
     "outputPath": "screens/welcome/1-welcome"
@@ -258,15 +242,23 @@
   {
     "id": "3UX-0",
     "paperNodeId": "3UX-0",
-    "name": "Welcome \u2014 1b. Returning",
+    "name": "Welcome — 1b. Returning",
     "category": "screen",
     "flow": "welcome",
     "outputPath": "screens/welcome/1b-returning"
   },
   {
+    "id": "OON-0",
+    "paperNodeId": "OON-0",
+    "name": "Welcome — 1b-1. Returning (Menu Open)",
+    "category": "screen",
+    "flow": "welcome",
+    "outputPath": "screens/welcome/1b-1-returning-menu-open"
+  },
+  {
     "id": "93M-0",
     "paperNodeId": "93M-0",
-    "name": "Welcome \u2014 1c. Returning (Multi)",
+    "name": "Welcome — 1c. Returning (Multi)",
     "category": "screen",
     "flow": "welcome",
     "outputPath": "screens/welcome/1c-returning-multi"
@@ -274,7 +266,7 @@
   {
     "id": "96E-0",
     "paperNodeId": "96E-0",
-    "name": "Welcome \u2014 1d. Returning (Many)",
+    "name": "Welcome — 1d. Returning (Many)",
     "category": "screen",
     "flow": "welcome",
     "outputPath": "screens/welcome/1d-returning-many"
@@ -282,7 +274,7 @@
   {
     "id": "9RJ-0",
     "paperNodeId": "9RJ-0",
-    "name": "Welcome \u2014 1c-1. Unlock Profile (Modal)",
+    "name": "Welcome — 1c-1. Unlock Profile (Modal)",
     "category": "screen",
     "flow": "welcome",
     "outputPath": "screens/welcome/1c-1-unlock-profile-modal"
@@ -290,7 +282,7 @@
   {
     "id": "9U8-0",
     "paperNodeId": "9U8-0",
-    "name": "Welcome \u2014 1c-2. Unlock Error (Modal)",
+    "name": "Welcome — 1c-2. Unlock Error (Modal)",
     "category": "screen",
     "flow": "welcome",
     "outputPath": "screens/welcome/1c-2-unlock-error-modal"
@@ -298,31 +290,23 @@
   {
     "id": "44B-0",
     "paperNodeId": "44B-0",
-    "name": "Import \u2014 1. Load Backup",
+    "name": "Import — 1. Import Device Profile",
     "category": "screen",
     "flow": "import",
-    "outputPath": "screens/import/1-load-backup"
+    "outputPath": "screens/import/1-import-device-profile"
   },
   {
-    "id": "45M-0",
-    "paperNodeId": "45M-0",
-    "name": "Import \u2014 2. Decrypt Backup",
+    "id": "O2M-0",
+    "paperNodeId": "O2M-0",
+    "name": "Import — 2. Save Profile",
     "category": "screen",
     "flow": "import",
-    "outputPath": "screens/import/2-decrypt-backup"
-  },
-  {
-    "id": "8C4-0",
-    "paperNodeId": "8C4-0",
-    "name": "Import \u2014 3. Review & Save Profile",
-    "category": "screen",
-    "flow": "import",
-    "outputPath": "screens/import/3-review-save-profile"
+    "outputPath": "screens/import/2-save-profile"
   },
   {
     "id": "8EC-0",
     "paperNodeId": "8EC-0",
-    "name": "Import \u2014 Error",
+    "name": "Import — Error",
     "category": "screen",
     "flow": "import",
     "outputPath": "screens/import/error"
@@ -330,79 +314,39 @@
   {
     "id": "8SU-0",
     "paperNodeId": "8SU-0",
-    "name": "Onboard \u2014 1. Enter Package",
+    "name": "Onboard — 1. Input Package",
     "category": "screen",
     "flow": "onboard",
-    "outputPath": "screens/onboard/1-enter-package"
+    "outputPath": "screens/onboard/1-input-package"
   },
   {
     "id": "8FO-0",
     "paperNodeId": "8FO-0",
-    "name": "Onboard \u2014 2. Handshake",
+    "name": "Onboard — 2. Onboard Device",
     "category": "screen",
     "flow": "onboard",
-    "outputPath": "screens/onboard/2-handshake"
+    "outputPath": "screens/onboard/2-onboard-device"
   },
   {
     "id": "8JF-0",
     "paperNodeId": "8JF-0",
-    "name": "Onboard \u2014 2b. Onboarding Failed",
+    "name": "Onboard — 2b. Onboarding Failed",
     "category": "screen",
     "flow": "onboard",
     "outputPath": "screens/onboard/2b-onboarding-failed"
   },
   {
-    "id": "8HB-0",
-    "paperNodeId": "8HB-0",
-    "name": "Onboard \u2014 3. Onboarding Complete",
+    "id": "O61-0",
+    "paperNodeId": "O61-0",
+    "name": "Onboard — 3. Save Profile",
     "category": "screen",
     "flow": "onboard",
-    "outputPath": "screens/onboard/3-onboarding-complete"
-  },
-  {
-    "id": "8V1-0",
-    "paperNodeId": "8V1-0",
-    "name": "Onboard Sponsor \u2014 1. Configure Device",
-    "category": "screen",
-    "flow": "onboard-sponsor",
-    "outputPath": "screens/onboard-sponsor/1-configure-device"
-  },
-  {
-    "id": "8XC-0",
-    "paperNodeId": "8XC-0",
-    "name": "Onboard Sponsor \u2014 2. Package Handoff",
-    "category": "screen",
-    "flow": "onboard-sponsor",
-    "outputPath": "screens/onboard-sponsor/2-package-handoff"
-  },
-  {
-    "id": "8YU-0",
-    "paperNodeId": "8YU-0",
-    "name": "Onboard Sponsor \u2014 2b. Device Onboarded",
-    "category": "screen",
-    "flow": "onboard-sponsor",
-    "outputPath": "screens/onboard-sponsor/2b-device-onboarded"
-  },
-  {
-    "id": "90C-0",
-    "paperNodeId": "90C-0",
-    "name": "Onboard Sponsor \u2014 2c. Onboarding Failed",
-    "category": "screen",
-    "flow": "onboard-sponsor",
-    "outputPath": "screens/onboard-sponsor/2c-onboarding-failed"
-  },
-  {
-    "id": "91U-0",
-    "paperNodeId": "91U-0",
-    "name": "Onboard Sponsor \u2014 2d. Cancel Confirm (Modal)",
-    "category": "screen",
-    "flow": "onboard-sponsor",
-    "outputPath": "screens/onboard-sponsor/2d-cancel-confirm-modal"
+    "outputPath": "screens/onboard/3-save-profile"
   },
   {
     "id": "3WK-0",
     "paperNodeId": "3WK-0",
-    "name": "Create \u2014 1. Create Keyset",
+    "name": "Create — 1. Create Keyset",
     "category": "screen",
     "flow": "create",
     "outputPath": "screens/create/1-create-keyset"
@@ -410,47 +354,39 @@
   {
     "id": "41B-0",
     "paperNodeId": "41B-0",
-    "name": "Create \u2014 1b. Validation Error",
+    "name": "Create — 1b. Validation Error",
     "category": "screen",
     "flow": "create",
     "outputPath": "screens/create/1b-validation-error"
   },
   {
-    "id": "3ZI-0",
-    "paperNodeId": "3ZI-0",
-    "name": "Create \u2014 1c. Generation Progress",
-    "category": "screen",
-    "flow": "create",
-    "outputPath": "screens/create/1c-generation-progress"
-  },
-  {
     "id": "87A-0",
     "paperNodeId": "87A-0",
-    "name": "Shared \u2014 2. Create Profile",
+    "name": "Shared — 2. Select Share",
     "category": "screen",
     "flow": "shared",
-    "outputPath": "screens/shared/2-create-profile"
+    "outputPath": "screens/shared/2-select-share"
+  },
+  {
+    "id": "NCL-0",
+    "paperNodeId": "NCL-0",
+    "name": "Shared — 3. Save Profile",
+    "category": "screen",
+    "flow": "shared",
+    "outputPath": "screens/shared/3-save-profile"
   },
   {
     "id": "8OP-0",
     "paperNodeId": "8OP-0",
-    "name": "Shared \u2014 3. Distribute Shares",
+    "name": "Shared — 4. Distribute Shares",
     "category": "screen",
     "flow": "shared",
-    "outputPath": "screens/shared/3-distribute-shares"
-  },
-  {
-    "id": "9KA-0",
-    "paperNodeId": "9KA-0",
-    "name": "Shared \u2014 3b. Distribution Completion",
-    "category": "screen",
-    "flow": "shared",
-    "outputPath": "screens/shared/3b-distribution-completion"
+    "outputPath": "screens/shared/4-distribute-shares"
   },
   {
     "id": "4HK-0",
     "paperNodeId": "4HK-0",
-    "name": "Dashboard \u2014 1. Signer Dashboard",
+    "name": "Dashboard — 1. Signer Dashboard",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/1-signer-dashboard"
@@ -458,7 +394,7 @@
   {
     "id": "7O9-0",
     "paperNodeId": "7O9-0",
-    "name": "Dashboard \u2014 1b. Loading Profile",
+    "name": "Dashboard — 1b. Loading Profile",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/1b-loading-profile"
@@ -466,7 +402,7 @@
   {
     "id": "7Q9-0",
     "paperNodeId": "7Q9-0",
-    "name": "Dashboard \u2014 1b Error. Profile Load Failed",
+    "name": "Dashboard — 1b Error. Profile Load Failed",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/1b-profile-load-failed"
@@ -474,31 +410,15 @@
   {
     "id": "4WB-0",
     "paperNodeId": "4WB-0",
-    "name": "Dashboard \u2014 1c. Policies",
+    "name": "Dashboard — 1c. Policies",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/1c-policies"
   },
   {
-    "id": "4PE-0",
-    "paperNodeId": "4PE-0",
-    "name": "Dashboard \u2014 1d. Recover",
-    "category": "screen",
-    "flow": "dashboard",
-    "outputPath": "screens/dashboard/1d-recover"
-  },
-  {
-    "id": "4SG-0",
-    "paperNodeId": "4SG-0",
-    "name": "Dashboard \u2014 1e. Recover Success",
-    "category": "screen",
-    "flow": "dashboard",
-    "outputPath": "screens/dashboard/1e-recover-success"
-  },
-  {
     "id": "7LC-0",
     "paperNodeId": "7LC-0",
-    "name": "Dashboard \u2014 2. Stopped",
+    "name": "Dashboard — 2. Stopped",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/2-stopped"
@@ -506,7 +426,7 @@
   {
     "id": "7SF-0",
     "paperNodeId": "7SF-0",
-    "name": "Dashboard \u2014 2b. All Relays Offline",
+    "name": "Dashboard — 2b. All Relays Offline",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/2b-all-relays-offline"
@@ -514,7 +434,7 @@
   {
     "id": "7V9-0",
     "paperNodeId": "7V9-0",
-    "name": "Dashboard \u2014 2c. Signing Blocked",
+    "name": "Dashboard — 2c. Signing Blocked",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/2c-signing-blocked"
@@ -522,7 +442,7 @@
   {
     "id": "502-0",
     "paperNodeId": "502-0",
-    "name": "Dashboard \u2014 3. Settings & Lock Profile",
+    "name": "Dashboard — 3. Settings & Lock Profile",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/3-settings-lock-profile"
@@ -530,7 +450,7 @@
   {
     "id": "5BY-0",
     "paperNodeId": "5BY-0",
-    "name": "Dashboard \u2014 3b. Clear Credentials (Modal)",
+    "name": "Dashboard — 3b. Clear Credentials (Modal)",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/3b-clear-credentials-modal"
@@ -538,7 +458,7 @@
   {
     "id": "6CH-0",
     "paperNodeId": "6CH-0",
-    "name": "Dashboard \u2014 4. Export Profile",
+    "name": "Dashboard — 4. Export Profile",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/4-export-profile"
@@ -546,7 +466,7 @@
   {
     "id": "60E-0",
     "paperNodeId": "60E-0",
-    "name": "Dashboard \u2014 4b. Profile Export Complete",
+    "name": "Dashboard — 4b. Profile Export Complete",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/4b-export-complete"
@@ -554,7 +474,7 @@
   {
     "id": "70P-0",
     "paperNodeId": "70P-0",
-    "name": "Dashboard \u2014 4c. Export Share",
+    "name": "Dashboard — 4c. Export Share",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/4c-export-share"
@@ -562,7 +482,7 @@
   {
     "id": "6OM-0",
     "paperNodeId": "6OM-0",
-    "name": "Dashboard \u2014 4d. Share Export Complete",
+    "name": "Dashboard — 4d. Share Export Complete",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/4d-share-export-complete"
@@ -570,7 +490,7 @@
   {
     "id": "7XW-0",
     "paperNodeId": "7XW-0",
-    "name": "Dashboard \u2014 5. Signer Policy Prompt",
+    "name": "Dashboard — 5. Signer Policy Prompt",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/5-signer-policy-prompt"
@@ -578,7 +498,7 @@
   {
     "id": "7CU-0",
     "paperNodeId": "7CU-0",
-    "name": "Dashboard \u2014 6. Signing Failed",
+    "name": "Dashboard — 6. Signing Failed",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/6-signing-failed"
@@ -586,87 +506,15 @@
   {
     "id": "8KS-0",
     "paperNodeId": "8KS-0",
-    "name": "Rotate Keyset \u2014 1. Rotate Keyset",
+    "name": "Rotate Keyset — 1. Collect Shares",
     "category": "screen",
     "flow": "rotate-keyset",
-    "outputPath": "screens/rotate-keyset/1-rotate-keyset"
-  },
-  {
-    "id": "9MD-0",
-    "paperNodeId": "9MD-0",
-    "name": "Rotate Keyset \u2014 1d. Review & Generate",
-    "category": "screen",
-    "flow": "rotate-keyset",
-    "outputPath": "screens/rotate-keyset/1d-review-generate"
-  },
-  {
-    "id": "9NX-0",
-    "paperNodeId": "9NX-0",
-    "name": "Rotate Keyset \u2014 1e. Generation Progress",
-    "category": "screen",
-    "flow": "rotate-keyset",
-    "outputPath": "screens/rotate-keyset/1e-generation-progress"
-  },
-  {
-    "id": "9ET-0",
-    "paperNodeId": "9ET-0",
-    "name": "Rotate Keyset \u2014 Error: Wrong Password",
-    "category": "screen",
-    "flow": "rotate-keyset",
-    "outputPath": "screens/rotate-keyset/error-wrong-password"
-  },
-  {
-    "id": "9GP-0",
-    "paperNodeId": "9GP-0",
-    "name": "Rotate Keyset \u2014 Error: Group Mismatch",
-    "category": "screen",
-    "flow": "rotate-keyset",
-    "outputPath": "screens/rotate-keyset/error-group-mismatch"
-  },
-  {
-    "id": "9I9-0",
-    "paperNodeId": "9I9-0",
-    "name": "Rotate Keyset \u2014 Error: Generation Failed",
-    "category": "screen",
-    "flow": "rotate-keyset",
-    "outputPath": "screens/rotate-keyset/error-generation-failed"
-  },
-  {
-    "id": "9AV-0",
-    "paperNodeId": "9AV-0",
-    "name": "Replace Share \u2014 1. Enter Onboarding Package",
-    "category": "screen",
-    "flow": "replace-share",
-    "outputPath": "screens/replace-share/1-enter-onboarding-package"
-  },
-  {
-    "id": "9PX-0",
-    "paperNodeId": "9PX-0",
-    "name": "Replace Share \u2014 2. Applying Replacement",
-    "category": "screen",
-    "flow": "replace-share",
-    "outputPath": "screens/replace-share/2-applying-replacement"
-  },
-  {
-    "id": "9DU-0",
-    "paperNodeId": "9DU-0",
-    "name": "Replace Share \u2014 2b. Replacement Failed",
-    "category": "screen",
-    "flow": "replace-share",
-    "outputPath": "screens/replace-share/2b-replacement-failed"
-  },
-  {
-    "id": "9C8-0",
-    "paperNodeId": "9C8-0",
-    "name": "Replace Share \u2014 3. Share Replaced",
-    "category": "screen",
-    "flow": "replace-share",
-    "outputPath": "screens/replace-share/3-share-replaced"
+    "outputPath": "screens/rotate-keyset/1-collect-shares"
   },
   {
     "id": "49W-0",
     "paperNodeId": "49W-0",
-    "name": "Recover \u2014 1. Collect Shares",
+    "name": "Recover — 1. Collect Shares",
     "category": "screen",
     "flow": "recover",
     "outputPath": "screens/recover/1-collect-shares"
@@ -674,7 +522,7 @@
   {
     "id": "476-0",
     "paperNodeId": "476-0",
-    "name": "Recover \u2014 1b. Recover Success",
+    "name": "Recover — 1b. Recover Success",
     "category": "screen",
     "flow": "recover",
     "outputPath": "screens/recover/1b-recover-success"
@@ -690,7 +538,7 @@
   {
     "id": "5O7-0",
     "paperNodeId": "5O7-0",
-    "name": "Dashboard \u2014 3c. Unsaved Changes (Modal)",
+    "name": "Dashboard — 3c. Unsaved Changes (Modal)",
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/3c-unsaved-changes-modal"

@@ -16,6 +16,7 @@ This screen captures the `recover` flow state "1. Collect Shares" in the current
 
 ## Key Regions
 - **AppHeader / FlowContext**
+- **Collect Shares Content**
 
 ## Related Screens
 
@@ -25,10 +26,10 @@ This screen captures the `recover` flow state "1. Collect Shares" in the current
 ## Representative Copy
 - Igloo
 - My Signing Key
-- Back to Signer
-- Recover NSEC
-- Recovering your nsec requires 2 of your 3 shares. Your local
-- Share #1 — This Browser
+- 1
+- Collect Shares
+- 2
+- Recover Key
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

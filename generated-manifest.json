@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-25T02:24:28Z",
+  "generatedAt": "2026-05-28T20:38:21Z",
   "files": [
     {
       "path": "assets/paper/1WEXSFAT73DS0G9ZZTFNR8PXP9.png",
@@ -215,18 +215,6 @@
       "kind": "png"
     },
     {
-      "path": "design/patterns/key-lifecycle-progress/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "design/patterns/key-lifecycle-progress/reference.html",
-      "kind": "html"
-    },
-    {
-      "path": "design/patterns/key-lifecycle-progress/screenshot.png",
-      "kind": "png"
-    },
-    {
       "path": "design/patterns/onboard-recipient/README.md",
       "kind": "markdown"
     },
@@ -236,18 +224,6 @@
     },
     {
       "path": "design/patterns/onboard-recipient/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "design/patterns/onboard-sponsor/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "design/patterns/onboard-sponsor/reference.html",
-      "kind": "html"
-    },
-    {
-      "path": "design/patterns/onboard-sponsor/screenshot.png",
       "kind": "png"
     },
     {
@@ -415,18 +391,6 @@
       "kind": "png"
     },
     {
-      "path": "screens/create/1c-generation-progress/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/create/1c-generation-progress/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/create/1c-generation-progress/screenshot.png",
-      "kind": "png"
-    },
-    {
       "path": "screens/dashboard/1-signer-dashboard/README.md",
       "kind": "markdown"
     },
@@ -472,30 +436,6 @@
     },
     {
       "path": "screens/dashboard/1c-policies/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/dashboard/1d-recover/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/dashboard/1d-recover/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/dashboard/1d-recover/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/dashboard/1e-recover-success/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/dashboard/1e-recover-success/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/dashboard/1e-recover-success/screenshot.png",
       "kind": "png"
     },
     {
@@ -643,39 +583,27 @@
       "kind": "png"
     },
     {
-      "path": "screens/import/1-load-backup/README.md",
+      "path": "screens/import/1-import-device-profile/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/import/1-load-backup/screen.html",
+      "path": "screens/import/1-import-device-profile/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/import/1-load-backup/screenshot.png",
+      "path": "screens/import/1-import-device-profile/screenshot.png",
       "kind": "png"
     },
     {
-      "path": "screens/import/2-decrypt-backup/README.md",
+      "path": "screens/import/2-save-profile/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/import/2-decrypt-backup/screen.html",
+      "path": "screens/import/2-save-profile/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/import/2-decrypt-backup/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/import/3-review-save-profile/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/import/3-review-save-profile/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/import/3-review-save-profile/screenshot.png",
+      "path": "screens/import/2-save-profile/screenshot.png",
       "kind": "png"
     },
     {
@@ -691,87 +619,27 @@
       "kind": "png"
     },
     {
-      "path": "screens/onboard-sponsor/1-configure-device/README.md",
+      "path": "screens/onboard/1-input-package/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/onboard-sponsor/1-configure-device/screen.html",
+      "path": "screens/onboard/1-input-package/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/onboard-sponsor/1-configure-device/screenshot.png",
+      "path": "screens/onboard/1-input-package/screenshot.png",
       "kind": "png"
     },
     {
-      "path": "screens/onboard-sponsor/2-package-handoff/README.md",
+      "path": "screens/onboard/2-onboard-device/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/onboard-sponsor/2-package-handoff/screen.html",
+      "path": "screens/onboard/2-onboard-device/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/onboard-sponsor/2-package-handoff/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/onboard-sponsor/2b-device-onboarded/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/onboard-sponsor/2b-device-onboarded/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/onboard-sponsor/2b-device-onboarded/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/onboard-sponsor/2c-onboarding-failed/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/onboard-sponsor/2c-onboarding-failed/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/onboard-sponsor/2c-onboarding-failed/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/onboard-sponsor/2d-cancel-confirm-modal/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/onboard-sponsor/2d-cancel-confirm-modal/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/onboard-sponsor/2d-cancel-confirm-modal/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/onboard/1-enter-package/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/onboard/1-enter-package/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/onboard/1-enter-package/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/onboard/2-handshake/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/onboard/2-handshake/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/onboard/2-handshake/screenshot.png",
+      "path": "screens/onboard/2-onboard-device/screenshot.png",
       "kind": "png"
     },
     {
@@ -787,15 +655,15 @@
       "kind": "png"
     },
     {
-      "path": "screens/onboard/3-onboarding-complete/README.md",
+      "path": "screens/onboard/3-save-profile/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/onboard/3-onboarding-complete/screen.html",
+      "path": "screens/onboard/3-save-profile/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/onboard/3-onboarding-complete/screenshot.png",
+      "path": "screens/onboard/3-save-profile/screenshot.png",
       "kind": "png"
     },
     {
@@ -823,159 +691,51 @@
       "kind": "png"
     },
     {
-      "path": "screens/replace-share/1-enter-onboarding-package/README.md",
+      "path": "screens/rotate-keyset/1-collect-shares/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/replace-share/1-enter-onboarding-package/screen.html",
+      "path": "screens/rotate-keyset/1-collect-shares/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/replace-share/1-enter-onboarding-package/screenshot.png",
+      "path": "screens/rotate-keyset/1-collect-shares/screenshot.png",
       "kind": "png"
     },
     {
-      "path": "screens/replace-share/2-applying-replacement/README.md",
+      "path": "screens/shared/2-select-share/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/replace-share/2-applying-replacement/screen.html",
+      "path": "screens/shared/2-select-share/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/replace-share/2-applying-replacement/screenshot.png",
+      "path": "screens/shared/2-select-share/screenshot.png",
       "kind": "png"
     },
     {
-      "path": "screens/replace-share/2b-replacement-failed/README.md",
+      "path": "screens/shared/3-save-profile/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/replace-share/2b-replacement-failed/screen.html",
+      "path": "screens/shared/3-save-profile/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/replace-share/2b-replacement-failed/screenshot.png",
+      "path": "screens/shared/3-save-profile/screenshot.png",
       "kind": "png"
     },
     {
-      "path": "screens/replace-share/3-share-replaced/README.md",
+      "path": "screens/shared/4-distribute-shares/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/replace-share/3-share-replaced/screen.html",
+      "path": "screens/shared/4-distribute-shares/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/replace-share/3-share-replaced/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/rotate-keyset/1-rotate-keyset/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/rotate-keyset/1-rotate-keyset/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/rotate-keyset/1-rotate-keyset/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/rotate-keyset/1d-review-generate/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/rotate-keyset/1d-review-generate/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/rotate-keyset/1d-review-generate/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/rotate-keyset/1e-generation-progress/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/rotate-keyset/1e-generation-progress/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/rotate-keyset/1e-generation-progress/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/rotate-keyset/error-generation-failed/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/rotate-keyset/error-generation-failed/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/rotate-keyset/error-generation-failed/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/rotate-keyset/error-group-mismatch/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/rotate-keyset/error-group-mismatch/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/rotate-keyset/error-group-mismatch/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/rotate-keyset/error-wrong-password/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/rotate-keyset/error-wrong-password/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/rotate-keyset/error-wrong-password/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/shared/2-create-profile/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/shared/2-create-profile/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/shared/2-create-profile/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/shared/3-distribute-shares/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/shared/3-distribute-shares/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/shared/3-distribute-shares/screenshot.png",
-      "kind": "png"
-    },
-    {
-      "path": "screens/shared/3b-distribution-completion/README.md",
-      "kind": "markdown"
-    },
-    {
-      "path": "screens/shared/3b-distribution-completion/screen.html",
-      "kind": "html"
-    },
-    {
-      "path": "screens/shared/3b-distribution-completion/screenshot.png",
+      "path": "screens/shared/4-distribute-shares/screenshot.png",
       "kind": "png"
     },
     {
@@ -988,6 +748,18 @@
     },
     {
       "path": "screens/welcome/1-welcome/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/welcome/1b-1-returning-menu-open/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/welcome/1b-1-returning-menu-open/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/welcome/1b-1-returning-menu-open/screenshot.png",
       "kind": "png"
     },
     {

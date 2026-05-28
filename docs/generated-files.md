@@ -19,8 +19,9 @@ The exporter rewrites it during sync.
 - `screens/_shared/*.html`
 - `assets/paper/*`
 
-`design/tokens/usage-coverage.json` is hand-maintained policy metadata, not a
-generated token output.
+`design/tokens/usage-coverage.json` is policy metadata refreshed by
+`make igloo-paper-usage-coverage-sync`; do not patch it by hand for routine
+Paper sync drift.
 
 ## Editing Rule
 
