@@ -8,7 +8,7 @@ This screen captures the `shared` flow state "4. Distribute Shares" in the curre
 ## Paper Source
 - **Artboard ID:** 8OP-0
 - **Artboard Name:** Web — Shared — 4. Distribute Shares
-- **Dimensions:** 1440 × 1284
+- **Dimensions:** 1440 × 1257
 
 ## Flow Context
 - **Flow:** `shared`

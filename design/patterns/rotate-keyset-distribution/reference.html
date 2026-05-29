@@ -744,7 +744,36 @@
               Distribute Shares
             </div>
             <div className="w-180 font-['Inter',system-ui,sans-serif] text-[#9AA8BD] text-[15px]/5.5">
-              Create remote onboarding packages, choose per-share permissions, and mark each handoff when it is complete.
+              Create each remote onboarding package, set its peer permissions, and mark it delivered when the package has been handed off.
+            </div>
+          </div>
+          <div className="items-center flex justify-between w-180 rounded-[10px] py-4 px-4.5 gap-4 bg-[#07182F] border border-solid border-[#22C55E42]">
+            <div className="flex flex-col gap-1.5">
+              <div className="items-center flex gap-2">
+                <div className="shrink-0 h-2.25 w-2.25 rounded-[999px] bg-[#4ADE80]" />
+                <div className="font-['Share_Tech_Mono',system-ui,sans-serif] text-[#E5EDFF] text-[17px]/5.5">
+                  Onboarding Client
+                </div>
+                <div className="tracking-[0.04em] font-['Inter',system-ui,sans-serif] text-[#94A3B8] text-[11px]/3.5">
+                  RUNNING
+                </div>
+              </div>
+              <div className="font-['Inter',system-ui,sans-serif] text-[#8494A7] text-[13px]/5">
+                2 relays · 2 peers · 9f3ac1...e7b210
+              </div>
+            </div>
+            <div className="items-center flex shrink-0 h-8.5 justify-center rounded-[7px] px-4 border border-solid border-[#294F88]">
+              <div className="font-['Inter',system-ui,sans-serif] text-[#BFDBFE] text-[13px]/4">
+                Stop
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-180 gap-1.5">
+            <div className="tracking-[0.08em] uppercase font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FDD1] text-[13px]/4.5">
+              Remote Shares
+            </div>
+            <div className="font-['Inter',system-ui,sans-serif] text-[#8494A7] text-[13px]/5">
+              Each share can be copied, saved, shown as a QR package, or marked delivered after handoff.
             </div>
           </div>
           <div className="flex flex-col w-180 rounded-[10px] p-4.5 gap-3.5 bg-[#07182F] border border-solid border-[#1A355F]">
@@ -754,7 +783,7 @@
               </div>
               <div className="h-6.5 rounded-[13px] py-1.25 px-2.5 bg-[#3B2C16]">
                 <div className="font-['Inter',system-ui,sans-serif] text-[#FACC15] text-xs/4">
-                  Package not created
+                  Draft
                 </div>
               </div>
             </div>
@@ -791,19 +820,19 @@
               </div>
               <div className="flex items-center justify-center w-42.5 h-9.5 rounded-lg shrink-0 bg-[#2F6DF6]">
                 <div className="flex font-['Inter',system-ui,sans-serif] font-semibold text-white text-[13px]/4">
-                  Create package
+                  Create Package
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-180 rounded-[10px] p-4.5 gap-3.5 bg-[#07182F] border border-solid border-[#1A355F]">
+          <div className="flex flex-col w-180 rounded-[10px] p-4.5 gap-3.5 bg-[#07182F] border border-solid border-[#22C55E42]">
             <div className="flex items-center justify-between w-171">
               <div className="font-['Share_Tech_Mono',system-ui,sans-serif] text-[#E5EDFF] text-[17px]/5.5">
                 Share 2
               </div>
-              <div className="h-6.5 rounded-[13px] py-1.25 px-2.5 bg-[#102A56]">
-                <div className="font-['Inter',system-ui,sans-serif] text-[#93C5FD] text-xs/4">
-                  Package created
+              <div className="h-6.5 rounded-[13px] py-1.25 px-2.5 bg-[#22C55E1F]">
+                <div className="[white-space-collapse:preserve] font-['Inter',system-ui,sans-serif] text-[#4ADE80] text-xs/4">
+                  Packaged
                 </div>
               </div>
             </div>
@@ -853,21 +882,28 @@
                   QR code
                 </div>
               </div>
-              <div className="flex items-center justify-center w-21 h-8.5 rounded-[7px] shrink-0 border border-solid border-[#166534]">
-                <div className="flex font-['Inter',system-ui,sans-serif] text-[#86EFAC] text-[13px]/4">
-                  Done
+            </div>
+            <div className="flex w-171 gap-2.5">
+              <div className="items-center flex shrink-0 h-8.5 justify-center rounded-[7px] px-3.5 border border-solid border-[#294F88]">
+                <div className="font-['Inter',system-ui,sans-serif] text-[#BFDBFE] text-[13px]/4">
+                  Cancel
+                </div>
+              </div>
+              <div className="items-center flex shrink-0 h-8.5 justify-center rounded-[7px] px-4 bg-[#2F6DF6]">
+                <div className="font-['Inter',system-ui,sans-serif] font-semibold text-white text-[13px]/4">
+                  Mark Delivered
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-180 rounded-[10px] p-4.5 gap-3.5 bg-[#061F1B] border border-solid border-[#14532D]">
+          <div className="flex flex-col w-180 rounded-[10px] p-4.5 gap-3.5 bg-[#1E3A8A29] border border-solid border-[#3B82F652]">
             <div className="flex items-center justify-between w-171">
               <div className="font-['Share_Tech_Mono',system-ui,sans-serif] text-[#E5EDFF] text-[17px]/5.5">
                 Share 3
               </div>
-              <div className="h-6.5 rounded-[13px] py-1.25 px-2.5 bg-[#052E1A]">
-                <div className="font-['Inter',system-ui,sans-serif] text-[#86EFAC] text-xs/4">
-                  Done
+              <div className="h-6.5 rounded-[13px] py-1.25 px-2.5 bg-[#3B82F629]">
+                <div className="[white-space-collapse:preserve] font-['Inter',system-ui,sans-serif] text-[#93C5FD] text-xs/4">
+                  Onboarded
                 </div>
               </div>
             </div>
@@ -896,15 +932,24 @@
                 </div>
               </div>
             </div>
-            <div className="flex items-center w-171 h-9.5 rounded-lg px-3.5 shrink-0 bg-[#052E1A] border border-solid border-[#14532D]">
-              <div className="flex font-['Inter',system-ui,sans-serif] text-[#86EFAC] text-[13px]/4">
-                Package distributed and marked complete.
+            <div className="flex w-171 gap-2.5">
+              <div className="items-center flex shrink-0 h-8.5 justify-center rounded-[7px] px-3.5 border border-solid border-[#294F88]">
+                <div className="font-['Inter',system-ui,sans-serif] text-[#BFDBFE] text-[13px]/4">
+                  Revert
+                </div>
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center w-180 h-11 rounded-lg shrink-0 bg-[#2F6DF6]">
-            <div className="flex font-['Inter',system-ui,sans-serif] font-semibold text-white text-[15px]/5">
-              Next Step
+          <div className="flex w-180 gap-3">
+            <div className="items-center flex shrink-0 h-11 justify-center rounded-lg px-5.5 border border-solid border-[#294F88]">
+              <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#BFDBFE] text-[15px]/5">
+                Go Back
+              </div>
+            </div>
+            <div className="flex items-center justify-center w-180 h-11 rounded-lg grow basis-[0%] bg-[#2F6DF6]">
+              <div className="flex font-['Inter',system-ui,sans-serif] font-semibold text-white text-[15px]/5">
+                Finish Setup
+              </div>
             </div>
           </div>
         </div>
