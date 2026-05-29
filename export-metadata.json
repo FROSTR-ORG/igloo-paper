@@ -119,6 +119,19 @@
     }
   ],
   "artboard_overrides": {
+    "Z7-0": {
+      "contents": [
+        "Loading & Tooltip Row",
+        "Export Backup Modal Section",
+        "Backup Ready Modal Section",
+        "Export Share Modal Section",
+        "Share Backup Ready Modal Section",
+        "Signer Policy Prompt Section",
+        "QR Scanner Modal Section",
+        "Settings Unsaved Changes Section",
+        "Alerts & Banners Section"
+      ]
+    },
     "HI-0": {
       "ignore_contents": [
         "id",

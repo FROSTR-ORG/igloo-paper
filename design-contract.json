@@ -127,6 +127,29 @@
       "notes": "Overlay, confirmation, and QR payload modal surfaces."
     },
     {
+      "name": "Alert",
+      "kind": "component",
+      "status": "implemented",
+      "paper": {
+        "artboardIds": [
+          "Z7-0"
+        ],
+        "paths": [
+          "design/components/overlays-feedback/README.md"
+        ]
+      },
+      "implementation": {
+        "paths": [
+          "../igloo-ui/src/components/ui/alert.tsx"
+        ]
+      },
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
+      "notes": "Inline status banner (danger/warning/success/default) for caught errors and runtime warnings; the global shell alert and the Alerts & Banners reference."
+    },
+    {
       "name": "Badge",
       "kind": "component",
       "status": "implemented",

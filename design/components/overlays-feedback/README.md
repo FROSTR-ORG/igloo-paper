@@ -8,7 +8,7 @@ This artboard documents the current Paper reference for Overlays & Feedback. The
 ## Paper Source
 - **Artboard ID:** Z7-0
 - **Artboard Name:** Overlays & Feedback
-- **Dimensions:** 1440 × 5559
+- **Dimensions:** 1440 × 6059
 
 ## Contents
 - **Loading & Tooltip Row**
@@ -19,6 +19,7 @@ This artboard documents the current Paper reference for Overlays & Feedback. The
 - **Signer Policy Prompt Section**
 - **QR Scanner Modal Section**
 - **Settings Unsaved Changes Section**
+- **Alerts & Banners Section**
 
 ## Representative Copy
 - Igloo UI
