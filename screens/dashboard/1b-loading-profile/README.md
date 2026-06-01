@@ -22,7 +22,7 @@ This screen captures the `dashboard` flow state "1b. Loading Profile" in the cur
 ### Dashboard Main States
 - Dashboard — 1. Signer Dashboard — `screens/dashboard/1-signer-dashboard/README.md`
 - Dashboard — 1b Error. Profile Load Failed — `screens/dashboard/1b-profile-load-failed/README.md`
-- Dashboard — 1c. Policies — `screens/dashboard/1c-policies/README.md`
+- Dashboard — 1c. Permissions — `screens/dashboard/1c-permissions/README.md`
 - Dashboard — 2. Stopped — `screens/dashboard/2-stopped/README.md`
 - Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`

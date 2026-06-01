@@ -70,7 +70,7 @@ EXPECTED_SCREEN_PATHS = {
     "O61-0": "screens/onboard/3-save-profile",
     "7V9-0": "screens/dashboard/2c-signing-blocked",
     "502-0": "screens/dashboard/3-settings-lock-profile",
-    "4WB-0": "screens/dashboard/1c-policies",
+    "4WB-0": "screens/dashboard/1c-permissions",
 }
 GLOSSARY_ARTBOARD_IDS = {"ONB-0", "OSN-0", "OXZ-0", "1QH-0", "1SQ-0", "1US-0"}
 GLOSSARY_FILES = {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-29T22:28:06Z",
+  "generatedAt": "2026-06-01T21:50:34Z",
   "files": [
     {
       "path": "assets/paper/1WEXSFAT73DS0G9ZZTFNR8PXP9.png",
@@ -427,15 +427,15 @@
       "kind": "png"
     },
     {
-      "path": "screens/dashboard/1c-policies/README.md",
+      "path": "screens/dashboard/1c-permissions/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/dashboard/1c-policies/screen.html",
+      "path": "screens/dashboard/1c-permissions/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/dashboard/1c-policies/screenshot.png",
+      "path": "screens/dashboard/1c-permissions/screenshot.png",
       "kind": "png"
     },
     {

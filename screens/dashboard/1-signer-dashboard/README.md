@@ -8,7 +8,7 @@ This screen captures the `dashboard` flow state "1. Signer Dashboard" in the cur
 ## Paper Source
 - **Artboard ID:** 4HK-0
 - **Artboard Name:** Web — Dashboard — 1. Signer Dashboard
-- **Dimensions:** 1440 × 1192
+- **Dimensions:** 1440 × 1218
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -22,7 +22,7 @@ This screen captures the `dashboard` flow state "1. Signer Dashboard" in the cur
 ### Dashboard Main States
 - Dashboard — 1b. Loading Profile — `screens/dashboard/1b-loading-profile/README.md`
 - Dashboard — 1b Error. Profile Load Failed — `screens/dashboard/1b-profile-load-failed/README.md`
-- Dashboard — 1c. Policies — `screens/dashboard/1c-policies/README.md`
+- Dashboard — 1c. Permissions — `screens/dashboard/1c-permissions/README.md`
 - Dashboard — 2. Stopped — `screens/dashboard/2-stopped/README.md`
 - Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
@@ -31,11 +31,11 @@ This screen captures the `dashboard` flow state "1. Signer Dashboard" in the cur
 
 ## Representative Copy
 - Igloo
-- My Signing Key
-- ·
-- 2/3
-- npub1qe3...7k4m
-- Share #1
+- Signer Running
+- Connected to wss://relay.primal.net, wss://relay.damus.io
+- Stop Signer
+- Peers
+- ?
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

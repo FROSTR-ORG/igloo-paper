@@ -8,7 +8,7 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 ## Paper Source
 - **Artboard ID:** 7LC-0
 - **Artboard Name:** Web — Dashboard — 2. Stopped
-- **Dimensions:** 1440 × 545
+- **Dimensions:** 1440 × 571
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -23,7 +23,7 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 - Dashboard — 1. Signer Dashboard — `screens/dashboard/1-signer-dashboard/README.md`
 - Dashboard — 1b. Loading Profile — `screens/dashboard/1b-loading-profile/README.md`
 - Dashboard — 1b Error. Profile Load Failed — `screens/dashboard/1b-profile-load-failed/README.md`
-- Dashboard — 1c. Policies — `screens/dashboard/1c-policies/README.md`
+- Dashboard — 1c. Permissions — `screens/dashboard/1c-permissions/README.md`
 - Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
 - Dashboard — 5. Signer Policy Prompt — `screens/dashboard/5-signer-policy-prompt/README.md`
@@ -31,11 +31,11 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 
 ## Representative Copy
 - Igloo
-- My Signing Key
-- ·
-- 2/3
-- npub1qe3...7k4m
-- Share #1
+- Signer Stopped
+- Relays, peers, and signing are offline.
+- Start Signer
+- Readiness
+- Next Step
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.
