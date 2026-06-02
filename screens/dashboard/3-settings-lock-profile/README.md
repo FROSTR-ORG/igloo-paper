@@ -8,7 +8,7 @@ This screen captures the `dashboard` flow state "3. Settings & Lock Profile" in 
 ## Paper Source
 - **Artboard ID:** 502-0
 - **Artboard Name:** Web — Dashboard — 3. Settings & Lock Profile
-- **Dimensions:** 1440 × 1184
+- **Dimensions:** 1440 × 1210
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -30,11 +30,11 @@ This screen captures the `dashboard` flow state "3. Settings & Lock Profile" in 
 
 ## Representative Copy
 - Igloo
-- My Signing Key
-- ·
-- 2/3
-- npub1qe3...7k4m
-- Share #1
+- Signer Running
+- Connected to wss://relay.primal.net, wss://relay.damus.io
+- Stop Signer
+- Peers
+- 2 online
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.
