@@ -116,7 +116,7 @@
       "implementation": {
         "paths": [
           "../igloo-ui/src/components/ui/modal.tsx",
-          "../igloo-ui/src/components/ui/confirm-modal.tsx",
+          "../igloo-ui/src/components/ui/dialog.tsx",
           "../igloo-ui/src/components/flows/QrPayloadModal.tsx"
         ]
       },
@@ -124,7 +124,7 @@
         "design/tokens/colors.json",
         "design/tokens/typography.json"
       ],
-      "notes": "Overlay, confirmation, and QR payload modal surfaces."
+      "notes": "Dialog/ConfirmDialog overlay engine, the Modal compatibility shim, and the QR payload modal surface."
     },
     {
       "name": "Alert",
