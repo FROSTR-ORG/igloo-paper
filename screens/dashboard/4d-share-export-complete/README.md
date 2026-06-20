@@ -28,6 +28,8 @@ This screen captures the `dashboard` flow state "4d. Share Export Complete" in t
 - Dashboard — 4b. Profile Export Complete — `screens/dashboard/4b-export-complete/README.md`
 - Dashboard — 4c. Export Share — `screens/dashboard/4c-export-share/README.md`
 - Dashboard — 3c. Unsaved Changes (Modal) — `screens/dashboard/3c-unsaved-changes-modal/README.md`
+- Dashboard — 3d. Onboard Device (Modal) — `screens/dashboard/3d-onboard-device-modal/README.md`
+- Dashboard — 3e. Onboard Package Handoff (Modal) — `screens/dashboard/3e-onboard-package-handoff-modal/README.md`
 
 ## Representative Copy
 - Igloo

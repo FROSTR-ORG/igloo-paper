@@ -542,5 +542,21 @@
     "category": "screen",
     "flow": "dashboard",
     "outputPath": "screens/dashboard/3c-unsaved-changes-modal"
+  },
+  {
+    "id": "PA0-0",
+    "paperNodeId": "PA0-0",
+    "name": "Dashboard — 3d. Onboard Device (Modal)",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/3d-onboard-device-modal"
+  },
+  {
+    "id": "PA1-0",
+    "paperNodeId": "PA1-0",
+    "name": "Dashboard — 3e. Onboard Package Handoff (Modal)",
+    "category": "screen",
+    "flow": "dashboard",
+    "outputPath": "screens/dashboard/3e-onboard-package-handoff-modal"
   }
 ]

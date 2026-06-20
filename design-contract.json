@@ -269,6 +269,34 @@
       "notes": "Recovery workspace and share collection states."
     },
     {
+      "name": "Settings Onboard Device",
+      "kind": "flow",
+      "status": "implemented",
+      "paper": {
+        "artboardIds": [
+          "PA0-0",
+          "PA1-0"
+        ],
+        "paths": [
+          "screens/dashboard/3d-onboard-device-modal/README.md",
+          "screens/dashboard/3e-onboard-package-handoff-modal/README.md"
+        ]
+      },
+      "implementation": {
+        "paths": [
+          "../igloo-ui/src/components/flows/OperatorSettingsSidebar.tsx",
+          "../igloo-pwa/src/App.tsx",
+          "../igloo-pwa/src/lib/local-adapter/profile-generate.ts",
+          "../igloo-shared/src/browser-onboarding/sponsorship.ts"
+        ]
+      },
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
+      "notes": "Settings-time sponsor flow: an active signer converts explicit protected bfshare source material into an encrypted bfonboard handoff package."
+    },
+    {
       "name": "Rotation Flow Panels",
       "kind": "flow",
       "status": "in-progress",

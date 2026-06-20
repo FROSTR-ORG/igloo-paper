@@ -103,7 +103,7 @@ TAILWIND_TEXT_SIZES = {
 MAX_DRIFT_ITEMS = 20
 EXPECTED_MAP_CATEGORY_COUNTS = {
     "design": 29,
-    "screen": 38,
+    "screen": 40,
     "divider": 1,
 }
 EXPECTED_MAP_TOTAL = sum(EXPECTED_MAP_CATEGORY_COUNTS.values())

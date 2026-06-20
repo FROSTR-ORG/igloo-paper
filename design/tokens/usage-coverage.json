@@ -2,18 +2,6 @@
   "description": "Explicit coverage for color and typography values used by the current exported prototype outside the canonical Foundations artboard tokens. This file is intentionally checked by scripts/verify.py --strict-drift so newly introduced undocumented values still fail strict verification.",
   "colors": [
     {
-      "name": "usage-color-001",
-      "value": "#000000",
-      "fileCount": 16,
-      "sampleFiles": [
-        "screens/dashboard/1-signer-dashboard/screen.html",
-        "screens/dashboard/1b-loading-profile/screen.html",
-        "screens/dashboard/1b-profile-load-failed/screen.html",
-        "screens/dashboard/1c-policies/screen.html",
-        "screens/dashboard/2-stopped/screen.html"
-      ]
-    },
-    {
       "name": "usage-color-002",
       "value": "#0000004D",
       "fileCount": 2,

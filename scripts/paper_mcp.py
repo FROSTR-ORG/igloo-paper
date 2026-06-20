@@ -83,7 +83,8 @@ class PaperClient:
 
     def get_jsx(self, node_id: str, fmt: str = "tailwind") -> str:
         raw = self.call_tool("get_jsx", {"nodeId": node_id, "format": fmt})["content"][0]["text"]
-        return json.loads(raw)
+        parsed = json.loads(raw)
+        return parsed.get("jsx", parsed)
 
     def get_children(self, node_id: str) -> dict[str, Any]:
         content = self.call_tool("get_children", {"nodeId": node_id})["content"][0]["text"]
@@ -91,7 +92,8 @@ class PaperClient:
 
     def get_computed_styles(self, node_ids: list[str]) -> dict[str, Any]:
         content = self.call_tool("get_computed_styles", {"nodeIds": node_ids})["content"][0]["text"]
-        return json.loads(content)
+        parsed = json.loads(content)
+        return parsed.get("styles", parsed)
 
     def get_screenshot(self, node_id: str, scale: int = 1, transparent: bool = True) -> tuple[str, str]:
         last_error: PaperMCPError | None = None

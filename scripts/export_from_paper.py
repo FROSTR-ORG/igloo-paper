@@ -623,7 +623,9 @@ def extract_typography(client: PaperClient, section_frames: dict[str, str]) -> d
         if info["name"] == "Secondary Mono Row":
             continue
 
-        raw_family_name = note.split(" / ", 1)[0].strip() if " / " in note else primary_family_name(style.get("fontFamily", ""))
+        raw_family_name = note.split(" / ", 1)[0].strip() if " / " in note else ""
+        if not raw_family_name:
+            raw_family_name = primary_family_name(style.get("fontFamily", ""))
         family_name = canonical_family_name(raw_family_name)
         if family_name and family_name not in font_families:
             font_families[family_name] = {

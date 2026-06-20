@@ -1,9 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-02T17:01:08Z",
+  "generatedAt": "2026-06-20T15:56:48Z",
   "files": [
     {
       "path": "assets/paper/1WEXSFAT73DS0G9ZZTFNR8PXP9.png",
+      "kind": "png"
+    },
+    {
+      "path": "assets/paper/64YF953G1ZKTPQSAVA95C1EXJ5.png",
       "kind": "png"
     },
     {
@@ -508,6 +512,30 @@
     },
     {
       "path": "screens/dashboard/3c-unsaved-changes-modal/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/3d-onboard-device-modal/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/3d-onboard-device-modal/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/3d-onboard-device-modal/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "screens/dashboard/3e-onboard-package-handoff-modal/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "screens/dashboard/3e-onboard-package-handoff-modal/screen.html",
+      "kind": "html"
+    },
+    {
+      "path": "screens/dashboard/3e-onboard-package-handoff-modal/screenshot.png",
       "kind": "png"
     },
     {
