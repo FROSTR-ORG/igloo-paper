@@ -154,9 +154,98 @@
             Old devices do not need to be online. Provide enough source packages and passwords to meet the threshold.
           </div>
         </div>
-        <div className="flex items-center justify-center w-full rounded-lg py-3 px-5 bg-[#2F6DF6]">
-          <div className="[white-space-collapse:preserve] font-['Inter',system-ui,sans-serif] font-bold text-white text-sm/5">
-            Next Step
+        <div className="w-full h-px shrink-0 bg-[#1E3A8A33]" />
+        <div className="flex flex-col w-full gap-3">
+          <div className="font-['Inter',system-ui,sans-serif] font-medium text-[#94A3B8] text-sm/5">
+            New Configuration
+          </div>
+          <div className="flex w-full gap-4">
+            <div className="flex flex-col grow shrink basis-[0%] gap-1.5">
+              <div className="flex items-center gap-1.5">
+                <div className="font-['Inter',system-ui,sans-serif] font-medium text-[#93C5FDCC] text-[13px]/4">
+                  Threshold
+                </div>
+                <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ overflow: 'visible', flexShrink: '0' }}>
+                  <circle cx="12" cy="12" r="10" fill="none" stroke="#60A5FA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" fill="none" stroke="#60A5FA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <line x1="12" y1="17" x2="12.01" y2="17" stroke="#60A5FA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
+              <div className="flex items-center rounded-lg overflow-clip bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
+                <div className="flex items-center justify-center shrink-0 border-r border-r-solid border-r-[#1E3A8A33] size-10">
+                  <div className="font-['Inter',system-ui,sans-serif] text-[#64748B] text-sm/4.5">
+                    -
+                  </div>
+                </div>
+                <div className="flex items-center justify-center grow h-10">
+                  <div className="font-['Share_Tech_Mono',system-ui,sans-serif] text-[#E2E8F0] text-base/5">
+                    2
+                  </div>
+                </div>
+                <div className="flex items-center justify-center shrink-0 border-l border-l-solid border-l-[#1E3A8A33] size-10">
+                  <div className="font-['Inter',system-ui,sans-serif] text-[#60A5FA] text-sm/4.5">
+                    +
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-end pb-3">
+              <div className="font-['Share_Tech_Mono',system-ui,sans-serif] text-[#475569] text-xl/5">
+                /
+              </div>
+            </div>
+            <div className="flex flex-col grow shrink basis-[0%] gap-1.5">
+              <div className="flex items-center gap-1.5">
+                <div className="font-['Inter',system-ui,sans-serif] font-medium text-[#93C5FDCC] text-[13px]/4">
+                  Total Shares
+                </div>
+                <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ overflow: 'visible', flexShrink: '0' }}>
+                  <circle cx="12" cy="12" r="10" fill="none" stroke="#60A5FA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" fill="none" stroke="#60A5FA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <line x1="12" y1="17" x2="12.01" y2="17" stroke="#60A5FA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
+              <div className="flex items-center rounded-lg overflow-clip bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
+                <div className="flex items-center justify-center shrink-0 border-r border-r-solid border-r-[#1E3A8A33] size-10">
+                  <div className="font-['Inter',system-ui,sans-serif] text-[#64748B] text-sm/4.5">
+                    -
+                  </div>
+                </div>
+                <div className="flex items-center justify-center grow h-10">
+                  <div className="font-['Share_Tech_Mono',system-ui,sans-serif] text-[#E2E8F0] text-base/5">
+                    3
+                  </div>
+                </div>
+                <div className="flex items-center justify-center shrink-0 border-l border-l-solid border-l-[#1E3A8A33] size-10">
+                  <div className="font-['Inter',system-ui,sans-serif] text-[#60A5FA] text-sm/4.5">
+                    +
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="font-['Inter',system-ui,sans-serif] text-[#64748B] text-xs/4">
+            Any 2 of 3 shares can sign - total shares must be at least the threshold.
+          </div>
+        </div>
+        <div className="flex items-center justify-center w-full rounded-lg py-3 px-5 bg-[#2563EB40]">
+          <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#FFFFFF66] text-sm/5">
+            Validate & Continue
+          </div>
+        </div>
+        <div className="flex w-160 rounded-lg gap-3 p-4 bg-[#2563EB1A] border border-solid border-[#2563EB33]">
+          <div className="flex items-center justify-center shrink-0 rounded-[50%] bg-[#2563EB4D] size-5">
+            <div className="flex font-['Inter',system-ui,sans-serif] font-bold text-[#60A5FA] text-xs/4">
+              i
+            </div>
+          </div>
+          <div className="flex flex-col gap-1">
+            <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#93C5FD] text-sm/4.5">
+              All shares change, group key stays the same
+            </div>
+            <div className="font-['Inter',system-ui,sans-serif] text-[#94A3B8CC] text-[13px]/5">
+              Rotation replaces all device shares for the same group public key. Next, create this device’s local profile by setting its name, password, relays, and peer permissions before adoption.
+            </div>
           </div>
         </div>
       </div>
