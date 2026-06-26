@@ -27,11 +27,11 @@ This screen captures the `onboard` flow state "3. Save Profile" in the current I
 
 ## Representative Copy
 - Igloo
-- My Signing Key
+- Onboard Device
 - ✓
 - Input Package
-- Onboard Device
 - 3
+- Save Profile
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

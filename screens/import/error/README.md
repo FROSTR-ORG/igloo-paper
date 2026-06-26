@@ -20,16 +20,16 @@ This screen captures the `import` flow state "Error" in the current Igloo web pr
 ## Related Screens
 
 ### Import Flow
-- Import — 1. Import Device Profile — `screens/import/1-import-device-profile/README.md`
+- Import — 1. Import Existing Device — `screens/import/1-import-existing-device/README.md`
 - Import — 2. Save Profile — `screens/import/2-save-profile/README.md`
 
 ## Representative Copy
 - Igloo
 - Threshold Signing for Nostr
-- Import
+- Import Existing Device
 - 1
-- Import Profile
 - 2
+- Save Profile
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

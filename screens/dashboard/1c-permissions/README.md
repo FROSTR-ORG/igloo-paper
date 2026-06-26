@@ -8,7 +8,7 @@ This screen captures the `dashboard` flow state "1c. Permissions" in the current
 ## Paper Source
 - **Artboard ID:** 4WB-0
 - **Artboard Name:** Web — Dashboard — 1c. Permissions
-- **Dimensions:** 1440 × 887
+- **Dimensions:** 1440 × 707
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -26,16 +26,14 @@ This screen captures the `dashboard` flow state "1c. Permissions" in the current
 - Dashboard — 2. Stopped — `screens/dashboard/2-stopped/README.md`
 - Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
-- Dashboard — 5. Signer Policy Prompt — `screens/dashboard/5-signer-policy-prompt/README.md`
-- Dashboard — 6. Signing Failed — `screens/dashboard/6-signing-failed/README.md`
 
 ## Representative Copy
 - Igloo
-- Signer Running
-- Connected to wss://relay.primal.net, wss://relay.damus.io
-- Stop Signer
 - Signer Permissions
 - Default policy
+- Ask every time
+- ▾
+- Controls how this signer responds to external signing and en
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

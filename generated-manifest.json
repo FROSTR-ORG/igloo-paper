@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T15:56:48Z",
+  "generatedAt": "2026-06-25T15:42:53Z",
   "files": [
     {
       "path": "assets/paper/1WEXSFAT73DS0G9ZZTFNR8PXP9.png",
@@ -59,6 +59,18 @@
       "kind": "png"
     },
     {
+      "path": "design/components/feedback-prompts-alerts/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/components/feedback-prompts-alerts/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/components/feedback-prompts-alerts/screenshot.png",
+      "kind": "png"
+    },
+    {
       "path": "design/components/form-controls/README.md",
       "kind": "markdown"
     },
@@ -95,15 +107,15 @@
       "kind": "png"
     },
     {
-      "path": "design/components/overlays-feedback/README.md",
+      "path": "design/components/overlays-export-modals/README.md",
       "kind": "markdown"
     },
     {
-      "path": "design/components/overlays-feedback/reference.html",
+      "path": "design/components/overlays-export-modals/reference.html",
       "kind": "html"
     },
     {
-      "path": "design/components/overlays-feedback/screenshot.png",
+      "path": "design/components/overlays-export-modals/screenshot.png",
       "kind": "png"
     },
     {
@@ -267,15 +279,27 @@
       "kind": "png"
     },
     {
-      "path": "design/patterns/rotate-keyset-distribution/README.md",
+      "path": "design/patterns/rotate-keyset-flow/README.md",
       "kind": "markdown"
     },
     {
-      "path": "design/patterns/rotate-keyset-distribution/reference.html",
+      "path": "design/patterns/rotate-keyset-flow/reference.html",
       "kind": "html"
     },
     {
-      "path": "design/patterns/rotate-keyset-distribution/screenshot.png",
+      "path": "design/patterns/rotate-keyset-flow/screenshot.png",
+      "kind": "png"
+    },
+    {
+      "path": "design/patterns/shared-distribution/README.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "design/patterns/shared-distribution/reference.html",
+      "kind": "html"
+    },
+    {
+      "path": "design/patterns/shared-distribution/screenshot.png",
       "kind": "png"
     },
     {
@@ -611,15 +635,15 @@
       "kind": "png"
     },
     {
-      "path": "screens/import/1-import-device-profile/README.md",
+      "path": "screens/import/1-import-existing-device/README.md",
       "kind": "markdown"
     },
     {
-      "path": "screens/import/1-import-device-profile/screen.html",
+      "path": "screens/import/1-import-existing-device/screen.html",
       "kind": "html"
     },
     {
-      "path": "screens/import/1-import-device-profile/screenshot.png",
+      "path": "screens/import/1-import-existing-device/screenshot.png",
       "kind": "png"
     },
     {

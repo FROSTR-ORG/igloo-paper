@@ -10,6 +10,21 @@
       "name": "Row Label — Import",
       "status": "internal",
       "reason": "Canvas row label for organizing exported web screens; not a design contract artifact."
+    },
+    "PV7-0": {
+      "name": "Row Label — Design System Foundations & Components",
+      "status": "internal",
+      "reason": "Canvas row label for organizing exported design system artboards; not a design contract artifact."
+    },
+    "PVA-0": {
+      "name": "Row Label — Design System Runtime Patterns",
+      "status": "internal",
+      "reason": "Canvas row label for organizing exported design system artboards; not a design contract artifact."
+    },
+    "PVD-0": {
+      "name": "Row Label — Design System Glossary Help",
+      "status": "internal",
+      "reason": "Canvas row label for organizing exported design system artboards; not a design contract artifact."
     }
   }
 }

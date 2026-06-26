@@ -3,7 +3,7 @@
 # Signer & States — Tags & Rotation States
 
 ## Description
-This artboard documents the current Paper reference for Signer & States — Tags & Rotation States. The synced export covers Policy Tag Color Reference, Signer Policies Card Section, Peer Policies Card Section used across the Igloo design system.
+This artboard documents the current Paper reference for Signer & States — Tags & Rotation States. The synced export covers Policy Tag Color Reference, Signer Policies Card Section, Peer Permissions Card Section used across the Igloo design system.
 
 ## Paper Source
 - **Artboard ID:** 2GY-0
@@ -13,7 +13,7 @@ This artboard documents the current Paper reference for Signer & States — Tags
 ## Contents
 - **Policy Tag Color Reference**
 - **Signer Policies Card Section**
-- **Peer Policies Card Section**
+- **Peer Permissions Card Section**
 - **Rotate Keyset States Section**
 
 ## Representative Copy

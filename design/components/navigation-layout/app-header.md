@@ -47,12 +47,14 @@ Focused task execution. The header stays reserved for brand presence; back/exit 
 - `726-0` Onboard — 3. Onboarding Complete
 - `73U-0` Onboard — 2b. Onboarding Failed
 
-**Onboard Sponsor (5 screens):**
-- `1B3Q-0` Onboard Sponsor — 1. Configure Device
-- `1B5X-0` Onboard Sponsor — 2. Package Handoff
-- `1B84-0` Onboard Sponsor — 2b. Device Onboarded
-- `1BAB-0` Onboard Sponsor — 2c. Onboarding Failed
-- `1BCI-0` Onboard Sponsor — 2d. Cancel Confirm (Modal)
+**Settings Onboard Sponsor (2 dashboard modal screens):**
+- `PA0-0` Dashboard — 3d. Onboard Device (Modal)
+- `PA1-0` Dashboard — 3e. Onboard Package Handoff (Modal)
+
+The older `onboard-sponsor/*` artboard IDs are no longer present in the current
+Paper file. Device-onboarded, failed, and cancel-confirm states are currently
+covered by the shared modal/dialog system rather than separate sponsor
+artboards.
 
 ### Post-Auth with Profile Context
 
@@ -85,7 +87,7 @@ Used when signer is fully operational.
 
 **Visual Pattern:**
 - Left: Snowflake icon + "Igloo" wordmark
-- Right: Action buttons (Recover · Export · Policies · Settings)
+- Right: Action buttons (Recover · Export · Permissions · Settings)
 
 **Applied to dashboard screens:**
 - `3QW-0` Signer Dashboard
@@ -93,7 +95,7 @@ Used when signer is fully operational.
 - `1AWU-0` Dashboard — 1b Error. Profile Load Failed
 - `1ABR-0` Dashboard — 1d. Recover
 - `1AJJ-0` Dashboard — 1e. Recover Success
-- `DCI-0` 1c. Policies
+- `DCI-0` 1c. Permissions
 - `518-0` Settings & Lock Profile
 - And all other dashboard variants
 

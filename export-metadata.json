@@ -91,9 +91,7 @@
         "4WB-0",
         "7LC-0",
         "7SF-0",
-        "7V9-0",
-        "7XW-0",
-        "7CU-0"
+        "7V9-0"
       ]
     },
     {
@@ -102,13 +100,21 @@
       "entries": [
         "502-0",
         "5BY-0",
+        "5O7-0",
+        "PA0-0",
+        "PA1-0",
         "6CH-0",
         "60E-0",
         "70P-0",
-        "6OM-0",
-        "5O7-0",
-        "PA0-0",
-        "PA1-0"
+        "6OM-0"
+      ]
+    },
+    {
+      "id": "dashboard-action-states",
+      "title": "Dashboard Action States",
+      "entries": [
+        "7XW-0",
+        "7CU-0"
       ]
     },
     {
@@ -123,12 +129,20 @@
   "artboard_overrides": {
     "Z7-0": {
       "contents": [
+        "Modal / Dialog Section",
         "Loading & Tooltip Row",
+        "Profile Password Modal Section",
         "Export Backup Modal Section",
         "Backup Ready Modal Section",
         "Export Share Modal Section",
-        "Share Backup Ready Modal Section",
+        "Share Backup Ready Modal Section"
+      ]
+    },
+    "PVG-0": {
+      "contents": [
+        "Operation Failure Modals Section",
         "Signer Policy Prompt Section",
+        "Profile Loading States Section",
         "QR Scanner Modal Section",
         "Settings Unsaved Changes Section",
         "Alerts & Banners Section"
@@ -164,14 +178,18 @@
       "contents": [
         "Rotate Keyset Source Collection Section",
         "Review Generate Section",
-        "Shared Select Share and Save Profile Sections",
-        "Distribution Workspace Section",
         "Rotate Error Sections"
+      ]
+    },
+    "PVH-0": {
+      "contents": [
+        "Shared Select Share and Save Profile Sections",
+        "Distribution Workspace Section"
       ]
     },
     "B8N-0": {
       "contents": [
-        "Enter Onboarding Package Section",
+        "Enter Replacement Package Section",
         "Applying Replacement Section",
         "Replacement Failed Section",
         "Share Replaced Section"
@@ -179,7 +197,7 @@
     },
     "B3Y-0": {
       "contents": [
-        "Import Device Profile Section",
+        "Import Existing Device Section",
         "Save Profile Section",
         "Import Error Section"
       ]

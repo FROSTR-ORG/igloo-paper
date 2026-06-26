@@ -27,7 +27,7 @@ This screen captures the `onboard` flow state "1. Input Package" in the current 
 ## Representative Copy
 - Igloo
 - Threshold Signing for Nostr
-- Onboard
+- Onboard Device
 - 1
 - Input Package
 - 2

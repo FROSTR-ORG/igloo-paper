@@ -11,7 +11,7 @@
             </div>
           </div>
           <div className="font-['Share_Tech_Mono',system-ui,sans-serif] text-[#93C5FD80] text-[13px]/4">
-            My Signing Key
+            Rotate
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@
             <path d="M9 3L5 7L9 11" fill="none" stroke="#64748B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
           <div className="font-['Inter',system-ui,sans-serif] text-[#64748B] text-[13px]/4.5">
-            Back
+            Back to Welcome
           </div>
         </div>
         <div className="flex flex-col gap-2">
@@ -74,21 +74,38 @@
             Collect Shares
           </div>
           <div className="font-['Inter',system-ui,sans-serif] text-[#8494A7] text-sm/5.5">
-            Collect enough existing source packages to rotate this keyset. Once the threshold is met, the next steps match the Create Keyset flow: select this device's share, save the profile, then distribute remote shares.
+            Enter this device's profile passphrase, then collect enough remote source packages to rotate this keyset. Once the threshold is met, continue to select the new local share.
           </div>
         </div>
         <div className="flex flex-col w-160 h-fit gap-5">
-          <div className="flex flex-col rounded-[10px] gap-3 p-4 bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
+          <div className="flex flex-col rounded-[10px] gap-3 p-4 bg-[#0F172A99] border border-solid border-[#EAB3086B]">
             <div className="flex justify-between items-center">
               <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#93C5FDCC] text-sm/5">
-                Share #1 (this device)
+                This Device Share (#2)
               </div>
               <div className="flex items-center gap-1.5">
-                <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ overflow: 'visible', flexShrink: '0' }}>
+                <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" style={{ overflow: 'visible', overflowX: 'visible', overflowY: 'visible', display: 'none', flexShrink: '0' }}>
                   <path d="M3 7l3 3 5-5" fill="none" stroke="#4ADE80" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div className="font-['Inter',system-ui,sans-serif] font-medium text-[#4ADE80] text-xs/4">
-                  Validated
+                <div className="[white-space-collapse:preserve] font-['Inter',system-ui,sans-serif] font-medium text-[#FACC15] text-xs/4">
+                  Passphrase required
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col w-151.5 gap-1">
+              <div className="[white-space-collapse:preserve] font-['Inter',system-ui,sans-serif] text-[#DBEAFE] text-sm/4">
+                Profile Passphrase
+              </div>
+              <div className="flex w-151.5 items-center gap-2.5">
+                <div className="flex items-center h-10 grow basis-[0%] rounded-lg px-3.5 bg-[#0F172A99] border border-solid border-[#EAB30833]">
+                  <div className="flex [white-space-collapse:preserve] font-['Inter',system-ui,sans-serif] text-[#8494A7] text-sm/4.5">
+                    Enter this device profile passphrase
+                  </div>
+                </div>
+                <div className="flex items-center justify-center h-10 w-34 rounded-lg px-3.5 [white-space-collapse:collapse] shrink-0 bg-[#0F172A66] border border-solid border-[#60A5FA66]">
+                  <div className="flex [white-space-collapse:preserve] w-max shrink-0 font-['Inter',system-ui,sans-serif] font-semibold text-[#93C5FD] text-sm/4.5">
+                    Unlock Share
+                  </div>
                 </div>
               </div>
             </div>
@@ -96,7 +113,7 @@
           <div className="flex flex-col rounded-[10px] gap-3 p-4 bg-[#0F172A99] border border-solid border-[#1E3A8A4D]">
             <div className="flex justify-between items-center">
               <div className="font-['Inter',system-ui,sans-serif] font-semibold text-[#93C5FDCC] text-sm/5">
-                Share #2
+                Remote Source #1
               </div>
             </div>
             <div className="flex flex-col gap-1">
@@ -126,11 +143,11 @@
                 Shares Collected
               </div>
               <div className="font-['Inter',system-ui,sans-serif] text-[#8494A7] text-xs/4">
-                1 of 2 required
+                0 of 2 required
               </div>
             </div>
             <div className="w-full h-1 rounded-xs shrink-0 bg-[#1E3A8A4D]">
-              <div className="w-[round(50%,1px)] h-1 rounded-xs bg-[#2563EB]" />
+              <div className="w-0 h-1 rounded-xs hidden bg-[#2563EB]" />
             </div>
           </div>
           <div className="[white-space-collapse:preserve] font-['Inter',system-ui,sans-serif] text-[#64748B] text-xs/4.5">

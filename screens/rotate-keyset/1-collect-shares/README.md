@@ -8,7 +8,7 @@ This screen captures the `rotate-keyset` flow state "1. Collect Shares" in the c
 ## Paper Source
 - **Artboard ID:** 8KS-0
 - **Artboard Name:** Web — Rotate Keyset — 1. Collect Shares
-- **Dimensions:** 1440 × 963
+- **Dimensions:** 1440 × 1013
 
 ## Flow Context
 - **Flow:** `rotate-keyset`
@@ -21,7 +21,7 @@ This screen captures the `rotate-keyset` flow state "1. Collect Shares" in the c
 
 ## Representative Copy
 - Igloo
-- My Signing Key
+- Rotate
 - 1
 - Collect Shares
 - 2

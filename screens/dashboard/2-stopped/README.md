@@ -8,7 +8,7 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 ## Paper Source
 - **Artboard ID:** 7LC-0
 - **Artboard Name:** Web — Dashboard — 2. Stopped
-- **Dimensions:** 1440 × 571
+- **Dimensions:** 1440 × 535
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -26,8 +26,6 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 - Dashboard — 1c. Permissions — `screens/dashboard/1c-permissions/README.md`
 - Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
-- Dashboard — 5. Signer Policy Prompt — `screens/dashboard/5-signer-policy-prompt/README.md`
-- Dashboard — 6. Signing Failed — `screens/dashboard/6-signing-failed/README.md`
 
 ## Representative Copy
 - Igloo

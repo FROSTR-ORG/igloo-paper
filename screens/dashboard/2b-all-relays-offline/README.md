@@ -26,16 +26,14 @@ This screen captures the `dashboard` flow state "2b. All Relays Offline" in the 
 - Dashboard — 1c. Permissions — `screens/dashboard/1c-permissions/README.md`
 - Dashboard — 2. Stopped — `screens/dashboard/2-stopped/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
-- Dashboard — 5. Signer Policy Prompt — `screens/dashboard/5-signer-policy-prompt/README.md`
-- Dashboard — 6. Signing Failed — `screens/dashboard/6-signing-failed/README.md`
 
 ## Representative Copy
 - Igloo
-- My Signing Key
-- ·
-- 2/3
-- npub1qe3...7k4m
-- Share #1
+- Signer Running (Degraded)
+- All relays unreachable · signing degraded.
+- Stop Signer
+- Readiness
+- Recovery
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

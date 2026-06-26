@@ -110,7 +110,7 @@
           "Z7-0"
         ],
         "paths": [
-          "design/components/overlays-feedback/README.md"
+          "design/components/overlays-export-modals/README.md"
         ]
       },
       "implementation": {
@@ -132,10 +132,10 @@
       "status": "implemented",
       "paper": {
         "artboardIds": [
-          "Z7-0"
+          "PVG-0"
         ],
         "paths": [
-          "design/components/overlays-feedback/README.md"
+          "design/components/feedback-prompts-alerts/README.md"
         ]
       },
       "implementation": {
@@ -297,6 +297,36 @@
       "notes": "Settings-time sponsor flow: an active signer converts explicit protected bfshare source material into an encrypted bfonboard handoff package."
     },
     {
+      "name": "Shared Distribution Flow Panels",
+      "kind": "flow",
+      "status": "implemented",
+      "paper": {
+        "artboardIds": [
+          "PVH-0",
+          "87A-0",
+          "NCL-0",
+          "8OP-0"
+        ],
+        "paths": [
+          "design/patterns/shared-distribution/README.md",
+          "screens/shared/2-select-share/README.md",
+          "screens/shared/3-save-profile/README.md",
+          "screens/shared/4-distribute-shares/README.md"
+        ]
+      },
+      "implementation": {
+        "paths": [
+          "../igloo-ui/src/components/flows/CreateFlow.tsx",
+          "../igloo-ui/src/components/flows/QrPayloadModal.tsx"
+        ]
+      },
+      "tokens": [
+        "design/tokens/colors.json",
+        "design/tokens/typography.json"
+      ],
+      "notes": "Shared create-flow local-share selection, local profile save, and remote-share distribution surfaces."
+    },
+    {
       "name": "Rotation Flow Panels",
       "kind": "flow",
       "status": "in-progress",
@@ -307,7 +337,7 @@
           "8OP-0"
         ],
         "paths": [
-          "design/patterns/rotate-keyset-distribution/README.md",
+          "design/patterns/rotate-keyset-flow/README.md",
           "screens/rotate-keyset/1-collect-shares/README.md",
           "screens/shared/4-distribute-shares/README.md"
         ]

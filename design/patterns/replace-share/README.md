@@ -3,7 +3,7 @@
 # Replace Share Flow Sections
 
 ## Description
-This artboard documents the current Paper reference for Replace Share Flow Sections. The synced export covers Enter Onboarding Package Section, Applying Replacement Section, Replacement Failed Section used across the Igloo design system.
+This artboard documents the current Paper reference for Replace Share Flow Sections. The synced export covers Enter Replacement Package Section, Applying Replacement Section, Replacement Failed Section used across the Igloo design system.
 
 ## Paper Source
 - **Artboard ID:** B8N-0
@@ -11,7 +11,7 @@ This artboard documents the current Paper reference for Replace Share Flow Secti
 - **Dimensions:** 1440 × 2751
 
 ## Contents
-- **Enter Onboarding Package Section**
+- **Enter Replacement Package Section**
 - **Applying Replacement Section**
 - **Replacement Failed Section**
 - **Share Replaced Section**
@@ -20,8 +20,8 @@ This artboard documents the current Paper reference for Replace Share Flow Secti
 - Igloo UI
 - Replace Share Flow Sections
 - Runtime replace-share path — launched from Settings when a s
-- Enter Onboarding Package
-- Canonical source: Web — Replace Share — 1. Enter Onboarding
+- Enter Replacement Package
+- Canonical source: Web — Replace Share — 1. Enter Replacement
 - ‹
 
 ## Files

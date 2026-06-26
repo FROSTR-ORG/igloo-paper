@@ -24,7 +24,7 @@ This screen captures the `recover` flow state "1b. Recover Success" in the curre
 
 ## Representative Copy
 - Igloo
-- My Signing Key
+- Recover
 - ✓
 - Collect Shares
 - 2

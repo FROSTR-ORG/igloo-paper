@@ -21,16 +21,16 @@ This screen captures the `import` flow state "2. Save Profile" in the current Ig
 ## Related Screens
 
 ### Import Flow
-- Import — 1. Import Device Profile — `screens/import/1-import-device-profile/README.md`
+- Import — 1. Import Existing Device — `screens/import/1-import-existing-device/README.md`
 - Import — Error — `screens/import/error/README.md`
 
 ## Representative Copy
 - Igloo
-- My Signing Key
+- Import Existing Device
 - ✓
-- Import Profile
 - 2
 - Save Profile
+- ‹
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

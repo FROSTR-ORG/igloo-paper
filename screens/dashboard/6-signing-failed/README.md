@@ -17,27 +17,19 @@ This screen captures the `dashboard` flow state "6. Signing Failed" in the curre
 ## Key Regions
 - **AppHeader / AuthActions**
 - **Signing Failed Modal Overlay**
-- **AppFooter**
 
 ## Related Screens
 
-### Dashboard Main States
-- Dashboard — 1. Signer Dashboard — `screens/dashboard/1-signer-dashboard/README.md`
-- Dashboard — 1b. Loading Profile — `screens/dashboard/1b-loading-profile/README.md`
-- Dashboard — 1b Error. Profile Load Failed — `screens/dashboard/1b-profile-load-failed/README.md`
-- Dashboard — 1c. Permissions — `screens/dashboard/1c-permissions/README.md`
-- Dashboard — 2. Stopped — `screens/dashboard/2-stopped/README.md`
-- Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
-- Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
+### Dashboard Action States
 - Dashboard — 5. Signer Policy Prompt — `screens/dashboard/5-signer-policy-prompt/README.md`
 
 ## Representative Copy
 - Igloo
-- My Signing Key
-- ·
-- 2/3
-- npub1qe3...7k4m
-- Share #1
+- Signer Running
+- Connected to wss://relay.primal.net, wss://relay.damus.io
+- Stop Signer
+- Peers
+- ?
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

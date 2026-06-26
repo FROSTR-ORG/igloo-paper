@@ -26,8 +26,6 @@ This screen captures the `dashboard` flow state "1b Error. Profile Load Failed" 
 - Dashboard — 2. Stopped — `screens/dashboard/2-stopped/README.md`
 - Dashboard — 2b. All Relays Offline — `screens/dashboard/2b-all-relays-offline/README.md`
 - Dashboard — 2c. Signing Blocked — `screens/dashboard/2c-signing-blocked/README.md`
-- Dashboard — 5. Signer Policy Prompt — `screens/dashboard/5-signer-policy-prompt/README.md`
-- Dashboard — 6. Signing Failed — `screens/dashboard/6-signing-failed/README.md`
 
 ## Representative Copy
 - Igloo

@@ -102,7 +102,7 @@ TAILWIND_TEXT_SIZES = {
 }
 MAX_DRIFT_ITEMS = 20
 EXPECTED_MAP_CATEGORY_COUNTS = {
-    "design": 29,
+    "design": 31,
     "screen": 40,
     "divider": 1,
 }

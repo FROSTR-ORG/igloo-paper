@@ -8,7 +8,7 @@ This screen captures the `recover` flow state "1. Collect Shares" in the current
 ## Paper Source
 - **Artboard ID:** 49W-0
 - **Artboard Name:** Web — Recover — 1. Collect Shares
-- **Dimensions:** 1440 × 1080
+- **Dimensions:** 1440 × 1013
 
 ## Flow Context
 - **Flow:** `recover`
@@ -25,7 +25,7 @@ This screen captures the `recover` flow state "1. Collect Shares" in the current
 
 ## Representative Copy
 - Igloo
-- My Signing Key
+- Recover
 - 1
 - Collect Shares
 - 2
