@@ -8,7 +8,7 @@ This artboard documents the current Paper reference for Recover Flow Sections. T
 ## Paper Source
 - **Artboard ID:** BI4-0
 - **Artboard Name:** Recover Flow Sections
-- **Dimensions:** 1440 × 1251
+- **Dimensions:** 1440 × 2093
 
 ## Contents
 - **Collect Shares Section**

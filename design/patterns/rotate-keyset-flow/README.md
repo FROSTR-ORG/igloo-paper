@@ -8,7 +8,7 @@ This artboard documents the current Paper reference for Rotate Keyset Flow Secti
 ## Paper Source
 - **Artboard ID:** 9WY-0
 - **Artboard Name:** Rotate Keyset Flow Sections
-- **Dimensions:** 1440 × 4000
+- **Dimensions:** 1440 × 3764
 
 ## Contents
 - **Rotate Keyset Source Collection Section**
@@ -18,10 +18,10 @@ This artboard documents the current Paper reference for Rotate Keyset Flow Secti
 ## Representative Copy
 - Igloo UI
 - Rotate Keyset Flow Sections
-- Canonical UI surfaces for keyset rotation source collection,
+- Canonical UI surfaces for keyset rotation: dedicated source
 - Rotate Keyset Source Collection
-- Canonical source: Web — Rotate Keyset — 1. Rotate Keyset
-- Collect threshold sources outside runtime. This device share
+- Canonical source: Web — Rotate Keyset — 1. Collect Shares
+- Collect source packages with this device share unlocked by p
 
 ## Files
 - `reference.html` — Tailwind-flavored Paper JSX export for the artboard.

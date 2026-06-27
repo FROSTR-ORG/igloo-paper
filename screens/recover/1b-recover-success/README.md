@@ -8,7 +8,7 @@ This screen captures the `recover` flow state "1b. Recover Success" in the curre
 ## Paper Source
 - **Artboard ID:** 476-0
 - **Artboard Name:** Web — Recover — 1b. Recover Success
-- **Dimensions:** 1440 × 982
+- **Dimensions:** 1440 × 1085
 
 ## Flow Context
 - **Flow:** `recover`

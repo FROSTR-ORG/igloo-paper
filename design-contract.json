@@ -259,14 +259,15 @@
       },
       "implementation": {
         "paths": [
-          "../igloo-ui/src/components/flows/RecoveryWorkspace.tsx"
+          "../igloo-ui/src/components/flows/RecoveryWorkspace.tsx",
+          "../igloo-pwa/src/App.tsx"
         ]
       },
       "tokens": [
         "design/tokens/colors.json",
         "design/tokens/typography.json"
       ],
-      "notes": "Recovery workspace and share collection states."
+      "notes": "Recovery workspace, PWA collect-shares flow, and encrypted recover-success export state."
     },
     {
       "name": "Settings Onboard Device",
@@ -329,30 +330,35 @@
     {
       "name": "Rotation Flow Panels",
       "kind": "flow",
-      "status": "in-progress",
+      "status": "implemented",
       "paper": {
         "artboardIds": [
           "9WY-0",
           "8KS-0",
+          "87A-0",
+          "NCL-0",
           "8OP-0"
         ],
         "paths": [
           "design/patterns/rotate-keyset-flow/README.md",
           "screens/rotate-keyset/1-collect-shares/README.md",
+          "screens/shared/2-select-share/README.md",
+          "screens/shared/3-save-profile/README.md",
           "screens/shared/4-distribute-shares/README.md"
         ]
       },
       "implementation": {
         "paths": [
           "../igloo-ui/src/components/flows/CreateFlow.tsx",
-          "../igloo-ui/src/components/flows/QrPayloadModal.tsx"
+          "../igloo-ui/src/components/flows/QrPayloadModal.tsx",
+          "../igloo-pwa/src/App.tsx"
         ]
       },
       "tokens": [
         "design/tokens/colors.json",
         "design/tokens/typography.json"
       ],
-      "notes": "Rotation flow currently maps to shared creation and QR flow surfaces pending a dedicated implementation."
+      "notes": "Rotate uses the dedicated Collect Shares screen, then the shared Select Share, Save Profile, and Distribute Shares surfaces under ROTATE_FLOW_STEPS in the PWA."
     }
   ]
 }

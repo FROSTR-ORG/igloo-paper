@@ -181,14 +181,6 @@
     },
     {
       "name": "usage-color-020",
-      "value": "#0F172A44",
-      "fileCount": 1,
-      "sampleFiles": [
-        "design/patterns/rotate-keyset-flow/reference.html"
-      ]
-    },
-    {
-      "name": "usage-color-021",
       "value": "#0F172A47",
       "fileCount": 1,
       "sampleFiles": [
@@ -196,7 +188,7 @@
       ]
     },
     {
-      "name": "usage-color-022",
+      "name": "usage-color-021",
       "value": "#0F172A59",
       "fileCount": 1,
       "sampleFiles": [
@@ -204,9 +196,9 @@
       ]
     },
     {
-      "name": "usage-color-023",
+      "name": "usage-color-022",
       "value": "#0F172A66",
-      "fileCount": 15,
+      "fileCount": 17,
       "sampleFiles": [
         "design/components/data-display-review-summary/reference.html",
         "design/components/form-controls/reference.html",
@@ -216,16 +208,19 @@
       ]
     },
     {
-      "name": "usage-color-024",
+      "name": "usage-color-023",
       "value": "#0F172A6B",
-      "fileCount": 2,
+      "fileCount": 5,
       "sampleFiles": [
         "design/components/data-display-tables-lists/reference.html",
-        "screens/dashboard/1-signer-dashboard/screen.html"
+        "design/patterns/recover-flow/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/recover/1b-recover-success/screen.html"
       ]
     },
     {
-      "name": "usage-color-025",
+      "name": "usage-color-024",
       "value": "#0F172A70",
       "fileCount": 3,
       "sampleFiles": [
@@ -235,7 +230,7 @@
       ]
     },
     {
-      "name": "usage-color-026",
+      "name": "usage-color-025",
       "value": "#0F172A73",
       "fileCount": 4,
       "sampleFiles": [
@@ -246,7 +241,7 @@
       ]
     },
     {
-      "name": "usage-color-027",
+      "name": "usage-color-026",
       "value": "#0F172A7A",
       "fileCount": 1,
       "sampleFiles": [
@@ -254,7 +249,7 @@
       ]
     },
     {
-      "name": "usage-color-028",
+      "name": "usage-color-027",
       "value": "#0F172A80",
       "fileCount": 7,
       "sampleFiles": [
@@ -266,7 +261,7 @@
       ]
     },
     {
-      "name": "usage-color-029",
+      "name": "usage-color-028",
       "value": "#0F172A8C",
       "fileCount": 7,
       "sampleFiles": [
@@ -278,7 +273,7 @@
       ]
     },
     {
-      "name": "usage-color-030",
+      "name": "usage-color-029",
       "value": "#0F172A9E",
       "fileCount": 1,
       "sampleFiles": [
@@ -286,7 +281,7 @@
       ]
     },
     {
-      "name": "usage-color-031",
+      "name": "usage-color-030",
       "value": "#0F172AB3",
       "fileCount": 1,
       "sampleFiles": [
@@ -294,7 +289,7 @@
       ]
     },
     {
-      "name": "usage-color-032",
+      "name": "usage-color-031",
       "value": "#0F172AB8",
       "fileCount": 1,
       "sampleFiles": [
@@ -302,7 +297,7 @@
       ]
     },
     {
-      "name": "usage-color-033",
+      "name": "usage-color-032",
       "value": "#0F172AC7",
       "fileCount": 1,
       "sampleFiles": [
@@ -310,7 +305,7 @@
       ]
     },
     {
-      "name": "usage-color-034",
+      "name": "usage-color-033",
       "value": "#0F172AEE",
       "fileCount": 1,
       "sampleFiles": [
@@ -318,7 +313,7 @@
       ]
     },
     {
-      "name": "usage-color-035",
+      "name": "usage-color-034",
       "value": "#10234A",
       "fileCount": 2,
       "sampleFiles": [
@@ -327,7 +322,7 @@
       ]
     },
     {
-      "name": "usage-color-036",
+      "name": "usage-color-035",
       "value": "#10B9811F",
       "fileCount": 1,
       "sampleFiles": [
@@ -335,7 +330,7 @@
       ]
     },
     {
-      "name": "usage-color-037",
+      "name": "usage-color-036",
       "value": "#111827E6",
       "fileCount": 11,
       "sampleFiles": [
@@ -347,7 +342,7 @@
       ]
     },
     {
-      "name": "usage-color-038",
+      "name": "usage-color-037",
       "value": "#111827F2",
       "fileCount": 1,
       "sampleFiles": [
@@ -355,7 +350,7 @@
       ]
     },
     {
-      "name": "usage-color-039",
+      "name": "usage-color-038",
       "value": "#12294B",
       "fileCount": 7,
       "sampleFiles": [
@@ -367,19 +362,19 @@
       ]
     },
     {
-      "name": "usage-color-040",
+      "name": "usage-color-039",
       "value": "#123176",
-      "fileCount": 20,
+      "fileCount": 21,
       "sampleFiles": [
         "design/patterns/create-keyset/reference.html",
         "design/patterns/import-flow/reference.html",
         "design/patterns/onboard-recipient/reference.html",
         "design/patterns/recover-flow/reference.html",
-        "design/patterns/shared-distribution/reference.html"
+        "design/patterns/rotate-keyset-flow/reference.html"
       ]
     },
     {
-      "name": "usage-color-041",
+      "name": "usage-color-040",
       "value": "#14532D",
       "fileCount": 2,
       "sampleFiles": [
@@ -388,7 +383,7 @@
       ]
     },
     {
-      "name": "usage-color-042",
+      "name": "usage-color-041",
       "value": "#152A46",
       "fileCount": 2,
       "sampleFiles": [
@@ -397,7 +392,7 @@
       ]
     },
     {
-      "name": "usage-color-043",
+      "name": "usage-color-042",
       "value": "#155E75",
       "fileCount": 2,
       "sampleFiles": [
@@ -406,7 +401,7 @@
       ]
     },
     {
-      "name": "usage-color-044",
+      "name": "usage-color-043",
       "value": "#15803D1A",
       "fileCount": 1,
       "sampleFiles": [
@@ -414,7 +409,7 @@
       ]
     },
     {
-      "name": "usage-color-045",
+      "name": "usage-color-044",
       "value": "#15803D4D",
       "fileCount": 1,
       "sampleFiles": [
@@ -422,7 +417,7 @@
       ]
     },
     {
-      "name": "usage-color-046",
+      "name": "usage-color-045",
       "value": "#15803D66",
       "fileCount": 1,
       "sampleFiles": [
@@ -430,19 +425,17 @@
       ]
     },
     {
-      "name": "usage-color-047",
+      "name": "usage-color-046",
       "value": "#15803D80",
-      "fileCount": 5,
+      "fileCount": 3,
       "sampleFiles": [
         "design/foundations/reference.html",
         "design/patterns/flows-qr-transfer/reference.html",
-        "design/patterns/recover-flow/reference.html",
-        "design/patterns/signer-states-recovery/reference.html",
-        "screens/recover/1b-recover-success/screen.html"
+        "design/patterns/signer-states-recovery/reference.html"
       ]
     },
     {
-      "name": "usage-color-048",
+      "name": "usage-color-047",
       "value": "#16A34A26",
       "fileCount": 2,
       "sampleFiles": [
@@ -451,7 +444,7 @@
       ]
     },
     {
-      "name": "usage-color-049",
+      "name": "usage-color-048",
       "value": "#16A34A33",
       "fileCount": 1,
       "sampleFiles": [
@@ -459,7 +452,7 @@
       ]
     },
     {
-      "name": "usage-color-050",
+      "name": "usage-color-049",
       "value": "#16A34A4D",
       "fileCount": 6,
       "sampleFiles": [
@@ -471,7 +464,7 @@
       ]
     },
     {
-      "name": "usage-color-051",
+      "name": "usage-color-050",
       "value": "#16A34A66",
       "fileCount": 1,
       "sampleFiles": [
@@ -479,7 +472,7 @@
       ]
     },
     {
-      "name": "usage-color-052",
+      "name": "usage-color-051",
       "value": "#17255466",
       "fileCount": 1,
       "sampleFiles": [
@@ -487,7 +480,7 @@
       ]
     },
     {
-      "name": "usage-color-053",
+      "name": "usage-color-052",
       "value": "#17325F",
       "fileCount": 19,
       "sampleFiles": [
@@ -495,11 +488,11 @@
         "design/patterns/import-flow/reference.html",
         "design/patterns/onboard-recipient/reference.html",
         "design/patterns/recover-flow/reference.html",
-        "design/patterns/shared-distribution/reference.html"
+        "design/patterns/rotate-keyset-flow/reference.html"
       ]
     },
     {
-      "name": "usage-color-054",
+      "name": "usage-color-053",
       "value": "#173B7A",
       "fileCount": 2,
       "sampleFiles": [
@@ -508,7 +501,7 @@
       ]
     },
     {
-      "name": "usage-color-055",
+      "name": "usage-color-054",
       "value": "#183052",
       "fileCount": 2,
       "sampleFiles": [
@@ -517,7 +510,7 @@
       ]
     },
     {
-      "name": "usage-color-056",
+      "name": "usage-color-055",
       "value": "#19355F",
       "fileCount": 11,
       "sampleFiles": [
@@ -529,7 +522,7 @@
       ]
     },
     {
-      "name": "usage-color-057",
+      "name": "usage-color-056",
       "value": "#1A3152",
       "fileCount": 2,
       "sampleFiles": [
@@ -538,7 +531,7 @@
       ]
     },
     {
-      "name": "usage-color-058",
+      "name": "usage-color-057",
       "value": "#1A355F",
       "fileCount": 4,
       "sampleFiles": [
@@ -549,19 +542,19 @@
       ]
     },
     {
-      "name": "usage-color-059",
+      "name": "usage-color-058",
       "value": "#1C345C",
-      "fileCount": 16,
+      "fileCount": 17,
       "sampleFiles": [
         "design/patterns/create-keyset/reference.html",
         "design/patterns/import-flow/reference.html",
         "design/patterns/onboard-recipient/reference.html",
         "design/patterns/recover-flow/reference.html",
-        "design/patterns/shared-distribution/reference.html"
+        "design/patterns/rotate-keyset-flow/reference.html"
       ]
     },
     {
-      "name": "usage-color-060",
+      "name": "usage-color-059",
       "value": "#1D4ED880",
       "fileCount": 1,
       "sampleFiles": [
@@ -569,7 +562,7 @@
       ]
     },
     {
-      "name": "usage-color-061",
+      "name": "usage-color-060",
       "value": "#1E293B",
       "fileCount": 2,
       "sampleFiles": [
@@ -578,7 +571,7 @@
       ]
     },
     {
-      "name": "usage-color-062",
+      "name": "usage-color-061",
       "value": "#1E293B4D",
       "fileCount": 1,
       "sampleFiles": [
@@ -586,7 +579,7 @@
       ]
     },
     {
-      "name": "usage-color-063",
+      "name": "usage-color-062",
       "value": "#1E293BA6",
       "fileCount": 5,
       "sampleFiles": [
@@ -598,7 +591,7 @@
       ]
     },
     {
-      "name": "usage-color-064",
+      "name": "usage-color-063",
       "value": "#1E3A5F",
       "fileCount": 2,
       "sampleFiles": [
@@ -607,7 +600,7 @@
       ]
     },
     {
-      "name": "usage-color-065",
+      "name": "usage-color-064",
       "value": "#1E3A8A10",
       "fileCount": 11,
       "sampleFiles": [
@@ -619,7 +612,7 @@
       ]
     },
     {
-      "name": "usage-color-066",
+      "name": "usage-color-065",
       "value": "#1E3A8A14",
       "fileCount": 3,
       "sampleFiles": [
@@ -629,7 +622,7 @@
       ]
     },
     {
-      "name": "usage-color-067",
+      "name": "usage-color-066",
       "value": "#1E3A8A15",
       "fileCount": 11,
       "sampleFiles": [
@@ -641,7 +634,7 @@
       ]
     },
     {
-      "name": "usage-color-068",
+      "name": "usage-color-067",
       "value": "#1E3A8A1A",
       "fileCount": 3,
       "sampleFiles": [
@@ -651,7 +644,7 @@
       ]
     },
     {
-      "name": "usage-color-069",
+      "name": "usage-color-068",
       "value": "#1E3A8A1F",
       "fileCount": 10,
       "sampleFiles": [
@@ -663,7 +656,7 @@
       ]
     },
     {
-      "name": "usage-color-070",
+      "name": "usage-color-069",
       "value": "#1E3A8A20",
       "fileCount": 14,
       "sampleFiles": [
@@ -675,7 +668,7 @@
       ]
     },
     {
-      "name": "usage-color-071",
+      "name": "usage-color-070",
       "value": "#1E3A8A22",
       "fileCount": 2,
       "sampleFiles": [
@@ -684,7 +677,7 @@
       ]
     },
     {
-      "name": "usage-color-072",
+      "name": "usage-color-071",
       "value": "#1E3A8A26",
       "fileCount": 12,
       "sampleFiles": [
@@ -696,7 +689,7 @@
       ]
     },
     {
-      "name": "usage-color-073",
+      "name": "usage-color-072",
       "value": "#1E3A8A29",
       "fileCount": 2,
       "sampleFiles": [
@@ -705,7 +698,7 @@
       ]
     },
     {
-      "name": "usage-color-074",
+      "name": "usage-color-073",
       "value": "#1E3A8A40",
       "fileCount": 20,
       "sampleFiles": [
@@ -717,7 +710,7 @@
       ]
     },
     {
-      "name": "usage-color-075",
+      "name": "usage-color-074",
       "value": "#1E3A8A59",
       "fileCount": 9,
       "sampleFiles": [
@@ -729,7 +722,7 @@
       ]
     },
     {
-      "name": "usage-color-076",
+      "name": "usage-color-075",
       "value": "#1E3A8A66",
       "fileCount": 6,
       "sampleFiles": [
@@ -741,7 +734,7 @@
       ]
     },
     {
-      "name": "usage-color-077",
+      "name": "usage-color-076",
       "value": "#1E3A8A73",
       "fileCount": 7,
       "sampleFiles": [
@@ -753,7 +746,7 @@
       ]
     },
     {
-      "name": "usage-color-078",
+      "name": "usage-color-077",
       "value": "#1E3A8A80",
       "fileCount": 2,
       "sampleFiles": [
@@ -762,7 +755,7 @@
       ]
     },
     {
-      "name": "usage-color-079",
+      "name": "usage-color-078",
       "value": "#1E3A8A99",
       "fileCount": 1,
       "sampleFiles": [
@@ -770,7 +763,7 @@
       ]
     },
     {
-      "name": "usage-color-080",
+      "name": "usage-color-079",
       "value": "#1E40AF59",
       "fileCount": 1,
       "sampleFiles": [
@@ -778,7 +771,7 @@
       ]
     },
     {
-      "name": "usage-color-081",
+      "name": "usage-color-080",
       "value": "#1F293733",
       "fileCount": 1,
       "sampleFiles": [
@@ -786,7 +779,7 @@
       ]
     },
     {
-      "name": "usage-color-082",
+      "name": "usage-color-081",
       "value": "#1F293740",
       "fileCount": 1,
       "sampleFiles": [
@@ -794,7 +787,7 @@
       ]
     },
     {
-      "name": "usage-color-083",
+      "name": "usage-color-082",
       "value": "#1F29374D",
       "fileCount": 4,
       "sampleFiles": [
@@ -805,7 +798,7 @@
       ]
     },
     {
-      "name": "usage-color-084",
+      "name": "usage-color-083",
       "value": "#1F293766",
       "fileCount": 2,
       "sampleFiles": [
@@ -814,19 +807,19 @@
       ]
     },
     {
-      "name": "usage-color-085",
+      "name": "usage-color-084",
       "value": "#1F293780",
-      "fileCount": 7,
+      "fileCount": 5,
       "sampleFiles": [
         "design/components/core/reference.html",
         "design/components/interactive-controls/reference.html",
         "design/patterns/flows-qr-transfer/reference.html",
-        "design/patterns/recover-flow/reference.html",
-        "design/patterns/signer-states-recovery/reference.html"
+        "design/patterns/signer-states-recovery/reference.html",
+        "design/tooltips-help/tooltip-patterns/reference.html"
       ]
     },
     {
-      "name": "usage-color-086",
+      "name": "usage-color-085",
       "value": "#1F2937F2",
       "fileCount": 1,
       "sampleFiles": [
@@ -834,7 +827,7 @@
       ]
     },
     {
-      "name": "usage-color-087",
+      "name": "usage-color-086",
       "value": "#1F3A66",
       "fileCount": 1,
       "sampleFiles": [
@@ -842,7 +835,7 @@
       ]
     },
     {
-      "name": "usage-color-088",
+      "name": "usage-color-087",
       "value": "#22C55E14",
       "fileCount": 2,
       "sampleFiles": [
@@ -851,7 +844,7 @@
       ]
     },
     {
-      "name": "usage-color-089",
+      "name": "usage-color-088",
       "value": "#22C55E17",
       "fileCount": 1,
       "sampleFiles": [
@@ -859,7 +852,7 @@
       ]
     },
     {
-      "name": "usage-color-090",
+      "name": "usage-color-089",
       "value": "#22C55E1A",
       "fileCount": 15,
       "sampleFiles": [
@@ -871,7 +864,7 @@
       ]
     },
     {
-      "name": "usage-color-091",
+      "name": "usage-color-090",
       "value": "#22C55E1F",
       "fileCount": 4,
       "sampleFiles": [
@@ -882,7 +875,7 @@
       ]
     },
     {
-      "name": "usage-color-092",
+      "name": "usage-color-091",
       "value": "#22C55E24",
       "fileCount": 1,
       "sampleFiles": [
@@ -890,7 +883,7 @@
       ]
     },
     {
-      "name": "usage-color-093",
+      "name": "usage-color-092",
       "value": "#22C55E26",
       "fileCount": 19,
       "sampleFiles": [
@@ -902,7 +895,7 @@
       ]
     },
     {
-      "name": "usage-color-094",
+      "name": "usage-color-093",
       "value": "#22C55E33",
       "fileCount": 8,
       "sampleFiles": [
@@ -914,7 +907,7 @@
       ]
     },
     {
-      "name": "usage-color-095",
+      "name": "usage-color-094",
       "value": "#22C55E40",
       "fileCount": 7,
       "sampleFiles": [
@@ -926,7 +919,7 @@
       ]
     },
     {
-      "name": "usage-color-096",
+      "name": "usage-color-095",
       "value": "#22C55E42",
       "fileCount": 2,
       "sampleFiles": [
@@ -935,7 +928,7 @@
       ]
     },
     {
-      "name": "usage-color-097",
+      "name": "usage-color-096",
       "value": "#22C55E4D",
       "fileCount": 22,
       "sampleFiles": [
@@ -947,7 +940,7 @@
       ]
     },
     {
-      "name": "usage-color-098",
+      "name": "usage-color-097",
       "value": "#22C55E5E",
       "fileCount": 1,
       "sampleFiles": [
@@ -955,17 +948,15 @@
       ]
     },
     {
-      "name": "usage-color-099",
+      "name": "usage-color-098",
       "value": "#22C55E66",
-      "fileCount": 3,
+      "fileCount": 1,
       "sampleFiles": [
-        "design/components/feedback-prompts-alerts/reference.html",
-        "design/patterns/recover-flow/reference.html",
-        "screens/recover/1b-recover-success/screen.html"
+        "design/components/feedback-prompts-alerts/reference.html"
       ]
     },
     {
-      "name": "usage-color-100",
+      "name": "usage-color-099",
       "value": "#22C55E99",
       "fileCount": 1,
       "sampleFiles": [
@@ -973,7 +964,7 @@
       ]
     },
     {
-      "name": "usage-color-101",
+      "name": "usage-color-100",
       "value": "#22D3EE",
       "fileCount": 16,
       "sampleFiles": [
@@ -985,7 +976,7 @@
       ]
     },
     {
-      "name": "usage-color-102",
+      "name": "usage-color-101",
       "value": "#22D3EE13",
       "fileCount": 4,
       "sampleFiles": [
@@ -996,7 +987,7 @@
       ]
     },
     {
-      "name": "usage-color-103",
+      "name": "usage-color-102",
       "value": "#22D3EE20",
       "fileCount": 4,
       "sampleFiles": [
@@ -1007,7 +998,7 @@
       ]
     },
     {
-      "name": "usage-color-104",
+      "name": "usage-color-103",
       "value": "#22D3EE26",
       "fileCount": 16,
       "sampleFiles": [
@@ -1019,7 +1010,7 @@
       ]
     },
     {
-      "name": "usage-color-105",
+      "name": "usage-color-104",
       "value": "#22D3EE4D",
       "fileCount": 16,
       "sampleFiles": [
@@ -1031,7 +1022,7 @@
       ]
     },
     {
-      "name": "usage-color-106",
+      "name": "usage-color-105",
       "value": "#22D3EE66",
       "fileCount": 4,
       "sampleFiles": [
@@ -1042,7 +1033,7 @@
       ]
     },
     {
-      "name": "usage-color-107",
+      "name": "usage-color-106",
       "value": "#243B63",
       "fileCount": 2,
       "sampleFiles": [
@@ -1051,7 +1042,7 @@
       ]
     },
     {
-      "name": "usage-color-108",
+      "name": "usage-color-107",
       "value": "#2563EB14",
       "fileCount": 1,
       "sampleFiles": [
@@ -1059,18 +1050,18 @@
       ]
     },
     {
-      "name": "usage-color-109",
+      "name": "usage-color-108",
       "value": "#2563EB1A",
       "fileCount": 4,
       "sampleFiles": [
         "design/components/interactive-controls/reference.html",
         "design/patterns/flows-qr-steppers/reference.html",
         "design/patterns/rotate-keyset-flow/reference.html",
-        "screens/dashboard/3-settings-lock-profile/screen.html"
+        "screens/rotate-keyset/1-collect-shares/screen.html"
       ]
     },
     {
-      "name": "usage-color-110",
+      "name": "usage-color-109",
       "value": "#2563EB1F",
       "fileCount": 1,
       "sampleFiles": [
@@ -1078,7 +1069,7 @@
       ]
     },
     {
-      "name": "usage-color-111",
+      "name": "usage-color-110",
       "value": "#2563EB22",
       "fileCount": 1,
       "sampleFiles": [
@@ -1086,7 +1077,7 @@
       ]
     },
     {
-      "name": "usage-color-112",
+      "name": "usage-color-111",
       "value": "#2563EB24",
       "fileCount": 1,
       "sampleFiles": [
@@ -1094,7 +1085,7 @@
       ]
     },
     {
-      "name": "usage-color-113",
+      "name": "usage-color-112",
       "value": "#2563EB26",
       "fileCount": 1,
       "sampleFiles": [
@@ -1102,7 +1093,7 @@
       ]
     },
     {
-      "name": "usage-color-114",
+      "name": "usage-color-113",
       "value": "#2563EB29",
       "fileCount": 1,
       "sampleFiles": [
@@ -1110,35 +1101,39 @@
       ]
     },
     {
-      "name": "usage-color-115",
+      "name": "usage-color-114",
       "value": "#2563EB33",
-      "fileCount": 2,
+      "fileCount": 3,
       "sampleFiles": [
         "design/components/data-display-review-summary/reference.html",
-        "design/patterns/rotate-keyset-flow/reference.html"
+        "design/patterns/rotate-keyset-flow/reference.html",
+        "screens/rotate-keyset/1-collect-shares/screen.html"
+      ]
+    },
+    {
+      "name": "usage-color-115",
+      "value": "#2563EB40",
+      "fileCount": 4,
+      "sampleFiles": [
+        "design/patterns/flows-qr-steppers/reference.html",
+        "design/patterns/rotate-keyset-flow/reference.html",
+        "design/patterns/signer-states-recovery/reference.html",
+        "screens/rotate-keyset/1-collect-shares/screen.html"
       ]
     },
     {
       "name": "usage-color-116",
-      "value": "#2563EB40",
-      "fileCount": 3,
+      "value": "#2563EB4D",
+      "fileCount": 4,
       "sampleFiles": [
-        "design/patterns/flows-qr-steppers/reference.html",
+        "design/components/core/reference.html",
         "design/patterns/rotate-keyset-flow/reference.html",
-        "design/patterns/signer-states-recovery/reference.html"
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/rotate-keyset/1-collect-shares/screen.html"
       ]
     },
     {
       "name": "usage-color-117",
-      "value": "#2563EB4D",
-      "fileCount": 2,
-      "sampleFiles": [
-        "design/components/core/reference.html",
-        "design/patterns/rotate-keyset-flow/reference.html"
-      ]
-    },
-    {
-      "name": "usage-color-118",
       "value": "#2563EB52",
       "fileCount": 1,
       "sampleFiles": [
@@ -1146,7 +1141,7 @@
       ]
     },
     {
-      "name": "usage-color-119",
+      "name": "usage-color-118",
       "value": "#27104F",
       "fileCount": 2,
       "sampleFiles": [
@@ -1155,7 +1150,7 @@
       ]
     },
     {
-      "name": "usage-color-120",
+      "name": "usage-color-119",
       "value": "#294F88",
       "fileCount": 6,
       "sampleFiles": [
@@ -1167,7 +1162,7 @@
       ]
     },
     {
-      "name": "usage-color-121",
+      "name": "usage-color-120",
       "value": "#2B1B07",
       "fileCount": 2,
       "sampleFiles": [
@@ -1176,7 +1171,7 @@
       ]
     },
     {
-      "name": "usage-color-122",
+      "name": "usage-color-121",
       "value": "#2B6DFF",
       "fileCount": 1,
       "sampleFiles": [
@@ -1184,7 +1179,7 @@
       ]
     },
     {
-      "name": "usage-color-123",
+      "name": "usage-color-122",
       "value": "#2DD4BF",
       "fileCount": 12,
       "sampleFiles": [
@@ -1196,7 +1191,7 @@
       ]
     },
     {
-      "name": "usage-color-124",
+      "name": "usage-color-123",
       "value": "#2DD4BF26",
       "fileCount": 12,
       "sampleFiles": [
@@ -1208,7 +1203,7 @@
       ]
     },
     {
-      "name": "usage-color-125",
+      "name": "usage-color-124",
       "value": "#2DD4BF33",
       "fileCount": 1,
       "sampleFiles": [
@@ -1216,7 +1211,7 @@
       ]
     },
     {
-      "name": "usage-color-126",
+      "name": "usage-color-125",
       "value": "#2DD4BF4D",
       "fileCount": 7,
       "sampleFiles": [
@@ -1228,19 +1223,19 @@
       ]
     },
     {
-      "name": "usage-color-127",
+      "name": "usage-color-126",
       "value": "#2F6DF6",
-      "fileCount": 20,
+      "fileCount": 21,
       "sampleFiles": [
         "design/patterns/create-keyset/reference.html",
         "design/patterns/import-flow/reference.html",
         "design/patterns/onboard-recipient/reference.html",
         "design/patterns/recover-flow/reference.html",
-        "design/patterns/shared-distribution/reference.html"
+        "design/patterns/rotate-keyset-flow/reference.html"
       ]
     },
     {
-      "name": "usage-color-128",
+      "name": "usage-color-127",
       "value": "#2F73FF",
       "fileCount": 3,
       "sampleFiles": [
@@ -1250,7 +1245,7 @@
       ]
     },
     {
-      "name": "usage-color-129",
+      "name": "usage-color-128",
       "value": "#334155",
       "fileCount": 9,
       "sampleFiles": [
@@ -1262,7 +1257,7 @@
       ]
     },
     {
-      "name": "usage-color-130",
+      "name": "usage-color-129",
       "value": "#33415526",
       "fileCount": 3,
       "sampleFiles": [
@@ -1272,7 +1267,7 @@
       ]
     },
     {
-      "name": "usage-color-131",
+      "name": "usage-color-130",
       "value": "#33415540",
       "fileCount": 1,
       "sampleFiles": [
@@ -1280,7 +1275,7 @@
       ]
     },
     {
-      "name": "usage-color-132",
+      "name": "usage-color-131",
       "value": "#34D399",
       "fileCount": 1,
       "sampleFiles": [
@@ -1288,7 +1283,7 @@
       ]
     },
     {
-      "name": "usage-color-133",
+      "name": "usage-color-132",
       "value": "#34D39926",
       "fileCount": 1,
       "sampleFiles": [
@@ -1296,7 +1291,7 @@
       ]
     },
     {
-      "name": "usage-color-134",
+      "name": "usage-color-133",
       "value": "#374151",
       "fileCount": 17,
       "sampleFiles": [
@@ -1308,7 +1303,7 @@
       ]
     },
     {
-      "name": "usage-color-135",
+      "name": "usage-color-134",
       "value": "#37415130",
       "fileCount": 1,
       "sampleFiles": [
@@ -1316,7 +1311,7 @@
       ]
     },
     {
-      "name": "usage-color-136",
+      "name": "usage-color-135",
       "value": "#3741514D",
       "fileCount": 1,
       "sampleFiles": [
@@ -1324,7 +1319,7 @@
       ]
     },
     {
-      "name": "usage-color-137",
+      "name": "usage-color-136",
       "value": "#3A1221",
       "fileCount": 2,
       "sampleFiles": [
@@ -1333,7 +1328,7 @@
       ]
     },
     {
-      "name": "usage-color-138",
+      "name": "usage-color-137",
       "value": "#3B2C16",
       "fileCount": 2,
       "sampleFiles": [
@@ -1342,7 +1337,7 @@
       ]
     },
     {
-      "name": "usage-color-139",
+      "name": "usage-color-138",
       "value": "#3B82F60F",
       "fileCount": 8,
       "sampleFiles": [
@@ -1354,7 +1349,7 @@
       ]
     },
     {
-      "name": "usage-color-140",
+      "name": "usage-color-139",
       "value": "#3B82F614",
       "fileCount": 1,
       "sampleFiles": [
@@ -1362,7 +1357,7 @@
       ]
     },
     {
-      "name": "usage-color-141",
+      "name": "usage-color-140",
       "value": "#3B82F61A",
       "fileCount": 1,
       "sampleFiles": [
@@ -1370,7 +1365,7 @@
       ]
     },
     {
-      "name": "usage-color-142",
+      "name": "usage-color-141",
       "value": "#3B82F61F",
       "fileCount": 6,
       "sampleFiles": [
@@ -1382,7 +1377,7 @@
       ]
     },
     {
-      "name": "usage-color-143",
+      "name": "usage-color-142",
       "value": "#3B82F626",
       "fileCount": 8,
       "sampleFiles": [
@@ -1394,7 +1389,7 @@
       ]
     },
     {
-      "name": "usage-color-144",
+      "name": "usage-color-143",
       "value": "#3B82F629",
       "fileCount": 10,
       "sampleFiles": [
@@ -1406,7 +1401,7 @@
       ]
     },
     {
-      "name": "usage-color-145",
+      "name": "usage-color-144",
       "value": "#3B82F62E",
       "fileCount": 4,
       "sampleFiles": [
@@ -1417,19 +1412,19 @@
       ]
     },
     {
-      "name": "usage-color-146",
+      "name": "usage-color-145",
       "value": "#3B82F633",
-      "fileCount": 8,
+      "fileCount": 10,
       "sampleFiles": [
         "design/components/data-display-tables-lists/reference.html",
         "design/components/form-controls/reference.html",
+        "design/components/settings-sidebar/reference.html",
         "design/foundations/reference.html",
-        "screens/dashboard/1-signer-dashboard/screen.html",
-        "screens/dashboard/2-stopped/screen.html"
+        "screens/dashboard/1-signer-dashboard/screen.html"
       ]
     },
     {
-      "name": "usage-color-147",
+      "name": "usage-color-146",
       "value": "#3B82F640",
       "fileCount": 1,
       "sampleFiles": [
@@ -1437,7 +1432,7 @@
       ]
     },
     {
-      "name": "usage-color-148",
+      "name": "usage-color-147",
       "value": "#3B82F647",
       "fileCount": 1,
       "sampleFiles": [
@@ -1445,7 +1440,7 @@
       ]
     },
     {
-      "name": "usage-color-149",
+      "name": "usage-color-148",
       "value": "#3B82F64D",
       "fileCount": 3,
       "sampleFiles": [
@@ -1455,7 +1450,7 @@
       ]
     },
     {
-      "name": "usage-color-150",
+      "name": "usage-color-149",
       "value": "#3B82F652",
       "fileCount": 2,
       "sampleFiles": [
@@ -1464,7 +1459,7 @@
       ]
     },
     {
-      "name": "usage-color-151",
+      "name": "usage-color-150",
       "value": "#3B82F657",
       "fileCount": 1,
       "sampleFiles": [
@@ -1472,7 +1467,7 @@
       ]
     },
     {
-      "name": "usage-color-152",
+      "name": "usage-color-151",
       "value": "#3B82F659",
       "fileCount": 1,
       "sampleFiles": [
@@ -1480,7 +1475,7 @@
       ]
     },
     {
-      "name": "usage-color-153",
+      "name": "usage-color-152",
       "value": "#3B82F680",
       "fileCount": 10,
       "sampleFiles": [
@@ -1492,7 +1487,7 @@
       ]
     },
     {
-      "name": "usage-color-154",
+      "name": "usage-color-153",
       "value": "#3B82F699",
       "fileCount": 1,
       "sampleFiles": [
@@ -1500,9 +1495,9 @@
       ]
     },
     {
-      "name": "usage-color-155",
+      "name": "usage-color-154",
       "value": "#475569",
-      "fileCount": 21,
+      "fileCount": 24,
       "sampleFiles": [
         "design/components/data-display-tables-lists/reference.html",
         "design/components/form-controls/reference.html",
@@ -1512,7 +1507,7 @@
       ]
     },
     {
-      "name": "usage-color-156",
+      "name": "usage-color-155",
       "value": "#4755694D",
       "fileCount": 3,
       "sampleFiles": [
@@ -1522,9 +1517,9 @@
       ]
     },
     {
-      "name": "usage-color-157",
+      "name": "usage-color-156",
       "value": "#4ADE80",
-      "fileCount": 31,
+      "fileCount": 30,
       "sampleFiles": [
         "design/components/core/reference.html",
         "design/components/data-display-review-summary/reference.html",
@@ -1534,7 +1529,7 @@
       ]
     },
     {
-      "name": "usage-color-158",
+      "name": "usage-color-157",
       "value": "#4ADE801A",
       "fileCount": 11,
       "sampleFiles": [
@@ -1546,7 +1541,7 @@
       ]
     },
     {
-      "name": "usage-color-159",
+      "name": "usage-color-158",
       "value": "#4ADE80CC",
       "fileCount": 1,
       "sampleFiles": [
@@ -1554,7 +1549,7 @@
       ]
     },
     {
-      "name": "usage-color-160",
+      "name": "usage-color-159",
       "value": "#4B5563",
       "fileCount": 11,
       "sampleFiles": [
@@ -1566,7 +1561,7 @@
       ]
     },
     {
-      "name": "usage-color-161",
+      "name": "usage-color-160",
       "value": "#4B617E",
       "fileCount": 11,
       "sampleFiles": [
@@ -1578,7 +1573,7 @@
       ]
     },
     {
-      "name": "usage-color-162",
+      "name": "usage-color-161",
       "value": "#4C1D95",
       "fileCount": 2,
       "sampleFiles": [
@@ -1587,7 +1582,7 @@
       ]
     },
     {
-      "name": "usage-color-163",
+      "name": "usage-color-162",
       "value": "#4E668B",
       "fileCount": 2,
       "sampleFiles": [
@@ -1596,7 +1591,7 @@
       ]
     },
     {
-      "name": "usage-color-164",
+      "name": "usage-color-163",
       "value": "#60A5FA1A",
       "fileCount": 16,
       "sampleFiles": [
@@ -1608,7 +1603,7 @@
       ]
     },
     {
-      "name": "usage-color-165",
+      "name": "usage-color-164",
       "value": "#60A5FA24",
       "fileCount": 3,
       "sampleFiles": [
@@ -1618,7 +1613,7 @@
       ]
     },
     {
-      "name": "usage-color-166",
+      "name": "usage-color-165",
       "value": "#60A5FA26",
       "fileCount": 5,
       "sampleFiles": [
@@ -1630,7 +1625,7 @@
       ]
     },
     {
-      "name": "usage-color-167",
+      "name": "usage-color-166",
       "value": "#60A5FA2E",
       "fileCount": 1,
       "sampleFiles": [
@@ -1638,16 +1633,18 @@
       ]
     },
     {
-      "name": "usage-color-168",
+      "name": "usage-color-167",
       "value": "#60A5FA3D",
-      "fileCount": 2,
+      "fileCount": 4,
       "sampleFiles": [
         "design/components/data-display-tables-lists/reference.html",
-        "screens/dashboard/1-signer-dashboard/screen.html"
+        "design/patterns/recover-flow/reference.html",
+        "screens/dashboard/1-signer-dashboard/screen.html",
+        "screens/recover/1b-recover-success/screen.html"
       ]
     },
     {
-      "name": "usage-color-169",
+      "name": "usage-color-168",
       "value": "#60A5FA4D",
       "fileCount": 4,
       "sampleFiles": [
@@ -1658,16 +1655,18 @@
       ]
     },
     {
-      "name": "usage-color-170",
+      "name": "usage-color-169",
       "value": "#60A5FA66",
-      "fileCount": 2,
+      "fileCount": 4,
       "sampleFiles": [
         "design/components/feedback-prompts-alerts/reference.html",
-        "screens/dashboard/3-settings-lock-profile/screen.html"
+        "design/patterns/rotate-keyset-flow/reference.html",
+        "screens/recover/1-collect-shares/screen.html",
+        "screens/rotate-keyset/1-collect-shares/screen.html"
       ]
     },
     {
-      "name": "usage-color-171",
+      "name": "usage-color-170",
       "value": "#60A5FA70",
       "fileCount": 4,
       "sampleFiles": [
@@ -1678,7 +1677,7 @@
       ]
     },
     {
-      "name": "usage-color-172",
+      "name": "usage-color-171",
       "value": "#60A5FA80",
       "fileCount": 35,
       "sampleFiles": [
@@ -1690,7 +1689,7 @@
       ]
     },
     {
-      "name": "usage-color-173",
+      "name": "usage-color-172",
       "value": "#60A5FA99",
       "fileCount": 1,
       "sampleFiles": [
@@ -1698,7 +1697,7 @@
       ]
     },
     {
-      "name": "usage-color-174",
+      "name": "usage-color-173",
       "value": "#60A5FAB3",
       "fileCount": 11,
       "sampleFiles": [
@@ -1710,7 +1709,7 @@
       ]
     },
     {
-      "name": "usage-color-175",
+      "name": "usage-color-174",
       "value": "#60A5FAB8",
       "fileCount": 5,
       "sampleFiles": [
@@ -1722,7 +1721,7 @@
       ]
     },
     {
-      "name": "usage-color-176",
+      "name": "usage-color-175",
       "value": "#64748B2E",
       "fileCount": 1,
       "sampleFiles": [
@@ -1730,7 +1729,7 @@
       ]
     },
     {
-      "name": "usage-color-177",
+      "name": "usage-color-176",
       "value": "#67E8F9",
       "fileCount": 2,
       "sampleFiles": [
@@ -1739,7 +1738,7 @@
       ]
     },
     {
-      "name": "usage-color-178",
+      "name": "usage-color-177",
       "value": "#6B728033",
       "fileCount": 2,
       "sampleFiles": [
@@ -1748,7 +1747,7 @@
       ]
     },
     {
-      "name": "usage-color-179",
+      "name": "usage-color-178",
       "value": "#6B72804D",
       "fileCount": 1,
       "sampleFiles": [
@@ -1756,7 +1755,7 @@
       ]
     },
     {
-      "name": "usage-color-180",
+      "name": "usage-color-179",
       "value": "#6B7D99",
       "fileCount": 2,
       "sampleFiles": [
@@ -1765,7 +1764,7 @@
       ]
     },
     {
-      "name": "usage-color-181",
+      "name": "usage-color-180",
       "value": "#713F12",
       "fileCount": 2,
       "sampleFiles": [
@@ -1774,7 +1773,7 @@
       ]
     },
     {
-      "name": "usage-color-182",
+      "name": "usage-color-181",
       "value": "#743149",
       "fileCount": 2,
       "sampleFiles": [
@@ -1783,7 +1782,7 @@
       ]
     },
     {
-      "name": "usage-color-183",
+      "name": "usage-color-182",
       "value": "#74839A",
       "fileCount": 10,
       "sampleFiles": [
@@ -1795,7 +1794,7 @@
       ]
     },
     {
-      "name": "usage-color-184",
+      "name": "usage-color-183",
       "value": "#78350F1A",
       "fileCount": 1,
       "sampleFiles": [
@@ -1803,7 +1802,7 @@
       ]
     },
     {
-      "name": "usage-color-185",
+      "name": "usage-color-184",
       "value": "#78350F33",
       "fileCount": 1,
       "sampleFiles": [
@@ -1811,7 +1810,7 @@
       ]
     },
     {
-      "name": "usage-color-186",
+      "name": "usage-color-185",
       "value": "#7B879E",
       "fileCount": 7,
       "sampleFiles": [
@@ -1823,7 +1822,7 @@
       ]
     },
     {
-      "name": "usage-color-187",
+      "name": "usage-color-186",
       "value": "#7F1D1D1A",
       "fileCount": 1,
       "sampleFiles": [
@@ -1831,7 +1830,7 @@
       ]
     },
     {
-      "name": "usage-color-188",
+      "name": "usage-color-187",
       "value": "#7F1D1D33",
       "fileCount": 1,
       "sampleFiles": [
@@ -1839,7 +1838,7 @@
       ]
     },
     {
-      "name": "usage-color-189",
+      "name": "usage-color-188",
       "value": "#7F8EA3",
       "fileCount": 1,
       "sampleFiles": [
@@ -1847,7 +1846,7 @@
       ]
     },
     {
-      "name": "usage-color-190",
+      "name": "usage-color-189",
       "value": "#818CF8",
       "fileCount": 11,
       "sampleFiles": [
@@ -1859,7 +1858,7 @@
       ]
     },
     {
-      "name": "usage-color-191",
+      "name": "usage-color-190",
       "value": "#818CF826",
       "fileCount": 11,
       "sampleFiles": [
@@ -1871,7 +1870,7 @@
       ]
     },
     {
-      "name": "usage-color-192",
+      "name": "usage-color-191",
       "value": "#818CF84D",
       "fileCount": 7,
       "sampleFiles": [
@@ -1883,7 +1882,7 @@
       ]
     },
     {
-      "name": "usage-color-193",
+      "name": "usage-color-192",
       "value": "#8392A8",
       "fileCount": 2,
       "sampleFiles": [
@@ -1892,7 +1891,7 @@
       ]
     },
     {
-      "name": "usage-color-194",
+      "name": "usage-color-193",
       "value": "#8494A7",
       "fileCount": 47,
       "sampleFiles": [
@@ -1904,7 +1903,7 @@
       ]
     },
     {
-      "name": "usage-color-195",
+      "name": "usage-color-194",
       "value": "#8494A799",
       "fileCount": 10,
       "sampleFiles": [
@@ -1916,7 +1915,7 @@
       ]
     },
     {
-      "name": "usage-color-196",
+      "name": "usage-color-195",
       "value": "#8494A7B3",
       "fileCount": 7,
       "sampleFiles": [
@@ -1928,9 +1927,9 @@
       ]
     },
     {
-      "name": "usage-color-197",
+      "name": "usage-color-196",
       "value": "#86EFAC",
-      "fileCount": 25,
+      "fileCount": 23,
       "sampleFiles": [
         "design/components/core/reference.html",
         "design/components/data-display-review-summary/reference.html",
@@ -1940,7 +1939,7 @@
       ]
     },
     {
-      "name": "usage-color-198",
+      "name": "usage-color-197",
       "value": "#8FA3C2",
       "fileCount": 2,
       "sampleFiles": [
@@ -1949,9 +1948,9 @@
       ]
     },
     {
-      "name": "usage-color-199",
+      "name": "usage-color-198",
       "value": "#8FB4FF",
-      "fileCount": 21,
+      "fileCount": 22,
       "sampleFiles": [
         "design/components/form-controls/reference.html",
         "design/patterns/create-keyset/reference.html",
@@ -1961,7 +1960,7 @@
       ]
     },
     {
-      "name": "usage-color-200",
+      "name": "usage-color-199",
       "value": "#9333EA26",
       "fileCount": 1,
       "sampleFiles": [
@@ -1969,7 +1968,7 @@
       ]
     },
     {
-      "name": "usage-color-201",
+      "name": "usage-color-200",
       "value": "#9333EA4D",
       "fileCount": 1,
       "sampleFiles": [
@@ -1977,7 +1976,7 @@
       ]
     },
     {
-      "name": "usage-color-202",
+      "name": "usage-color-201",
       "value": "#93C5FD4D",
       "fileCount": 1,
       "sampleFiles": [
@@ -1985,7 +1984,7 @@
       ]
     },
     {
-      "name": "usage-color-203",
+      "name": "usage-color-202",
       "value": "#93C5FD50",
       "fileCount": 10,
       "sampleFiles": [
@@ -1997,7 +1996,7 @@
       ]
     },
     {
-      "name": "usage-color-204",
+      "name": "usage-color-203",
       "value": "#93C5FD66",
       "fileCount": 1,
       "sampleFiles": [
@@ -2005,7 +2004,7 @@
       ]
     },
     {
-      "name": "usage-color-205",
+      "name": "usage-color-204",
       "value": "#93C5FD80",
       "fileCount": 19,
       "sampleFiles": [
@@ -2017,7 +2016,7 @@
       ]
     },
     {
-      "name": "usage-color-206",
+      "name": "usage-color-205",
       "value": "#93C5FD99",
       "fileCount": 13,
       "sampleFiles": [
@@ -2029,7 +2028,7 @@
       ]
     },
     {
-      "name": "usage-color-207",
+      "name": "usage-color-206",
       "value": "#93C5FDA3",
       "fileCount": 1,
       "sampleFiles": [
@@ -2037,7 +2036,7 @@
       ]
     },
     {
-      "name": "usage-color-208",
+      "name": "usage-color-207",
       "value": "#93C5FDCC",
       "fileCount": 43,
       "sampleFiles": [
@@ -2049,7 +2048,7 @@
       ]
     },
     {
-      "name": "usage-color-209",
+      "name": "usage-color-208",
       "value": "#93C5FDD1",
       "fileCount": 2,
       "sampleFiles": [
@@ -2058,7 +2057,7 @@
       ]
     },
     {
-      "name": "usage-color-210",
+      "name": "usage-color-209",
       "value": "#94A3B814",
       "fileCount": 13,
       "sampleFiles": [
@@ -2070,7 +2069,7 @@
       ]
     },
     {
-      "name": "usage-color-211",
+      "name": "usage-color-210",
       "value": "#94A3B81A",
       "fileCount": 1,
       "sampleFiles": [
@@ -2078,7 +2077,7 @@
       ]
     },
     {
-      "name": "usage-color-212",
+      "name": "usage-color-211",
       "value": "#94A3B81F",
       "fileCount": 4,
       "sampleFiles": [
@@ -2089,7 +2088,7 @@
       ]
     },
     {
-      "name": "usage-color-213",
+      "name": "usage-color-212",
       "value": "#94A3B826",
       "fileCount": 15,
       "sampleFiles": [
@@ -2101,7 +2100,7 @@
       ]
     },
     {
-      "name": "usage-color-214",
+      "name": "usage-color-213",
       "value": "#94A3B838",
       "fileCount": 1,
       "sampleFiles": [
@@ -2109,7 +2108,7 @@
       ]
     },
     {
-      "name": "usage-color-215",
+      "name": "usage-color-214",
       "value": "#94A3B840",
       "fileCount": 7,
       "sampleFiles": [
@@ -2121,7 +2120,7 @@
       ]
     },
     {
-      "name": "usage-color-216",
+      "name": "usage-color-215",
       "value": "#94A3B847",
       "fileCount": 1,
       "sampleFiles": [
@@ -2129,7 +2128,7 @@
       ]
     },
     {
-      "name": "usage-color-217",
+      "name": "usage-color-216",
       "value": "#94A3B84D",
       "fileCount": 2,
       "sampleFiles": [
@@ -2138,7 +2137,7 @@
       ]
     },
     {
-      "name": "usage-color-218",
+      "name": "usage-color-217",
       "value": "#94A3B859",
       "fileCount": 1,
       "sampleFiles": [
@@ -2146,7 +2145,7 @@
       ]
     },
     {
-      "name": "usage-color-219",
+      "name": "usage-color-218",
       "value": "#94A3B866",
       "fileCount": 1,
       "sampleFiles": [
@@ -2154,7 +2153,7 @@
       ]
     },
     {
-      "name": "usage-color-220",
+      "name": "usage-color-219",
       "value": "#94A3B88C",
       "fileCount": 1,
       "sampleFiles": [
@@ -2162,9 +2161,9 @@
       ]
     },
     {
-      "name": "usage-color-221",
+      "name": "usage-color-220",
       "value": "#94A3B899",
-      "fileCount": 9,
+      "fileCount": 8,
       "sampleFiles": [
         "design/components/core/reference.html",
         "design/components/data-display-tables-lists/reference.html",
@@ -2174,7 +2173,7 @@
       ]
     },
     {
-      "name": "usage-color-222",
+      "name": "usage-color-221",
       "value": "#94A3B89E",
       "fileCount": 1,
       "sampleFiles": [
@@ -2182,7 +2181,7 @@
       ]
     },
     {
-      "name": "usage-color-223",
+      "name": "usage-color-222",
       "value": "#94A3B8AA",
       "fileCount": 1,
       "sampleFiles": [
@@ -2190,7 +2189,7 @@
       ]
     },
     {
-      "name": "usage-color-224",
+      "name": "usage-color-223",
       "value": "#94A3B8B3",
       "fileCount": 2,
       "sampleFiles": [
@@ -2199,18 +2198,19 @@
       ]
     },
     {
-      "name": "usage-color-225",
+      "name": "usage-color-224",
       "value": "#94A3B8CC",
-      "fileCount": 4,
+      "fileCount": 5,
       "sampleFiles": [
         "design/patterns/rotate-keyset-flow/reference.html",
         "design/patterns/signer-states-tags-rotation/reference.html",
         "design/tooltips-help/contextual-help/reference.html",
-        "design/tooltips-help/tooltip-patterns/reference.html"
+        "design/tooltips-help/tooltip-patterns/reference.html",
+        "screens/rotate-keyset/1-collect-shares/screen.html"
       ]
     },
     {
-      "name": "usage-color-226",
+      "name": "usage-color-225",
       "value": "#9AA8BD",
       "fileCount": 11,
       "sampleFiles": [
@@ -2222,9 +2222,9 @@
       ]
     },
     {
-      "name": "usage-color-227",
+      "name": "usage-color-226",
       "value": "#9CA3AF",
-      "fileCount": 10,
+      "fileCount": 8,
       "sampleFiles": [
         "design/components/core/reference.html",
         "design/components/data-display-tables-lists/reference.html",
@@ -2234,7 +2234,7 @@
       ]
     },
     {
-      "name": "usage-color-228",
+      "name": "usage-color-227",
       "value": "#9CA3AFAA",
       "fileCount": 2,
       "sampleFiles": [
@@ -2243,7 +2243,7 @@
       ]
     },
     {
-      "name": "usage-color-229",
+      "name": "usage-color-228",
       "value": "#9CB5DC",
       "fileCount": 1,
       "sampleFiles": [
@@ -2251,7 +2251,7 @@
       ]
     },
     {
-      "name": "usage-color-230",
+      "name": "usage-color-229",
       "value": "#9DB4D7",
       "fileCount": 2,
       "sampleFiles": [
@@ -2260,18 +2260,16 @@
       ]
     },
     {
-      "name": "usage-color-231",
+      "name": "usage-color-230",
       "value": "#A1620780",
-      "fileCount": 4,
+      "fileCount": 2,
       "sampleFiles": [
         "design/foundations/reference.html",
-        "design/patterns/recover-flow/reference.html",
-        "design/patterns/signer-states-recovery/reference.html",
-        "screens/recover/1b-recover-success/screen.html"
+        "design/patterns/signer-states-recovery/reference.html"
       ]
     },
     {
-      "name": "usage-color-232",
+      "name": "usage-color-231",
       "value": "#A7C4F8",
       "fileCount": 9,
       "sampleFiles": [
@@ -2283,7 +2281,7 @@
       ]
     },
     {
-      "name": "usage-color-233",
+      "name": "usage-color-232",
       "value": "#A855F7",
       "fileCount": 16,
       "sampleFiles": [
@@ -2295,7 +2293,7 @@
       ]
     },
     {
-      "name": "usage-color-234",
+      "name": "usage-color-233",
       "value": "#A855F713",
       "fileCount": 1,
       "sampleFiles": [
@@ -2303,7 +2301,7 @@
       ]
     },
     {
-      "name": "usage-color-235",
+      "name": "usage-color-234",
       "value": "#A855F720",
       "fileCount": 1,
       "sampleFiles": [
@@ -2311,7 +2309,7 @@
       ]
     },
     {
-      "name": "usage-color-236",
+      "name": "usage-color-235",
       "value": "#A855F726",
       "fileCount": 16,
       "sampleFiles": [
@@ -2323,7 +2321,7 @@
       ]
     },
     {
-      "name": "usage-color-237",
+      "name": "usage-color-236",
       "value": "#A855F74D",
       "fileCount": 17,
       "sampleFiles": [
@@ -2335,7 +2333,7 @@
       ]
     },
     {
-      "name": "usage-color-238",
+      "name": "usage-color-237",
       "value": "#A855F766",
       "fileCount": 1,
       "sampleFiles": [
@@ -2343,7 +2341,7 @@
       ]
     },
     {
-      "name": "usage-color-239",
+      "name": "usage-color-238",
       "value": "#A9B7CF",
       "fileCount": 3,
       "sampleFiles": [
@@ -2353,7 +2351,7 @@
       ]
     },
     {
-      "name": "usage-color-240",
+      "name": "usage-color-239",
       "value": "#AEBAD3",
       "fileCount": 1,
       "sampleFiles": [
@@ -2361,7 +2359,7 @@
       ]
     },
     {
-      "name": "usage-color-241",
+      "name": "usage-color-240",
       "value": "#B0B8C4",
       "fileCount": 2,
       "sampleFiles": [
@@ -2370,7 +2368,7 @@
       ]
     },
     {
-      "name": "usage-color-242",
+      "name": "usage-color-241",
       "value": "#B8C9EE",
       "fileCount": 1,
       "sampleFiles": [
@@ -2378,7 +2376,7 @@
       ]
     },
     {
-      "name": "usage-color-243",
+      "name": "usage-color-242",
       "value": "#B9C7DC",
       "fileCount": 2,
       "sampleFiles": [
@@ -2387,7 +2385,7 @@
       ]
     },
     {
-      "name": "usage-color-244",
+      "name": "usage-color-243",
       "value": "#BFD7FF",
       "fileCount": 2,
       "sampleFiles": [
@@ -2396,7 +2394,7 @@
       ]
     },
     {
-      "name": "usage-color-245",
+      "name": "usage-color-244",
       "value": "#C4B5FD",
       "fileCount": 2,
       "sampleFiles": [
@@ -2405,7 +2403,7 @@
       ]
     },
     {
-      "name": "usage-color-246",
+      "name": "usage-color-245",
       "value": "#C7D2FE",
       "fileCount": 3,
       "sampleFiles": [
@@ -2415,7 +2413,7 @@
       ]
     },
     {
-      "name": "usage-color-247",
+      "name": "usage-color-246",
       "value": "#CA8A04",
       "fileCount": 2,
       "sampleFiles": [
@@ -2424,7 +2422,7 @@
       ]
     },
     {
-      "name": "usage-color-248",
+      "name": "usage-color-247",
       "value": "#CA8A0426",
       "fileCount": 3,
       "sampleFiles": [
@@ -2434,7 +2432,7 @@
       ]
     },
     {
-      "name": "usage-color-249",
+      "name": "usage-color-248",
       "value": "#CA8A044D",
       "fileCount": 3,
       "sampleFiles": [
@@ -2444,7 +2442,7 @@
       ]
     },
     {
-      "name": "usage-color-250",
+      "name": "usage-color-249",
       "value": "#CBD5E1",
       "fileCount": 29,
       "sampleFiles": [
@@ -2456,7 +2454,7 @@
       ]
     },
     {
-      "name": "usage-color-251",
+      "name": "usage-color-250",
       "value": "#D1D5DB",
       "fileCount": 24,
       "sampleFiles": [
@@ -2468,7 +2466,7 @@
       ]
     },
     {
-      "name": "usage-color-252",
+      "name": "usage-color-251",
       "value": "#D7E5FF",
       "fileCount": 1,
       "sampleFiles": [
@@ -2476,7 +2474,7 @@
       ]
     },
     {
-      "name": "usage-color-253",
+      "name": "usage-color-252",
       "value": "#DC262614",
       "fileCount": 5,
       "sampleFiles": [
@@ -2488,7 +2486,7 @@
       ]
     },
     {
-      "name": "usage-color-254",
+      "name": "usage-color-253",
       "value": "#DC26261A",
       "fileCount": 2,
       "sampleFiles": [
@@ -2497,7 +2495,7 @@
       ]
     },
     {
-      "name": "usage-color-255",
+      "name": "usage-color-254",
       "value": "#DC262626",
       "fileCount": 6,
       "sampleFiles": [
@@ -2509,7 +2507,7 @@
       ]
     },
     {
-      "name": "usage-color-256",
+      "name": "usage-color-255",
       "value": "#DC262633",
       "fileCount": 6,
       "sampleFiles": [
@@ -2521,7 +2519,7 @@
       ]
     },
     {
-      "name": "usage-color-257",
+      "name": "usage-color-256",
       "value": "#DC26264D",
       "fileCount": 2,
       "sampleFiles": [
@@ -2530,7 +2528,7 @@
       ]
     },
     {
-      "name": "usage-color-258",
+      "name": "usage-color-257",
       "value": "#DC262666",
       "fileCount": 1,
       "sampleFiles": [
@@ -2538,7 +2536,7 @@
       ]
     },
     {
-      "name": "usage-color-259",
+      "name": "usage-color-258",
       "value": "#DC262680",
       "fileCount": 1,
       "sampleFiles": [
@@ -2546,7 +2544,7 @@
       ]
     },
     {
-      "name": "usage-color-260",
+      "name": "usage-color-259",
       "value": "#DCFCE7",
       "fileCount": 5,
       "sampleFiles": [
@@ -2558,7 +2556,7 @@
       ]
     },
     {
-      "name": "usage-color-261",
+      "name": "usage-color-260",
       "value": "#E2E8F0B8",
       "fileCount": 1,
       "sampleFiles": [
@@ -2566,7 +2564,7 @@
       ]
     },
     {
-      "name": "usage-color-262",
+      "name": "usage-color-261",
       "value": "#E5EDFF",
       "fileCount": 11,
       "sampleFiles": [
@@ -2578,7 +2576,7 @@
       ]
     },
     {
-      "name": "usage-color-263",
+      "name": "usage-color-262",
       "value": "#E6F0FF",
       "fileCount": 1,
       "sampleFiles": [
@@ -2586,7 +2584,7 @@
       ]
     },
     {
-      "name": "usage-color-264",
+      "name": "usage-color-263",
       "value": "#EAB3080A",
       "fileCount": 1,
       "sampleFiles": [
@@ -2594,7 +2592,7 @@
       ]
     },
     {
-      "name": "usage-color-265",
+      "name": "usage-color-264",
       "value": "#EAB3080F",
       "fileCount": 1,
       "sampleFiles": [
@@ -2602,7 +2600,7 @@
       ]
     },
     {
-      "name": "usage-color-266",
+      "name": "usage-color-265",
       "value": "#EAB3081A",
       "fileCount": 6,
       "sampleFiles": [
@@ -2614,7 +2612,7 @@
       ]
     },
     {
-      "name": "usage-color-267",
+      "name": "usage-color-266",
       "value": "#EAB30826",
       "fileCount": 3,
       "sampleFiles": [
@@ -2624,7 +2622,7 @@
       ]
     },
     {
-      "name": "usage-color-268",
+      "name": "usage-color-267",
       "value": "#EAB30829",
       "fileCount": 1,
       "sampleFiles": [
@@ -2632,15 +2630,18 @@
       ]
     },
     {
-      "name": "usage-color-269",
+      "name": "usage-color-268",
       "value": "#EAB30833",
-      "fileCount": 1,
+      "fileCount": 4,
       "sampleFiles": [
-        "design/foundations/reference.html"
+        "design/foundations/reference.html",
+        "design/patterns/rotate-keyset-flow/reference.html",
+        "screens/recover/1-collect-shares/screen.html",
+        "screens/rotate-keyset/1-collect-shares/screen.html"
       ]
     },
     {
-      "name": "usage-color-270",
+      "name": "usage-color-269",
       "value": "#EAB30840",
       "fileCount": 6,
       "sampleFiles": [
@@ -2652,7 +2653,7 @@
       ]
     },
     {
-      "name": "usage-color-271",
+      "name": "usage-color-270",
       "value": "#EAB3084D",
       "fileCount": 8,
       "sampleFiles": [
@@ -2664,15 +2665,18 @@
       ]
     },
     {
-      "name": "usage-color-272",
+      "name": "usage-color-271",
       "value": "#EAB3086B",
-      "fileCount": 1,
+      "fileCount": 4,
       "sampleFiles": [
-        "design/components/feedback-prompts-alerts/reference.html"
+        "design/components/feedback-prompts-alerts/reference.html",
+        "design/patterns/rotate-keyset-flow/reference.html",
+        "screens/recover/1-collect-shares/screen.html",
+        "screens/rotate-keyset/1-collect-shares/screen.html"
       ]
     },
     {
-      "name": "usage-color-273",
+      "name": "usage-color-272",
       "value": "#EAB30880",
       "fileCount": 1,
       "sampleFiles": [
@@ -2680,7 +2684,7 @@
       ]
     },
     {
-      "name": "usage-color-274",
+      "name": "usage-color-273",
       "value": "#EF44440A",
       "fileCount": 2,
       "sampleFiles": [
@@ -2689,7 +2693,7 @@
       ]
     },
     {
-      "name": "usage-color-275",
+      "name": "usage-color-274",
       "value": "#EF44441A",
       "fileCount": 10,
       "sampleFiles": [
@@ -2701,7 +2705,7 @@
       ]
     },
     {
-      "name": "usage-color-276",
+      "name": "usage-color-275",
       "value": "#EF44441F",
       "fileCount": 1,
       "sampleFiles": [
@@ -2709,7 +2713,7 @@
       ]
     },
     {
-      "name": "usage-color-277",
+      "name": "usage-color-276",
       "value": "#EF444424",
       "fileCount": 3,
       "sampleFiles": [
@@ -2719,7 +2723,7 @@
       ]
     },
     {
-      "name": "usage-color-278",
+      "name": "usage-color-277",
       "value": "#EF444426",
       "fileCount": 3,
       "sampleFiles": [
@@ -2729,7 +2733,7 @@
       ]
     },
     {
-      "name": "usage-color-279",
+      "name": "usage-color-278",
       "value": "#EF44442E",
       "fileCount": 1,
       "sampleFiles": [
@@ -2737,7 +2741,7 @@
       ]
     },
     {
-      "name": "usage-color-280",
+      "name": "usage-color-279",
       "value": "#EF444433",
       "fileCount": 5,
       "sampleFiles": [
@@ -2749,7 +2753,7 @@
       ]
     },
     {
-      "name": "usage-color-281",
+      "name": "usage-color-280",
       "value": "#EF444440",
       "fileCount": 9,
       "sampleFiles": [
@@ -2761,7 +2765,7 @@
       ]
     },
     {
-      "name": "usage-color-282",
+      "name": "usage-color-281",
       "value": "#EF44446B",
       "fileCount": 1,
       "sampleFiles": [
@@ -2769,7 +2773,7 @@
       ]
     },
     {
-      "name": "usage-color-283",
+      "name": "usage-color-282",
       "value": "#EF444480",
       "fileCount": 2,
       "sampleFiles": [
@@ -2778,7 +2782,7 @@
       ]
     },
     {
-      "name": "usage-color-284",
+      "name": "usage-color-283",
       "value": "#EF444488",
       "fileCount": 1,
       "sampleFiles": [
@@ -2786,7 +2790,7 @@
       ]
     },
     {
-      "name": "usage-color-285",
+      "name": "usage-color-284",
       "value": "#EF444499",
       "fileCount": 2,
       "sampleFiles": [
@@ -2795,7 +2799,7 @@
       ]
     },
     {
-      "name": "usage-color-286",
+      "name": "usage-color-285",
       "value": "#EF4444B3",
       "fileCount": 1,
       "sampleFiles": [
@@ -2803,7 +2807,7 @@
       ]
     },
     {
-      "name": "usage-color-287",
+      "name": "usage-color-286",
       "value": "#F1F5F9",
       "fileCount": 16,
       "sampleFiles": [
@@ -2815,7 +2819,7 @@
       ]
     },
     {
-      "name": "usage-color-288",
+      "name": "usage-color-287",
       "value": "#F472B6",
       "fileCount": 11,
       "sampleFiles": [
@@ -2827,7 +2831,7 @@
       ]
     },
     {
-      "name": "usage-color-289",
+      "name": "usage-color-288",
       "value": "#F472B626",
       "fileCount": 11,
       "sampleFiles": [
@@ -2839,7 +2843,7 @@
       ]
     },
     {
-      "name": "usage-color-290",
+      "name": "usage-color-289",
       "value": "#F472B64D",
       "fileCount": 7,
       "sampleFiles": [
@@ -2851,7 +2855,7 @@
       ]
     },
     {
-      "name": "usage-color-291",
+      "name": "usage-color-290",
       "value": "#F4F8FF",
       "fileCount": 3,
       "sampleFiles": [
@@ -2861,7 +2865,7 @@
       ]
     },
     {
-      "name": "usage-color-292",
+      "name": "usage-color-291",
       "value": "#F59E0B",
       "fileCount": 22,
       "sampleFiles": [
@@ -2873,7 +2877,7 @@
       ]
     },
     {
-      "name": "usage-color-293",
+      "name": "usage-color-292",
       "value": "#F59E0B1A",
       "fileCount": 13,
       "sampleFiles": [
@@ -2885,7 +2889,7 @@
       ]
     },
     {
-      "name": "usage-color-294",
+      "name": "usage-color-293",
       "value": "#F59E0B24",
       "fileCount": 3,
       "sampleFiles": [
@@ -2895,7 +2899,7 @@
       ]
     },
     {
-      "name": "usage-color-295",
+      "name": "usage-color-294",
       "value": "#F59E0B26",
       "fileCount": 1,
       "sampleFiles": [
@@ -2903,7 +2907,7 @@
       ]
     },
     {
-      "name": "usage-color-296",
+      "name": "usage-color-295",
       "value": "#F59E0B2E",
       "fileCount": 1,
       "sampleFiles": [
@@ -2911,7 +2915,7 @@
       ]
     },
     {
-      "name": "usage-color-297",
+      "name": "usage-color-296",
       "value": "#F59E0B33",
       "fileCount": 2,
       "sampleFiles": [
@@ -2920,7 +2924,7 @@
       ]
     },
     {
-      "name": "usage-color-298",
+      "name": "usage-color-297",
       "value": "#F59E0B4D",
       "fileCount": 1,
       "sampleFiles": [
@@ -2928,7 +2932,7 @@
       ]
     },
     {
-      "name": "usage-color-299",
+      "name": "usage-color-298",
       "value": "#F59E0B80",
       "fileCount": 13,
       "sampleFiles": [
@@ -2940,7 +2944,7 @@
       ]
     },
     {
-      "name": "usage-color-300",
+      "name": "usage-color-299",
       "value": "#F59E0B99",
       "fileCount": 1,
       "sampleFiles": [
@@ -2948,7 +2952,7 @@
       ]
     },
     {
-      "name": "usage-color-301",
+      "name": "usage-color-300",
       "value": "#F59E0BCC",
       "fileCount": 11,
       "sampleFiles": [
@@ -2960,7 +2964,7 @@
       ]
     },
     {
-      "name": "usage-color-302",
+      "name": "usage-color-301",
       "value": "#F87171",
       "fileCount": 26,
       "sampleFiles": [
@@ -2972,7 +2976,7 @@
       ]
     },
     {
-      "name": "usage-color-303",
+      "name": "usage-color-302",
       "value": "#F8717159",
       "fileCount": 6,
       "sampleFiles": [
@@ -2984,19 +2988,19 @@
       ]
     },
     {
-      "name": "usage-color-304",
+      "name": "usage-color-303",
       "value": "#F8FAFC",
-      "fileCount": 5,
+      "fileCount": 6,
       "sampleFiles": [
         "design/components/data-display-review-summary/reference.html",
         "design/patterns/signer-states-status-empty/reference.html",
         "screens/dashboard/2-stopped/screen.html",
-        "screens/dashboard/3d-onboard-device-modal/screen.html",
-        "screens/dashboard/3e-onboard-package-handoff-modal/screen.html"
+        "screens/dashboard/3-settings-lock-profile/screen.html",
+        "screens/dashboard/3d-onboard-device-modal/screen.html"
       ]
     },
     {
-      "name": "usage-color-305",
+      "name": "usage-color-304",
       "value": "#F9731626",
       "fileCount": 1,
       "sampleFiles": [
@@ -3004,7 +3008,7 @@
       ]
     },
     {
-      "name": "usage-color-306",
+      "name": "usage-color-305",
       "value": "#F973164D",
       "fileCount": 1,
       "sampleFiles": [
@@ -3012,9 +3016,9 @@
       ]
     },
     {
-      "name": "usage-color-307",
+      "name": "usage-color-306",
       "value": "#FACC15",
-      "fileCount": 12,
+      "fileCount": 15,
       "sampleFiles": [
         "design/components/core/reference.html",
         "design/components/data-display-tables-lists/reference.html",
@@ -3024,7 +3028,7 @@
       ]
     },
     {
-      "name": "usage-color-308",
+      "name": "usage-color-307",
       "value": "#FACC1526",
       "fileCount": 1,
       "sampleFiles": [
@@ -3032,7 +3036,7 @@
       ]
     },
     {
-      "name": "usage-color-309",
+      "name": "usage-color-308",
       "value": "#FB7185",
       "fileCount": 9,
       "sampleFiles": [
@@ -3044,7 +3048,7 @@
       ]
     },
     {
-      "name": "usage-color-310",
+      "name": "usage-color-309",
       "value": "#FBBF2413",
       "fileCount": 4,
       "sampleFiles": [
@@ -3055,7 +3059,7 @@
       ]
     },
     {
-      "name": "usage-color-311",
+      "name": "usage-color-310",
       "value": "#FBBF2414",
       "fileCount": 1,
       "sampleFiles": [
@@ -3063,7 +3067,7 @@
       ]
     },
     {
-      "name": "usage-color-312",
+      "name": "usage-color-311",
       "value": "#FBBF2420",
       "fileCount": 4,
       "sampleFiles": [
@@ -3074,7 +3078,7 @@
       ]
     },
     {
-      "name": "usage-color-313",
+      "name": "usage-color-312",
       "value": "#FBBF2426",
       "fileCount": 8,
       "sampleFiles": [
@@ -3086,7 +3090,7 @@
       ]
     },
     {
-      "name": "usage-color-314",
+      "name": "usage-color-313",
       "value": "#FBBF242E",
       "fileCount": 1,
       "sampleFiles": [
@@ -3094,7 +3098,7 @@
       ]
     },
     {
-      "name": "usage-color-315",
+      "name": "usage-color-314",
       "value": "#FBBF2433",
       "fileCount": 2,
       "sampleFiles": [
@@ -3103,7 +3107,7 @@
       ]
     },
     {
-      "name": "usage-color-316",
+      "name": "usage-color-315",
       "value": "#FBBF244D",
       "fileCount": 7,
       "sampleFiles": [
@@ -3115,7 +3119,7 @@
       ]
     },
     {
-      "name": "usage-color-317",
+      "name": "usage-color-316",
       "value": "#FBBF2459",
       "fileCount": 1,
       "sampleFiles": [
@@ -3123,7 +3127,7 @@
       ]
     },
     {
-      "name": "usage-color-318",
+      "name": "usage-color-317",
       "value": "#FBBF2466",
       "fileCount": 4,
       "sampleFiles": [
@@ -3134,7 +3138,7 @@
       ]
     },
     {
-      "name": "usage-color-319",
+      "name": "usage-color-318",
       "value": "#FCA5A5",
       "fileCount": 16,
       "sampleFiles": [
@@ -3146,7 +3150,7 @@
       ]
     },
     {
-      "name": "usage-color-320",
+      "name": "usage-color-319",
       "value": "#FCD34D",
       "fileCount": 2,
       "sampleFiles": [
@@ -3155,17 +3159,15 @@
       ]
     },
     {
-      "name": "usage-color-321",
+      "name": "usage-color-320",
       "value": "#FDE047CC",
-      "fileCount": 3,
+      "fileCount": 1,
       "sampleFiles": [
-        "design/patterns/recover-flow/reference.html",
-        "design/patterns/signer-states-recovery/reference.html",
-        "screens/recover/1b-recover-success/screen.html"
+        "design/patterns/signer-states-recovery/reference.html"
       ]
     },
     {
-      "name": "usage-color-322",
+      "name": "usage-color-321",
       "value": "#FDE68A",
       "fileCount": 11,
       "sampleFiles": [
@@ -3177,7 +3179,7 @@
       ]
     },
     {
-      "name": "usage-color-323",
+      "name": "usage-color-322",
       "value": "#FECACA",
       "fileCount": 1,
       "sampleFiles": [
@@ -3185,7 +3187,7 @@
       ]
     },
     {
-      "name": "usage-color-324",
+      "name": "usage-color-323",
       "value": "#FEE2E2",
       "fileCount": 1,
       "sampleFiles": [
@@ -3193,7 +3195,7 @@
       ]
     },
     {
-      "name": "usage-color-325",
+      "name": "usage-color-324",
       "value": "#FEF3C7",
       "fileCount": 1,
       "sampleFiles": [
@@ -3201,7 +3203,7 @@
       ]
     },
     {
-      "name": "usage-color-326",
+      "name": "usage-color-325",
       "value": "#FF6B86",
       "fileCount": 2,
       "sampleFiles": [
@@ -3210,7 +3212,7 @@
       ]
     },
     {
-      "name": "usage-color-327",
+      "name": "usage-color-326",
       "value": "#FFFFFF",
       "fileCount": 13,
       "sampleFiles": [
@@ -3222,18 +3224,19 @@
       ]
     },
     {
-      "name": "usage-color-328",
+      "name": "usage-color-327",
       "value": "#FFFFFF08",
-      "fileCount": 4,
+      "fileCount": 5,
       "sampleFiles": [
         "design/components/data-display-tables-lists/reference.html",
         "screens/dashboard/1-signer-dashboard/screen.html",
         "screens/dashboard/1c-permissions/screen.html",
+        "screens/dashboard/3-settings-lock-profile/screen.html",
         "screens/dashboard/6-signing-failed/screen.html"
       ]
     },
     {
-      "name": "usage-color-329",
+      "name": "usage-color-328",
       "value": "#FFFFFF0A",
       "fileCount": 1,
       "sampleFiles": [
@@ -3241,7 +3244,7 @@
       ]
     },
     {
-      "name": "usage-color-330",
+      "name": "usage-color-329",
       "value": "#FFFFFF44",
       "fileCount": 2,
       "sampleFiles": [
@@ -3250,13 +3253,14 @@
       ]
     },
     {
-      "name": "usage-color-331",
+      "name": "usage-color-330",
       "value": "#FFFFFF66",
-      "fileCount": 3,
+      "fileCount": 4,
       "sampleFiles": [
         "design/patterns/flows-qr-steppers/reference.html",
         "design/patterns/rotate-keyset-flow/reference.html",
-        "design/patterns/signer-states-recovery/reference.html"
+        "design/patterns/signer-states-recovery/reference.html",
+        "screens/rotate-keyset/1-collect-shares/screen.html"
       ]
     }
   ],
@@ -3334,7 +3338,7 @@
       "name": "usage-type-007",
       "font-size": "11px",
       "line-height": "16px",
-      "fileCount": 25,
+      "fileCount": 24,
       "sampleFiles": [
         "design/components/data-display-progress-cards/reference.html",
         "design/components/data-display-review-summary/reference.html",
@@ -3446,7 +3450,7 @@
       "name": "usage-type-016",
       "font-size": "13px",
       "line-height": "20px",
-      "fileCount": 32,
+      "fileCount": 33,
       "sampleFiles": [
         "design/components/data-display-review-summary/reference.html",
         "design/components/feedback-prompts-alerts/reference.html",
@@ -3459,18 +3463,20 @@
       "name": "usage-type-017",
       "font-size": "14px",
       "line-height": "16px",
-      "fileCount": 3,
+      "fileCount": 6,
       "sampleFiles": [
         "design/components/form-controls/reference.html",
         "design/components/interactive-controls/reference.html",
-        "design/components/navigation-layout/reference.html"
+        "design/components/navigation-layout/reference.html",
+        "design/patterns/rotate-keyset-flow/reference.html",
+        "screens/recover/1-collect-shares/screen.html"
       ]
     },
     {
       "name": "usage-type-018",
       "font-size": "14px",
       "line-height": "20px",
-      "fileCount": 39,
+      "fileCount": 42,
       "sampleFiles": [
         "design/components/data-display-review-summary/reference.html",
         "design/components/feedback-prompts-alerts/reference.html",
@@ -3578,12 +3584,13 @@
       "name": "usage-type-027",
       "font-size": "16px",
       "line-height": "22px",
-      "fileCount": 4,
+      "fileCount": 6,
       "sampleFiles": [
+        "design/patterns/recover-flow/reference.html",
         "design/patterns/shared-distribution/reference.html",
         "screens/dashboard/3d-onboard-device-modal/screen.html",
         "screens/dashboard/3e-onboard-package-handoff-modal/screen.html",
-        "screens/shared/2-select-share/screen.html"
+        "screens/recover/1b-recover-success/screen.html"
       ]
     },
     {
@@ -3634,7 +3641,7 @@
       "name": "usage-type-032",
       "font-size": "18px",
       "line-height": "22px",
-      "fileCount": 22,
+      "fileCount": 24,
       "sampleFiles": [
         "design/components/feedback-prompts-alerts/reference.html",
         "design/components/overlays-export-modals/reference.html",
@@ -3660,20 +3667,23 @@
       "name": "usage-type-034",
       "font-size": "18px",
       "line-height": "28px",
-      "fileCount": 3,
+      "fileCount": 5,
       "sampleFiles": [
         "design/components/data-display-review-summary/reference.html",
+        "design/patterns/recover-flow/reference.html",
         "design/patterns/rotate-keyset-flow/reference.html",
-        "design/patterns/shared-distribution/reference.html"
+        "design/patterns/shared-distribution/reference.html",
+        "screens/recover/1b-recover-success/screen.html"
       ]
     },
     {
       "name": "usage-type-035",
       "font-size": "20px",
       "line-height": "20px",
-      "fileCount": 1,
+      "fileCount": 2,
       "sampleFiles": [
-        "design/patterns/rotate-keyset-flow/reference.html"
+        "design/patterns/rotate-keyset-flow/reference.html",
+        "screens/rotate-keyset/1-collect-shares/screen.html"
       ]
     },
     {
