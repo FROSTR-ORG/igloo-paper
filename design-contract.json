@@ -227,8 +227,10 @@
       "implementation": {
         "paths": [
           "../igloo-ui/src/components/flows/ProfileConfirmationCard.tsx",
-          "../igloo-ui/src/components/flows/ManagedProfilesPanel.tsx",
-          "../igloo-ui/src/components/flows/CreateImportPanel.tsx"
+          "../igloo-ui/src/components/flows/HostShell.tsx",
+          "../igloo-ui/src/components/flows/create/generate.tsx",
+          "../igloo-ui/src/components/flows/create/onboard-import.tsx",
+          "../igloo-pwa/src/views/import.tsx"
         ]
       },
       "tokens": [
@@ -259,15 +261,15 @@
       },
       "implementation": {
         "paths": [
-          "../igloo-ui/src/components/flows/RecoveryWorkspace.tsx",
-          "../igloo-pwa/src/App.tsx"
+          "../igloo-ui/src/components/flows/create/recover.tsx",
+          "../igloo-pwa/src/views/recover.tsx"
         ]
       },
       "tokens": [
         "design/tokens/colors.json",
         "design/tokens/typography.json"
       ],
-      "notes": "Recovery workspace, PWA collect-shares flow, and encrypted recover-success export state."
+      "notes": "Recovery collect-shares panel, PWA recovery route, and encrypted recover-success export state."
     },
     {
       "name": "Settings Onboard Device",
@@ -317,8 +319,10 @@
       },
       "implementation": {
         "paths": [
-          "../igloo-ui/src/components/flows/CreateFlow.tsx",
-          "../igloo-ui/src/components/flows/QrPayloadModal.tsx"
+          "../igloo-ui/src/components/flows/create/generate.tsx",
+          "../igloo-ui/src/components/flows/create/distribution.tsx",
+          "../igloo-ui/src/components/flows/QrPayloadModal.tsx",
+          "../igloo-pwa/src/views/create.tsx"
         ]
       },
       "tokens": [
@@ -349,16 +353,20 @@
       },
       "implementation": {
         "paths": [
-          "../igloo-ui/src/components/flows/CreateFlow.tsx",
+          "../igloo-ui/src/components/flows/ProfileConfirmationCard.tsx",
+          "../igloo-ui/src/components/flows/create/rotate.tsx",
+          "../igloo-ui/src/components/flows/create/generate.tsx",
+          "../igloo-ui/src/components/flows/create/distribution.tsx",
           "../igloo-ui/src/components/flows/QrPayloadModal.tsx",
-          "../igloo-pwa/src/App.tsx"
+          "../igloo-pwa/src/views/create.tsx",
+          "../igloo-pwa/src/views/rotate.tsx"
         ]
       },
       "tokens": [
         "design/tokens/colors.json",
         "design/tokens/typography.json"
       ],
-      "notes": "Rotate uses the dedicated Collect Shares screen, then the shared Select Share, Save Profile, and Distribute Shares surfaces under ROTATE_FLOW_STEPS in the PWA."
+      "notes": "Rotate uses the dedicated Collect Shares panel, then the shared Select Share, Save Profile, and Distribute Shares surfaces through the PWA create and rotate routes."
     }
   ]
 }
