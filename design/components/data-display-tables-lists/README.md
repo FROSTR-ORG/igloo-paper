@@ -3,16 +3,16 @@
 # Data Display — Tables, Lists & Logs
 
 ## Description
-This artboard documents the current Paper reference for Data Display — Tables, Lists & Logs. The synced export covers Key-Value List Row, Dashboard Event Log, Pending Approvals List used across the Igloo design system.
+This artboard documents the current Paper reference for Data Display — Tables, Lists & Logs. The synced export covers Key-Value List Row, Event Log Section, Pending Approvals List used across the Igloo design system.
 
 ## Paper Source
 - **Artboard ID:** HI-0
 - **Artboard Name:** Data Display — Tables, Lists & Logs
-- **Dimensions:** 1440 × 2840
+- **Dimensions:** 1440 × 2373
 
 ## Contents
 - **Key-Value List Row**
-- **Dashboard Event Log**
+- **Event Log Section**
 - **Pending Approvals List**
 - **pubkey**
 
