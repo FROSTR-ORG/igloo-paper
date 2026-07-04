@@ -31,10 +31,10 @@ This screen captures the `welcome` flow state "1b. Returning" in the current Igl
 ## Representative Copy
 - Igloo
 - Threshold Signing for Nostr
-- Website
-- Docs
-- GitHub
 - Igloo Web
+- Welcome back.
+- Dev Signing Key
+- or
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

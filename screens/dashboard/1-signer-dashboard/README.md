@@ -8,7 +8,7 @@ This screen captures the `dashboard` flow state "1. Signer Dashboard" in the cur
 ## Paper Source
 - **Artboard ID:** 4HK-0
 - **Artboard Name:** Web — Dashboard — 1. Signer Dashboard
-- **Dimensions:** 1440 × 1186
+- **Dimensions:** 1440 × 883
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -30,10 +30,10 @@ This screen captures the `dashboard` flow state "1. Signer Dashboard" in the cur
 ## Representative Copy
 - Igloo
 - Signer Running
-- Connected to wss://relay.primal.net, wss://relay.damus.io
+- Connected to ws://127.0.0.1:8194
 - Stop Signer
 - Peers
-- ?
+- unavailable
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.

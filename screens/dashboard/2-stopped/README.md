@@ -8,7 +8,7 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 ## Paper Source
 - **Artboard ID:** 7LC-0
 - **Artboard Name:** Web — Dashboard — 2. Stopped
-- **Dimensions:** 1440 × 535
+- **Dimensions:** 1440 × 585
 
 ## Flow Context
 - **Flow:** `dashboard`
@@ -29,11 +29,11 @@ This screen captures the `dashboard` flow state "2. Stopped" in the current Iglo
 
 ## Representative Copy
 - Igloo
+- Dashboard
+- Permissions
 - Signer Stopped
-- Relays, peers, and signing are offline.
-- Start Signer
-- Readiness
-- Next Step
+- Group Public Key
+- npub1qgp...z0cn
 
 ## Files
 - `screen.html` — Tailwind-flavored Paper JSX export for the screen.
